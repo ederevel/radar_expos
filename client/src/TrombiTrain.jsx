@@ -94,7 +94,6 @@ export default function ExpoMap() {
     <div className="flex h-screen">
       {/* Liste des expositions avec filtres */}
       <div className="w-1/3 p-4 bg-gray-100 overflow-auto">
-        <h2 className="text-xl font-bold mb-4">Expositions</h2>
 
         {/* Filtres */}
         <div className="flex space-x-2 mb-4">
