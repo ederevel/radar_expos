@@ -1,0 +1,32 @@
+services:
+  backend:
+    build: ./server
+    image: backend:latest
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./server:/app
+    # depends_on:
+    #   - database
+
+  frontend:
+    build: ./client
+    image: frontend:latest
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+
+  # database:
+  #   image: postgres:13
+  #   environment:
+  #     POSTGRES_USER: user
+  #     POSTGRES_PASSWORD: password
+  #     POSTGRES_DB: mydatabase
+  #   volumes:
+  #     - pgdata:/var/lib/postgresql/data
+  #   ports:
+  #     - "5432:5432"
+
+# volumes:
+#   pgdata:
