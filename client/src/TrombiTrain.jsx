@@ -9,7 +9,6 @@ const pinStyle = "https://cdn-icons-png.flaticon.com/512/684/684908.png";
 // Palette de couleurs pastel révisée pour plus de contraste
 const pastelColors = [
   "#E6E6FA", // Lavender
-
 ];
 
 function MoveView({ center, zoom }) {
@@ -75,25 +74,24 @@ export default function ExpoMap() {
   const uniqueDates = [...new Set(expos.map((expo) => expo.dates))];
 
   return (
-    <div className="flex h-screen">
+    <div className="flex h-screen m-0 p-0">
       {/* Liste des expositions avec filtres */}
-      <div className="w-full bg-gray-100 overflow-auto">
-
+      <div className="w-2/3 bg-gray-100 overflow-auto p-4">
         {/* Filtres */}
         <div className="flex space-x-2 mb-4">
-          <select className="w-1/4 p-2 border rounded" onChange={(e) => setSelectedTag(e.target.value)}>
+          <select className="w-1/3 p-2 border rounded" onChange={(e) => setSelectedTag(e.target.value)}>
             <option value="">Tag</option>
             {uniqueTags.map((tag) => (
               <option key={tag} value={tag}>{tag}</option>
             ))}
           </select>
-          <select className="w-1/2 p-2 border rounded" onChange={(e) => setSelectedArrondissement(e.target.value)}>
+          <select className="w-1/3 p-2 border rounded" onChange={(e) => setSelectedArrondissement(e.target.value)}>
             <option value="">Arrondissement</option>
             {uniqueArrondissements.map((arr) => (
               <option key={arr} value={arr}>{arr}</option>
             ))}
           </select>
-          <select className="w-1/4 p-2 border rounded" onChange={(e) => setSelectedDate(e.target.value)}>
+          <select className="w-1/3 p-2 border rounded" onChange={(e) => setSelectedDate(e.target.value)}>
             <option value="">Date</option>
             {uniqueDates.map((date) => (
               <option key={date} value={date}>{date}</option>
@@ -134,12 +132,10 @@ export default function ExpoMap() {
             </div>
           ))}
         </div>
-
-
       </div>
 
       {/* Carte */}
-      <div className="w-full h-full ml-10">
+      <div className="w-1/3 h-full p-4">
         <MapContainer
           ref={mapRef}
           center={[48.8566, 2.3522]}
