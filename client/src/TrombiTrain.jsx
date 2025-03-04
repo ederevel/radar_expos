@@ -77,7 +77,7 @@ export default function ExpoMap() {
   return (
     <div className="flex h-screen">
       {/* Liste des expositions avec filtres */}
-      <div className="w-1/3 p-4 bg-gray-100 overflow-auto">
+      <div className="w-full p-4 bg-gray-100 overflow-auto">
 
         {/* Filtres */}
         <div className="flex space-x-2 mb-4">
@@ -102,14 +102,14 @@ export default function ExpoMap() {
         </div>
 
         {/* Grille pour les expositions */}
-        <div className="grid grid-cols-1 gap-4">
+        <div className="grid grid-cols-3 gap-4">
           {filteredExpos.map((expo) => (
             <div
               key={expo.titre}
               className="p-4 mb-2 cursor-pointer bg-white rounded-lg shadow-md hover:bg-gray-200 transition w-full"
               onClick={() => setSelectedExpo(expo)}
             >
-              <img src={expo.img_url} alt={expo.titre} className="w-2/3 mx-auto block object-cover rounded-t-lg" />
+              <img src={expo.img_url} alt={expo.titre} className="w-1/3 mx-auto block object-cover rounded-t-lg" />
               <h3 className="text-lg font-semibold mt-2">{expo.titre}</h3>
               <p className="text-sm text-gray-600 font-medium">{expo.emplacement}</p>
               <p className="text-xs text-gray-500">{expo.dates}</p>
@@ -131,7 +131,7 @@ export default function ExpoMap() {
       </div>
 
       {/* Carte */}
-      <div className="w-[70%] h-full p-15">
+      <div className="w-full h-full p-15">
         <MapContainer
           ref={mapRef}
           center={[48.8566, 2.3522]}
