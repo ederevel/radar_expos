@@ -77,7 +77,7 @@ export default function ExpoMap() {
   return (
     <div className="flex h-screen">
       {/* Liste des expositions avec filtres */}
-      <div className="w-full p-4 bg-gray-100 overflow-auto">
+      <div className="w-full bg-gray-100 overflow-auto">
 
         {/* Filtres */}
         <div className="flex space-x-2 mb-4">
@@ -102,36 +102,44 @@ export default function ExpoMap() {
         </div>
 
         {/* Grille pour les expositions */}
-        <div className="grid grid-cols-3 gap-4">
+        <div className="grid grid-cols-2 gap-4">
           {filteredExpos.map((expo) => (
             <div
               key={expo.titre}
-              className="p-4 mb-2 cursor-pointer bg-white rounded-lg shadow-md hover:bg-gray-200 transition w-full"
+              className="p-4 mb-2 cursor-pointer bg-white rounded-lg shadow-md hover:bg-gray-200 transition w-full flex"
               onClick={() => setSelectedExpo(expo)}
             >
-              <img src={expo.img_url} alt={expo.titre} className="w-1/3 mx-auto block object-cover rounded-t-lg" />
-              <h3 className="text-lg font-semibold mt-2">{expo.titre}</h3>
-              <p className="text-sm text-gray-600 font-medium">{expo.emplacement}</p>
-              <p className="text-xs text-gray-500">{expo.dates}</p>
-              <div className="flex flex-wrap justify-center space-x-2 mt-2">
-                {expo.tags.map((tag, index) => (
-                  <span
-                    key={index}
-                    className="px-2 py-1 text-xs font-semibold rounded-full whitespace-nowrap mb-2"
-                    style={{ backgroundColor: '#E6E6FA' }}
+              {/* Colonne pour l'image */}
+              <div className="w-1/3">
+                <img src={expo.img_url} alt={expo.titre} className="w-full h-full object-cover rounded-t-lg" />
+              </div>
+
+              {/* Colonne pour les informations */}
+              <div className="w-2/3 pl-4">
+                <h3 className="text-lg font-semibold mt-2">{expo.titre}</h3>
+                <p className="text-sm text-gray-600 font-medium">{expo.emplacement}</p>
+                <p className="text-xs text-gray-500">{expo.dates}</p>
+                <div className="flex flex-wrap justify-start space-x-2 mt-2">
+                  {expo.tags.map((tag, index) => (
+                    <span
+                      key={index}
+                      className="px-2 py-1 text-xs font-semibold rounded-full whitespace-nowrap mb-2"
+                      style={{ backgroundColor: '#E6E6FA' }}
                     >
-                    {tag}
-                  </span>
-                ))}
+                      {tag}
+                    </span>
+                  ))}
+                </div>
               </div>
             </div>
           ))}
         </div>
 
+
       </div>
 
       {/* Carte */}
-      <div className="w-full h-full p-15">
+      <div className="w-full h-full ml-10">
         <MapContainer
           ref={mapRef}
           center={[48.8566, 2.3522]}
@@ -149,7 +157,9 @@ export default function ExpoMap() {
               ref={(el) => (markerRefs.current[expo.titre] = el)}
             >
               <Popup closeButton={false} className="custom-popup" offset={[0, -10]}>
-                <img src={expo.img_url} alt={expo.titre} className="w-full object-cover rounded-t-lg" />
+                <div className="flex justify-center items-center">
+                  <img src={expo.img_url} alt={expo.titre} className="w-1/3 object-cover rounded-t-lg" />
+                </div>
                 <h3 className="font-bold text-center mt-2">{expo.titre}</h3>
                 <p className="text-sm text-gray-700 text-center">{expo.emplacement}</p>
                 <p className="text-xs text-gray-500 text-center">{expo.adresse}</p>
