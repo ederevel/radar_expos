@@ -8,18 +8,8 @@ const pinStyle = "https://cdn-icons-png.flaticon.com/512/684/684908.png";
 
 // Palette de couleurs pastel révisée pour plus de contraste
 const pastelColors = [
-  "#FFB6C1", // Light Pink
-  "#FFDAB9", // Peach
-  "#FFFACD", // Lemon Chiffon
-  "#B0E0E6", // Powder Blue
-  "#D8BFD8", // Thistle
-  "#98FB98", // Pale Green
-  "#FFE4B5", // Moccasin (remplace Gold)
   "#E6E6FA", // Lavender
-  "#FFC0CB", // Light Pink (remplace Hot Pink)
-  "#90EE90", // Light Green
-  "#ADD8E6", // Light Blue
-  "#F08080", // Light Coral
+
 ];
 
 function MoveView({ center, zoom }) {
@@ -84,12 +74,6 @@ export default function ExpoMap() {
 
   const uniqueDates = [...new Set(expos.map((expo) => expo.dates))];
 
-  // Associer chaque tag à une couleur
-  const tagColors = {};
-  uniqueTags.forEach((tag, index) => {
-    tagColors[tag] = pastelColors[index % pastelColors.length];
-  });
-
   return (
     <div className="flex h-screen">
       {/* Liste des expositions avec filtres */}
@@ -117,29 +101,33 @@ export default function ExpoMap() {
           </select>
         </div>
 
-        {filteredExpos.map((expo) => (
-          <div
-            key={expo.titre}
-            className="p-3 mb-2 cursor-pointer bg-white rounded-lg shadow-md hover:bg-gray-200 transition"
-            onClick={() => setSelectedExpo(expo)}
-          >
-            <img src={expo.img_url} alt={expo.titre} className="w-2/3 object-cover rounded-t-lg" />
-            <h3 className="text-lg font-semibold mt-2">{expo.titre}</h3>
-            <p className="text-sm text-gray-600 font-medium">{expo.emplacement}</p>
-            <p className="text-xs text-gray-500">{expo.dates}</p>
-            <div className="flex flex-wrap space-x-2 mt-2">
-              {expo.tags.map((tag, index) => (
-                <span
-                  key={index}
-                  className="px-2 py-1 text-xs font-semibold rounded-full whitespace-nowrap mb-2"
-                  style={{ backgroundColor: tagColors[tag] }}
-                >
-                  {tag}
-                </span>
-              ))}
+        {/* Grille pour les expositions */}
+        <div className="grid grid-cols-1 gap-4">
+          {filteredExpos.map((expo) => (
+            <div
+              key={expo.titre}
+              className="p-4 mb-2 cursor-pointer bg-white rounded-lg shadow-md hover:bg-gray-200 transition w-full"
+              onClick={() => setSelectedExpo(expo)}
+            >
+              <img src={expo.img_url} alt={expo.titre} className="w-2/3 mx-auto block object-cover rounded-t-lg" />
+              <h3 className="text-lg font-semibold mt-2">{expo.titre}</h3>
+              <p className="text-sm text-gray-600 font-medium">{expo.emplacement}</p>
+              <p className="text-xs text-gray-500">{expo.dates}</p>
+              <div className="flex flex-wrap justify-center space-x-2 mt-2">
+                {expo.tags.map((tag, index) => (
+                  <span
+                    key={index}
+                    className="px-2 py-1 text-xs font-semibold rounded-full whitespace-nowrap mb-2"
+                    style={{ backgroundColor: '#E6E6FA' }}
+                    >
+                    {tag}
+                  </span>
+                ))}
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
+
       </div>
 
       {/* Carte */}
