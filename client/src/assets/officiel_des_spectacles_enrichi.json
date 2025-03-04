@@ -1,0 +1,3164 @@
+[
+    {
+        "titre":"Au fil de l'or",
+        "emplacement":"Musée du Quai Branly - Jacques Chirac",
+        "adresse":"37 quai Branly - Paris 7e",
+        "dates":"Du 11 février 2025 au 6 juillet 2025",
+        "tags":[
+            "Mode",
+            "Histoire \/ Civilisations",
+            "Choix de la rédaction"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2678603\/images\/120\/50d50356017521ce2ef02f4c11419738.png",
+        "latitude":48.8609943,
+        "longitude":2.2979696,
+        "ville":"Paris",
+        "quartier":"Quartier du Gros-Caillou",
+        "code_postal":"75007",
+        "adresse_formatee":"Quai Branly Museum, 37 Quai Branly, 75007 Paris, France",
+        "date_debut":"2025-02-11",
+        "date_fin":"2025-07-06"
+    },
+    {
+        "titre":"L'art « dégénéré »",
+        "emplacement":"Musée Picasso",
+        "adresse":"5 rue de Thorigny Hôtel Salé - Paris 3e",
+        "dates":"Du 18 février 2025 au 25 mai 2025",
+        "tags":[
+            "Peinture",
+            "Histoire \/ Civilisations",
+            "Choix de la rédaction"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2684494\/images\/120\/986f4b482d65b45d40fbfc03e10d1191.jpg",
+        "latitude":48.8637,
+        "longitude":2.3615,
+        "ville":"",
+        "quartier":"",
+        "code_postal":"",
+        "adresse_formatee":"Paris 03 Temple, Paris, France",
+        "date_debut":"2025-02-18",
+        "date_fin":"2025-05-25"
+    },
+    {
+        "titre":"Disco, I'm coming out",
+        "emplacement":"Musée de la Musique - Cité de la Musique-Philharmonie",
+        "adresse":"221 avenue Jean-Jaurès - Paris 19e",
+        "dates":"Du 14 février 2025 au 17 août 2025",
+        "tags":[
+            "Histoire \/ Civilisations",
+            "Choix de la rédaction"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2677242\/images\/120\/5be37aa86c9ebfea0f32a295d481636c.jpg",
+        "latitude":48.8898937,
+        "longitude":2.3940699,
+        "ville":"Paris",
+        "quartier":"Quartier du Pont-de-Flandre",
+        "code_postal":"75019",
+        "adresse_formatee":"Cité de la Musique - Philharmonie de Paris, 221 Avenue Jean Jaurès, 75019 Paris, France",
+        "date_debut":"2025-02-14",
+        "date_fin":"2025-08-17"
+    },
+    {
+        "titre":"Louvre couture",
+        "emplacement":"Musée du Louvre",
+        "adresse":"Entrée principale : Pyramide (cour Napoléon) - Paris 1er",
+        "dates":"Du 24 janvier 2025 au 21 juillet 2025",
+        "tags":[
+            "Mode",
+            "Architecture \/ Design \/ Mode",
+            "Choix de la rédaction"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2682217\/images\/120\/bb4b6a131b3f779fdf45cf8abc6b7b8d.jpg",
+        "latitude":48.8592,
+        "longitude":2.3417,
+        "ville":"",
+        "quartier":"",
+        "code_postal":"",
+        "adresse_formatee":"Paris 01 Louvre, Paris, France",
+        "date_debut":"2025-01-24",
+        "date_fin":"2025-07-21"
+    },
+    {
+        "titre":"Un exil combattant",
+        "emplacement":"Musée de l'Armée",
+        "adresse":"129 rue de Grenelle Hôtel national des Invalides - Paris 7e",
+        "dates":"Du 26 février 2025 au 22 juin 2025",
+        "tags":[
+            "Histoire \/ Civilisations",
+            "Nouveauté",
+            "Choix de la rédaction"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2679553\/images\/120\/67acb8f88b9fe044dd66b4632547da1c.png",
+        "latitude":48.8565,
+        "longitude":2.321,
+        "ville":"",
+        "quartier":"",
+        "code_postal":"",
+        "adresse_formatee":"Paris 07 Palais-Bourbon, Paris, France",
+        "date_debut":"2025-02-26",
+        "date_fin":"2025-06-22"
+    },
+    {
+        "titre":"L'intime, de la chambre aux réseaux sociaux",
+        "emplacement":"MAD Musée des Arts Décoratifs",
+        "adresse":"107 rue de Rivoli - Paris 1er",
+        "dates":"Du 15 octobre 2024 au 30 mars 2025",
+        "tags":[
+            "Design",
+            "Histoire \/ Civilisations"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2530980\/images\/120\/1cf7377e82c0b718bf4cca3f8f477e70.png",
+        "latitude":48.863223,
+        "longitude":2.3333217,
+        "ville":"Paris",
+        "quartier":"Quartier Saint-Germain-l'Auxerrois",
+        "code_postal":"75001",
+        "adresse_formatee":"107 Rue de Rivoli, 75001 Paris, France",
+        "date_debut":"2024-10-15",
+        "date_fin":"2025-03-30"
+    },
+    {
+        "titre":"Apocalypse",
+        "emplacement":"Bibliothèque nationale de France - site François-Mitterrand",
+        "adresse":"11 quai François-Mauriac - Paris 13e",
+        "dates":"Du 4 février 2025 au 8 juin 2025",
+        "tags":[
+            "Histoire \/ Civilisations",
+            "Choix de la rédaction"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2911322\/images\/120\/21430e63e11957460d5399b7f9afb7cd.jpg",
+        "latitude":48.832696,
+        "longitude":2.3788723,
+        "ville":"Paris",
+        "quartier":"Quartier de la Gare",
+        "code_postal":"75013",
+        "adresse_formatee":"11 Quai François Mauriac, 75013 Paris, France",
+        "date_debut":"2025-02-04",
+        "date_fin":"2025-06-08"
+    },
+    {
+        "titre":"Modigliani \/ Zadkine, Une amitié interrompue",
+        "emplacement":"Musée Zadkine",
+        "adresse":"100 bis rue d'Assas - Paris 6e",
+        "dates":"Du 14 novembre 2024 au 30 mars 2025",
+        "tags":[
+            "Peinture",
+            "Beaux-Arts",
+            "Choix de la rédaction"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2590369\/images\/120\/2f052a58e7442287ca10904573899bf4.jpg",
+        "latitude":48.8482369,
+        "longitude":2.3292639,
+        "ville":"Paris",
+        "quartier":"Quartier Notre-Dame-des-Champs",
+        "code_postal":"75006",
+        "adresse_formatee":"Rue d'Assas, 75006 Paris, France",
+        "date_debut":"2024-11-14",
+        "date_fin":"2025-03-30"
+    },
+    {
+        "titre":"Du Cœur à la Main : Dolce&Gabbana",
+        "emplacement":"Grand Palais",
+        "adresse":"3 avenue du Général Eisenhower - Paris 8e",
+        "dates":"Du 10 janvier 2025 au 2 avril 2025",
+        "tags":[
+            "Mode",
+            "Architecture \/ Design \/ Mode"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2665784\/images\/120\/63d19c21df2f3d02471ef8c9f74da1db.png",
+        "latitude":48.8672415,
+        "longitude":2.3117837,
+        "ville":"Paris",
+        "quartier":"Quartier des Champs-Élysées",
+        "code_postal":"75008",
+        "adresse_formatee":"Avenue du Général-Eisenhower, 75008 Paris, France",
+        "date_debut":"2025-01-10",
+        "date_fin":"2025-04-02"
+    },
+    {
+        "titre":"Suzanne Valadon",
+        "emplacement":"Centre Georges-Pompidou",
+        "adresse":"Place Georges-Pompidou - Paris 4e",
+        "dates":"Du 15 janvier 2025 au 26 mai 2025",
+        "tags":[
+            "Peinture",
+            "Beaux-Arts",
+            "Choix de la rédaction"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2649875\/images\/120\/ae740028090660a888d96b952542f740.jpg",
+        "latitude":48.8607767,
+        "longitude":2.3517622,
+        "ville":"Paris",
+        "quartier":"Quartier Saint-Merri",
+        "code_postal":"75004",
+        "adresse_formatee":"Place Georges Pompidou, 75004 Paris, France",
+        "date_debut":"2025-01-15",
+        "date_fin":"2025-05-26"
+    },
+    {
+        "titre":"Serial Killer, l'exposition",
+        "emplacement":"Les Galeries Montparnasse",
+        "adresse":"22 rue du Départ - Paris 15e",
+        "dates":"Du 21 février 2025 au 11 mai 2025",
+        "tags":[
+            "Immersif",
+            "Histoire \/ Civilisations"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2915467\/images\/120\/f6a81e8d36cfc2c8c5a76bbe53365cd4.jpg",
+        "latitude":48.842527,
+        "longitude":2.3225192,
+        "ville":"Paris",
+        "quartier":"Quartier Necker",
+        "code_postal":"75015",
+        "adresse_formatee":"Chanel, 22 Rue du Départ, 75015 Paris, France",
+        "date_debut":"2025-02-21",
+        "date_fin":"2025-05-11"
+    },
+    {
+        "titre":"Wax, entre héritage et réappropriation",
+        "emplacement":"Musée de l'Homme",
+        "adresse":"17 pl. du Trocadéro  Palais de Chaillot - Paris 16e",
+        "dates":"Du 5 février 2025 au 7 septembre 2025",
+        "tags":[
+            "Mode",
+            "Histoire \/ Civilisations"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2682251\/images\/120\/d2ace6269ad7f50ef8a723b687f3a3a0.jpg",
+        "latitude":48.8637,
+        "longitude":2.2769,
+        "ville":"",
+        "quartier":"",
+        "code_postal":"",
+        "adresse_formatee":"Paris 16 Passy, Paris, France",
+        "date_debut":"2025-02-05",
+        "date_fin":"2025-09-07"
+    },
+    {
+        "titre":"Lê Phô, Mai-Thu, Vu Cao Dam",
+        "emplacement":"Musée Cernuschi",
+        "adresse":"7 avenue Vélazquez - Paris 8e",
+        "dates":"Du 11 octobre 2024 au 4 mai 2025",
+        "tags":[
+            "Peinture",
+            "Beaux-Arts",
+            "Choix de la rédaction"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2607141\/images\/120\/55a3783745a4a674dc4f6f9b5e1543ea.jpg",
+        "latitude":48.8763,
+        "longitude":2.3183,
+        "ville":"",
+        "quartier":"",
+        "code_postal":"",
+        "adresse_formatee":"Paris 08 Élysée, Paris, France",
+        "date_debut":"2024-10-11",
+        "date_fin":"2025-05-04"
+    },
+    {
+        "titre":"Olga de Amaral",
+        "emplacement":"Fondation Cartier pour l'art contemporain",
+        "adresse":"261 boulevard Raspail - Paris 14e",
+        "dates":"Du 12 octobre 2024 au 16 mars 2025",
+        "tags":[
+            "Rétrospective",
+            "Art contemporain",
+            "Choix de la rédaction"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2564737\/images\/120\/c1f6e152abaedfc15464eedd3ae86988.jpg",
+        "latitude":48.8373682,
+        "longitude":2.331913,
+        "ville":"Paris",
+        "quartier":"Quartier du Montparnasse",
+        "code_postal":"75014",
+        "adresse_formatee":"Fondation Cartier pour l'art contemporain, 261 Boulevard Raspail, 75014 Paris, France",
+        "date_debut":"2024-10-12",
+        "date_fin":"2025-03-16"
+    },
+    {
+        "titre":"Lieux sacrés : Bâtir, Célébrer, Coexister",
+        "emplacement":"Espace Notre-Dame",
+        "adresse":"6 rue de la Cité - Paris 4e",
+        "dates":"Du 27 février 2025 au 31 mai 2025",
+        "tags":[
+            "Architecture",
+            "Histoire \/ Civilisations",
+            "Nouveauté",
+            "Choix de la rédaction"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2921830\/images\/120\/5e00f822ae8cf33f617f2e9af2b974ce.jpg",
+        "latitude":48.8538842,
+        "longitude":2.3471452,
+        "ville":"Paris",
+        "quartier":"Quartier Les Îles",
+        "code_postal":"75004",
+        "adresse_formatee":"6 Rue de la Cité, 75004 Paris, France",
+        "date_debut":"2025-02-27",
+        "date_fin":"2025-05-31"
+    },
+    {
+        "titre":"La couleur parle toutes les langues",
+        "emplacement":"Hôtel de la Marine",
+        "adresse":"2 place de la Concorde - Paris 8e",
+        "dates":"Du 3 octobre 2024 au 5 octobre 2025",
+        "tags":[
+            "Peinture",
+            "Beaux-Arts",
+            "Choix de la rédaction"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2579588\/images\/120\/a05a5c3ec934d7fcd0f6757a4be40b84.jpg",
+        "latitude":48.8666786,
+        "longitude":2.322897,
+        "ville":"Paris",
+        "quartier":"Quartier de la Madeleine",
+        "code_postal":"75008",
+        "adresse_formatee":"2 Place de la Concorde, 75008 Paris, France",
+        "date_debut":"2024-10-03",
+        "date_fin":"2025-10-05"
+    },
+    {
+        "titre":"Mille et une orchidées",
+        "emplacement":"Grandes Serres - Muséum national d'Histoire naturelle",
+        "adresse":"57 rue Cuvier - Paris 5e",
+        "dates":"Du 6 février 2025 au 10 mars 2025",
+        "tags":[
+            "Art floral",
+            "Sciences & Techniques"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2682196\/images\/120\/cc5dfd2ae02e549565fb34422529a82e.jpg",
+        "latitude":48.8443464,
+        "longitude":2.3562118,
+        "ville":"Paris",
+        "quartier":"Quartier du Jardin des Plantes",
+        "code_postal":"75005",
+        "adresse_formatee":"57 Rue Cuvier, 75005 Paris, France",
+        "date_debut":"2025-02-06",
+        "date_fin":"2025-03-10"
+    },
+    {
+        "titre":"David Hockney, 25",
+        "emplacement":"Fondation Louis Vuitton",
+        "adresse":"8 avenue du Mahatma Gandhi Bois de Boulogne - Paris 16e",
+        "dates":"Du 9 avril 2025 au 1 septembre 2025",
+        "tags":[
+            "Peinture",
+            "Art contemporain",
+            "Prochainement"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2899686\/images\/120\/4aa652b74abe0b7bef898b081264f194.jpg",
+        "latitude":48.8637,
+        "longitude":2.2769,
+        "ville":"",
+        "quartier":"",
+        "code_postal":"",
+        "adresse_formatee":"Paris 16 Passy, Paris, France",
+        "date_debut":"2025-04-09",
+        "date_fin":"2025-09-01"
+    },
+    {
+        "titre":"Paris, capitale de la perle",
+        "emplacement":"École des Arts Joailliers - Grands Boulevards",
+        "adresse":"16 bis bd Montmartre - Paris 9e",
+        "dates":"Du 21 novembre 2024 au 1 juin 2025",
+        "tags":[
+            "Bijoux et joaillerie",
+            "Histoire \/ Civilisations",
+            "Choix de la rédaction"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2634202\/images\/120\/83cc2aecd3579d988b6eee2bed68df88.png",
+        "latitude":48.8719505,
+        "longitude":2.3412149,
+        "ville":"Paris",
+        "quartier":"Quartier du Faubourg-Montmartre",
+        "code_postal":"75009",
+        "adresse_formatee":"16 bis Boulevard Montmartre, 75009 Paris, France",
+        "date_debut":"2024-11-21",
+        "date_fin":"2025-06-01"
+    },
+    {
+        "titre":"Bijoux de scène de l'Opéra de Paris",
+        "emplacement":"Bibliothèque-musée de l'Opéra - Palais Garnier",
+        "adresse":"8 rue Scribe - Paris 9e",
+        "dates":"Du 28 novembre 2024 au 28 mars 2025",
+        "tags":[
+            "Bijoux et joaillerie",
+            "Histoire \/ Civilisations",
+            "Choix de la rédaction"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2649862\/images\/120\/f0ef5a570ff3e24595165ba611e45d82.jpg",
+        "latitude":48.8726653,
+        "longitude":2.3312199,
+        "ville":"Paris",
+        "quartier":"Quartier de la Chaussée-d'Antin",
+        "code_postal":"75009",
+        "adresse_formatee":"8 Rue Scribe, 75009 Paris, France",
+        "date_debut":"2024-11-28",
+        "date_fin":"2025-03-28"
+    },
+    {
+        "titre":"Elles. Les élèves de Jean-Jacques Henner",
+        "emplacement":"Musée Jean-Jacques Henner",
+        "adresse":"43 avenue de Villiers - Paris 17e",
+        "dates":"Du 28 novembre 2024 au 28 avril 2025",
+        "tags":[
+            "Peinture",
+            "Beaux-Arts",
+            "Choix de la rédaction"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2590102\/images\/120\/893dcc821aad9651e19abafb4aae8a63.jpg",
+        "latitude":48.883052,
+        "longitude":2.3077052,
+        "ville":"Paris",
+        "quartier":"Quartier de la Plaine-de-Monceau",
+        "code_postal":"75017",
+        "adresse_formatee":"43 Avenue de Villiers, 75017 Paris, France",
+        "date_debut":"2024-11-28",
+        "date_fin":"2025-04-28"
+    },
+    {
+        "titre":"Artemisia, Heroïne de l'art",
+        "emplacement":"Musée Jacquemart-André",
+        "adresse":"158 boulevard Haussmann - Paris 8e",
+        "dates":"Du 19 mars 2025 au 3 août 2025",
+        "tags":[
+            "Peinture",
+            "Beaux-Arts",
+            "Prochainement"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2672771\/images\/120\/d30f68233e3bcf01023afdb4ab8efe57.jpeg",
+        "latitude":48.8752531,
+        "longitude":2.310789,
+        "ville":"Paris",
+        "quartier":"",
+        "code_postal":"75008",
+        "adresse_formatee":"158 Boulevard Haussmann, 75008 Paris, France",
+        "date_debut":"2025-03-19",
+        "date_fin":"2025-08-03"
+    },
+    {
+        "titre":"Corps et âmes",
+        "emplacement":"Bourse de Commerce - Pinault Collection",
+        "adresse":"2 rue de Viarmes - Paris 1er",
+        "dates":"Du 5 mars 2025 au 25 août 2025",
+        "tags":[
+            "Art contemporain",
+            "Nouveauté"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2697484\/images\/120\/7be284807fa1af59f87510bc1a0290ba.png",
+        "latitude":48.862928,
+        "longitude":2.3424115,
+        "ville":"Paris",
+        "quartier":"",
+        "code_postal":"75001",
+        "adresse_formatee":"2 Rue de Viarmes, 75001 Paris, France",
+        "date_debut":"2025-03-05",
+        "date_fin":"2025-08-25"
+    },
+    {
+        "titre":"Raphaël Barontini : Quelque part dans la nuit, le peuple danse",
+        "emplacement":"Palais de Tokyo",
+        "adresse":"13 avenue du Pdt-Wilson - Paris 16e",
+        "dates":"Du 21 février 2025 au 11 mai 2025",
+        "tags":[
+            "Art contemporain",
+            "Choix de la rédaction"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2905776\/images\/120\/519244f81c535ed433f257288e29433a.jpg",
+        "latitude":48.8637,
+        "longitude":2.2769,
+        "ville":"",
+        "quartier":"",
+        "code_postal":"",
+        "adresse_formatee":"Paris 16 Passy, Paris, France",
+        "date_debut":"2025-02-21",
+        "date_fin":"2025-05-11"
+    },
+    {
+        "titre":"Nadia Léger. Une femme d'avant-garde",
+        "emplacement":"Musée Maillol",
+        "adresse":"61 rue de Grenelle - Paris 7e",
+        "dates":"Du 8 novembre 2024 au 23 mars 2025",
+        "tags":[
+            "Peinture",
+            "Beaux-Arts",
+            "Choix de la rédaction"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2618203\/images\/120\/48dc0f8b8248e3934e85fd8a7ea2532d.jpg",
+        "latitude":48.8548016,
+        "longitude":2.3249331,
+        "ville":"Paris",
+        "quartier":"Quartier Saint-Thomas-d'Aquin",
+        "code_postal":"75007",
+        "adresse_formatee":"61 Rue de Grenelle, 75007 Paris, France",
+        "date_debut":"2024-11-08",
+        "date_fin":"2025-03-23"
+    },
+    {
+        "titre":"Dennis Morris — Music + Life",
+        "emplacement":"Maison Européenne de la Photographie - MEP",
+        "adresse":"5 rue de Fourcy - Paris 4e",
+        "dates":"Du 5 février 2025 au 18 mai 2025",
+        "tags":[
+            "Photographie"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2678500\/images\/120\/30906db306c65c69e2ac99221911b8c6.png",
+        "latitude":48.854979,
+        "longitude":2.3591668,
+        "ville":"Paris",
+        "quartier":"Quartier Saint-Gervais",
+        "code_postal":"75004",
+        "adresse_formatee":"5;7 Rue de Fourcy, 75004 Paris, France",
+        "date_debut":"2025-02-05",
+        "date_fin":"2025-05-18"
+    },
+    {
+        "titre":"Silence",
+        "emplacement":"Cité des Sciences et de l'Industrie",
+        "adresse":"30 avenue Corentin-Cariou Parc de La Villette - Paris 19e",
+        "dates":"Du 10 décembre 2024 au 31 août 2025",
+        "tags":[
+            "Immersif",
+            "Histoire \/ Civilisations",
+            "Choix de la rédaction"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2667386\/images\/120\/4f521b3461136b219037a67df6344127.png",
+        "latitude":48.8817,
+        "longitude":2.3822,
+        "ville":"",
+        "quartier":"",
+        "code_postal":"",
+        "adresse_formatee":"Paris 19 Buttes-Chaumont, Paris, France",
+        "date_debut":"2024-12-10",
+        "date_fin":"2025-08-31"
+    },
+    {
+        "titre":"La saga des Grands Magasins",
+        "emplacement":"Cité de l'Architecture et du Patrimoine",
+        "adresse":"1 place du Trocadéro - Paris 16e",
+        "dates":"Du 6 novembre 2024 au 6 avril 2025",
+        "tags":[
+            "Architecture",
+            "Architecture \/ Design \/ Mode",
+            "Choix de la rédaction"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2434662\/images\/120\/ce9f80177c6e40fc67fe4e17a70bed71.jpg",
+        "latitude":48.8628901,
+        "longitude":2.288981,
+        "ville":"Paris",
+        "quartier":"",
+        "code_postal":"75016",
+        "adresse_formatee":"Architecture and Heritage City Museum, 1 Place du Trocadéro et du 11 Novembre 1918, 75016 Paris, France",
+        "date_debut":"2024-11-06",
+        "date_fin":"2025-04-06"
+    },
+    {
+        "titre":"Art brut d'Iran",
+        "emplacement":"Halle Saint Pierre",
+        "adresse":"2 rue Ronsard - Paris 18e",
+        "dates":"Du 12 février 2025 au 31 juillet 2025",
+        "tags":[
+            "Art brut",
+            "Beaux-Arts"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2691360\/images\/120\/a7d07f34e739078c064a61f846b7d66b.jpg",
+        "latitude":48.8848912,
+        "longitude":2.3445287,
+        "ville":"Paris",
+        "quartier":"",
+        "code_postal":"75018",
+        "adresse_formatee":"Halle Saint-Pierre, 2 Rue Ronsard, 75018 Paris, France",
+        "date_debut":"2025-02-12",
+        "date_fin":"2025-07-31"
+    },
+    {
+        "titre":"Harold Feinstein, la roue des merveilles",
+        "emplacement":"Maison Robert Doisneau",
+        "adresse":"1 rue de la Division du Général Leclerc - Gentilly",
+        "dates":"Du 7 mars 2025 au 1 juin 2025",
+        "tags":[
+            "Photographie",
+            "Nouveauté"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2921787\/images\/120\/dc8b5e0d31c30cd6ff9a24584734487c.png",
+        "latitude":48.814259,
+        "longitude":2.347492,
+        "ville":"",
+        "quartier":"",
+        "code_postal":"94250",
+        "adresse_formatee":"1 Rue de la Division du Général Leclerc, 94250 Gentilly, France",
+        "date_debut":"2025-03-07",
+        "date_fin":"2025-06-01"
+    },
+    {
+        "titre":"Marjaana Kella, L'envers du portrait",
+        "emplacement":"Fondation Henri Cartier-Bresson",
+        "adresse":"79 rue des Archives - Paris 3e",
+        "dates":"Du 28 janvier 2025 au 13 avril 2025",
+        "tags":[
+            "Photographie"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2704340\/images\/120\/90b24e2b86e6efc0f1e4417af93f8dbd.jpeg",
+        "latitude":48.8632197,
+        "longitude":2.3598871,
+        "ville":"Paris",
+        "quartier":"Quartier des Enfants-Rouges",
+        "code_postal":"75003",
+        "adresse_formatee":"Fondation Henri Cartier-Bresson, 79 Rue des Archives, 75003 Paris, France",
+        "date_debut":"2025-01-28",
+        "date_fin":"2025-04-13"
+    },
+    {
+        "titre":"Gabriele Münter, Peindre sans détours",
+        "emplacement":"Musée d'Art Moderne de Paris",
+        "adresse":"11 avenue du Président Wilson - Paris 16e",
+        "dates":"Du 4 avril 2025 au 24 août 2025",
+        "tags":[
+            "Peinture",
+            "Beaux-Arts",
+            "Prochainement"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2911319\/images\/120\/13dcd62e226e4506144806cf80c312b9.png",
+        "latitude":48.8643975,
+        "longitude":2.2973674,
+        "ville":"Paris",
+        "quartier":"",
+        "code_postal":"75116",
+        "adresse_formatee":"Forest, 11 Avenue du Président Wilson, 75116 Paris, France",
+        "date_debut":"2025-04-04",
+        "date_fin":"2025-08-24"
+    },
+    {
+        "titre":"Les fleurs d'Yves Saint Laurent",
+        "emplacement":"Musée Yves Saint Laurent Paris",
+        "adresse":"5 avenue Marceau - Paris 16e",
+        "dates":"Du 20 septembre 2024 au 4 mai 2025",
+        "tags":[
+            "Mode",
+            "Architecture \/ Design \/ Mode",
+            "Choix de la rédaction"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2535161\/images\/120\/63f246a0abb266cd64b91323c76c52c4.png",
+        "latitude":48.8656005,
+        "longitude":2.2995396,
+        "ville":"Paris",
+        "quartier":"",
+        "code_postal":"75116",
+        "adresse_formatee":"5 Avenue Marceau, 75116 Paris, France",
+        "date_debut":"2024-09-20",
+        "date_fin":"2025-05-04"
+    },
+    {
+        "titre":"Picasso, L'art en mouvement",
+        "emplacement":"Atelier des Lumières",
+        "adresse":"38 rue Saint-Maur - Paris 11e",
+        "dates":"Du 14 février 2025 au 29 juin 2025",
+        "tags":[
+            "Immersif",
+            "Art contemporain"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2892773\/images\/120\/fd04553eade990471b4b412f866c5a99.jpg",
+        "latitude":48.8618886,
+        "longitude":2.3811608,
+        "ville":"Paris",
+        "quartier":"Quartier Saint-Ambroise",
+        "code_postal":"75011",
+        "adresse_formatee":"Atelier des Lumières, 38 Rue Saint-Maur, 75011 Paris, France",
+        "date_debut":"2025-02-14",
+        "date_fin":"2025-06-29"
+    },
+    {
+        "titre":"Azzedine Alaïa, Thierry Mugler",
+        "emplacement":"Fondation Azzedine Alaïa",
+        "adresse":"18 rue de la Verrerie - Paris 4e",
+        "dates":"Du 3 mars 2025 au 29 juin 2025",
+        "tags":[
+            "Mode",
+            "Architecture \/ Design \/ Mode",
+            "Nouveauté",
+            "Choix de la rédaction"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2921904\/images\/120\/3ec5ea82e9c16889072981a2dfe7b85b.jpg",
+        "latitude":48.8575199,
+        "longitude":2.3550725,
+        "ville":"Paris",
+        "quartier":"Quartier Saint-Gervais",
+        "code_postal":"75004",
+        "adresse_formatee":"Fondation Azzedine Alaia, 18 Rue de la Verrerie, 75004 Paris, France",
+        "date_debut":"2025-03-03",
+        "date_fin":"2025-06-29"
+    },
+    {
+        "titre":"L'art est dans la rue",
+        "emplacement":"Musée d'Orsay",
+        "adresse":"1 rue de la Légion d'Honneur - Paris 7e",
+        "dates":"Du 18 mars 2025 au 6 juillet 2025",
+        "tags":[
+            "Affiches",
+            "Beaux-Arts",
+            "Prochainement"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2682220\/images\/120\/05ed3d6cd60f2cacace2660c4179f283.jpg",
+        "latitude":48.8599179,
+        "longitude":2.3265849,
+        "ville":"Paris",
+        "quartier":"Quartier Saint-Thomas-d'Aquin",
+        "code_postal":"75007",
+        "adresse_formatee":"Museum of Orsay, 1 Rue de la Légion d'Honneur, 75007 Paris, France",
+        "date_debut":"2025-03-18",
+        "date_fin":"2025-07-06"
+    },
+    {
+        "titre":"Emanuele Piccardo, Looking at Le Corbusier",
+        "emplacement":"Fondation Le Corbusier - Maison La Roche",
+        "adresse":"10 square du Docteur Blanche - Paris 16e",
+        "dates":"Du 11 février 2025 au 15 mars 2025",
+        "tags":[
+            "Architecture",
+            "Architecture \/ Design \/ Mode"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2904000\/images\/120\/61114e71bfb8cb67dc1fa5d61ea0ce47.jpg",
+        "latitude":48.8518298,
+        "longitude":2.2654558,
+        "ville":"Paris",
+        "quartier":"",
+        "code_postal":"75016",
+        "adresse_formatee":"Maison La Roche, 10 Square du Docteur Blanche, 75016 Paris, France",
+        "date_debut":"2025-02-11",
+        "date_fin":"2025-03-15"
+    },
+    {
+        "titre":"Comment les nazis ont photographié leurs crimes. Auschwitz 1944",
+        "emplacement":"Mémorial de la Shoah",
+        "adresse":"17 rue Geoffroy L'Asnier - Paris 4e",
+        "dates":"Du 23 janvier 2025 au 23 juillet 2025",
+        "tags":[
+            "Histoire \/ Civilisations"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2915465\/images\/120\/d78de24615f8785825ded354023c1fbb.png",
+        "latitude":48.8549847,
+        "longitude":2.3566361,
+        "ville":"Paris",
+        "quartier":"Quartier Saint-Gervais",
+        "code_postal":"75004",
+        "adresse_formatee":"Rue Geoffroy l'Asnier, 75004 Paris, France",
+        "date_debut":"2025-01-23",
+        "date_fin":"2025-07-23"
+    },
+    {
+        "titre":"Faire parler les pierres : Sculptures médiévales de Notre-Dame",
+        "emplacement":"Musée de Cluny - Musée national du Moyen Âge",
+        "adresse":"28 rue Du Sommerard - Paris 5e",
+        "dates":"Du 19 novembre 2024 au 16 mars 2025",
+        "tags":[
+            "Art médiéval",
+            "Histoire \/ Civilisations"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2574297\/images\/120\/b089fb3c7fa4b81294e65bfcfe305e52.jpg",
+        "latitude":48.8504741,
+        "longitude":2.343391,
+        "ville":"Paris",
+        "quartier":"Quartier de la Sorbonne",
+        "code_postal":"75005",
+        "adresse_formatee":"28 Rue du Sommerard, 75005 Paris, France",
+        "date_debut":"2024-11-19",
+        "date_fin":"2025-03-16"
+    },
+    {
+        "titre":"Stephen Jones, Chapeaux d'artiste",
+        "emplacement":"Palais Galliera",
+        "adresse":"10 av. Pierre Ier de Serbie - Paris 16e",
+        "dates":"Du 19 octobre 2024 au 16 mars 2025",
+        "tags":[
+            "Mode",
+            "Architecture \/ Design \/ Mode",
+            "Choix de la rédaction"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2585453\/images\/120\/022addacf1d24c05421e63b2878b72dd.png",
+        "latitude":48.8637,
+        "longitude":2.2769,
+        "ville":"",
+        "quartier":"",
+        "code_postal":"",
+        "adresse_formatee":"Paris 16 Passy, Paris, France",
+        "date_debut":"2024-10-19",
+        "date_fin":"2025-03-16"
+    },
+    {
+        "titre":"Miguel Chevalier, Pixels",
+        "emplacement":"Grand Palais Immersif",
+        "adresse":"110 rue de Lyon - Paris 12e",
+        "dates":"Du 4 novembre 2024 au 6 avril 2025",
+        "tags":[
+            "Immersif",
+            "Art contemporain"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2634365\/images\/120\/395e52b2d60a05262f2120df490ec95f.png",
+        "latitude":48.8506056,
+        "longitude":2.3702679,
+        "ville":"Paris",
+        "quartier":"Quartier des Quinze-Vingts",
+        "code_postal":"75012",
+        "adresse_formatee":"Rue de Lyon, 75012 Paris, France",
+        "date_debut":"2024-11-04",
+        "date_fin":"2025-04-06"
+    },
+    {
+        "titre":"L'hygiène au Moyen Âge",
+        "emplacement":"Tour Jean sans Peur",
+        "adresse":"20 rue Étienne Marcel - Paris 2e",
+        "dates":"Du 12 mars 2025 au 28 décembre 2025",
+        "tags":[
+            "Art médiéval",
+            "Histoire \/ Civilisations",
+            "Prochainement"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2921860\/images\/120\/e4b5fb8d439d80489f0822aad8404227.jpg",
+        "latitude":48.8641784,
+        "longitude":2.3481177,
+        "ville":"Paris",
+        "quartier":"Quartier de Bonne-Nouvelle",
+        "code_postal":"75002",
+        "adresse_formatee":"20 Rue Étienne Marcel, 75002 Paris, France",
+        "date_debut":"2025-03-12",
+        "date_fin":"2025-12-28"
+    },
+    {
+        "titre":"La Collection Nahmad",
+        "emplacement":"Musée des Impressionnismes",
+        "adresse":"99 rue Claude-Monet - Giverny",
+        "dates":"Du 28 mars 2025 au 29 juin 2025",
+        "tags":[
+            "Peinture",
+            "Beaux-Arts",
+            "Prochainement"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2913569\/images\/120\/bc6ca8828734dbcf93c37eef8c3302a3.jpg",
+        "latitude":49.0763478,
+        "longitude":1.5313261,
+        "ville":"",
+        "quartier":"",
+        "code_postal":"27620",
+        "adresse_formatee":"Musée des impressionismes, 99 Rue Claude Monet, 27620 Giverny, France",
+        "date_debut":"2025-03-28",
+        "date_fin":"2025-06-29"
+    },
+    {
+        "titre":"Tous Léger !",
+        "emplacement":"Musée du Luxembourg",
+        "adresse":"19 rue de Vaugirard - Paris 6e",
+        "dates":"Du 19 mars 2025 au 20 juillet 2025",
+        "tags":[
+            "Peinture",
+            "Beaux-Arts",
+            "Prochainement"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2927081\/images\/120\/b06c37269303d9ccdaa38ed657b2bcbf.jpg",
+        "latitude":48.8489002,
+        "longitude":2.3340735,
+        "ville":"Paris",
+        "quartier":"",
+        "code_postal":"75006",
+        "adresse_formatee":"19 Rue de Vaugirard, 75006 Paris, France",
+        "date_debut":"2025-03-19",
+        "date_fin":"2025-07-20"
+    },
+    {
+        "titre":"Le monde pour horizon & Barthélémy Toguo",
+        "emplacement":"Musée de la BnF",
+        "adresse":"5 rue Vivienne - Paris 2e",
+        "dates":"Du 21 septembre 2024 au 7 septembre 2025",
+        "tags":[
+            "Art contemporain",
+            "Choix de la rédaction"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2618209\/images\/120\/0497f3a57823e3cf1c8e8562892f1026.jpg",
+        "latitude":48.8670223,
+        "longitude":2.3389229,
+        "ville":"Paris",
+        "quartier":"Quartier Vivienne",
+        "code_postal":"75002",
+        "adresse_formatee":"5 Rue Vivienne, 75002 Paris, France",
+        "date_debut":"2024-09-21",
+        "date_fin":"2025-09-07"
+    },
+    {
+        "titre":"Aubusson tisse Tolkien",
+        "emplacement":"Collège des Bernardins",
+        "adresse":"20 rue de Poissy - Paris 5e",
+        "dates":"Du 21 mars 2025 au 18 mai 2025",
+        "tags":[
+            "Tapisserie",
+            "Beaux-Arts",
+            "Prochainement"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2702075\/images\/120\/2e01437ffff2ca6fa09347024d03c62b.jpg",
+        "latitude":48.8488342,
+        "longitude":2.3519829,
+        "ville":"Paris",
+        "quartier":"Quartier Saint-Victor",
+        "code_postal":"75005",
+        "adresse_formatee":"Collège des Bernardins, 20 Rue de Poissy, 75005 Paris, France",
+        "date_debut":"2025-03-21",
+        "date_fin":"2025-05-18"
+    },
+    {
+        "titre":"Marc Riboud, Photographies du Vietnam 1966-1976",
+        "emplacement":"Musée Guimet",
+        "adresse":"6 place d'Iéna - Paris 16e",
+        "dates":"Du 5 mars 2025 au 12 mai 2025",
+        "tags":[
+            "Photographie",
+            "Nouveauté"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2931085\/images\/120\/3bfadfab6477e2363528087aa893a590.png",
+        "latitude":48.865379,
+        "longitude":2.2935933,
+        "ville":"Paris",
+        "quartier":"",
+        "code_postal":"75116",
+        "adresse_formatee":"Musée Guimet, 6 Place d'Iéna, 75116 Paris, France",
+        "date_debut":"2025-03-05",
+        "date_fin":"2025-05-12"
+    },
+    {
+        "titre":"Dubuffet monumental",
+        "emplacement":"Fondation Dubuffet",
+        "adresse":"137 rue de Sèvres - Paris 6e",
+        "dates":"Du 12 février 2025 au 11 juillet 2025",
+        "tags":[
+            "Art moderne",
+            "Beaux-Arts"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2915463\/images\/120\/789220bd1987fd1f8897d39366bee9a1.jpg",
+        "latitude":48.8519579,
+        "longitude":2.3291908,
+        "ville":"Paris",
+        "quartier":"Quartier Notre-Dame-des-Champs",
+        "code_postal":"75006",
+        "adresse_formatee":"Rue de Sèvres, 75006 Paris, France",
+        "date_debut":"2025-02-12",
+        "date_fin":"2025-07-11"
+    },
+    {
+        "titre":"Maximilien Luce",
+        "emplacement":"Musée de Montmartre",
+        "adresse":"12 rue Cortot - Paris 18e",
+        "dates":"Du 21 mars 2025 au 14 septembre 2025",
+        "tags":[
+            "Histoire de Paris",
+            "Beaux-Arts",
+            "Prochainement"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2925790\/images\/120\/3892eedcfeef2a75d11370a8a6140a41.jpg",
+        "latitude":48.8882499,
+        "longitude":2.3406776,
+        "ville":"Paris",
+        "quartier":"",
+        "code_postal":"75018",
+        "adresse_formatee":"Musée de Montmartre, 12 Rue Cortot, 75018 Paris, France",
+        "date_debut":"2025-03-21",
+        "date_fin":"2025-09-14"
+    },
+    {
+        "titre":"Antiquité et cinéma",
+        "emplacement":"Fondation Jérôme Seydoux-Pathé",
+        "adresse":"73 avenue des Gobelins - Paris 13e",
+        "dates":"Du 12 décembre 2024 au 29 mars 2025",
+        "tags":[
+            "Antiquité",
+            "Histoire \/ Civilisations",
+            "Choix de la rédaction"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2677185\/images\/120\/ec009b2b20d6afd75801c4e8b945fdd3.png",
+        "latitude":48.8333798,
+        "longitude":2.3545251,
+        "ville":"Paris",
+        "quartier":"Quartier de la Salpêtrière",
+        "code_postal":"75013",
+        "adresse_formatee":"73 Avenue des Gobelins, 75013 Paris, France",
+        "date_debut":"2024-12-12",
+        "date_fin":"2025-03-29"
+    },
+    {
+        "titre":"Les ateliers extraordinaires",
+        "emplacement":"Hangar Y",
+        "adresse":"9 avenue de Trivaux - Meudon",
+        "dates":"Du 1 novembre 2024 au 9 mars 2025",
+        "tags":[
+            "Art contemporain"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2631602\/images\/120\/d7524687e1258fa8dc3cc4deb00a34d5.jpg",
+        "latitude":48.7902564,
+        "longitude":2.2327684,
+        "ville":"",
+        "quartier":"",
+        "code_postal":"92360",
+        "adresse_formatee":"Avenue de Trivaux, 92360 Meudon, France",
+        "date_debut":"2024-11-01",
+        "date_fin":"2025-03-09"
+    },
+    {
+        "titre":"L'art et la vie et inversement",
+        "emplacement":"Palais des Beaux-Arts - Beaux-Arts de Paris",
+        "adresse":"13 quai Malaquais - Paris 6e",
+        "dates":"Du 12 février 2025 au 16 mars 2025",
+        "tags":[
+            "Art contemporain"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2913559\/images\/120\/0c164d27bb937658d717706320b3123b.jpg",
+        "latitude":48.8578401,
+        "longitude":2.3345251,
+        "ville":"Paris",
+        "quartier":"",
+        "code_postal":"75006",
+        "adresse_formatee":"13 Quai Malaquais, 75006 Paris, France",
+        "date_debut":"2025-02-12",
+        "date_fin":"2025-03-16"
+    },
+    {
+        "titre":"Merveilles !",
+        "emplacement":"Sèvres - Cité de la Céramique",
+        "adresse":"2 place de la Manufacture - Sèvres",
+        "dates":"Du 11 octobre 2024 au 10 mars 2025",
+        "tags":[
+            "Mobilier et objets",
+            "Beaux-Arts"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2666148\/images\/120\/42b4aebbea3f74ba495479883e7df72d.jpg",
+        "latitude":48.8286818,
+        "longitude":2.2230502,
+        "ville":"",
+        "quartier":"",
+        "code_postal":"92310",
+        "adresse_formatee":"Musée National de Céramique, 2 Place de la Manufacture Nationale, 92310 Sèvres, France",
+        "date_debut":"2024-10-11",
+        "date_fin":"2025-03-10"
+    },
+    {
+        "titre":"Edi Dubien, S'éclairer sans fin",
+        "emplacement":"Musée de la Chasse et de la Nature",
+        "adresse":"62 rue des Archives Hôtel de Montgelas - Paris 3e",
+        "dates":"Du 10 décembre 2024 au 5 mai 2025",
+        "tags":[
+            "Dessin",
+            "Beaux-Arts",
+            "Choix de la rédaction"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2660414\/images\/120\/4d0d98d7e7ffef04380163ec9545807f.jpg",
+        "latitude":48.8637,
+        "longitude":2.3615,
+        "ville":"",
+        "quartier":"",
+        "code_postal":"",
+        "adresse_formatee":"Paris 03 Temple, Paris, France",
+        "date_debut":"2024-12-10",
+        "date_fin":"2025-05-05"
+    },
+    {
+        "titre":"Victor Hugo et Les Misérables, de la réalité à l'idéal",
+        "emplacement":"Maison littéraire de Victor Hugo",
+        "adresse":"45  rue de Vauboyen Château des Roches - Bièvres",
+        "dates":"Du 1 mars 2025 au 30 novembre 2025",
+        "tags":[
+            "Histoire \/ Civilisations",
+            "Nouveauté"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2931024\/images\/120\/322b3b002f5124b891a7cbe71fbf51da.png",
+        "latitude":48.75772,
+        "longitude":2.21881,
+        "ville":"",
+        "quartier":"",
+        "code_postal":"",
+        "adresse_formatee":"Bièvres, Essonne, France",
+        "date_debut":"2025-03-01",
+        "date_fin":"2025-11-30"
+    },
+    {
+        "titre":"Déserts",
+        "emplacement":"Grande Galerie de l'Évolution - Muséum national d'Histoire naturelle",
+        "adresse":"36 rue Geoffroy St-Hilaire - Paris 5e",
+        "dates":"Du 2 avril 2025 au 30 novembre 2025",
+        "tags":[
+            "Sciences & Techniques",
+            "Prochainement"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2687048\/images\/120\/e8369e47de4c8320b43cf06712ae06f5.png",
+        "latitude":48.8415118,
+        "longitude":2.3559666,
+        "ville":"Paris",
+        "quartier":"Quartier du Jardin des Plantes",
+        "code_postal":"75005",
+        "adresse_formatee":"36 Rue Geoffroy Saint-Hilaire, 75005 Paris, France",
+        "date_debut":"2025-04-02",
+        "date_fin":"2025-11-30"
+    },
+    {
+        "titre":"Miss Recuerdo",
+        "emplacement":"Fondation Pernod Ricard",
+        "adresse":"1 cours Paul Ricard - Paris 8e",
+        "dates":"Du 18 février 2025 au 19 avril 2025",
+        "tags":[
+            "Art contemporain"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2915453\/images\/120\/afa4d21d1dd07473a96cc9494a7dbbda.jpg",
+        "latitude":48.8774692,
+        "longitude":2.3263814,
+        "ville":"Paris",
+        "quartier":"",
+        "code_postal":"75008",
+        "adresse_formatee":"Cours Paul-Ricard, 75008 Paris, France",
+        "date_debut":"2025-02-18",
+        "date_fin":"2025-04-19"
+    },
+    {
+        "titre":"Salon international des minéraux, fossiles, météorites, gemmes et bijoux",
+        "emplacement":"Institut national du Judo",
+        "adresse":"21 avenue de la Porte de Chatillon - Paris 14e",
+        "dates":"Du 7 mars 2025 au 9 mars 2025",
+        "tags":[
+            "Minéralogie",
+            "Salons",
+            "Nouveauté"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2923125\/images\/120\/b3263d191e7763d9c7faaf35a1830730.jpeg",
+        "latitude":48.8232199,
+        "longitude":2.3165046,
+        "ville":"Paris",
+        "quartier":"Quartier du Petit-Montrouge",
+        "code_postal":"75014",
+        "adresse_formatee":"21 Avenue de la Porte de Châtillon, 75014 Paris, France",
+        "date_debut":"2025-03-07",
+        "date_fin":"2025-03-09"
+    },
+    {
+        "titre":"François Chifflart, L'insoumis",
+        "emplacement":"Maison de Victor Hugo",
+        "adresse":"6 pl. des Vosges - Paris 4e",
+        "dates":"Du 7 novembre 2024 au 23 mars 2025",
+        "tags":[
+            "Dessin",
+            "Beaux-Arts",
+            "Choix de la rédaction"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2606083\/images\/120\/f80dec50e6b78b49716aad280de0bd66.jpg",
+        "latitude":48.854799,
+        "longitude":2.3661358,
+        "ville":"Paris",
+        "quartier":"Quartier de l'Arsenal",
+        "code_postal":"75004",
+        "adresse_formatee":"Maison de Victor Hugo, 6 Place des Vosges, 75004 Paris, France",
+        "date_debut":"2024-11-07",
+        "date_fin":"2025-03-23"
+    },
+    {
+        "titre":"Salon du Vintage",
+        "emplacement":"Ancien Musée Pierre Cardin",
+        "adresse":"5 rue Saint-Merri - Paris 4e",
+        "dates":"Du 15 mars 2025 au 16 mars 2025",
+        "tags":[
+            "Mode",
+            "Salons",
+            "Prochainement"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2904417\/images\/120\/5cf8791fe862157bea72b7190c479a1b.png",
+        "latitude":48.8590994,
+        "longitude":2.3533745,
+        "ville":"Paris",
+        "quartier":"Quartier Saint-Merri",
+        "code_postal":"75004",
+        "adresse_formatee":"5 Rue Saint-Merri, 75004 Paris, France",
+        "date_debut":"2025-03-15",
+        "date_fin":"2025-03-16"
+    },
+    {
+        "titre":"Dessins de bijoux, Les secrets de la création",
+        "emplacement":"Musée du Petit Palais",
+        "adresse":"Avenue Winston Churchill - Paris 8e",
+        "dates":"Du 1 avril 2025 au 20 juillet 2025",
+        "tags":[
+            "Dessin",
+            "Beaux-Arts",
+            "Prochainement"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2909906\/images\/120\/648f7e87329259a3ec637c64f6a1574b.png",
+        "latitude":48.8666865,
+        "longitude":2.3138946,
+        "ville":"Paris",
+        "quartier":"Quartier des Champs-Élysées",
+        "code_postal":"75008",
+        "adresse_formatee":"Avenue Winston Churchill, 75008 Paris, France",
+        "date_debut":"2025-04-01",
+        "date_fin":"2025-07-20"
+    },
+    {
+        "titre":"Disney100, L'exposition",
+        "emplacement":"Paris Expo",
+        "adresse":"Porte de Versailles - Paris 15e",
+        "dates":"Du 10 avril 2025 au 5 octobre 2025",
+        "tags":[
+            "Histoire \/ Civilisations",
+            "Prochainement"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2910015\/images\/120\/522f53dd09aad11961e04430fc32d2f8.jpeg",
+        "latitude":48.8324338,
+        "longitude":2.2879537,
+        "ville":"Paris",
+        "quartier":"Quartier Saint-Lambert",
+        "code_postal":"75015",
+        "adresse_formatee":"Porte de Versailles, Esplanade du 9 novembre 1989, 75015 Paris, France",
+        "date_debut":"2025-04-10",
+        "date_fin":"2025-10-05"
+    },
+    {
+        "titre":"Empreinte carbone, l'expo !",
+        "emplacement":"Musée des Arts et Métiers",
+        "adresse":"60 rue Réaumur - Paris 3e",
+        "dates":"Du 16 octobre 2024 au 11 mai 2025",
+        "tags":[
+            "Sciences & Techniques",
+            "Choix de la rédaction"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2623496\/images\/120\/f300b3b30fa5cbd86443e06f04c26722.jpg",
+        "latitude":48.8657041,
+        "longitude":2.3556111,
+        "ville":"Paris",
+        "quartier":"Quartier des Arts-et-Métiers",
+        "code_postal":"75003",
+        "adresse_formatee":"60 Rue Réaumur, 75003 Paris, France",
+        "date_debut":"2024-10-16",
+        "date_fin":"2025-05-11"
+    },
+    {
+        "titre":"Un autre Mali dans un autre monde",
+        "emplacement":"Quai de la Photo",
+        "adresse":"9 Port de la Gare - Berges de Seine - Paris 13e",
+        "dates":"Du 7 mars 2025 au 1 juin 2025",
+        "tags":[
+            "Photographie",
+            "Nouveauté"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2930959\/images\/120\/953365f7fd00bf744c87301fde144c94.png",
+        "latitude":48.8322,
+        "longitude":2.3561,
+        "ville":"",
+        "quartier":"",
+        "code_postal":"",
+        "adresse_formatee":"Paris 13 Gobelins, Paris, France",
+        "date_debut":"2025-03-07",
+        "date_fin":"2025-06-01"
+    },
+    {
+        "titre":"Wes Anderson",
+        "emplacement":"Cinémathèque française",
+        "adresse":"51 rue de Bercy - Paris 12e",
+        "dates":"Du 19 mars 2025 au 27 juillet 2025",
+        "tags":[
+            "Cinéma",
+            "Histoire \/ Civilisations",
+            "Prochainement"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2688315\/images\/120\/416018f9a8de4e83943d592977aaf2df.png",
+        "latitude":48.8372672,
+        "longitude":2.3826668,
+        "ville":"Paris",
+        "quartier":"",
+        "code_postal":"75012",
+        "adresse_formatee":"51 Rue de Bercy, 75012 Paris, France",
+        "date_debut":"2025-03-19",
+        "date_fin":"2025-07-27"
+    },
+    {
+        "titre":"Dans la Seine",
+        "emplacement":"Crypte archéologique de l'île de la Cité",
+        "adresse":"7 place Jean-Paul II Parvis Notre-Dame - Paris 4e",
+        "dates":"Du 31 janvier 2024 au 30 septembre 2025",
+        "tags":[
+            "Histoire de Paris",
+            "Histoire \/ Civilisations",
+            "Choix de la rédaction"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2444348\/images\/120\/4f2b9ce576f66d1906f4c0e062196b14.jpg",
+        "latitude":48.8532711,
+        "longitude":2.348075,
+        "ville":"Paris",
+        "quartier":"Quartier Les Îles",
+        "code_postal":"75004",
+        "adresse_formatee":"Parvis Notre-Dame - Place Jean-Paul II, 75004 Paris, France",
+        "date_debut":"2024-01-31",
+        "date_fin":"2025-09-30"
+    },
+    {
+        "titre":"Écrire ou calligraphier ? L'alphabet arabe sublimé",
+        "emplacement":"Institut du monde arabe",
+        "adresse":"1 rue des Fossés-Saint-Bernard - Paris 5e",
+        "dates":"Du 5 février 2025 au 21 septembre 2025",
+        "tags":[
+            "Art oriental",
+            "Histoire \/ Civilisations"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2904156\/images\/120\/892a8fb11f4c6576ed18ab9c89a4d93c.png",
+        "latitude":48.8489962,
+        "longitude":2.3573756,
+        "ville":"Paris",
+        "quartier":"Quartier Saint-Victor",
+        "code_postal":"75005",
+        "adresse_formatee":"Dar Mima - Zyriab, 1 Rue des Fossés Saint-Bernard, 75005 Paris, France",
+        "date_debut":"2025-02-05",
+        "date_fin":"2025-09-21"
+    },
+    {
+        "titre":"Illusions (conjugales) perdues",
+        "emplacement":"Maison de Balzac",
+        "adresse":"47 rue Raynouard - Paris 16e",
+        "dates":"Du 20 novembre 2024 au 30 mars 2025",
+        "tags":[
+            "Estampe et gravure",
+            "Histoire \/ Civilisations"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2616146\/images\/120\/73e7b1b4d5fff64295dcdb733f7579f5.jpg",
+        "latitude":48.8552004,
+        "longitude":2.2808879,
+        "ville":"Paris",
+        "quartier":"Quartier de la Muette",
+        "code_postal":"75016",
+        "adresse_formatee":"Maison de Balzac, 47 Rue Raynouard, 75016 Paris, France",
+        "date_debut":"2024-11-20",
+        "date_fin":"2025-03-30"
+    },
+    {
+        "titre":"Le Paris d’Agnès Varda, de-ci, de-là",
+        "emplacement":"Musée Carnavalet",
+        "adresse":"23 rue de Sévigné - Paris 3e",
+        "dates":"Du 9 avril 2025 au 24 août 2025",
+        "tags":[
+            "Histoire de Paris",
+            "Histoire \/ Civilisations",
+            "Prochainement"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2893318\/images\/120\/736aa197d87cc0adc776e31ba41d5e74.jpg",
+        "latitude":48.8570542,
+        "longitude":2.3628612,
+        "ville":"Paris",
+        "quartier":"Quartier des Archives",
+        "code_postal":"75003",
+        "adresse_formatee":"23 Rue Madame de Sévigné, 75003 Paris, France",
+        "date_debut":"2025-04-09",
+        "date_fin":"2025-08-24"
+    },
+    {
+        "titre":"VLP, Before \/ After",
+        "emplacement":"Fluctuart",
+        "adresse":"2 port du Gros Caillou Pont des Invalides - Paris 7e",
+        "dates":"Du 16 janvier 2025 au 9 mars 2025",
+        "tags":[
+            "Street Art",
+            "Art contemporain"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2892825\/images\/120\/063f779f51f1a4ad4522a3c6ea041b53.jpg",
+        "latitude":48.8565,
+        "longitude":2.321,
+        "ville":"",
+        "quartier":"",
+        "code_postal":"",
+        "adresse_formatee":"Paris 07 Palais-Bourbon, Paris, France",
+        "date_debut":"2025-01-16",
+        "date_fin":"2025-03-09"
+    },
+    {
+        "titre":"Alfred Dreyfus, vérité et justice",
+        "emplacement":"Musée d'art et d'histoire du Judaïsme",
+        "adresse":"71 rue du Temple - Paris 3e",
+        "dates":"Du 13 mars 2025 au 31 août 2025",
+        "tags":[
+            "Histoire \/ Civilisations",
+            "Prochainement"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2930843\/images\/120\/7fc932568001d40ec9de4da3afcb830b.jpg",
+        "latitude":48.8609579,
+        "longitude":2.3556385,
+        "ville":"Paris",
+        "quartier":"Quartier Sainte-Avoye",
+        "code_postal":"75003",
+        "adresse_formatee":"71 Rue du Temple, 75003 Paris, France",
+        "date_debut":"2025-03-13",
+        "date_fin":"2025-08-31"
+    },
+    {
+        "titre":"Daniel Cordier, L'espion amateur d'art",
+        "emplacement":"Musée de la Libération de Paris - Musée du Général Leclerc - Musée Jean Moulin",
+        "adresse":"4 avenue du Colonel Rol Tanguy Place Denfert Rochereau - Paris 14e",
+        "dates":"Du 19 mars 2025 au 13 juillet 2025",
+        "tags":[
+            "Histoire \/ Civilisations",
+            "Prochainement"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2926090\/images\/120\/7cdc782a8807b907d93bade56b3272c9.jpg",
+        "latitude":48.85341,
+        "longitude":2.3488,
+        "ville":"",
+        "quartier":"",
+        "code_postal":"",
+        "adresse_formatee":"Paris, France",
+        "date_debut":"2025-03-19",
+        "date_fin":"2025-07-13"
+    },
+    {
+        "titre":"Laia Abril, On Mass Hysteria",
+        "emplacement":"Le BAL",
+        "adresse":"6 impasse de la Défense - Paris 18e",
+        "dates":"Du 17 janvier 2025 au 18 mai 2025",
+        "tags":[
+            "Histoire \/ Civilisations",
+            "Choix de la rédaction"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2705645\/images\/120\/b0f2afaff4eb557ad094fdf0ccbd96a0.png",
+        "latitude":48.8852618,
+        "longitude":2.327355,
+        "ville":"Paris",
+        "quartier":"Quartier des Grandes-Carrières",
+        "code_postal":"75018",
+        "adresse_formatee":"Le BAL, 6 Impasse de la Défense, 75018 Paris, France",
+        "date_debut":"2025-01-17",
+        "date_fin":"2025-05-18"
+    },
+    {
+        "titre":"Pierre Alferi - Dessins, 2006-2021",
+        "emplacement":"Cabinet des Dessins Jean Bonna - Beaux-Arts de Paris",
+        "adresse":"14 rue Bonaparte - Paris 6e",
+        "dates":"Du 12 février 2025 au 20 avril 2025",
+        "tags":[
+            "Dessin",
+            "Beaux-Arts"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2916939\/images\/120\/eb896aa9ed468e164b5261a4a5ee46c4.jpg",
+        "latitude":48.8571319,
+        "longitude":2.333844,
+        "ville":"Paris",
+        "quartier":"",
+        "code_postal":"75006",
+        "adresse_formatee":"École nationale supérieure des beaux-arts, 14 Rue Bonaparte, 75006 Paris, France",
+        "date_debut":"2025-02-12",
+        "date_fin":"2025-04-20"
+    },
+    {
+        "titre":"Miss.Tic",
+        "emplacement":"Maison Elsa Triolet - Aragon",
+        "adresse":"Moulin de Villeneuve - Saint-Arnoult-en-Yvelines",
+        "dates":"Du 15 mars 2025 au 18 mai 2025",
+        "tags":[
+            "Street Art",
+            "Art contemporain",
+            "Prochainement"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2920508\/images\/120\/e84bb99fd558b94e1e442c12f8997ebd.png",
+        "latitude":48.5684292,
+        "longitude":1.9257181,
+        "ville":"",
+        "quartier":"",
+        "code_postal":"78730",
+        "adresse_formatee":"Maison Elsa Triolet - Aragon, Rue de Villeneuve, 78730 Saint-Arnoult-en-Yvelines, France",
+        "date_debut":"2025-03-15",
+        "date_fin":"2025-05-18"
+    },
+    {
+        "titre":"Van Gogh, les derniers voyages",
+        "emplacement":"Château d'Auvers-sur-Oise",
+        "adresse":"21 rue Léry - Auvers-sur-Oise",
+        "dates":"Du 7 octobre 2023 au 2 novembre 2025",
+        "tags":[
+            "Beaux-Arts"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2306684\/images\/120\/dfa8fa1c2dbe98145aeb24038568b331.jpg",
+        "latitude":49.0723938,
+        "longitude":2.1689474,
+        "ville":"",
+        "quartier":"",
+        "code_postal":"95430",
+        "adresse_formatee":"Rue de Léry, 95430 Auvers-sur-Oise, France",
+        "date_debut":"2023-10-07",
+        "date_fin":"2025-11-02"
+    },
+    {
+        "titre":"Derrière l'écran, la fabrique du film d'animation",
+        "emplacement":"Le Lavoir Numérique",
+        "adresse":"4 rue de Freiberg - Gentilly",
+        "dates":"Du 7 mars 2025 au 17 août 2025",
+        "tags":[
+            "Histoire \/ Civilisations",
+            "Nouveauté"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2931195\/images\/120\/33c5d1ba1604a5a77a6f66800c8067bd.png",
+        "latitude":48.8157232,
+        "longitude":2.3458883,
+        "ville":"",
+        "quartier":"Quartier de la Maison-Blanche",
+        "code_postal":"75013",
+        "adresse_formatee":"4 Rue de Freiberg, 75013 Gentilly, France",
+        "date_debut":"2025-03-07",
+        "date_fin":"2025-08-17"
+    },
+    {
+        "titre":"Faits divers",
+        "emplacement":"MAC VAL",
+        "adresse":"Place de la Libération - Vitry-sur-Seine",
+        "dates":"Du 15 novembre 2024 au 13 avril 2025",
+        "tags":[
+            "Art contemporain"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2661730\/images\/120\/79b59c31b259ac92d3b3689d7ff76a3b.jpg",
+        "latitude":48.7922787,
+        "longitude":2.386797,
+        "ville":"",
+        "quartier":"",
+        "code_postal":"94400",
+        "adresse_formatee":"Place de la Libération, 94400 Vitry-sur-Seine, France",
+        "date_debut":"2024-11-15",
+        "date_fin":"2025-04-13"
+    },
+    {
+        "titre":"Kaléidoscope",
+        "emplacement":"Académie des Beaux-Arts",
+        "adresse":"27 quai de Conti - Paris 6e",
+        "dates":"Du 6 février 2025 au 9 mars 2025",
+        "tags":[
+            "Beaux-Arts"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2910011\/images\/120\/7afb7424b3126287817a27356821bb2f.jpg",
+        "latitude":48.8576905,
+        "longitude":2.3365289,
+        "ville":"Paris",
+        "quartier":"Quartier de la Monnaie",
+        "code_postal":"75006",
+        "adresse_formatee":"27 Quai de Conti, 75006 Paris, France",
+        "date_debut":"2025-02-06",
+        "date_fin":"2025-03-09"
+    },
+    {
+        "titre":"Enfants en guerre, guerre à l'enfance ? De 1914 à nos jours",
+        "emplacement":"La contemporaine",
+        "adresse":"184 cours Nicole Dreyfus, Université Paris Nanterre - Nanterre",
+        "dates":"Du 20 novembre 2024 au 15 mars 2025",
+        "tags":[
+            "Histoire \/ Civilisations",
+            "Choix de la rédaction"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2651636\/images\/120\/70d079337f338d3398c05af8fdd5a058.jpg",
+        "latitude":48.89198,
+        "longitude":2.20675,
+        "ville":"",
+        "quartier":"",
+        "code_postal":"",
+        "adresse_formatee":"Nanterre, Hauts-de-Seine, France",
+        "date_debut":"2024-11-20",
+        "date_fin":"2025-03-15"
+    },
+    {
+        "titre":"Tim Hailand : Portals. Portraits",
+        "emplacement":"Musée de la Toile de Jouy",
+        "adresse":"54 rue Charles-de-Gaulle Gare petit Jouy-les-Loges. Château de l’Églantine - Jouy-en-Josas",
+        "dates":"Du 7 février 2025 au 23 mars 2025",
+        "tags":[
+            "Photographie"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2897538\/images\/120\/c60ae660a46179f4820a8b38d0cc8447.jpg",
+        "latitude":48.76377,
+        "longitude":2.14002,
+        "ville":"",
+        "quartier":"",
+        "code_postal":"",
+        "adresse_formatee":"Les Loges-en-Josas, Yvelines, France",
+        "date_debut":"2025-02-07",
+        "date_fin":"2025-03-23"
+    },
+    {
+        "titre":"Oh my Gods !",
+        "emplacement":"Musée en Herbe",
+        "adresse":"23 rue de l'Arbre-Sec - Paris 1er",
+        "dates":"Du 6 juin 2024 au 9 mars 2025",
+        "tags":[
+            "Jeune public",
+            "Choix de la rédaction"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2524670\/images\/120\/2252413541f66a6f9e50e51c4a3d7348.png",
+        "latitude":48.8601404,
+        "longitude":2.3421423,
+        "ville":"Paris",
+        "quartier":"Quartier Saint-Germain-l'Auxerrois",
+        "code_postal":"75001",
+        "adresse_formatee":"23 Rue de l'Arbre Sec, 75001 Paris, France",
+        "date_debut":"2024-06-06",
+        "date_fin":"2025-03-09"
+    },
+    {
+        "titre":"Allez hop, au travail !",
+        "emplacement":"Citéco — La Cité de l'Économie",
+        "adresse":"1 place du Général Catroux - Paris 17e",
+        "dates":"Du 10 janvier 2025 au 1 juin 2025",
+        "tags":[
+            "Histoire \/ Civilisations"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2691805\/images\/120\/3b3e28950f12f322024ac5fd6b34cd58.jpg",
+        "latitude":48.8818908,
+        "longitude":2.3106965,
+        "ville":"Paris",
+        "quartier":"Quartier de la Plaine-de-Monceau",
+        "code_postal":"75017",
+        "adresse_formatee":"Cité de l'Économie, 1 Place du Général Catroux, 75017 Paris, France",
+        "date_debut":"2025-01-10",
+        "date_fin":"2025-06-01"
+    },
+    {
+        "titre":"Circulation(s)",
+        "emplacement":"Le Centquatre (104)",
+        "adresse":"5 rue Curial - Paris 19e",
+        "dates":"Du 5 avril 2025 au 1 juin 2025",
+        "tags":[
+            "Photographie",
+            "Prochainement"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2892822\/images\/120\/87c7ea3c20d116fcc6c42f5bf1c147e2.jpeg",
+        "latitude":48.8899756,
+        "longitude":2.3715165,
+        "ville":"Paris",
+        "quartier":"",
+        "code_postal":"75019",
+        "adresse_formatee":"5 Rue Curial, 75019 Paris, France",
+        "date_debut":"2025-04-05",
+        "date_fin":"2025-06-01"
+    },
+    {
+        "titre":"Le Plancher de Jeannot",
+        "emplacement":"Musée d'Art et d'Histoire de l'Hôpital Sainte-Anne",
+        "adresse":"1 rue Cabanis - Paris 14e",
+        "dates":"Du 11 septembre 2024 au 27 avril 2025",
+        "tags":[
+            "Histoire \/ Civilisations",
+            "Choix de la rédaction"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2605493\/images\/120\/4035e3a47b8deb944b73d0024ca5ca75.jpeg",
+        "latitude":48.8283176,
+        "longitude":2.3390755,
+        "ville":"Paris",
+        "quartier":"",
+        "code_postal":"75014",
+        "adresse_formatee":"GHU Paris Psychiatrie & neurosciences - site Sainte-Anne, 1 Rue Cabanis, 75014 Paris, France",
+        "date_debut":"2024-09-11",
+        "date_fin":"2025-04-27"
+    },
+    {
+        "titre":"Musique et République",
+        "emplacement":"Archives nationales",
+        "adresse":"60 rue des Francs-Bourgeois Hôtel de Soubise - Paris 3e",
+        "dates":"Du 26 mars 2025 au 14 juillet 2025",
+        "tags":[
+            "Histoire \/ Civilisations",
+            "Prochainement"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2925781\/images\/120\/9aa62a50730f62b2f22b907189eb1dfb.jpg",
+        "latitude":48.8637,
+        "longitude":2.3615,
+        "ville":"",
+        "quartier":"",
+        "code_postal":"",
+        "adresse_formatee":"Paris 03 Temple, Paris, France",
+        "date_debut":"2025-03-26",
+        "date_fin":"2025-07-14"
+    },
+    {
+        "titre":"Les Brigades centrales de la préfecture de Police",
+        "emplacement":"Musée de la Préfecture de Police",
+        "adresse":"4 rue de la Montagne Sainte-Geneviève - Paris 5e",
+        "dates":"Du 28 novembre 2024 au 22 novembre 2025",
+        "tags":[
+            "Histoire \/ Civilisations"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2639306\/images\/120\/2d82d15ad4f570744b579e4e512065e9.png",
+        "latitude":48.849472,
+        "longitude":2.3485816,
+        "ville":"Paris",
+        "quartier":"Quartier de la Sorbonne",
+        "code_postal":"75005",
+        "adresse_formatee":"4 Rue de la Montagne Sainte-Geneviève, 75005 Paris, France",
+        "date_debut":"2024-11-28",
+        "date_fin":"2025-11-22"
+    },
+    {
+        "titre":"Guillaume Bresson",
+        "emplacement":"Château de Versailles",
+        "adresse":"4 boulevard de la Reine - Versailles",
+        "dates":"Du 21 janvier 2025 au 25 mai 2025",
+        "tags":[
+            "Peinture",
+            "Art contemporain"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2689307\/images\/120\/070146dc7766358f52aeadc404fa4550.jpg",
+        "latitude":48.8092305,
+        "longitude":2.1295436,
+        "ville":"",
+        "quartier":"",
+        "code_postal":"78000",
+        "adresse_formatee":"Boulevard de la Reine, 78000 Versailles, France",
+        "date_debut":"2025-01-21",
+        "date_fin":"2025-05-25"
+    },
+    {
+        "titre":"Les Compagnons de la Libération par le Studio Harcourt",
+        "emplacement":"Musée de l'Ordre de la Libération",
+        "adresse":"place Vauban - Paris 7e",
+        "dates":"Du 15 janvier 2025 au 30 juin 2025",
+        "tags":[
+            "Histoire \/ Civilisations"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2702129\/images\/120\/470333f9af40df488f9e5ea7d1b63d48.png",
+        "latitude":48.8530711,
+        "longitude":2.3117693,
+        "ville":"Paris",
+        "quartier":"Quartier de l'École Militaire",
+        "code_postal":"75007",
+        "adresse_formatee":"7 Place Vauban, 75007 Paris, France",
+        "date_debut":"2025-01-15",
+        "date_fin":"2025-06-30"
+    },
+    {
+        "titre":"Salon du Dessin",
+        "emplacement":"Palais Brongniart",
+        "adresse":"Place de la Bourse - Paris 2e",
+        "dates":"Du 26 mars 2025 au 31 mars 2025",
+        "tags":[
+            "Dessin",
+            "Salons",
+            "Prochainement"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2924912\/images\/120\/09962f96f3631a8e1baf401118f81779.png",
+        "latitude":48.8695716,
+        "longitude":2.3421048,
+        "ville":"Paris",
+        "quartier":"Quartier Vivienne",
+        "code_postal":"75002",
+        "adresse_formatee":"2 Place de la Bourse, 75002 Paris, France",
+        "date_debut":"2025-03-26",
+        "date_fin":"2025-03-31"
+    },
+    {
+        "titre":"Flight",
+        "emplacement":"Musée de l'Air et de l'Espace",
+        "adresse":"Aéroport de Paris-Le Bourget - Le Bourget",
+        "dates":"Du 17 décembre 2024 au 27 juillet 2025",
+        "tags":[
+            "Sciences & Techniques"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2679637\/images\/120\/a4923b3f068ebf5c21552ecc682fad23.jpg",
+        "latitude":48.9587657,
+        "longitude":2.4382772,
+        "ville":"",
+        "quartier":"",
+        "code_postal":"95500",
+        "adresse_formatee":"Paris – Le Bourget Airport, Rue Alexandrine Deslandes, 95500 Bonneuil-en-France, France",
+        "date_debut":"2024-12-17",
+        "date_fin":"2025-07-27"
+    },
+    {
+        "titre":"Salon des Artistes du 5e",
+        "emplacement":"Mairie du 5e arrondissement",
+        "adresse":"21 place du Panthéon - Paris 5e",
+        "dates":"Du 11 mars 2025 au 20 mars 2025",
+        "tags":[
+            "Salons",
+            "Nouveauté"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2931027\/images\/120\/34a8cc454920750c846d0275268625f2.jpg",
+        "latitude":48.8460092,
+        "longitude":2.344619,
+        "ville":"Paris",
+        "quartier":"Quartier de la Sorbonne",
+        "code_postal":"75005",
+        "adresse_formatee":"Mairie du 5e arrondissement, 21 Place du Panthéon, 75005 Paris, France",
+        "date_debut":"2025-03-11",
+        "date_fin":"2025-03-20"
+    },
+    {
+        "titre":"Petrit Halilaj \/ Alberto Giacometti",
+        "emplacement":"Institut Giacometti",
+        "adresse":"5 rue Victor Schoelcher - Paris 14e",
+        "dates":"Du 14 mars 2025 au 8 juin 2025",
+        "tags":[
+            "Beaux-Arts",
+            "Prochainement"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2931217\/images\/120\/bb7b5faf0e890bfc6320738a40166583.jpg",
+        "latitude":48.8362836,
+        "longitude":2.3309907,
+        "ville":"Paris",
+        "quartier":"Quartier du Montparnasse",
+        "code_postal":"75014",
+        "adresse_formatee":"5 Rue Victor Schœlcher, 75014 Paris, France",
+        "date_debut":"2025-03-14",
+        "date_fin":"2025-06-08"
+    },
+    {
+        "titre":"Trois siècles à l'Isle Adam",
+        "emplacement":"Musée d'Art et d'Histoire Louis-Senlecq",
+        "adresse":"31 Grande rue - L'Isle-Adam",
+        "dates":"Du 19 octobre 2024 au 21 septembre 2025",
+        "tags":[
+            "Beaux-Arts"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2590141\/images\/120\/f27424b2aa92fef92a907cdba5f1f109.png",
+        "latitude":49.1124008,
+        "longitude":2.2154189,
+        "ville":"",
+        "quartier":"",
+        "code_postal":"95290",
+        "adresse_formatee":"Grande Rue, 95290 L'Isle-Adam, France",
+        "date_debut":"2024-10-19",
+        "date_fin":"2025-09-21"
+    },
+    {
+        "titre":"La fabrique du Temps",
+        "emplacement":"Musée de La Poste",
+        "adresse":"34 boulevard de Vaugirard - Paris 15e",
+        "dates":"Du 26 mars 2025 au 3 novembre 2025",
+        "tags":[
+            "Histoire \/ Civilisations",
+            "Prochainement"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2931019\/images\/120\/f479fb741b9a09011756defae8000f87.png",
+        "latitude":48.841345,
+        "longitude":2.3172728,
+        "ville":"Paris",
+        "quartier":"Quartier Necker",
+        "code_postal":"75015",
+        "adresse_formatee":"34 Boulevard de Vaugirard, 75015 Paris, France",
+        "date_debut":"2025-03-26",
+        "date_fin":"2025-11-03"
+    },
+    {
+        "titre":"Il faut sauver le Joba Mena",
+        "emplacement":"Aquarium tropical de la Porte Dorée - Palais de la Porte Dorée",
+        "adresse":"293 avenue Daumesnil - Paris 12e",
+        "dates":"Du 14 novembre 2023 au 24 août 2025",
+        "tags":[
+            "Immersif",
+            "Jeune public"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2401494\/images\/120\/cca399d258682ed6c22961303e8fb1cb.jpg",
+        "latitude":48.8351424,
+        "longitude":2.4093613,
+        "ville":"Paris",
+        "quartier":"Quartier du Bel-Air",
+        "code_postal":"75012",
+        "adresse_formatee":"Musée National de l'Histoire de l'Immigration, 293 Avenue Daumesnil, 75012 Paris, France",
+        "date_debut":"2023-11-14",
+        "date_fin":"2025-08-24"
+    },
+    {
+        "titre":"Paris Print Fair",
+        "emplacement":"Réfectoire des Cordeliers",
+        "adresse":"15 rue de l'École de Médecine - Paris 6e",
+        "dates":"Du 27 mars 2025 au 30 mars 2025",
+        "tags":[
+            "Estampe et gravure",
+            "Salons",
+            "Prochainement"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2931028\/images\/120\/3b2302a2ca570237ba18904f28fd13fa.jpg",
+        "latitude":48.8514684,
+        "longitude":2.341089,
+        "ville":"Paris",
+        "quartier":"Quartier de la Monnaie",
+        "code_postal":"75006",
+        "adresse_formatee":"Faculté de Médecine, 15 Rue de l'École de Médecine, 75006 Paris, France",
+        "date_debut":"2025-03-27",
+        "date_fin":"2025-03-30"
+    },
+    {
+        "titre":"Banlieues chéries",
+        "emplacement":"Musée de l'histoire de l'immigration - Palais de la Porte Dorée",
+        "adresse":"293 avenue Daumesnil Palais de la Porte Dorée - Paris 12e",
+        "dates":"Du 11 avril 2025 au 17 août 2025",
+        "tags":[
+            "Histoire \/ Civilisations",
+            "Prochainement"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2931212\/images\/120\/60d5036ffe7c9dbe12c3381a08d6e0f7.jpg",
+        "latitude":48.8412,
+        "longitude":2.3876,
+        "ville":"",
+        "quartier":"",
+        "code_postal":"",
+        "adresse_formatee":"Paris 12 Reuilly, Paris, France",
+        "date_debut":"2025-04-11",
+        "date_fin":"2025-08-17"
+    },
+    {
+        "titre":"Atala, 1801. Voyage illustré au coeur d'un roman",
+        "emplacement":"Maison de Chateaubriand",
+        "adresse":"87 rue Chateaubriand - Châtenay-Malabry",
+        "dates":"Du 4 octobre 2024 au 28 septembre 2025",
+        "tags":[
+            "Histoire \/ Civilisations"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2614584\/images\/120\/03fb3d806cedae35aaf073d55934ae3f.png",
+        "latitude":48.7733744,
+        "longitude":2.267398,
+        "ville":"",
+        "quartier":"",
+        "code_postal":"92290",
+        "adresse_formatee":"87 Rue de Chateaubriand, 92290 Châtenay-Malabry, France",
+        "date_debut":"2024-10-04",
+        "date_fin":"2025-09-28"
+    },
+    {
+        "titre":"Peintures & Sculptures : Antoine Denain, Bernard Michel",
+        "emplacement":"Feram - Forum d'Echanges et de Rencontres Administratifs Mondiaux",
+        "adresse":"56  rue Gay Lussac - Paris 5e",
+        "dates":"Du 1 avril 2025 au 13 avril 2025",
+        "tags":[
+            "Instituts culturels",
+            "Prochainement"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2931025\/images\/120\/32dd4fc911984b0ceecb318672e89945.png",
+        "latitude":48.8424815,
+        "longitude":2.342819,
+        "ville":"Paris",
+        "quartier":"Quartier du Val-de-Grâce",
+        "code_postal":"75005",
+        "adresse_formatee":"56 Rue Gay-Lussac, 75005 Paris, France",
+        "date_debut":"2025-04-01",
+        "date_fin":"2025-04-13"
+    },
+    {
+        "titre":"Oil of Angels : Oda Jaune",
+        "emplacement":"Galerie Daniel Templon - Beaubourg",
+        "adresse":"30 rue Beaubourg - Paris 3e",
+        "dates":"Du 8 mars 2025 au 3 mai 2025",
+        "tags":[
+            "Galeries",
+            "Nouveauté"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2899731\/images\/120\/77470214a56131b42f67363eb35f07a9.jpg",
+        "latitude":48.8620194,
+        "longitude":2.3540539,
+        "ville":"Paris",
+        "quartier":"Quartier Sainte-Avoye",
+        "code_postal":"75003",
+        "adresse_formatee":"30 Rue Beaubourg, 75003 Paris, France",
+        "date_debut":"2025-03-08",
+        "date_fin":"2025-05-03"
+    },
+    {
+        "titre":"Willy Ronis, sublimer l’ordinaire",
+        "emplacement":"Galerie David Guiraud",
+        "adresse":"5 rue du Perche - Paris 3e",
+        "dates":"Du 7 mars 2025 au 26 avril 2025",
+        "tags":[
+            "Galeries",
+            "Nouveauté"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2920520\/images\/120\/b6887ac0796a6b916b9f30a2bea1cb98.jpg",
+        "latitude":48.8606513,
+        "longitude":2.3615294,
+        "ville":"Paris",
+        "quartier":"Quartier des Archives",
+        "code_postal":"75003",
+        "adresse_formatee":"5 Rue du Perche, 75003 Paris, France",
+        "date_debut":"2025-03-07",
+        "date_fin":"2025-04-26"
+    },
+    {
+        "titre":"Architecture de l’imaginaire : Patrizia Mussa",
+        "emplacement":"Galerie XII Paris",
+        "adresse":"14 rue des Jardins Saint-Paul - Paris 4e",
+        "dates":"Du 13 mars 2025 au 10 mai 2025",
+        "tags":[
+            "Galeries",
+            "Nouveauté"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2767905\/images\/120\/0a4993e38c0c2327da8de5da40d47a02.png",
+        "latitude":48.8532379,
+        "longitude":2.3604758,
+        "ville":"Paris",
+        "quartier":"Quartier Saint-Gervais",
+        "code_postal":"75004",
+        "adresse_formatee":"14 Rue des Jardins Saint-Paul, 75004 Paris, France",
+        "date_debut":"2025-03-13",
+        "date_fin":"2025-05-10"
+    },
+    {
+        "titre":"Irène Poetschke",
+        "emplacement":"Galerie Rouan",
+        "adresse":"3 rue Perrée - Paris 3e",
+        "dates":"Du 12 mars 2025 au 20 mars 2025",
+        "tags":[
+            "Galeries",
+            "Nouveauté"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2916980\/images\/120\/65292afe4c60c898a283102a64e7784b.jpg",
+        "latitude":48.8639155,
+        "longitude":2.3624865,
+        "ville":"Paris",
+        "quartier":"Quartier des Enfants-Rouges",
+        "code_postal":"75003",
+        "adresse_formatee":"3 Rue Perrée, 75003 Paris, France",
+        "date_debut":"2025-03-12",
+        "date_fin":"2025-03-20"
+    },
+    {
+        "titre":"L'art et rien que l'art",
+        "emplacement":"Hôtel Square",
+        "adresse":"3 rue de Boulainvilliers - Paris 16e",
+        "dates":"Du 20 février 2025 au 24 avril 2025",
+        "tags":[
+            "Galeries",
+            "Nouveauté"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2916882\/images\/120\/95dca842ae9821d610868fbb7d54f7d1.jpeg",
+        "latitude":48.8515569,
+        "longitude":2.2776159,
+        "ville":"Paris",
+        "quartier":"Quartier de la Muette",
+        "code_postal":"75016",
+        "adresse_formatee":"Hôtel Square, 3 Rue de Boulainvilliers, 75016 Paris, France",
+        "date_debut":"2025-02-20",
+        "date_fin":"2025-04-24"
+    },
+    {
+        "titre":"Le monde selon l'IA",
+        "emplacement":"Jeu de Paume Paris",
+        "adresse":"1 place de la Concorde - Paris 1er",
+        "dates":"Du 11 avril 2025 au 21 septembre 2025",
+        "tags":[
+
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2935890\/images\/120\/5969ac21021b2d490379cbf488f69a37.jpg",
+        "latitude":48.8663657,
+        "longitude":2.3234651,
+        "ville":"Paris",
+        "quartier":"Quartier Saint-Germain-l'Auxerrois",
+        "code_postal":"75001",
+        "adresse_formatee":"Place de la Concorde, 75001 Paris, France",
+        "date_debut":"2025-04-11",
+        "date_fin":"2025-09-21"
+    },
+    {
+        "titre":"Real Fictions\/Naufragé·e·s",
+        "emplacement":"MABA - Maison d'art Bernard Anthonioz",
+        "adresse":"16 rue Charles VII - Nogent-sur-Marne",
+        "dates":"Du 16 janvier 2025 au 27 avril 2025",
+        "tags":[
+            "Art contemporain"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2894218\/images\/120\/45cbb1507f5ad36673979d68b3c6aa57.jpg",
+        "latitude":48.8362236,
+        "longitude":2.486991,
+        "ville":"",
+        "quartier":"",
+        "code_postal":"94130",
+        "adresse_formatee":"16 Rue Charles VII, 94130 Nogent-sur-Marne, France",
+        "date_debut":"2025-01-16",
+        "date_fin":"2025-04-27"
+    },
+    {
+        "titre":"Salon Drawing Now Paris",
+        "emplacement":"Le Carreau du Temple",
+        "adresse":"4 rue Eugène Spuller - Paris 3e",
+        "dates":"Du 27 mars 2025 au 30 mars 2025",
+        "tags":[
+            "Dessin",
+            "Salons",
+            "Prochainement"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2924913\/images\/120\/f2900e85305d3e1c03d999bc58aeda45.jpeg",
+        "latitude":48.8644322,
+        "longitude":2.3624253,
+        "ville":"Paris",
+        "quartier":"Quartier des Enfants-Rouges",
+        "code_postal":"75003",
+        "adresse_formatee":"Carreau du Temple, 4 Rue Eugène Spuller, 75003 Paris, France",
+        "date_debut":"2025-03-27",
+        "date_fin":"2025-03-30"
+    },
+    {
+        "titre":"L’enfant aux cerises : Lassana Sarre",
+        "emplacement":"Galerie Polaris",
+        "adresse":"15 rue des Arquebusiers - Paris 3e",
+        "dates":"Du 8 février 2025 au 15 mars 2025",
+        "tags":[
+            "Galeries",
+            "Nouveauté"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2899758\/images\/120\/bf12cf7b99d03da918d8a67f5e6e2318.jpg",
+        "latitude":48.8599051,
+        "longitude":2.3664958,
+        "ville":"Paris",
+        "quartier":"Quartier des Archives",
+        "code_postal":"75003",
+        "adresse_formatee":"15 Rue des Arquebusiers, 75003 Paris, France",
+        "date_debut":"2025-02-08",
+        "date_fin":"2025-03-15"
+    },
+    {
+        "titre":"Envol : Margarit Tsanev - Margo",
+        "emplacement":"Institut culturel bulgare",
+        "adresse":"28 rue La Boétie - Paris 8e",
+        "dates":"Du 7 mars 2025 au 23 mai 2025",
+        "tags":[
+            "Instituts culturels",
+            "Nouveauté"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2931082\/images\/120\/e64eb80275acb8def024e25788029cb1.jpg",
+        "latitude":48.8739545,
+        "longitude":2.3155631,
+        "ville":"Paris",
+        "quartier":"",
+        "code_postal":"75008",
+        "adresse_formatee":"28 Rue La Boétie, 75008 Paris, France",
+        "date_debut":"2025-03-07",
+        "date_fin":"2025-05-23"
+    },
+    {
+        "titre":"Histoires croisées",
+        "emplacement":"Centre culturel canadien",
+        "adresse":"130 rue du Faubourg Saint-Honoré - Paris 8e",
+        "dates":"Du 13 février 2025 au 17 mai 2025",
+        "tags":[
+            "Instituts culturels"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2926094\/images\/120\/d3927ff3238bb492fc6e8e28bcbc3f61.jpg",
+        "latitude":48.8723931,
+        "longitude":2.3124018,
+        "ville":"Paris",
+        "quartier":"Quartier de la Madeleine",
+        "code_postal":"75008",
+        "adresse_formatee":"130 Rue du Faubourg Saint-Honoré, 75008 Paris, France",
+        "date_debut":"2025-02-13",
+        "date_fin":"2025-05-17"
+    },
+    {
+        "titre":"État sauvage : Tom Climent",
+        "emplacement":"Centre culturel irlandais",
+        "adresse":"5 rue des Irlandais - Paris 5e",
+        "dates":"Du 1 février 2025 au 13 avril 2025",
+        "tags":[
+            "Instituts culturels"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2916883\/images\/120\/6c00ef592bf9810e9fdab894712f1fd3.jpg",
+        "latitude":48.8442144,
+        "longitude":2.3460066,
+        "ville":"Paris",
+        "quartier":"Quartier du Val-de-Grâce",
+        "code_postal":"75005",
+        "adresse_formatee":"5 Rue des Irlandais, 75005 Paris, France",
+        "date_debut":"2025-02-01",
+        "date_fin":"2025-04-13"
+    },
+    {
+        "titre":"La Rivière intérieure (O Rio interior) : Cristina Barroso",
+        "emplacement":"Maison de l'Amérique latine",
+        "adresse":"217 boulevard Saint-Germain - Paris 7e",
+        "dates":"Du 30 janvier 2025 au 29 mars 2025",
+        "tags":[
+            "Instituts culturels"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2916877\/images\/120\/711844b29c315bde9aa8280b86e71659.jpg",
+        "latitude":48.8573574,
+        "longitude":2.3239707,
+        "ville":"Paris",
+        "quartier":"Quartier Saint-Thomas-d'Aquin",
+        "code_postal":"75007",
+        "adresse_formatee":"217 Boulevard Saint-Germain, 75007 Paris, France",
+        "date_debut":"2025-01-30",
+        "date_fin":"2025-03-29"
+    },
+    {
+        "titre":"Théâtralités : Patrizia Mussa",
+        "emplacement":"Institut Culturel Italien",
+        "adresse":"50 rue de Varenne - Paris 7e",
+        "dates":"Du 29 janvier 2025 au 4 avril 2025",
+        "tags":[
+            "Instituts culturels"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2921864\/images\/120\/f68932ee7bbe536ee5ff2026609f3b19.jpg",
+        "latitude":48.854432,
+        "longitude":2.3223046,
+        "ville":"Paris",
+        "quartier":"Quartier Saint-Thomas-d'Aquin",
+        "code_postal":"75007",
+        "adresse_formatee":"50 Rue de Varenne, 75007 Paris, France",
+        "date_debut":"2025-01-29",
+        "date_fin":"2025-04-04"
+    },
+    {
+        "titre":"Shipibo-Konibo : Portraits des miens",
+        "emplacement":"Instituto Cervantès",
+        "adresse":"7 rue Quentin-Bauchard - Paris 8e",
+        "dates":"Du 31 janvier 2025 au 4 avril 2025",
+        "tags":[
+            "Instituts culturels"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2909715\/images\/120\/72cb83dfeda61f7f589c3568e3790366.jpg",
+        "latitude":48.8763,
+        "longitude":2.3183,
+        "ville":"",
+        "quartier":"",
+        "code_postal":"",
+        "adresse_formatee":"Paris 08 Élysée, Paris, France",
+        "date_debut":"2025-01-31",
+        "date_fin":"2025-04-04"
+    },
+    {
+        "titre":"Un monde Lumière : Thierry Frémaux",
+        "emplacement":"Galerie Cinéma Anne-Dominique Toussaint",
+        "adresse":"26 rue Saint-Claude - Paris 3e",
+        "dates":"Du 14 mars 2025 au 19 avril 2025",
+        "tags":[
+            "Galeries",
+            "Nouveauté"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2931281\/images\/120\/9450ed36b263f5211b30582f056f4ce8.png",
+        "latitude":48.8601715,
+        "longitude":2.3650121,
+        "ville":"Paris",
+        "quartier":"Quartier des Archives",
+        "code_postal":"75003",
+        "adresse_formatee":"26 Rue Saint-Claude, 75003 Paris, France",
+        "date_debut":"2025-03-14",
+        "date_fin":"2025-04-19"
+    },
+    {
+        "titre":"Marinette Cueco",
+        "emplacement":"Galerie Univer",
+        "adresse":"6 Cité de l'Ameublement - Paris 11e",
+        "dates":"Du 5 mars 2025 au 5 avril 2025",
+        "tags":[
+            "Galeries",
+            "Nouveauté"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2931076\/images\/120\/19c48430bb8e8bad4b0a15925075ce22.png",
+        "latitude":48.8509791,
+        "longitude":2.3856979,
+        "ville":"Paris",
+        "quartier":"Quartier Sainte-Marguerite",
+        "code_postal":"75011",
+        "adresse_formatee":"6 Cité de l'Ameublement, 75011 Paris, France",
+        "date_debut":"2025-03-05",
+        "date_fin":"2025-04-05"
+    },
+    {
+        "titre":"Stéphanie Saadé",
+        "emplacement":"Galerie Anne Barrault",
+        "adresse":"51 rue des Archives - Paris 3e",
+        "dates":"Du 23 janvier 2025 au 8 mars 2025",
+        "tags":[
+            "Galeries",
+            "Nouveauté"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2698544\/images\/120\/04489e54ec511d4e71ad50faa926ba0a.jpg",
+        "latitude":48.8612688,
+        "longitude":2.3578488,
+        "ville":"Paris",
+        "quartier":"Quartier des Archives",
+        "code_postal":"75003",
+        "adresse_formatee":"La Terrasse des Archives, 51 Rue des Archives, 75003 Paris, France",
+        "date_debut":"2025-01-23",
+        "date_fin":"2025-03-08"
+    },
+    {
+        "titre":"Croquez la pomme : Min Jung-Yeon",
+        "emplacement":"Galerie Maria Lund",
+        "adresse":"48 rue de Turenne - Paris 3e",
+        "dates":"Du 2 janvier 2025 au 15 mars 2025",
+        "tags":[
+            "Galeries",
+            "Nouveauté"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2691715\/images\/120\/565ab14904a4a8f6874c5a456bc649f7.jpg",
+        "latitude":48.8579843,
+        "longitude":2.364585,
+        "ville":"Paris",
+        "quartier":"Quartier des Archives",
+        "code_postal":"75003",
+        "adresse_formatee":"48 Rue de Turenne, 75003 Paris, France",
+        "date_debut":"2025-01-02",
+        "date_fin":"2025-03-15"
+    },
+    {
+        "titre":"Ta-ra : Sebastián Bruno",
+        "emplacement":"Galerie Vu'",
+        "adresse":"58 rue St-Lazare Hôtel Paul Delaroche - Paris 9e",
+        "dates":"Du 7 mars 2025 au 11 avril 2025",
+        "tags":[
+            "Galeries",
+            "Nouveauté"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2931084\/images\/120\/2fdf58be4fdf44904e127cbc5a710e3d.jpg",
+        "latitude":48.8718,
+        "longitude":2.3399,
+        "ville":"",
+        "quartier":"",
+        "code_postal":"",
+        "adresse_formatee":"Paris 09 Opéra, Paris, France",
+        "date_debut":"2025-03-07",
+        "date_fin":"2025-04-11"
+    },
+    {
+        "titre":"Femmes : Pharrell Williams",
+        "emplacement":"Galerie Emmanuel Perrotin - Turenne",
+        "adresse":"76 rue de Turenne - Paris 3e",
+        "dates":"Du 20 mars 2025 au 19 avril 2025",
+        "tags":[
+            "Galeries",
+            "Nouveauté"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2921850\/images\/120\/e69965c4cb2509d8d6881cba6fddced9.jpg",
+        "latitude":48.8604964,
+        "longitude":2.3646739,
+        "ville":"Paris",
+        "quartier":"Quartier des Archives",
+        "code_postal":"75003",
+        "adresse_formatee":"76 Rue de Turenne, 75003 Paris, France",
+        "date_debut":"2025-03-20",
+        "date_fin":"2025-04-19"
+    },
+    {
+        "titre":"Portraits",
+        "emplacement":"Galerie Akié Arichi",
+        "adresse":"26 rue Keller - Paris 11e",
+        "dates":"Du 6 mars 2025 au 5 avril 2025",
+        "tags":[
+            "Galeries",
+            "Nouveauté"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2925996\/images\/120\/9bf891ca51cfb3f0a5060c266e4d6263.jpg",
+        "latitude":48.8550196,
+        "longitude":2.37576,
+        "ville":"Paris",
+        "quartier":"Quartier de la Roquette",
+        "code_postal":"75011",
+        "adresse_formatee":"26 Rue Keller, 75011 Paris, France",
+        "date_debut":"2025-03-06",
+        "date_fin":"2025-04-05"
+    },
+    {
+        "titre":"À quoi bon lire ? L’Heure joyeuse, la première bibliothèque pour les enfants fête ses 100 ans",
+        "emplacement":"Médiathèque Françoise Sagan",
+        "adresse":"8 rue Léon Schwartzenberg - Paris 10e",
+        "dates":"Du 12 novembre 2024 au 23 mars 2025",
+        "tags":[
+            "Instituts culturels"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2666072\/images\/120\/8e224d70b76a31f2d768ce9e003abb4f.png",
+        "latitude":48.8756374,
+        "longitude":2.3537566,
+        "ville":"Paris",
+        "quartier":"Quartier de la Porte-Saint-Denis",
+        "code_postal":"75010",
+        "adresse_formatee":"Médiathèque Françoise-Sagan, 8 Rue Léon Schwartzenberg, 75010 Paris, France",
+        "date_debut":"2024-11-12",
+        "date_fin":"2025-03-23"
+    },
+    {
+        "titre":"Destination Asie, un voyage missionnaire en briques Lego",
+        "emplacement":"Missions Étrangères de Paris",
+        "adresse":"128 rue du Bac - Paris 7e",
+        "dates":"Du 30 novembre 2024 au 5 juillet 2025",
+        "tags":[
+            "Instituts culturels"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2671637\/images\/120\/6b4386a68fcbaa808f1e56b98e36ecfe.jpg",
+        "latitude":48.8517941,
+        "longitude":2.323456,
+        "ville":"Paris",
+        "quartier":"Quartier Saint-Thomas-d'Aquin",
+        "code_postal":"75007",
+        "adresse_formatee":"128 Rue du Bac, 75007 Paris, France",
+        "date_debut":"2024-11-30",
+        "date_fin":"2025-07-05"
+    },
+    {
+        "titre":"Corps Pop, esprit Dada",
+        "emplacement":"L'appart Renoma",
+        "adresse":"129 bis  rue de la Pompe - Paris 16e",
+        "dates":"Du 23 octobre 2024 au 23 mars 2025",
+        "tags":[
+            "Galeries",
+            "Nouveauté"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2619414\/images\/120\/b16ab5fd9ecb62c6ad7bf64ebc99cfb5.jpg",
+        "latitude":48.8667632,
+        "longitude":2.2801547,
+        "ville":"Paris",
+        "quartier":"Quartier de la Porte-Dauphine",
+        "code_postal":"75116",
+        "adresse_formatee":"129 bis Rue de la Pompe, 75116 Paris, France",
+        "date_debut":"2024-10-23",
+        "date_fin":"2025-03-23"
+    },
+    {
+        "titre":"Sounds of sunset",
+        "emplacement":"Médiathèque musicale de Paris (MMP)",
+        "adresse":"8 porte Saint-Eustache Forum des Halles - Paris 1er",
+        "dates":"Du 7 septembre 2024 au 12 avril 2025",
+        "tags":[
+            "Instituts culturels"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2610391\/images\/120\/84ac40e0e6561a92f0cd416774342cff.png",
+        "latitude":48.8592,
+        "longitude":2.3417,
+        "ville":"",
+        "quartier":"",
+        "code_postal":"",
+        "adresse_formatee":"Paris 01 Louvre, Paris, France",
+        "date_debut":"2024-09-07",
+        "date_fin":"2025-04-12"
+    },
+    {
+        "titre":"Mort heureuse : Xie Lei",
+        "emplacement":"Galerie Semiose",
+        "adresse":"44 rue Quincampoix - Paris 4e",
+        "dates":"Du 11 janvier 2025 au 15 mars 2025",
+        "tags":[
+            "Galeries",
+            "Nouveauté"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2691366\/images\/120\/90793a61a0c36612094dfc5f0516de92.jpg",
+        "latitude":48.8609543,
+        "longitude":2.3505126,
+        "ville":"Paris",
+        "quartier":"Quartier Saint-Merri",
+        "code_postal":"75004",
+        "adresse_formatee":"44 Rue Quincampoix, 75004 Paris, France",
+        "date_debut":"2025-01-11",
+        "date_fin":"2025-03-15"
+    },
+    {
+        "titre":"Flamme",
+        "emplacement":"L'Atelier des rêves",
+        "adresse":"105 rue de la Tombe Issoire - Paris 14e",
+        "dates":"Du 8 mars 2025 au 8 avril 2025",
+        "tags":[
+
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2935888\/images\/120\/fb2cdb5242e4602f6568661843bf9868.jpg",
+        "latitude":48.8260463,
+        "longitude":2.3318076,
+        "ville":"Paris",
+        "quartier":"Quartier du Petit-Montrouge",
+        "code_postal":"75014",
+        "adresse_formatee":"105 Rue de la Tombe Issoire, 75014 Paris, France",
+        "date_debut":"2025-03-08",
+        "date_fin":"2025-04-08"
+    },
+    {
+        "titre":"Regards croisés - peintures et dessins",
+        "emplacement":"Galerie La Capitale",
+        "adresse":"18 rue du Roule - Paris 1er",
+        "dates":"Du 3 mars 2025 au 29 mars 2025",
+        "tags":[
+            "Galeries",
+            "Nouveauté"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/lieu\/1621\/images\/120\/b874a2834be98674046696605303566d.jpg",
+        "latitude":48.8608712,
+        "longitude":2.3438981,
+        "ville":"Paris",
+        "quartier":"",
+        "code_postal":"75001",
+        "adresse_formatee":"18 Rue du Roule, 75001 Paris, France",
+        "date_debut":"2025-03-03",
+        "date_fin":"2025-03-29"
+    },
+    {
+        "titre":"Explorer le monde : Léa Valentin",
+        "emplacement":"Galerie du Haut-Pavé",
+        "adresse":"3 quai Montebello - Paris 5e",
+        "dates":"Du 18 mars 2025 au 18 avril 2025",
+        "tags":[
+            "Galeries",
+            "Nouveauté"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2931280\/images\/120\/3a51a9baff93556dbe59cab767d51ff4.jpeg",
+        "latitude":48.8516968,
+        "longitude":2.3506148,
+        "ville":"Paris",
+        "quartier":"Quartier Saint-Victor",
+        "code_postal":"75005",
+        "adresse_formatee":"La Nouvelle Seine, 3 Quai de Montebello, 75005 Paris, France",
+        "date_debut":"2025-03-18",
+        "date_fin":"2025-04-18"
+    },
+    {
+        "titre":"Chaleur Boréale : Art Actuel Islandais",
+        "emplacement":"Galerie de Buci",
+        "adresse":"73 rue de Seine - Paris 6e",
+        "dates":"Du 7 mars 2025 au 5 avril 2025",
+        "tags":[
+            "Galeries",
+            "Nouveauté"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2931193\/images\/120\/aaa496ca42279f7cb42e7a49f428ff80.jpeg",
+        "latitude":48.8540668,
+        "longitude":2.3370096,
+        "ville":"Paris",
+        "quartier":"",
+        "code_postal":"75006",
+        "adresse_formatee":"73 Rue de Seine, 75006 Paris, France",
+        "date_debut":"2025-03-07",
+        "date_fin":"2025-04-05"
+    },
+    {
+        "titre":"Le jardin aux sentiers qui bifurquent : Olga Caldas",
+        "emplacement":"Halle Saint-Pierre - Galerie - Halle Saint Pierre",
+        "adresse":"2 rue Ronsard - Paris 18e",
+        "dates":"Du 15 janvier 2025 au 16 mars 2025",
+        "tags":[
+            "Instituts culturels"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2693684\/images\/120\/ee1091ae3b4848b45f02ed8e4b8e9d71.jpg",
+        "latitude":48.8848912,
+        "longitude":2.3445287,
+        "ville":"Paris",
+        "quartier":"",
+        "code_postal":"75018",
+        "adresse_formatee":"Halle Saint-Pierre, 2 Rue Ronsard, 75018 Paris, France",
+        "date_debut":"2025-01-15",
+        "date_fin":"2025-03-16"
+    },
+    {
+        "titre":"Charles Pétillon",
+        "emplacement":"Galerie Danysz",
+        "adresse":"78 rue Amelot - Paris 11e",
+        "dates":"Du 8 février 2025 au 8 mars 2025",
+        "tags":[
+            "Galeries",
+            "Nouveauté"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2691875\/images\/120\/f0d4f8cc64489e127fcf4a63b16391c7.jpeg",
+        "latitude":48.8606142,
+        "longitude":2.3679603,
+        "ville":"Paris",
+        "quartier":"Quartier Saint-Ambroise",
+        "code_postal":"75011",
+        "adresse_formatee":"78 Rue Amelot, 75011 Paris, France",
+        "date_debut":"2025-02-08",
+        "date_fin":"2025-03-08"
+    },
+    {
+        "titre":"Francis Picabia : Éternel recommencement",
+        "emplacement":"Galerie Hauser & Wirth",
+        "adresse":"26 bis rue François 1er - Paris 8e",
+        "dates":"Du 18 janvier 2025 au 8 mars 2025",
+        "tags":[
+            "Galeries",
+            "Nouveauté"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2682223\/images\/120\/cfbba51741f7a5171a286fa22fdda591.jpg",
+        "latitude":48.8763,
+        "longitude":2.3183,
+        "ville":"",
+        "quartier":"",
+        "code_postal":"",
+        "adresse_formatee":"Paris 08 Élysée, Paris, France",
+        "date_debut":"2025-01-18",
+        "date_fin":"2025-03-08"
+    },
+    {
+        "titre":"Notre-Dame de Paris : Patrick Rimoux",
+        "emplacement":"Galerie Minsky",
+        "adresse":"37 rue Vaneau - Paris 7e",
+        "dates":"Du 24 janvier 2025 au 15 mars 2025",
+        "tags":[
+            "Galeries",
+            "Nouveauté"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2677183\/images\/120\/ab92b8bce0aeab9dd9137fcced351f72.jpg",
+        "latitude":48.8521811,
+        "longitude":2.3191358,
+        "ville":"Paris",
+        "quartier":"Quartier Saint-Thomas-d'Aquin",
+        "code_postal":"75007",
+        "adresse_formatee":"37 Rue Vaneau, 75007 Paris, France",
+        "date_debut":"2025-01-24",
+        "date_fin":"2025-03-15"
+    },
+    {
+        "titre":"Mikiya Takimoto",
+        "emplacement":"Galerie Clémentine de la Féronnière",
+        "adresse":"51 rue Saint-Louis-en-l'Île - Paris 4e",
+        "dates":"Du 24 janvier 2025 au 15 mars 2025",
+        "tags":[
+            "Galeries",
+            "Nouveauté"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2897512\/images\/120\/2a44ab79839a1ac015033d1295b3a982.jpg",
+        "latitude":48.8521493,
+        "longitude":2.3555582,
+        "ville":"Paris",
+        "quartier":"Quartier Les Îles",
+        "code_postal":"75004",
+        "adresse_formatee":"51 Rue Saint-Louis en l'Île, 75004 Paris, France",
+        "date_debut":"2025-01-24",
+        "date_fin":"2025-03-15"
+    },
+    {
+        "titre":"Détournements : Politisation des objets du quotidien",
+        "emplacement":"Ground Control",
+        "adresse":"81 rue du Charolais - Paris 12e",
+        "dates":"Du 22 janvier 2025 au 30 mars 2025",
+        "tags":[
+            "Instituts culturels"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2897519\/images\/120\/ca1a0a4f0e9856d69f5c0af2f9fe07c5.png",
+        "latitude":48.8430801,
+        "longitude":2.3818193,
+        "ville":"Paris",
+        "quartier":"",
+        "code_postal":"75012",
+        "adresse_formatee":"Librairie Charybde, 81 Rue du Charolais, 75012 Paris, France",
+        "date_debut":"2025-01-22",
+        "date_fin":"2025-03-30"
+    },
+    {
+        "titre":"American Street Photography",
+        "emplacement":"Galerie Rouge",
+        "adresse":"3 rue du Pont Louis-Philippe - Paris 4e",
+        "dates":"Du 23 janvier 2025 au 15 mars 2025",
+        "tags":[
+            "Galeries",
+            "Nouveauté"
+        ],
+        "img_url":"\/res\/img\/photo_vide_small.png",
+        "latitude":48.8548688,
+        "longitude":2.3553176,
+        "ville":"Paris",
+        "quartier":"Quartier Saint-Gervais",
+        "code_postal":"75004",
+        "adresse_formatee":"3 Rue du Pont Louis-Philippe, 75004 Paris, France",
+        "date_debut":"2025-01-23",
+        "date_fin":"2025-03-15"
+    },
+    {
+        "titre":"Mois du dessin",
+        "emplacement":"Galerie Setze \/ Lepartking",
+        "adresse":"36 rue Miguel Hidalgo - Paris 19e",
+        "dates":"Du 7 mars 2025 au 6 avril 2025",
+        "tags":[
+            "Galeries",
+            "Nouveauté"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2925895\/images\/120\/5ff2cec3099fdf4f095167571845d712.jpg",
+        "latitude":48.881621,
+        "longitude":2.391668,
+        "ville":"Paris",
+        "quartier":"Quartier d'Amérique",
+        "code_postal":"75019",
+        "adresse_formatee":"36 Rue Miguel Hidalgo, 75019 Paris, France",
+        "date_debut":"2025-03-07",
+        "date_fin":"2025-04-06"
+    },
+    {
+        "titre":"Chaosmos",
+        "emplacement":"Maif Social Club",
+        "adresse":"37 rue de Turenne - Paris 3e",
+        "dates":"Du 8 février 2025 au 26 juillet 2025",
+        "tags":[
+            "Instituts culturels"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2921866\/images\/120\/3a4fee49cb413ec69877225d99c3a9cd.jpg",
+        "latitude":48.8569998,
+        "longitude":2.3643297,
+        "ville":"Paris",
+        "quartier":"Quartier des Archives",
+        "code_postal":"75003",
+        "adresse_formatee":"37 Rue de Turenne, 75003 Paris, France",
+        "date_debut":"2025-02-08",
+        "date_fin":"2025-07-26"
+    },
+    {
+        "titre":"Paradifisco : The Pop Suréalist",
+        "emplacement":"Galerie paul*13",
+        "adresse":"13 rue la Condamine - Paris 17e",
+        "dates":"Du 27 mars 2025 au 6 avril 2025",
+        "tags":[
+            "Galeries",
+            "Nouveauté"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2920509\/images\/120\/2dcf8d34be28e84acaad9a1c68bd033e.jpeg",
+        "latitude":48.8874588,
+        "longitude":2.3238275,
+        "ville":"Paris",
+        "quartier":"",
+        "code_postal":"75017",
+        "adresse_formatee":"13 Rue la Condamine, 75017 Paris, France",
+        "date_debut":"2025-03-27",
+        "date_fin":"2025-04-06"
+    },
+    {
+        "titre":"Titouan Lamazou",
+        "emplacement":"Galerie Sophie Marcellin",
+        "adresse":"20 passage Verdeau - Paris 9e",
+        "dates":"Du 6 mars 2025 au 18 mars 2025",
+        "tags":[
+            "Galeries",
+            "Nouveauté"
+        ],
+        "img_url":"\/res\/img\/photo_vide_small.png",
+        "latitude":48.8734923,
+        "longitude":2.3423517,
+        "ville":"Paris",
+        "quartier":"Quartier du Faubourg-Montmartre",
+        "code_postal":"75009",
+        "adresse_formatee":"20 Passage Verdeau, 75009 Paris, France",
+        "date_debut":"2025-03-06",
+        "date_fin":"2025-03-18"
+    },
+    {
+        "titre":"1900-2025, souffle de lumière : Aiko Miyanaga",
+        "emplacement":"Le Clézio Gallery",
+        "adresse":"157 rue du Faubourg Saint-Honoré - Paris 8e",
+        "dates":"Du 6 février 2025 au 6 avril 2025",
+        "tags":[
+            "Galeries",
+            "Nouveauté"
+        ],
+        "img_url":"\/res\/img\/photo_vide_small.png",
+        "latitude":48.8743831,
+        "longitude":2.3066324,
+        "ville":"Paris",
+        "quartier":"Quartier du Faubourg-du-Roule",
+        "code_postal":"75008",
+        "adresse_formatee":"157 Rue du Faubourg Saint-Honoré, 75008 Paris, France",
+        "date_debut":"2025-02-06",
+        "date_fin":"2025-04-06"
+    },
+    {
+        "titre":"Love",
+        "emplacement":"In camera Galerie",
+        "adresse":"21 21 - Paris 7e",
+        "dates":"Du 13 février 2025 au 29 mars 2025",
+        "tags":[
+            "Galeries",
+            "Nouveauté"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2911331\/images\/120\/dd0ed5b3ab13ee8cbed5d3f3b88a1d21.jpg",
+        "latitude":48.8564911,
+        "longitude":2.3128,
+        "ville":"Paris",
+        "quartier":"",
+        "code_postal":"75007",
+        "adresse_formatee":"75007 Paris, France",
+        "date_debut":"2025-02-13",
+        "date_fin":"2025-03-29"
+    },
+    {
+        "titre":"High Energies : Tony Regazzoni",
+        "emplacement":"Galerie Éric Mouchet",
+        "adresse":"45 rue Jacob - Paris 6e",
+        "dates":"Du 8 février 2025 au 22 mars 2025",
+        "tags":[
+            "Galeries",
+            "Nouveauté"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2911329\/images\/120\/420e33de3d3758c0f7a8e431eb487526.png",
+        "latitude":48.8559405,
+        "longitude":2.332555,
+        "ville":"Paris",
+        "quartier":"",
+        "code_postal":"75006",
+        "adresse_formatee":"45 Rue Jacob, 75006 Paris, France",
+        "date_debut":"2025-02-08",
+        "date_fin":"2025-03-22"
+    },
+    {
+        "titre":"Belladone : Tatiana Wolska",
+        "emplacement":"Drawing Lab Paris",
+        "adresse":"17 rue de Richelieu - Paris 1er",
+        "dates":"Du 24 janvier 2025 au 20 avril 2025",
+        "tags":[
+            "Galeries",
+            "Nouveauté"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2705684\/images\/120\/2972ab47855b92536463a201a29d1df3.png",
+        "latitude":48.8643701,
+        "longitude":2.3361042,
+        "ville":"Paris",
+        "quartier":"",
+        "code_postal":"75001",
+        "adresse_formatee":"17 Rue de Richelieu, 75001 Paris, France",
+        "date_debut":"2025-01-24",
+        "date_fin":"2025-04-20"
+    },
+    {
+        "titre":"ChromAmour, une métamorphose : Lise Haller Baggesen",
+        "emplacement":"Maison du Danemark - Le Bicolore - Maison du Danemark",
+        "adresse":"142 avenue des Champs-Élysées - Paris 8e",
+        "dates":"Du 7 février 2025 au 30 mars 2025",
+        "tags":[
+            "Instituts culturels"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2904163\/images\/120\/9453a5dc67fa087d20c94a407b5d2c2c.jpg",
+        "latitude":48.8729376,
+        "longitude":2.2987925,
+        "ville":"Paris",
+        "quartier":"Quartier du Faubourg-du-Roule",
+        "code_postal":"75008",
+        "adresse_formatee":"142 Avenue des Champs-Élysées, 75008 Paris, France",
+        "date_debut":"2025-02-07",
+        "date_fin":"2025-03-30"
+    },
+    {
+        "titre":"La Mort, Le Mat, Le Monde",
+        "emplacement":"Le 6B",
+        "adresse":"6-10 quai de Seine - Saint-Denis",
+        "dates":"Du 6 mars 2025 au 27 mars 2025",
+        "tags":[
+            "Galeries",
+            "Nouveauté"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2926095\/images\/120\/66bfaa068f325ea6da2f4cc24757faa7.png",
+        "latitude":48.9394848,
+        "longitude":2.3417915,
+        "ville":"Saint-Denis",
+        "quartier":"",
+        "code_postal":"93200",
+        "adresse_formatee":"6-10 Quai de Seine, 93200 Saint-Denis, France",
+        "date_debut":"2025-03-06",
+        "date_fin":"2025-03-27"
+    },
+    {
+        "titre":"Entre tradition et horizon : Luc Bernay",
+        "emplacement":"Galerie Michael Lonsdale",
+        "adresse":"30 rue de Bourgogne - Paris 7e",
+        "dates":"Du 4 mars 2025 au 23 mars 2025",
+        "tags":[
+            "Galeries",
+            "Nouveauté"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2925941\/images\/120\/fc1d9ff37cd5df66b606511ce987b9ac.png",
+        "latitude":48.8581339,
+        "longitude":2.3176217,
+        "ville":"Paris",
+        "quartier":"",
+        "code_postal":"75007",
+        "adresse_formatee":"Creperie Saladerie, 30 Rue de Bourgogne, 75007 Paris, France",
+        "date_debut":"2025-03-04",
+        "date_fin":"2025-03-23"
+    },
+    {
+        "titre":"Sur les toits de Provence : Sax",
+        "emplacement":"Le Cabinet d'amateur",
+        "adresse":"12 rue de la Forge Royale - Paris 11e",
+        "dates":"Du 6 mars 2025 au 16 mars 2025",
+        "tags":[
+            "Galeries",
+            "Nouveauté"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2925939\/images\/120\/029c64fa9c6d3ed757f1e4e24bd1af55.jpg",
+        "latitude":48.851234,
+        "longitude":2.3804274,
+        "ville":"Paris",
+        "quartier":"Quartier Sainte-Marguerite",
+        "code_postal":"75011",
+        "adresse_formatee":"12 Rue de la Forge Royale, 75011 Paris, France",
+        "date_debut":"2025-03-06",
+        "date_fin":"2025-03-16"
+    },
+    {
+        "titre":"Gilles Sacksick",
+        "emplacement":"La Maison-près-Bastille",
+        "adresse":"12 rue Daval Cour Damoye - Paris 11e",
+        "dates":"Du 20 février 2025 au 6 avril 2025",
+        "tags":[
+            "Galeries",
+            "Nouveauté"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2924911\/images\/120\/6bffcfe6d261963dbf7471c8ece798bf.png",
+        "latitude":48.8574,
+        "longitude":2.3795,
+        "ville":"",
+        "quartier":"",
+        "code_postal":"",
+        "adresse_formatee":"Paris 11 Popincourt, Paris, France",
+        "date_debut":"2025-02-20",
+        "date_fin":"2025-04-06"
+    },
+    {
+        "titre":"Le Cri pour la Planète, Hommage à Frans Krajcberg",
+        "emplacement":"Espace Frans Krajcberg - Centre d'Art contemporain, Art & Nature",
+        "adresse":"21 avenue du Maine - Paris 15e",
+        "dates":"Du 13 mars 2025 au 15 mai 2025",
+        "tags":[
+
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2935895\/images\/120\/b3cb75498cb38f1ce110e22cf1071469.png",
+        "latitude":48.8434447,
+        "longitude":2.3207325,
+        "ville":"Paris",
+        "quartier":"Quartier Necker",
+        "code_postal":"75015",
+        "adresse_formatee":"21 Avenue du Maine, 75015 Paris, France",
+        "date_debut":"2025-03-13",
+        "date_fin":"2025-05-15"
+    },
+    {
+        "titre":"Molitor, de 1930 à 1960, l'effervescence parisienne",
+        "emplacement":"Piscine Molitor",
+        "adresse":"13 rue Nungesser et Coli - Paris 16e",
+        "dates":"Du 18 mars 2025 au 11 mai 2025",
+        "tags":[
+
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2935893\/images\/120\/599ffca7e087ccf90c584e406e267f3c.jpeg",
+        "latitude":48.8448547,
+        "longitude":2.252465,
+        "ville":"Paris",
+        "quartier":"",
+        "code_postal":"75016",
+        "adresse_formatee":"13 Rue Nungesser et Coli, 75016 Paris, France",
+        "date_debut":"2025-03-18",
+        "date_fin":"2025-05-11"
+    },
+    {
+        "titre":"La couleur en héritage : Françoise Cauvin-Monet",
+        "emplacement":"Clavé fine Art",
+        "adresse":"10 bis rue Roger - Paris 14e",
+        "dates":"Du 14 février 2025 au 5 avril 2025",
+        "tags":[
+            "Galeries",
+            "Nouveauté"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2905780\/images\/120\/fc19599dda9aee7af736c5f2cba91a70.jpg",
+        "latitude":48.8356101,
+        "longitude":2.3267061,
+        "ville":"Paris",
+        "quartier":"Quartier du Montparnasse",
+        "code_postal":"75014",
+        "adresse_formatee":"10 bis Rue Roger, 75014 Paris, France",
+        "date_debut":"2025-02-14",
+        "date_fin":"2025-04-05"
+    },
+    {
+        "titre":"Keep Smiling ! L’Univers imprimé de Pontus Hultén",
+        "emplacement":"Institut suédois",
+        "adresse":"11 rue Payenne - Paris 3e",
+        "dates":"Du 28 mars 2025 au 21 septembre 2025",
+        "tags":[
+
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2935891\/images\/120\/489abeabd3ee3738c7029a718f507c96.jpg",
+        "latitude":48.858208,
+        "longitude":2.3622842,
+        "ville":"Paris",
+        "quartier":"Quartier des Archives",
+        "code_postal":"75003",
+        "adresse_formatee":"Fika, 11 Rue Payenne, 75003 Paris, France",
+        "date_debut":"2025-03-28",
+        "date_fin":"2025-09-21"
+    },
+    {
+        "titre":"Ski : Raphaël Dautigny",
+        "emplacement":"Galerie Meubles et Lumières",
+        "adresse":"31 rue de Seine - Paris 6e",
+        "dates":"Du 6 mars 2025 au 5 avril 2025",
+        "tags":[
+
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2935889\/images\/120\/03ff1ba50b6b76d75d7713016fca71f7.png",
+        "latitude":48.8559803,
+        "longitude":2.3367401,
+        "ville":"Paris",
+        "quartier":"",
+        "code_postal":"75006",
+        "adresse_formatee":"31 Rue de Seine, 75006 Paris, France",
+        "date_debut":"2025-03-06",
+        "date_fin":"2025-04-05"
+    },
+    {
+        "titre":"Forget-me-not : Elise Bergamini",
+        "emplacement":"Galerie Ségolène Brossette",
+        "adresse":"15 rue Guénégaud - Paris 6e",
+        "dates":"Du 21 mars 2025 au 29 mars 2025",
+        "tags":[
+            "Galeries",
+            "Nouveauté"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2931214\/images\/120\/a86f5acd41ca57a434b761ba731ef8ef.png",
+        "latitude":48.8558951,
+        "longitude":2.3390176,
+        "ville":"Paris",
+        "quartier":"Quartier de la Monnaie",
+        "code_postal":"75006",
+        "adresse_formatee":"15 Rue Guénégaud, 75006 Paris, France",
+        "date_debut":"2025-03-21",
+        "date_fin":"2025-03-29"
+    },
+    {
+        "titre":"Pascal Pilate",
+        "emplacement":"Galerie Nichido",
+        "adresse":"61 faubourg Saint-Honoré - Paris 8e",
+        "dates":"Du 13 mars 2025 au 12 avril 2026",
+        "tags":[
+            "Galeries",
+            "Nouveauté"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2931078\/images\/120\/a1f60db921af25eeaadb0a4a31795d29.png",
+        "latitude":48.871228,
+        "longitude":2.315819,
+        "ville":"Paris",
+        "quartier":"Quartier de la Madeleine",
+        "code_postal":"75008",
+        "adresse_formatee":"61 Rue du Faubourg Saint-Honoré, 75008 Paris, France",
+        "date_debut":"2025-03-13",
+        "date_fin":"2026-04-12"
+    },
+    {
+        "titre":"Cowboy Henk : Herr Seele & Kamagurka",
+        "emplacement":"Galerie Martel",
+        "adresse":"17 rue Martel - Paris 10e",
+        "dates":"Du 8 mars 2025 au 26 avril 2025",
+        "tags":[
+            "Galeries",
+            "Nouveauté"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2931026\/images\/120\/7e8917c71699c2c14e5e80dee1ced193.png",
+        "latitude":48.8742938,
+        "longitude":2.3531152,
+        "ville":"Paris",
+        "quartier":"Quartier de la Porte-Saint-Denis",
+        "code_postal":"75010",
+        "adresse_formatee":"17 Rue Martel, 75010 Paris, France",
+        "date_debut":"2025-03-08",
+        "date_fin":"2025-04-26"
+    },
+    {
+        "titre":"Le tour du monde en 48 ans : Artiste Ouvrier",
+        "emplacement":"Galerie Brugier-Rigail",
+        "adresse":"40 rue Volta - Paris 3e",
+        "dates":"Du 15 mars 2025 au 25 mars 2025",
+        "tags":[
+            "Galeries",
+            "Nouveauté"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/lieu\/5244\/images\/120\/2ab10f4c9fd73d500af3037228b19dd2.jpg",
+        "latitude":48.8664595,
+        "longitude":2.3580113,
+        "ville":"Paris",
+        "quartier":"Quartier des Arts-et-Métiers",
+        "code_postal":"75003",
+        "adresse_formatee":"40 Rue Volta, 75003 Paris, France",
+        "date_debut":"2025-03-15",
+        "date_fin":"2025-03-25"
+    },
+    {
+        "titre":"Over the Rainbow : Camilla Moberg",
+        "emplacement":"Galerie Maria Wettergren",
+        "adresse":"121 rue Vieille du Temple - Paris 3e",
+        "dates":"Du 8 mars 2025 au 31 mai 2025",
+        "tags":[
+            "Galeries",
+            "Nouveauté"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2927169\/images\/120\/22b02eee045bc79fa3f62c6bfd0c4697.jpg",
+        "latitude":48.8611364,
+        "longitude":2.3628286,
+        "ville":"Paris",
+        "quartier":"Quartier des Archives",
+        "code_postal":"75003",
+        "adresse_formatee":"121 Rue Vieille du Temple, 75003 Paris, France",
+        "date_debut":"2025-03-08",
+        "date_fin":"2025-05-31"
+    },
+    {
+        "titre":"Osez la liberté ! Les pionnières du rire saoudien",
+        "emplacement":"Paris Anim' La Grange aux Belles",
+        "adresse":"6 rue Boy Zelenski - Paris 10e",
+        "dates":"Du 4 mars 2025 au 29 mars 2025",
+        "tags":[
+            "Instituts culturels",
+            "Nouveauté"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2927139\/images\/120\/0bb5c5ad4daac155e4add81af207a5a7.jpg",
+        "latitude":48.8770187,
+        "longitude":2.3683757,
+        "ville":"Paris",
+        "quartier":"Quartier de l'Hôpital Saint-Louis",
+        "code_postal":"75010",
+        "adresse_formatee":"6 Rue Boy-Zelenski, 75010 Paris, France",
+        "date_debut":"2025-03-04",
+        "date_fin":"2025-03-29"
+    },
+    {
+        "titre":"Bernard Buffet, Érotique",
+        "emplacement":"Galerie Maurice Garnier",
+        "adresse":"6 avenue Matignon - Paris 8e",
+        "dates":"Du 7 février 2025 au 5 avril 2025",
+        "tags":[
+            "Galeries",
+            "Nouveauté"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2911410\/images\/120\/690a3186d9f3c738a914c3ac28dbb1fa.png",
+        "latitude":48.8702442,
+        "longitude":2.313042,
+        "ville":"Paris",
+        "quartier":"Quartier de la Madeleine",
+        "code_postal":"75008",
+        "adresse_formatee":"6 Avenue Matignon, 75008 Paris, France",
+        "date_debut":"2025-02-07",
+        "date_fin":"2025-04-05"
+    },
+    {
+        "titre":"Regard poétique sur le monde : Ossip Lubitch",
+        "emplacement":"Galerie Les Montparnos",
+        "adresse":"5 rue Stanislas - Paris 6e",
+        "dates":"Du 20 mars 2025 au 30 avril 2025",
+        "tags":[
+            "Galeries",
+            "Nouveauté"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2931282\/images\/120\/73108d6786803f8967cf25e6981b9ede.jpg",
+        "latitude":48.8438939,
+        "longitude":2.3284529,
+        "ville":"Paris",
+        "quartier":"Quartier Notre-Dame-des-Champs",
+        "code_postal":"75006",
+        "adresse_formatee":"5 Rue Stanislas, 75006 Paris, France",
+        "date_debut":"2025-03-20",
+        "date_fin":"2025-04-30"
+    },
+    {
+        "titre":"L'assiette au cœur",
+        "emplacement":"Galerie Terres d'Aligre",
+        "adresse":"5 rue de Prague - Paris 12e",
+        "dates":"Du 7 mars 2025 au 29 mars 2025",
+        "tags":[
+            "Galeries",
+            "Nouveauté"
+        ],
+        "img_url":"\/res\/img\/photo_vide_small.png",
+        "latitude":48.848876,
+        "longitude":2.3758591,
+        "ville":"Paris",
+        "quartier":"Quartier des Quinze-Vingts",
+        "code_postal":"75012",
+        "adresse_formatee":"5 Rue de Prague, 75012 Paris, France",
+        "date_debut":"2025-03-07",
+        "date_fin":"2025-03-29"
+    },
+    {
+        "titre":"Éric Bari",
+        "emplacement":"Galerie Artborescence",
+        "adresse":"25 rue de Beaune - Paris 7e",
+        "dates":"Du 4 mars 2025 au 30 mars 2025",
+        "tags":[
+            "Galeries",
+            "Nouveauté"
+        ],
+        "img_url":"https:\/\/files.offi.fr\/programmation\/2897522\/images\/120\/676bd7107ed997044de1549acb6e0c03.jpg",
+        "latitude":48.857993,
+        "longitude":2.3293892,
+        "ville":"Paris",
+        "quartier":"Quartier Saint-Thomas-d'Aquin",
+        "code_postal":"75007",
+        "adresse_formatee":"25 Rue de Beaune, 75007 Paris, France",
+        "date_debut":"2025-03-04",
+        "date_fin":"2025-03-30"
+    }
+]
