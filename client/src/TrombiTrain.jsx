@@ -79,19 +79,19 @@ export default function ExpoMap() {
       <div className="w-2/3 bg-gray-100 overflow-auto p-4">
         {/* Filtres */}
         <div className="flex space-x-2 mb-4">
-          <select className="w-1/3 p-2 border rounded" onChange={(e) => setSelectedTag(e.target.value)}>
+          <select className="w-1/3 bg-white p-2 rounded shadow-md" onChange={(e) => setSelectedTag(e.target.value)}>
             <option value="">Tag</option>
             {uniqueTags.map((tag) => (
               <option key={tag} value={tag}>{tag}</option>
             ))}
           </select>
-          <select className="w-1/3 p-2 border rounded" onChange={(e) => setSelectedArrondissement(e.target.value)}>
+          <select className="w-1/3 bg-white p-2 rounded shadow-md" onChange={(e) => setSelectedArrondissement(e.target.value)}>
             <option value="">Arrondissement</option>
             {uniqueArrondissements.map((arr) => (
               <option key={arr} value={arr}>{arr}</option>
             ))}
           </select>
-          <select className="w-1/3 p-2 border rounded" onChange={(e) => setSelectedDate(e.target.value)}>
+          <select className="w-1/3 bg-white p-2 rounded shadow-md" onChange={(e) => setSelectedDate(e.target.value)}>
             <option value="">Date</option>
             {uniqueDates.map((date) => (
               <option key={date} value={date}>{date}</option>
