@@ -1,0 +1,130 @@
+[
+    {
+        "titre": "L'art dégénéré",
+        "emplacement": "Musée Picasso",
+        "adresse": "5 rue de Thorigny Hôtel Salé - Paris 3e",
+        "dates": "Du 18 février 2025 au 25 mai 2025",
+        "tags": [
+            "Peinture",
+            "Histoire / Civilisations",
+            "Nouveauté",
+            "Choix de la rédaction"
+        ],
+        "latitude": 48.8564,
+        "longitude": 2.3646
+    },
+    {
+        "titre": "Au fil de l'or",
+        "emplacement": "Musée du Quai Branly - Jacques Chirac",
+        "adresse": "37 quai Branly - Paris 7e",
+        "dates": "Du 11 février 2025 au 6 juillet 2025",
+        "tags": [
+            "Mode",
+            "Histoire / Civilisations",
+            "Choix de la rédaction"
+        ],
+        "latitude": 48.8596,
+        "longitude": 2.2952
+    },
+    {
+        "titre": "Apocalypse",
+        "emplacement": "Bibliothèque nationale de France - site François-Mitterrand",
+        "adresse": "11 quai François-Mauriac - Paris 13e",
+        "dates": "Du 4 février 2025 au 8 juin 2025",
+        "tags": [
+            "Histoire / Civilisations",
+            "Choix de la rédaction"
+        ],
+        "latitude": 48.8351,
+        "longitude": 2.3755
+    },
+    {
+        "titre": "Suzanne Valadon",
+        "emplacement": "Centre Georges-Pompidou",
+        "adresse": "Place Georges-Pompidou - Paris 4e",
+        "dates": "Du 15 janvier 2025 au 26 mai 2025",
+        "tags": [
+            "Peinture",
+            "Beaux-Arts",
+            "Choix de la rédaction"
+        ],
+        "latitude": 48.8606,
+        "longitude": 2.3522
+    },
+    {
+        "titre": "Serial Killer, l'exposition",
+        "emplacement": "Les Galeries Montparnasse",
+        "adresse": "22 rue du Départ - Paris 15e",
+        "dates": "Du 21 février 2025 au 11 mai 2025",
+        "tags": [
+            "Immersif",
+            "Histoire / Civilisations",
+            "Nouveauté"
+        ],
+        "latitude": 48.8425,
+        "longitude": 2.3223
+    },
+    {
+        "titre": "Modigliani / Zadkine, Une amitié interrompue",
+        "emplacement": "Musée Zadkine",
+        "adresse": "100 bis rue d'Assas - Paris 6e",
+        "dates": "Du 14 novembre 2024 au 30 mars 2025",
+        "tags": [
+            "Peinture",
+            "Beaux-Arts",
+            "Choix de la rédaction"
+        ],
+        "latitude": 48.8439,
+        "longitude": 2.3347
+    },
+    {
+        "titre": "Olga de Amaral",
+        "emplacement": "Fondation Cartier pour l'art contemporain",
+        "adresse": "261 boulevard Raspail - Paris 14e",
+        "dates": "Du 12 octobre 2024 au 16 mars 2025",
+        "tags": [
+            "Rétrospective",
+            "Art contemporain",
+            "Choix de la rédaction"
+        ],
+        "latitude": 48.8345,
+        "longitude": 2.3236
+    },
+    {
+        "titre": "Du Cœur à la Main : Dolce&Gabbana",
+        "emplacement": "Grand Palais",
+        "adresse": "3 avenue du Général Eisenhower - Paris 8e",
+        "dates": "Du 10 janvier 2025 au 31 mars 2025",
+        "tags": [
+            "Mode",
+            "Architecture / Design / Mode"
+        ],
+        "latitude": 48.8662,
+        "longitude": 2.3131
+    },
+    {
+        "titre": "Louvre couture",
+        "emplacement": "Musée du Louvre",
+        "adresse": "Entrée principale : Pyramide (cour Napoléon) - Paris 1er",
+        "dates": "Du 24 janvier 2025 au 21 juillet 2025",
+        "tags": [
+            "Mode",
+            "Architecture / Design / Mode",
+            "Choix de la rédaction"
+        ],
+        "latitude": 48.8606,
+        "longitude": 2.3376
+    },
+    {
+        "titre": "Disco, I'm coming out",
+        "emplacement": "Musée de la Musique - Cité de la Musique-Philharmonie",
+        "adresse": "221 avenue Jean-Jaurès - Paris 19e",
+        "dates": "Du 14 février 2025 au 17 août 2025",
+        "tags": [
+            "Histoire / Civilisations",
+            "Choix de la rédaction"
+        ],
+        "latitude": 48.8842,
+        "longitude": 2.3960
+    }
+]

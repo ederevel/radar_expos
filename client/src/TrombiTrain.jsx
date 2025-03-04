@@ -2,27 +2,48 @@ import { useState, useRef, useEffect } from "react";
 import { MapContainer, TileLayer, Marker, Popup, useMap } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
-import exposData from "/public/sample_expos.json";
+import exposData from "/src/assets/sample_expos.json";
 
 const pinStyle = "https://cdn-icons-png.flaticon.com/512/684/684908.png";
 
-function MoveView({ center }) {
+function MoveView({ center, zoom }) {
   const map = useMap();
   useEffect(() => {
-    map.panTo(center);
-  }, [center, map]);
+    setTimeout(() => {
+      map.setView(center, zoom, { animate: true, duration: 0.8, easeLinearity: 0.25 });
+    }, 10);
+  }, [center, zoom, map]);
   return null;
 }
 
 export default function ExpoMap() {
   const [expos, setExpos] = useState([]);
+  const [filteredExpos, setFilteredExpos] = useState([]);
   const [selectedExpo, setSelectedExpo] = useState(null);
+  const [selectedTag, setSelectedTag] = useState("");
+  const [selectedArrondissement, setSelectedArrondissement] = useState("");
+  const [selectedDate, setSelectedDate] = useState("");
   const mapRef = useRef(null);
   const markerRefs = useRef({});
 
   useEffect(() => {
     setExpos(exposData);
+    setFilteredExpos(exposData);
   }, []);
+
+  useEffect(() => {
+    let filtered = expos;
+    if (selectedTag) {
+      filtered = filtered.filter((expo) => expo.tags.includes(selectedTag));
+    }
+    if (selectedArrondissement) {
+      filtered = filtered.filter((expo) => expo.adresse.includes(selectedArrondissement));
+    }
+    if (selectedDate) {
+      filtered = filtered.filter((expo) => expo.dates.includes(selectedDate));
+    }
+    setFilteredExpos(filtered);
+  }, [selectedTag, selectedArrondissement, selectedDate, expos]);
 
   const expoIcon = new L.Icon({
     iconUrl: pinStyle,
@@ -30,24 +51,53 @@ export default function ExpoMap() {
   });
 
   useEffect(() => {
-    if (selectedExpo && markerRefs.current[selectedExpo.id]) {
-      markerRefs.current[selectedExpo.id].openPopup();
+    if (selectedExpo && markerRefs.current[selectedExpo.titre]) {
+      markerRefs.current[selectedExpo.titre].openPopup();
     }
   }, [selectedExpo]);
 
+  const uniqueTags = [...new Set(expos.flatMap((expo) => expo.tags))];
+  const uniqueArrondissements = [...new Set(expos.map((expo) => expo.adresse.split(" - ")[1]))];
+  const uniqueDates = [...new Set(expos.map((expo) => expo.dates))];
+
   return (
     <div className="flex h-screen">
-      {/* Liste des expositions */}
+      {/* Liste des expositions avec filtres */}
       <div className="w-1/3 p-4 bg-gray-100 overflow-auto">
         <h2 className="text-xl font-bold mb-4">Expositions</h2>
-        {expos.map((expo) => (
+        
+        {/* Filtres */}
+        <div className="flex space-x-2 mb-4">
+          <select className="w-1/3 p-2 border rounded" onChange={(e) => setSelectedTag(e.target.value)}>
+            <option value="">Tag</option>
+            {uniqueTags.map((tag) => (
+              <option key={tag} value={tag}>{tag}</option>
+            ))}
+          </select>
+          <select className="w-1/3 p-2 border rounded" onChange={(e) => setSelectedArrondissement(e.target.value)}>
+            <option value="">Arrondissement</option>
+            {uniqueArrondissements.map((arr) => (
+              <option key={arr} value={arr}>{arr}</option>
+            ))}
+          </select>
+          <select className="w-1/3 p-2 border rounded" onChange={(e) => setSelectedDate(e.target.value)}>
+            <option value="">Date</option>
+            {uniqueDates.map((date) => (
+              <option key={date} value={date}>{date}</option>
+            ))}
+          </select>
+        </div>
+
+        {filteredExpos.map((expo) => (
           <div
-            key={expo.id}
+            key={expo.titre}
             className="p-3 mb-2 cursor-pointer bg-white rounded-lg shadow-md hover:bg-gray-200 transition"
             onClick={() => setSelectedExpo(expo)}
           >
-            <h3 className="text-lg font-semibold">{expo.title}</h3>
-            <p className="text-sm text-gray-600">{expo.address}</p>
+            <h3 className="text-lg font-semibold">{expo.titre}</h3>
+            <p className="text-sm text-gray-600 font-medium">{expo.emplacement}</p>
+            <p className="text-xs text-gray-500">{expo.dates}</p>
+            <p className="text-xs text-gray-500">Tags: {expo.tags.join(", ")}</p>
           </div>
         ))}
       </div>
@@ -56,17 +106,18 @@ export default function ExpoMap() {
       <div className="w-2/3 h-full">
         <MapContainer ref={mapRef} center={[48.8566, 2.3522]} zoom={12} className="h-full w-full">
           <TileLayer url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png" />
-          {selectedExpo && <MoveView center={[selectedExpo.lat, selectedExpo.lon]} />}
-          {expos.map((expo) => (
+          {selectedExpo && <MoveView center={[selectedExpo.latitude, selectedExpo.longitude]} zoom={16} />}
+          {filteredExpos.map((expo) => (
             <Marker
-              key={expo.id}
-              position={[expo.lat, expo.lon]}
+              key={expo.titre}
+              position={[expo.latitude, expo.longitude]}
               icon={expoIcon}
-              ref={(el) => (markerRefs.current[expo.id] = el)}
+              ref={(el) => (markerRefs.current[expo.titre] = el)}
             >
-              <Popup>
-                <h3 className="font-bold">{expo.title}</h3>
-                <p>{expo.address}</p>
+              <Popup closeButton={false} className="custom-popup" offset={[0, -10]}>
+                <h3 className="font-bold text-center">{expo.titre}</h3>
+                <p className="text-sm text-gray-700 text-center">{expo.emplacement}</p>
+                <p className="text-xs text-gray-500 text-center">{expo.adresse}</p>
               </Popup>
             </Marker>
           ))}
