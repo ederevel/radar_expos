@@ -1,39 +1,39 @@
-import { useState } from "react";
-import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import { useState, useRef, useEffect } from "react";
+import { MapContainer, TileLayer, Marker, Popup, useMap } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
+import exposData from "/public/sample_expos.json";
 
-const expos = [
-  {
-    id: 1,
-    title: "Exposition Monet",
-    lat: 48.8566,
-    lon: 2.3522,
-    address: "Musée d'Orsay, Paris",
-  },
-  {
-    id: 2,
-    title: "Expo Van Gogh",
-    lat: 48.8606,
-    lon: 2.3376,
-    address: "Louvre, Paris",
-  },
-  {
-    id: 3,
-    title: "Surréalisme Moderne",
-    lat: 48.8738,
-    lon: 2.295,
-    address: "Centre Pompidou, Paris",
-  },
-];
+const pinStyle = "https://cdn-icons-png.flaticon.com/512/684/684908.png";
 
-const expoIcon = new L.Icon({
-  iconUrl: "https://cdn-icons-png.flaticon.com/512/684/684908.png",
-  iconSize: [30, 30],
-});
+function MoveView({ center }) {
+  const map = useMap();
+  useEffect(() => {
+    map.panTo(center);
+  }, [center, map]);
+  return null;
+}
 
 export default function ExpoMap() {
+  const [expos, setExpos] = useState([]);
   const [selectedExpo, setSelectedExpo] = useState(null);
+  const mapRef = useRef(null);
+  const markerRefs = useRef({});
+
+  useEffect(() => {
+    setExpos(exposData);
+  }, []);
+
+  const expoIcon = new L.Icon({
+    iconUrl: pinStyle,
+    iconSize: [30, 30],
+  });
+
+  useEffect(() => {
+    if (selectedExpo && markerRefs.current[selectedExpo.id]) {
+      markerRefs.current[selectedExpo.id].openPopup();
+    }
+  }, [selectedExpo]);
 
   return (
     <div className="flex h-screen">
@@ -54,10 +54,16 @@ export default function ExpoMap() {
 
       {/* Carte */}
       <div className="w-2/3 h-full">
-        <MapContainer center={[48.8566, 2.3522]} zoom={12} className="h-full w-full">
-          <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+        <MapContainer ref={mapRef} center={[48.8566, 2.3522]} zoom={12} className="h-full w-full">
+          <TileLayer url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png" />
+          {selectedExpo && <MoveView center={[selectedExpo.lat, selectedExpo.lon]} />}
           {expos.map((expo) => (
-            <Marker key={expo.id} position={[expo.lat, expo.lon]} icon={expoIcon}>
+            <Marker
+              key={expo.id}
+              position={[expo.lat, expo.lon]}
+              icon={expoIcon}
+              ref={(el) => (markerRefs.current[expo.id] = el)}
+            >
               <Popup>
                 <h3 className="font-bold">{expo.title}</h3>
                 <p>{expo.address}</p>

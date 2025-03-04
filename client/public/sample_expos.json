@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "title": "Exposition Monet",
+      "lat": 48.8566,
+      "lon": 2.3522,
+      "address": "Musée d'Orsay, Paris"
+    },
+    {
+      "id": 2,
+      "title": "Expo Van Gogh",
+      "lat": 48.8606,
+      "lon": 2.3376,
+      "address": "Louvre, Paris"
+    },
+    {
+      "id": 3,
+      "title": "Surréalisme Moderne",
+      "lat": 48.8738,
+      "lon": 2.295,
+      "address": "Centre Pompidou, Paris"
+    }
+  ]
+  
