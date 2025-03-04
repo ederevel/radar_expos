@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from "react";
 import { MapContainer, TileLayer, Marker, Popup, useMap } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
-import exposData from "/src/assets/sample_expos.json";
+import exposData from "/src/assets/officiel_des_spectacles_enrichi.json";
 
 const pinStyle = "https://cdn-icons-png.flaticon.com/512/684/684908.png";
 
@@ -123,7 +123,8 @@ export default function ExpoMap() {
             className="p-3 mb-2 cursor-pointer bg-white rounded-lg shadow-md hover:bg-gray-200 transition"
             onClick={() => setSelectedExpo(expo)}
           >
-            <h3 className="text-lg font-semibold">{expo.titre}</h3>
+            <img src={expo.img_url} alt={expo.titre} className="w-2/3 object-cover rounded-t-lg" />
+            <h3 className="text-lg font-semibold mt-2">{expo.titre}</h3>
             <p className="text-sm text-gray-600 font-medium">{expo.emplacement}</p>
             <p className="text-xs text-gray-500">{expo.dates}</p>
             <div className="flex flex-wrap space-x-2 mt-2">
@@ -160,7 +161,8 @@ export default function ExpoMap() {
               ref={(el) => (markerRefs.current[expo.titre] = el)}
             >
               <Popup closeButton={false} className="custom-popup" offset={[0, -10]}>
-                <h3 className="font-bold text-center">{expo.titre}</h3>
+                <img src={expo.img_url} alt={expo.titre} className="w-full object-cover rounded-t-lg" />
+                <h3 className="font-bold text-center mt-2">{expo.titre}</h3>
                 <p className="text-sm text-gray-700 text-center">{expo.emplacement}</p>
                 <p className="text-xs text-gray-500 text-center">{expo.adresse}</p>
               </Popup>
