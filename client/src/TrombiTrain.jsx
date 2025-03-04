@@ -58,6 +58,14 @@ export default function ExpoMap() {
 
   const uniqueTags = [...new Set(expos.flatMap((expo) => expo.tags))];
   const uniqueArrondissements = [...new Set(expos.map((expo) => expo.adresse.split(" - ")[1]))];
+
+  // Fonction de tri personnalisée pour les arrondissements
+  uniqueArrondissements.sort((a, b) => {
+    const numA = parseInt(a.replace(/[^0-9]/g, ''), 10);
+    const numB = parseInt(b.replace(/[^0-9]/g, ''), 10);
+    return numA - numB;
+  });
+
   const uniqueDates = [...new Set(expos.map((expo) => expo.dates))];
 
   return (
@@ -65,22 +73,22 @@ export default function ExpoMap() {
       {/* Liste des expositions avec filtres */}
       <div className="w-1/3 p-4 bg-gray-100 overflow-auto">
         <h2 className="text-xl font-bold mb-4">Expositions</h2>
-        
+
         {/* Filtres */}
         <div className="flex space-x-2 mb-4">
-          <select className="w-1/3 p-2 border rounded" onChange={(e) => setSelectedTag(e.target.value)}>
+          <select className="w-1/4 p-2 border rounded" onChange={(e) => setSelectedTag(e.target.value)}>
             <option value="">Tag</option>
             {uniqueTags.map((tag) => (
               <option key={tag} value={tag}>{tag}</option>
             ))}
           </select>
-          <select className="w-1/3 p-2 border rounded" onChange={(e) => setSelectedArrondissement(e.target.value)}>
+          <select className="w-1/2 p-2 border rounded" onChange={(e) => setSelectedArrondissement(e.target.value)}>
             <option value="">Arrondissement</option>
             {uniqueArrondissements.map((arr) => (
               <option key={arr} value={arr}>{arr}</option>
             ))}
           </select>
-          <select className="w-1/3 p-2 border rounded" onChange={(e) => setSelectedDate(e.target.value)}>
+          <select className="w-1/4 p-2 border rounded" onChange={(e) => setSelectedDate(e.target.value)}>
             <option value="">Date</option>
             {uniqueDates.map((date) => (
               <option key={date} value={date}>{date}</option>
@@ -103,8 +111,14 @@ export default function ExpoMap() {
       </div>
 
       {/* Carte */}
-      <div className="w-2/3 h-full">
-        <MapContainer ref={mapRef} center={[48.8566, 2.3522]} zoom={12} className="h-full w-full">
+      <div className="w-2/3 h-full p-15">
+        <MapContainer
+          ref={mapRef}
+          center={[48.8566, 2.3522]}
+          zoom={12}
+          className="h-full w-full rounded-lg overflow-hidden shadow-lg"
+          style={{ borderRadius: '1rem', boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)' }}
+        >
           <TileLayer url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png" />
           {selectedExpo && <MoveView center={[selectedExpo.latitude, selectedExpo.longitude]} zoom={16} />}
           {filteredExpos.map((expo) => (
