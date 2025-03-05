@@ -7,21 +7,4 @@ export default defineConfig({
   plugins: [react(),
     tailwindcss(),
   ],
-  server: {
-    proxy: {
-      "/api": {
-        target: "http://localhost:8000",
-        changeOrigin: true,
-        secure: false,
-      },
-      "/static": {
-        target: "http://localhost:8000",
-        changeOrigin: true,
-        secure: false,
-      },
-      optimizeDeps: {
-        include: ["leaflet"], // Permet d'éviter les problèmes d'import avec Leaflet
-      },
-    },
-  },
 });

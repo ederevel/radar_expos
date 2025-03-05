@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://ederevel.github.io/<nom-du-depot>",
+  "homepage": "https://ederevel.github.io/radar_expos",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

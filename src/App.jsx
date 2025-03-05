@@ -2,7 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import TrombiTrain from "./TrombiTrain";
+import RadarExpos from "./RadarExpos";
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,7 +10,7 @@ function App() {
   return (
     <>
     <div>
-      <TrombiTrain />
+      <RadarExpos />
     </div>
     </>
   )
