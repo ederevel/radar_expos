@@ -73,7 +73,7 @@ export default function ExpoMap() {
 
   const uniqueTags = [...new Set(expos.flatMap((expo) => expo.tags_category))];
   const uniqueArrondissements = [...new Set(expos.map((expo) => expo.adresse.split(" - ")[1]))];
-  
+
   uniqueArrondissements.sort((a, b) => {
     const numA = parseInt(a.replace(/[^0-9]/g, ""), 10);
     const numB = parseInt(b.replace(/[^0-9]/g, ""), 10);
@@ -114,34 +114,53 @@ export default function ExpoMap() {
           </select>
         </div>
 
-        {/* Grille pour les expositions */}
-        <div className="grid grid-cols-2 gap-4">
-          {filteredExpos.map((expo) => (
-            <div
-              key={expo.titre}
-              className="p-4 mb-2 cursor-pointer bg-white rounded-lg shadow-md hover:bg-gray-200 transition w-full flex"
-              onClick={() => setSelectedExpo(expo)}
-            >
-              <div className="w-1/3">
-                <img src={expo.img_url} alt={expo.titre} className="w-full h-full object-cover rounded-t-lg" />
-              </div>
-              <div className="w-2/3 pl-4">
-                <h3 className="text-lg font-semibold mt-2">{expo.titre}</h3>
-                <p className="text-sm text-gray-600 font-medium">{expo.emplacement}</p>
-                <p className="text-xs text-gray-500">{expo.dates}</p>
-                <p className="text-xs text-gray-500">{expo.description_sommaire}</p>
-                <p className="text-xs text-gray-500">{expo.prix_nominal}</p>
-                <div className="flex flex-wrap justify-start space-x-2 mt-2">
-                  {expo.tags_category.map((tag, index) => (
-                    <span key={index} className="px-2 py-1 text-xs font-semibold rounded-full whitespace-nowrap mb-2" style={{ backgroundColor: "#E6E6FA" }}>
-                      {tag}
-                    </span>
-                  ))}
+        {/* Grille pour les expositions avec éléments stylisés */}
+        <>
+          <div className="grid grid-cols-2 gap-6">
+            {filteredExpos.map((expo) => (
+              <div
+                key={expo.titre}
+                className="cursor-pointer bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 flex"
+                onClick={() => setSelectedExpo(expo)}
+              >
+                <img
+                  src={expo.img_url}
+                  alt={expo.titre}
+                  className="w-1/3 object-cover"
+                />
+
+                <div className="w-2/3 p-4 flex flex-col">
+                  <h3 className="text-xl font-semibold mb-1 text-gray-800">
+                    {expo.titre}
+                  </h3>
+                  <p className="text-sm font-medium text-gray-600 mb-1">
+                    {expo.emplacement}
+                  </p>
+                  <p className="text-xs text-gray-500 italic mb-2">
+                    {expo.dates}
+                  </p>
+                  <p className="text-sm text-gray-700 line-clamp-3 mb-3">
+                    {expo.description_sommaire}
+                  </p>
+                  <p className="text-sm font-semibold text-gray-800 mb-3">
+                    {expo.prix_nominal}
+                  </p>
+                  <div className="flex flex-wrap justify-start space-x-2 mt-auto">
+                    {expo.tags_category.map((tag, index) => (
+                      <span
+                        key={index}
+                        className="px-2 py-1 text-xs font-semibold rounded-full whitespace-nowrap mb-2"
+                        style={{ backgroundColor: "#E6E6FA" }}
+                      >
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
                 </div>
               </div>
-            </div>
-          ))}
-        </div>
+            ))}
+          </div>
+        </>
       </div>
 
       {/* Carte */}
