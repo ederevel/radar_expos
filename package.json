@@ -3,17 +3,21 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://ederevel.github.io/<nom-du-depot>",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@shadcn/ui": "^0.0.4",
     "@tailwindcss/vite": "^4.0.6",
     "axios": "^1.7.9",
     "framer-motion": "^12.4.3",
+    "gh-pages": "^6.3.0",
     "leaflet": "^1.9.4",
     "react": "^19.0.0",
     "react-confetti": "^6.2.2",
