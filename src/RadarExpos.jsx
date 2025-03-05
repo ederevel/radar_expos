@@ -29,7 +29,7 @@ export default function ExpoMap() {
 
   // Chargement des expositions
   useEffect(() => {
-    fetch(`${import.meta.env.BASE_URL}officiel_des_spectacles_enrichi.json`)
+    fetch(`${import.meta.env.BASE_URL}expos.json`)
       .then((response) => {
         if (!response.ok) {
           throw new Error(`Erreur HTTP! Statut: ${response.status}`);
@@ -73,7 +73,7 @@ export default function ExpoMap() {
 
   const uniqueTags = [...new Set(expos.flatMap((expo) => expo.tags))];
   const uniqueArrondissements = [...new Set(expos.map((expo) => expo.adresse.split(" - ")[1]))];
-
+  
   uniqueArrondissements.sort((a, b) => {
     const numA = parseInt(a.replace(/[^0-9]/g, ""), 10);
     const numB = parseInt(b.replace(/[^0-9]/g, ""), 10);
