@@ -49,7 +49,7 @@ export default function ExpoMap() {
   useEffect(() => {
     let filtered = expos;
     if (selectedTag) {
-      filtered = filtered.filter((expo) => expo.tags.includes(selectedTag));
+      filtered = filtered.filter((expo) => expo.tags_category.includes(selectedTag));
     }
     if (selectedArrondissement) {
       filtered = filtered.filter((expo) => expo.adresse.includes(selectedArrondissement));
@@ -71,7 +71,7 @@ export default function ExpoMap() {
     }
   }, [selectedExpo]);
 
-  const uniqueTags = [...new Set(expos.flatMap((expo) => expo.tags))];
+  const uniqueTags = [...new Set(expos.flatMap((expo) => expo.tags_category))];
   const uniqueArrondissements = [...new Set(expos.map((expo) => expo.adresse.split(" - ")[1]))];
   
   uniqueArrondissements.sort((a, b) => {
@@ -89,7 +89,7 @@ export default function ExpoMap() {
         {/* Filtres */}
         <div className="flex space-x-2 mb-4">
           <select className="w-1/3 bg-white p-2 rounded shadow-md" onChange={(e) => setSelectedTag(e.target.value)}>
-            <option value="">Tag test</option>
+            <option value="">Tag</option>
             {uniqueTags.map((tag) => (
               <option key={tag} value={tag}>
                 {tag}
@@ -130,7 +130,7 @@ export default function ExpoMap() {
                 <p className="text-sm text-gray-600 font-medium">{expo.emplacement}</p>
                 <p className="text-xs text-gray-500">{expo.dates}</p>
                 <div className="flex flex-wrap justify-start space-x-2 mt-2">
-                  {expo.tags.map((tag, index) => (
+                  {expo.tags_category.map((tag, index) => (
                     <span key={index} className="px-2 py-1 text-xs font-semibold rounded-full whitespace-nowrap mb-2" style={{ backgroundColor: "#E6E6FA" }}>
                       {tag}
                     </span>
