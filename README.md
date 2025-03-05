@@ -1,4 +1,4 @@
-![lunch workflow](https://github.com/ederevel/lunch/actions/workflows/deploy.yml/badge.svg)
+![radar_expos workflow](https://github.com/ederevel/radar_expos/actions/workflows/deploy.yml/badge.svg)
 
 # Radar expos
 
