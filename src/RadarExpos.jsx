@@ -129,6 +129,8 @@ export default function ExpoMap() {
                 <h3 className="text-lg font-semibold mt-2">{expo.titre}</h3>
                 <p className="text-sm text-gray-600 font-medium">{expo.emplacement}</p>
                 <p className="text-xs text-gray-500">{expo.dates}</p>
+                <p className="text-xs text-gray-500">{expo.description_sommaire}</p>
+                <p className="text-xs text-gray-500">{expo.prix_nominal}</p>
                 <div className="flex flex-wrap justify-start space-x-2 mt-2">
                   {expo.tags_category.map((tag, index) => (
                     <span key={index} className="px-2 py-1 text-xs font-semibold rounded-full whitespace-nowrap mb-2" style={{ backgroundColor: "#E6E6FA" }}>
