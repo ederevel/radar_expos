@@ -80,7 +80,7 @@ export default function ExpoMap() {
         {/* Filtres */}
         <div className="flex space-x-2 mb-4">
           <select className="w-1/3 bg-white p-2 rounded shadow-md" onChange={(e) => setSelectedTag(e.target.value)}>
-            <option value="">Tag</option>
+            <option value="">Tag test</option>
             {uniqueTags.map((tag) => (
               <option key={tag} value={tag}>{tag}</option>
             ))}
