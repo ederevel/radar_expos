@@ -25,6 +25,7 @@ export default function ExpoMap() {
   const [selectedArrondissement, setSelectedArrondissement] = useState("");
   const [selectedDate, setSelectedDate] = useState("");
   const [petitBudget, setPetitBudget] = useState(false); // État pour le filtre "Petit Budget"
+  const [finProche, setFinProche] = useState(false); // État pour le filtre "Fin Proche"
   const mapRef = useRef(null);
   const markerRefs = useRef({});
 
@@ -61,8 +62,11 @@ export default function ExpoMap() {
     if (petitBudget) {
       filtered = filtered.filter((expo) => expo.petit_budget);
     }
+    if (finProche) {
+      filtered = filtered.filter((expo) => expo.fin_proche);
+    }
     setFilteredExpos(filtered);
-  }, [selectedTag, selectedArrondissement, selectedDate, expos, petitBudget]);
+  }, [selectedTag, selectedArrondissement, selectedDate, expos, petitBudget, finProche]);
 
   const expoIcon = new L.Icon({
     iconUrl: pinStyle,
@@ -120,13 +124,19 @@ export default function ExpoMap() {
             </select>
           </div>
 
-          {/* Bouton pour filtrer par petit budget */}
-          <div className="mb-4">
+          {/* Boutons pour filtrer par petit budget et fin proche */}
+          <div className="mb-4 space-x-2">
             <button
               className={`px-4 py-2 rounded shadow-md ${petitBudget ? "bg-blue-500 text-white" : "bg-white text-gray-800"}`}
               onClick={() => setPetitBudget(!petitBudget)}
             >
               J'ai un petit budget
+            </button>
+            <button
+              className={`px-4 py-2 rounded shadow-md ${finProche ? "bg-red-500 text-white" : "bg-white text-gray-800"}`}
+              onClick={() => setFinProche(!finProche)}
+            >
+              Plus que quelques jours
             </button>
           </div>
 
@@ -190,8 +200,8 @@ export default function ExpoMap() {
                   <h3 className="font-bold text-center mt-2">{expo.titre}</h3>
                   <p className="text-sm text-gray-700 text-center">{expo.emplacement}</p>
                   <p className="text-xs text-gray-500 text-center">{expo.adresse}</p>
-                  <a href={expo.url_lieu} className="text-blue-500 text-center block mt-2">{expo.url_lieu}</a>
-                </Popup>
+                  <a href={expo.url_lieu} className="text-blue-500 text-center block mt-2" target="_blank" rel="noopener noreferrer">{expo.url_lieu}</a>
+                  </Popup>
               </Marker>
             ))}
           </MapContainer>
