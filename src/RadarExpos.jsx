@@ -26,6 +26,8 @@ export default function ExpoMap() {
   const [selectedDate, setSelectedDate] = useState("");
   const [petitBudget, setPetitBudget] = useState(false); // État pour le filtre "Petit Budget"
   const [finProche, setFinProche] = useState(false); // État pour le filtre "Fin Proche"
+  const [enCours, setEnCours] = useState(false); // État pour le filtre "En cours"
+  const [aVenir, setAVenir] = useState(false); // État pour le filtre "A venir"
   const mapRef = useRef(null);
   const markerRefs = useRef({});
 
@@ -65,8 +67,14 @@ export default function ExpoMap() {
     if (finProche) {
       filtered = filtered.filter((expo) => expo.fin_proche);
     }
+    if (enCours) {
+      filtered = filtered.filter((expo) => expo.statut === "En cours");
+    }
+    if (aVenir) {
+      filtered = filtered.filter((expo) => expo.statut === "A venir");
+    }
     setFilteredExpos(filtered);
-  }, [selectedTag, selectedArrondissement, selectedDate, expos, petitBudget, finProche]);
+  }, [selectedTag, selectedArrondissement, selectedDate, expos, petitBudget, finProche, enCours, aVenir]);
 
   const expoIcon = new L.Icon({
     iconUrl: pinStyle,
@@ -124,19 +132,37 @@ export default function ExpoMap() {
             </select>
           </div>
 
-          {/* Boutons pour filtrer par petit budget et fin proche */}
+          {/* Boutons pour filtrer par petit budget, fin proche, et statut */}
           <div className="mb-4 space-x-2">
             <button
-              className={`px-4 py-2 rounded shadow-md ${petitBudget ? "bg-blue-500 text-white" : "bg-white text-gray-800"}`}
+              className={`px-4 py-2 rounded shadow-md ${petitBudget ? "bg-gray-500 text-white" : "bg-white text-gray-800"}`}
               onClick={() => setPetitBudget(!petitBudget)}
             >
               J'ai un petit budget
             </button>
             <button
-              className={`px-4 py-2 rounded shadow-md ${finProche ? "bg-red-500 text-white" : "bg-white text-gray-800"}`}
+              className={`px-4 py-2 rounded shadow-md ${finProche ? "bg-gray-500 text-white" : "bg-white text-gray-800"}`}
               onClick={() => setFinProche(!finProche)}
             >
               Derniers jours
+            </button>
+            <button
+              className={`px-4 py-2 rounded shadow-md ${enCours ? "bg-gray-500 text-white" : "bg-white text-gray-800"}`}
+              onClick={() => {
+                setEnCours(!enCours);
+                setAVenir(false); // Désactive "A venir" si "En cours" est activé
+              }}
+            >
+              En cours
+            </button>
+            <button
+              className={`px-4 py-2 rounded shadow-md ${aVenir ? "bg-gray-500 text-white" : "bg-white text-gray-800"}`}
+              onClick={() => {
+                setAVenir(!aVenir);
+                setEnCours(false); // Désactive "En cours" si "A venir" est activé
+              }}
+            >
+              A venir
             </button>
           </div>
 
