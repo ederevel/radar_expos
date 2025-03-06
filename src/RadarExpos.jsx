@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from "react";
-import { MapContainer, TileLayer, Marker, Popup, useMap } from "react-leaflet";
+import { MapContainer, TileLayer, Marker, Popup, useMap, useMapEvents } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
 
@@ -17,6 +17,19 @@ function MoveView({ center, zoom }) {
   return null;
 }
 
+function MapEvents({ setFilteredExpos, expos }) {
+  const map = useMapEvents({
+    moveend: () => {
+      const bounds = map.getBounds();
+      const visibleExpos = expos.filter((expo) =>
+        bounds.contains([expo.latitude, expo.longitude])
+      );
+      setFilteredExpos(visibleExpos);
+    },
+  });
+  return null;
+}
+
 export default function ExpoMap() {
   const [expos, setExpos] = useState([]);
   const [filteredExpos, setFilteredExpos] = useState([]);
@@ -24,14 +37,13 @@ export default function ExpoMap() {
   const [selectedTag, setSelectedTag] = useState("");
   const [selectedArrondissement, setSelectedArrondissement] = useState("");
   const [selectedDate, setSelectedDate] = useState("");
-  const [petitBudget, setPetitBudget] = useState(false); // État pour le filtre "Petit Budget"
-  const [finProche, setFinProche] = useState(false); // État pour le filtre "Fin Proche"
-  const [enCours, setEnCours] = useState(false); // État pour le filtre "En cours"
-  const [aVenir, setAVenir] = useState(false); // État pour le filtre "A venir"
+  const [petitBudget, setPetitBudget] = useState(false);
+  const [finProche, setFinProche] = useState(false);
+  const [enCours, setEnCours] = useState(false);
+  const [aVenir, setAVenir] = useState(false);
   const mapRef = useRef(null);
   const markerRefs = useRef({});
 
-  // Chargement des expositions
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}expos.json`)
       .then((response) => {
@@ -49,7 +61,6 @@ export default function ExpoMap() {
       );
   }, []);
 
-  // Filtrage des expositions
   useEffect(() => {
     let filtered = expos;
     if (selectedTag) {
@@ -100,11 +111,8 @@ export default function ExpoMap() {
 
   return (
     <div className="flex h-screen m-0 p-0">
-      {/* Conteneur principal utilisant flex pour aligner les deux sections côte à côte */}
       <div className="grid grid-cols-3 w-full h-full">
-        {/* Liste des expositions avec filtres */}
         <div className="col-span-2 bg-gray-100 overflow-auto p-4">
-          {/* Filtres */}
           <div className="flex space-x-2 mb-4">
             <select className="w-1/3 bg-white p-2 rounded shadow-md" onChange={(e) => setSelectedTag(e.target.value)}>
               <option value="">Tag</option>
@@ -132,7 +140,6 @@ export default function ExpoMap() {
             </select>
           </div>
 
-          {/* Boutons pour filtrer par petit budget, fin proche, et statut */}
           <div className="mb-4 space-x-2">
             <button
               className={`px-4 py-2 rounded shadow-md ${petitBudget ? "bg-gray-500 text-white" : "bg-white text-gray-800"}`}
@@ -150,7 +157,7 @@ export default function ExpoMap() {
               className={`px-4 py-2 rounded shadow-md ${enCours ? "bg-gray-500 text-white" : "bg-white text-gray-800"}`}
               onClick={() => {
                 setEnCours(!enCours);
-                setAVenir(false); // Désactive "A venir" si "En cours" est activé
+                setAVenir(false);
               }}
             >
               En cours
@@ -159,14 +166,13 @@ export default function ExpoMap() {
               className={`px-4 py-2 rounded shadow-md ${aVenir ? "bg-gray-500 text-white" : "bg-white text-gray-800"}`}
               onClick={() => {
                 setAVenir(!aVenir);
-                setEnCours(false); // Désactive "En cours" si "A venir" est activé
+                setEnCours(false);
               }}
             >
               A venir
             </button>
           </div>
 
-          {/* Grille pour les expositions avec éléments stylisés */}
           <div className="grid grid-cols-2 gap-6">
             {filteredExpos.length === 0 ? (
               <p className="text-center text-gray-600">Aucune exposition ne correspond à ces filtres</p>
@@ -223,10 +229,10 @@ export default function ExpoMap() {
           </div>
         </div>
 
-        {/* Carte */}
         <div className="col-span-1 p-4">
           <MapContainer ref={mapRef} center={[48.8566, 2.3522]} zoom={12} className="h-full w-full rounded-lg overflow-hidden shadow-lg" style={{ borderRadius: "1rem", boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)" }}>
             <TileLayer url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png" />
+            <MapEvents setFilteredExpos={setFilteredExpos} expos={expos} />
             {selectedExpo && <MoveView center={[selectedExpo.latitude, selectedExpo.longitude]} zoom={16} />}
             {filteredExpos.map((expo) => (
               <Marker key={expo.titre} position={[expo.latitude, expo.longitude]} icon={expoIcon} ref={(el) => (markerRefs.current[expo.titre] = el)}>
@@ -238,7 +244,7 @@ export default function ExpoMap() {
                   <p className="text-sm text-gray-700 text-center">{expo.emplacement}</p>
                   <p className="text-xs text-gray-500 text-center">{expo.adresse}</p>
                   <a href={expo.url_lieu} className="text-blue-500 text-center block mt-2" target="_blank" rel="noopener noreferrer">{expo.url_lieu}</a>
-                  </Popup>
+                </Popup>
               </Marker>
             ))}
           </MapContainer>
