@@ -84,38 +84,39 @@ export default function ExpoMap() {
 
   return (
     <div className="flex h-screen m-0 p-0">
-      {/* Liste des expositions avec filtres */}
-      <div className="w-2/3 bg-gray-100 overflow-auto p-4">
-        {/* Filtres */}
-        <div className="flex space-x-2 mb-4">
-          <select className="w-1/3 bg-white p-2 rounded shadow-md" onChange={(e) => setSelectedTag(e.target.value)}>
-            <option value="">Tag</option>
-            {uniqueTags.map((tag) => (
-              <option key={tag} value={tag}>
-                {tag}
-              </option>
-            ))}
-          </select>
-          <select className="w-1/3 bg-white p-2 rounded shadow-md" onChange={(e) => setSelectedArrondissement(e.target.value)}>
-            <option value="">Arrondissement</option>
-            {uniqueArrondissements.map((arr) => (
-              <option key={arr} value={arr}>
-                {arr}
-              </option>
-            ))}
-          </select>
-          <select className="w-1/3 bg-white p-2 rounded shadow-md" onChange={(e) => setSelectedDate(e.target.value)}>
-            <option value="">Date</option>
-            {uniqueDates.map((date) => (
-              <option key={date} value={date}>
-                {date}
-              </option>
-            ))}
-          </select>
-        </div>
+      {/* Conteneur principal utilisant flex pour aligner les deux sections côte à côte */}
+      <div className="grid grid-cols-3 w-full h-full">
+        {/* Liste des expositions avec filtres */}
+        <div className="col-span-2 bg-gray-100 overflow-auto p-4">
+          {/* Filtres */}
+          <div className="flex space-x-2 mb-4">
+            <select className="w-1/3 bg-white p-2 rounded shadow-md" onChange={(e) => setSelectedTag(e.target.value)}>
+              <option value="">Tag</option>
+              {uniqueTags.map((tag) => (
+                <option key={tag} value={tag}>
+                  {tag}
+                </option>
+              ))}
+            </select>
+            <select className="w-1/3 bg-white p-2 rounded shadow-md" onChange={(e) => setSelectedArrondissement(e.target.value)}>
+              <option value="">Arrondissement</option>
+              {uniqueArrondissements.map((arr) => (
+                <option key={arr} value={arr}>
+                  {arr}
+                </option>
+              ))}
+            </select>
+            <select className="w-1/3 bg-white p-2 rounded shadow-md" onChange={(e) => setSelectedDate(e.target.value)}>
+              <option value="">Date</option>
+              {uniqueDates.map((date) => (
+                <option key={date} value={date}>
+                  {date}
+                </option>
+              ))}
+            </select>
+          </div>
 
-        {/* Grille pour les expositions avec éléments stylisés */}
-        <>
+          {/* Grille pour les expositions avec éléments stylisés */}
           <div className="grid grid-cols-2 gap-6">
             {filteredExpos.map((expo) => (
               <div
@@ -128,7 +129,6 @@ export default function ExpoMap() {
                   alt={expo.titre}
                   className="w-1/3 object-cover"
                 />
-
                 <div className="w-2/3 p-4 flex flex-col">
                   <h3 className="text-xl font-semibold mb-1 text-gray-800">
                     {expo.titre}
@@ -160,27 +160,27 @@ export default function ExpoMap() {
               </div>
             ))}
           </div>
-        </>
-      </div>
+        </div>
 
-      {/* Carte */}
-      <div className="w-1/3 h-full p-4">
-        <MapContainer ref={mapRef} center={[48.8566, 2.3522]} zoom={12} className="h-full w-full rounded-lg overflow-hidden shadow-lg" style={{ borderRadius: "1rem", boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)" }}>
-          <TileLayer url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png" />
-          {selectedExpo && <MoveView center={[selectedExpo.latitude, selectedExpo.longitude]} zoom={16} />}
-          {filteredExpos.map((expo) => (
-            <Marker key={expo.titre} position={[expo.latitude, expo.longitude]} icon={expoIcon} ref={(el) => (markerRefs.current[expo.titre] = el)}>
-              <Popup closeButton={false} className="custom-popup" offset={[0, -10]}>
-                <div className="flex justify-center items-center">
-                  <img src={expo.img_url} alt={expo.titre} className="w-1/3 object-cover rounded-t-lg" />
-                </div>
-                <h3 className="font-bold text-center mt-2">{expo.titre}</h3>
-                <p className="text-sm text-gray-700 text-center">{expo.emplacement}</p>
-                <p className="text-xs text-gray-500 text-center">{expo.adresse}</p>
-              </Popup>
-            </Marker>
-          ))}
-        </MapContainer>
+        {/* Carte */}
+        <div className="col-span-1 p-4">
+          <MapContainer ref={mapRef} center={[48.8566, 2.3522]} zoom={12} className="h-full w-full rounded-lg overflow-hidden shadow-lg" style={{ borderRadius: "1rem", boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)" }}>
+            <TileLayer url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png" />
+            {selectedExpo && <MoveView center={[selectedExpo.latitude, selectedExpo.longitude]} zoom={16} />}
+            {filteredExpos.map((expo) => (
+              <Marker key={expo.titre} position={[expo.latitude, expo.longitude]} icon={expoIcon} ref={(el) => (markerRefs.current[expo.titre] = el)}>
+                <Popup closeButton={false} className="custom-popup" offset={[0, -10]}>
+                  <div className="flex justify-center items-center">
+                    <img src={expo.img_url} alt={expo.titre} className="w-1/3 object-cover rounded-t-lg" />
+                  </div>
+                  <h3 className="font-bold text-center mt-2">{expo.titre}</h3>
+                  <p className="text-sm text-gray-700 text-center">{expo.emplacement}</p>
+                  <p className="text-xs text-gray-500 text-center">{expo.adresse}</p>
+                </Popup>
+              </Marker>
+            ))}
+          </MapContainer>
+        </div>
       </div>
     </div>
   );

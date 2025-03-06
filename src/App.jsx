@@ -10,8 +10,8 @@ function App() {
   return (
     <>
     <div>
-      <RadarExpos />
-    </div>
+        <RadarExpos />
+      </div>
     </>
   )
 }
