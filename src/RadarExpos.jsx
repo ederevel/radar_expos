@@ -1,11 +1,17 @@
-import { useState, useRef, useEffect } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import { MapContainer, TileLayer, Marker, Popup, useMap, useMapEvents } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
+import DatePicker from "react-datepicker";
+import "react-datepicker/dist/react-datepicker.css";
+import { registerLocale, setDefaultLocale } from "react-datepicker";
+import fr from "date-fns/locale/fr";
 
 const pinStyle = "https://cdn-icons-png.flaticon.com/512/684/684908.png";
 
 const pastelColors = ["#E6E6FA"]; // Palette de couleurs pastel
+
+registerLocale("fr", fr);
 
 function MoveView({ center, zoom }) {
   const map = useMap();
@@ -36,7 +42,8 @@ export default function ExpoMap() {
   const [selectedExpo, setSelectedExpo] = useState(null);
   const [selectedTag, setSelectedTag] = useState("");
   const [selectedArrondissement, setSelectedArrondissement] = useState("");
-  const [selectedDate, setSelectedDate] = useState("");
+  const [selectedDate, setSelectedDate] = useState(null);
+  const [dateFilterEnabled, setDateFilterEnabled] = useState(true);
   const [petitBudget, setPetitBudget] = useState(false);
   const [finProche, setFinProche] = useState(false);
   const [enCours, setEnCours] = useState(false);
@@ -69,8 +76,12 @@ export default function ExpoMap() {
     if (selectedArrondissement) {
       filtered = filtered.filter((expo) => expo.adresse.includes(selectedArrondissement));
     }
-    if (selectedDate) {
-      filtered = filtered.filter((expo) => expo.dates.includes(selectedDate));
+    if (dateFilterEnabled && selectedDate) {
+      filtered = filtered.filter((expo) => {
+        const startDate = new Date(expo.date_debut);
+        const endDate = new Date(expo.date_fin);
+        return selectedDate >= startDate && selectedDate <= endDate;
+      });
     }
     if (petitBudget) {
       filtered = filtered.filter((expo) => expo.petit_budget);
@@ -85,7 +96,7 @@ export default function ExpoMap() {
       filtered = filtered.filter((expo) => expo.statut === "A venir");
     }
     setFilteredExpos(filtered);
-  }, [selectedTag, selectedArrondissement, selectedDate, expos, petitBudget, finProche, enCours, aVenir]);
+  }, [selectedTag, selectedArrondissement, selectedDate, expos, petitBudget, finProche, enCours, aVenir, dateFilterEnabled]);
 
   const expoIcon = new L.Icon({
     iconUrl: pinStyle,
@@ -106,8 +117,6 @@ export default function ExpoMap() {
     const numB = parseInt(b.replace(/[^0-9]/g, ""), 10);
     return numA - numB;
   });
-
-  const uniqueDates = [...new Set(expos.map((expo) => expo.dates))];
 
   return (
     <div className="flex h-screen m-0 p-0">
@@ -130,14 +139,26 @@ export default function ExpoMap() {
                 </option>
               ))}
             </select>
-            <select className="w-1/3 bg-white p-2 rounded shadow-md" onChange={(e) => setSelectedDate(e.target.value)}>
-              <option value="">Date</option>
-              {uniqueDates.map((date) => (
-                <option key={date} value={date}>
-                  {date}
-                </option>
-              ))}
-            </select>
+            <div className="w-1/3 bg-white p-2 rounded shadow-md flex items-center relative">
+              <DatePicker
+                selected={selectedDate}
+                onChange={(date) => setSelectedDate(date)}
+                dateFormat="dd/MM/yyyy"
+                placeholderText="Sélectionner une date"
+                className="w-full"
+                locale="fr"
+                disabled={!dateFilterEnabled}
+              />
+              {selectedDate && (
+                <i
+                  className="fas fa-times-circle text-red-500 cursor-pointer absolute right-2"
+                  onClick={() => {
+                    setSelectedDate(null);
+                    setDateFilterEnabled(true); // Enable date filtering again
+                  }}
+                ></i>
+              )}
+            </div>
           </div>
 
           <div className="mb-4 space-x-2">
