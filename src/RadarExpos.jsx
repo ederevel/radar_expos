@@ -151,7 +151,7 @@ export default function ExpoMap() {
               />
               {selectedDate && (
                 <i
-                  className="fas fa-times-circle text-red-500 cursor-pointer absolute right-2"
+                  className="fas fa-times-circle text-gray-500 cursor-pointer absolute right-2"
                   onClick={() => {
                     setSelectedDate(null);
                     setDateFilterEnabled(true); // Enable date filtering again
