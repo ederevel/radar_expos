@@ -136,7 +136,7 @@ export default function ExpoMap() {
               className={`px-4 py-2 rounded shadow-md ${finProche ? "bg-red-500 text-white" : "bg-white text-gray-800"}`}
               onClick={() => setFinProche(!finProche)}
             >
-              Plus que quelques jours
+              Derniers jours
             </button>
           </div>
 
@@ -163,6 +163,11 @@ export default function ExpoMap() {
                   <p className="text-xs text-gray-500 italic mb-2">
                     {expo.dates}
                   </p>
+                  {expo.fin_proche && (
+                    <p className="text-xs text-red-500 font-semibold mb-2">
+                      Derniers jours
+                    </p>
+                  )}
                   <p className="text-sm text-gray-700 line-clamp-3 mb-3">
                     {expo.description_sommaire}
                   </p>
@@ -173,8 +178,8 @@ export default function ExpoMap() {
                     {expo.tags_category.map((tag, index) => (
                       <span
                         key={index}
-                        className="px-2 py-1 text-xs font-semibold rounded-full whitespace-nowrap mb-2"
-                        style={{ backgroundColor: "#E6E6FA" }}
+                        className="px-2 py-1 text-xs font-semibold whitespace-nowrap mb-2"
+                        style={{ backgroundColor: "#E6E6FA", borderRadius: "0.375rem" }}
                       >
                         {tag}
                       </span>
