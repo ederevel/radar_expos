@@ -6,10 +6,11 @@ import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import { registerLocale, setDefaultLocale } from "react-datepicker";
 import fr from "date-fns/locale/fr";
+import '@fortawesome/fontawesome-free/css/all.min.css'; // Import Font Awesome
 
 const pinStyle = "https://cdn-icons-png.flaticon.com/512/684/684908.png";
 
-const pastelColors = ["#E6E6FA"]; // Palette de couleurs pastel
+const pastelColors = ["#E6E6FA"];
 
 registerLocale("fr", fr);
 
@@ -50,6 +51,7 @@ export default function ExpoMap() {
   const [aVenir, setAVenir] = useState(false);
   const [showMap, setShowMap] = useState(true);
   const [isMobile, setIsMobile] = useState(false);
+  const [showFilters, setShowFilters] = useState(false);
   const mapRef = useRef(null);
   const markerRefs = useRef({});
   const initialCenter = [48.8566, 2.3522];
@@ -160,158 +162,171 @@ export default function ExpoMap() {
             <h1 className="text-4xl font-bold mb-4">RadarExpo</h1>
             Trouve l'expo idéale en fonction de tes envies, ton budget, tes horaires de boulot...
           </div>
-          <div className="flex flex-wrap space-x-2 mb-4">
-            <select
-              className={`p-2 rounded shadow-md cursor-pointer mb-2 w-full sm:w-auto ${selectedTag ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
-              onChange={(e) => setSelectedTag(e.target.value)}
-              value={selectedTag}
-              style={{ outline: 'none' }}
-            >
-              <option value="">Tag</option>
-              {uniqueTags.map((tag) => (
-                <option key={tag} value={tag}>
-                  {tag}
-                </option>
-              ))}
-            </select>
-            <select
-              className={`p-2 rounded shadow-md cursor-pointer mb-2 w-full sm:w-auto ${selectedArrondissement ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
-              onChange={(e) => setSelectedArrondissement(e.target.value)}
-              value={selectedArrondissement}
-              style={{ outline: 'none' }}
-            >
-              <option value="">Arrondissement</option>
-              {uniqueArrondissements.map((arr) => (
-                <option key={arr} value={arr}>
-                  {arr}
-                </option>
-              ))}
-            </select>
-            <div className={`p-2 rounded shadow-md flex items-center relative cursor-pointer mb-2 w-full sm:w-auto ${selectedDate ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}>
-              <DatePicker
-                selected={selectedDate}
-                onChange={(date) => setSelectedDate(date)}
-                dateFormat="dd/MM/yyyy"
-                placeholderText="Date de la visite"
-                className="w-full datepicker-no-outline outline-none focus:outline-none"
-                locale="fr"
-                disabled={!dateFilterEnabled}
-              />
-
-              {selectedDate && (
-                <i
-                  className="fas fa-times-circle text-white-500 cursor-pointer absolute right-2"
-                  onClick={() => {
-                    setSelectedDate(null);
-                    setDateFilterEnabled(true); // Enable date filtering again
-                  }}
-                ></i>
-              )}
-            </div>
-          </div>
-
-          <div className="flex flex-wrap space-x-2 mb-4">
-            <button
-              className={`px-4 py-2 rounded shadow-md cursor-pointer mb-2 w-full sm:w-auto ${petitBudget ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
-              onClick={() => setPetitBudget(!petitBudget)}
-            >
-              J'ai un petit budget
-            </button>
-            <button
-              className={`px-4 py-2 rounded shadow-md cursor-pointer mb-2 w-full sm:w-auto ${finProche ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
-              onClick={() => setFinProche(!finProche)}
-            >
-              Derniers jours
-            </button>
-            <button
-              className={`px-4 py-2 rounded shadow-md cursor-pointer mb-2 w-full sm:w-auto ${enCours ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
-              onClick={() => {
-                setEnCours(!enCours);
-                setAVenir(false);
-              }}
-            >
-              En cours
-            </button>
-            <button
-              className={`px-4 py-2 rounded shadow-md cursor-pointer mb-2 w-full sm:w-auto ${aVenir ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
-              onClick={() => {
-                setAVenir(!aVenir);
-                setEnCours(false);
-              }}
-            >
-              A venir
-            </button>
-            {(selectedTag || selectedArrondissement || selectedDate || petitBudget || finProche || enCours || aVenir) && (
+          {isMobile && (
+            <div className="flex space-x-2 mb-4">
               <button
-                className="px-4 py-2 rounded shadow-md bg-red-500 text-white mb-2 w-full sm:w-auto"
-                onClick={resetFilters}
+                className={`flex-1 px-4 py-2 rounded shadow-md ${showFilters ? "bg-blue-400 text-white" : "bg-blue-300 text-gray-800"}`}
+                onClick={() => setShowFilters(!showFilters)}
               >
-                Tout effacer
+                <i className="fas fa-filter"></i>
               </button>
-            )}
-            <button
-              className="px-4 py-2 rounded shadow-md bg-blue-500 text-white mb-2 w-full sm:w-auto"
-              onClick={() => setShowMap(!showMap)}
-            >
-              {showMap ? "Masquer la carte" : "Afficher la carte"}
-            </button>
-          </div>
-
-          {((!showMap && isMobile) || !isMobile) && (
-          <div className={`grid gap-6 ${isMobile ? "grid-cols-1" : (showMap ? "grid-cols-2" : "grid-cols-3")}`}>
-            {filteredExpos.length === 0 ? (
-              <p className="text-center text-gray-600">Aucune exposition ne correspond à ces filtres</p>
-            ) : (
-              filteredExpos.map((expo) => (
-                <div
-                  key={expo.titre}
-                  className="cursor-pointer bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 flex relative"
-                  onClick={() => setSelectedExpo(expo)}
+              <button
+                className={`flex-1 px-4 py-2 rounded shadow-md ${showMap ? "bg-blue-400 text-white" : "bg-blue-300 text-gray-800"}`}
+                onClick={() => setShowMap(!showMap)}
+              >
+                <i className="fas fa-map-marked-alt"></i>
+              </button>
+            </div>
+          )}
+          {showFilters && (
+            <>
+              <div className="flex flex-wrap space-x-2 mb-4">
+                <select
+                  className={`p-2 rounded shadow-md cursor-pointer mb-2 w-full sm:w-auto ${selectedTag ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
+                  onChange={(e) => setSelectedTag(e.target.value)}
+                  value={selectedTag}
+                  style={{ outline: 'none' }}
                 >
-                  <div className="relative w-1/3">
-                    <img
-                      src={expo.img_url}
-                      alt={expo.titre}
-                      className="w-full h-full object-cover"
-                    />
-                    {expo.fin_proche && (
-                      <div className="absolute top-2 left-2 bg-red-500 text-white px-2 py-1 text-xs font-semibold rounded">
-                        Derniers jours
+                  <option value="">Tag</option>
+                  {uniqueTags.map((tag) => (
+                    <option key={tag} value={tag}>
+                      {tag}
+                    </option>
+                  ))}
+                </select>
+                <select
+                  className={`p-2 rounded shadow-md cursor-pointer mb-2 w-full sm:w-auto ${selectedArrondissement ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
+                  onChange={(e) => setSelectedArrondissement(e.target.value)}
+                  value={selectedArrondissement}
+                  style={{ outline: 'none' }}
+                >
+                  <option value="">Arrondissement</option>
+                  {uniqueArrondissements.map((arr) => (
+                    <option key={arr} value={arr}>
+                      {arr}
+                    </option>
+                  ))}
+                </select>
+                <div className={`p-2 rounded shadow-md flex items-center relative cursor-pointer mb-2 w-full sm:w-auto ${selectedDate ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}>
+                  <DatePicker
+                    selected={selectedDate}
+                    onChange={(date) => setSelectedDate(date)}
+                    dateFormat="dd/MM/yyyy"
+                    placeholderText="Date de la visite"
+                    className="w-full datepicker-no-outline outline-none focus:outline-none"
+                    locale="fr"
+                    disabled={!dateFilterEnabled}
+                  />
+
+                  {selectedDate && (
+                    <i
+                      className="fas fa-times-circle text-white-500 cursor-pointer absolute right-2"
+                      onClick={() => {
+                        setSelectedDate(null);
+                        setDateFilterEnabled(true); // Enable date filtering again
+                      }}
+                    ></i>
+                  )}
+                </div>
+              </div>
+
+              <div className="flex flex-wrap space-x-2 mb-4">
+                <button
+                  className={`px-4 py-2 rounded shadow-md cursor-pointer mb-2 w-full sm:w-auto ${petitBudget ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
+                  onClick={() => setPetitBudget(!petitBudget)}
+                >
+                  J'ai un petit budget
+                </button>
+                <button
+                  className={`px-4 py-2 rounded shadow-md cursor-pointer mb-2 w-full sm:w-auto ${finProche ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
+                  onClick={() => setFinProche(!finProche)}
+                >
+                  Derniers jours
+                </button>
+                <button
+                  className={`px-4 py-2 rounded shadow-md cursor-pointer mb-2 w-full sm:w-auto ${enCours ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
+                  onClick={() => {
+                    setEnCours(!enCours);
+                    setAVenir(false);
+                  }}
+                >
+                  En cours
+                </button>
+                <button
+                  className={`px-4 py-2 rounded shadow-md cursor-pointer mb-2 w-full sm:w-auto ${aVenir ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
+                  onClick={() => {
+                    setAVenir(!aVenir);
+                    setEnCours(false);
+                  }}
+                >
+                  A venir
+                </button>
+                {(selectedTag || selectedArrondissement || selectedDate || petitBudget || finProche || enCours || aVenir) && (
+                  <button
+                    className="px-4 py-2 rounded shadow-md bg-red-500 text-white mb-2 w-full sm:w-auto"
+                    onClick={resetFilters}
+                  >
+                    Tout effacer
+                  </button>
+                )}
+              </div>
+            </>
+          )}
+          {((!showMap && isMobile) || !isMobile) && (
+            <div className={`grid gap-6 ${isMobile ? "grid-cols-1" : (showMap ? "grid-cols-2" : "grid-cols-3")}`}>
+              {filteredExpos.length === 0 ? (
+                <p className="text-center text-gray-600">Aucune exposition ne correspond à ces filtres</p>
+              ) : (
+                filteredExpos.map((expo) => (
+                  <div
+                    key={expo.titre}
+                    className="cursor-pointer bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 flex relative"
+                    onClick={() => setSelectedExpo(expo)}
+                  >
+                    <div className="relative w-1/3">
+                      <img
+                        src={expo.img_url}
+                        alt={expo.titre}
+                        className="w-full h-full object-cover"
+                      />
+                      {expo.fin_proche && (
+                        <div className="absolute top-2 left-2 bg-red-500 text-white px-2 py-1 text-xs font-semibold rounded">
+                          Derniers jours
+                        </div>
+                      )}
+                    </div>
+                    <div className="w-2/3 p-4 flex flex-col">
+                      <h3 className="text-xl font-semibold mb-1 text-gray-800">
+                        {expo.titre}
+                      </h3>
+                      <p className="text-sm font-medium text-gray-600 mb-1">
+                        {expo.emplacement}
+                      </p>
+                      <p className="text-xs text-gray-500 italic mb-2">
+                        {expo.dates}
+                      </p>
+                      <p className="text-sm text-gray-700 line-clamp-3 mb-3">
+                        {expo.description_sommaire}
+                      </p>
+                      <p className="text-sm font-semibold text-gray-800 mb-3">
+                        {expo.prix_nominal}
+                      </p>
+                      <div className="flex flex-wrap justify-start space-x-2 mt-auto">
+                        {expo.tags_category.map((tag, index) => (
+                          <span
+                            key={index}
+                            className="px-2 py-1 text-xs font-semibold whitespace-nowrap mb-2"
+                            style={{ backgroundColor: "#E6E6FA", borderRadius: "0.375rem" }}
+                          >
+                            {tag}
+                          </span>
+                        ))}
                       </div>
-                    )}
-                  </div>
-                  <div className="w-2/3 p-4 flex flex-col">
-                    <h3 className="text-xl font-semibold mb-1 text-gray-800">
-                      {expo.titre}
-                    </h3>
-                    <p className="text-sm font-medium text-gray-600 mb-1">
-                      {expo.emplacement}
-                    </p>
-                    <p className="text-xs text-gray-500 italic mb-2">
-                      {expo.dates}
-                    </p>
-                    <p className="text-sm text-gray-700 line-clamp-3 mb-3">
-                      {expo.description_sommaire}
-                    </p>
-                    <p className="text-sm font-semibold text-gray-800 mb-3">
-                      {expo.prix_nominal}
-                    </p>
-                    <div className="flex flex-wrap justify-start space-x-2 mt-auto">
-                      {expo.tags_category.map((tag, index) => (
-                        <span
-                          key={index}
-                          className="px-2 py-1 text-xs font-semibold whitespace-nowrap mb-2"
-                          style={{ backgroundColor: "#E6E6FA", borderRadius: "0.375rem" }}
-                        >
-                          {tag}
-                        </span>
-                      ))}
                     </div>
                   </div>
-                </div>
-              ))
-            )}
-          </div>)}
+                ))
+              )}
+            </div>)}
         </div>
 
         {showMap && (
