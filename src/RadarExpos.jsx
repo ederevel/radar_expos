@@ -155,10 +155,11 @@ export default function ExpoMap() {
                 onChange={(date) => setSelectedDate(date)}
                 dateFormat="dd/MM/yyyy"
                 placeholderText="Date de la visite"
-                className="w-full datepicker-no-outline"
+                className="w-full datepicker-no-outline outline-none focus:outline-none"
                 locale="fr"
                 disabled={!dateFilterEnabled}
               />
+
               {selectedDate && (
                 <i
                   className="fas fa-times-circle text-white-500 cursor-pointer absolute right-2"

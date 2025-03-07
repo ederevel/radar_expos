@@ -5,3 +5,7 @@ body {
   background-color: rgb(243 244 246);
   color: #212529;
 }
+
+.react-datepicker__input-container input {
+  caret-color: transparent;
+}
