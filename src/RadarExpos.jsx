@@ -153,16 +153,16 @@ export default function ExpoMap() {
   };
 
   return (
-    <div className="flex h-screen m-0 p-0">
+    <div className="flex flex-col h-screen m-0 p-0">
       <div className={`grid w-full h-full ${isMobile ? "grid-cols-1" : (showMap ? "grid-cols-3" : "grid-cols-2")}`}>
         <div className="col-span-2 bg-gray-100 overflow-auto p-4">
           <div className="mb-4">
             <h1 className="text-4xl font-bold mb-4">RadarExpo</h1>
             Trouve l'expo idéale en fonction de tes envies, ton budget, tes horaires de boulot...
           </div>
-          <div className="flex space-x-2 mb-4">
+          <div className="flex flex-wrap space-x-2 mb-4">
             <select
-              className={`p-2 rounded shadow-md cursor-pointer ${selectedTag ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
+              className={`p-2 rounded shadow-md cursor-pointer mb-2 w-full sm:w-auto ${selectedTag ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
               onChange={(e) => setSelectedTag(e.target.value)}
               value={selectedTag}
               style={{ outline: 'none' }}
@@ -175,7 +175,7 @@ export default function ExpoMap() {
               ))}
             </select>
             <select
-              className={`p-2 rounded shadow-md cursor-pointer ${selectedArrondissement ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
+              className={`p-2 rounded shadow-md cursor-pointer mb-2 w-full sm:w-auto ${selectedArrondissement ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
               onChange={(e) => setSelectedArrondissement(e.target.value)}
               value={selectedArrondissement}
               style={{ outline: 'none' }}
@@ -187,7 +187,7 @@ export default function ExpoMap() {
                 </option>
               ))}
             </select>
-            <div className={`p-2 rounded shadow-md flex items-center relative cursor-pointer ${selectedDate ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}>
+            <div className={`p-2 rounded shadow-md flex items-center relative cursor-pointer mb-2 w-full sm:w-auto ${selectedDate ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}>
               <DatePicker
                 selected={selectedDate}
                 onChange={(date) => setSelectedDate(date)}
@@ -210,21 +210,21 @@ export default function ExpoMap() {
             </div>
           </div>
 
-          <div className="flex space-x-2 mb-4">
+          <div className="flex flex-wrap space-x-2 mb-4">
             <button
-              className={`px-4 py-2 rounded shadow-md cursor-pointer ${petitBudget ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
+              className={`px-4 py-2 rounded shadow-md cursor-pointer mb-2 w-full sm:w-auto ${petitBudget ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
               onClick={() => setPetitBudget(!petitBudget)}
             >
               J'ai un petit budget
             </button>
             <button
-              className={`px-4 py-2 rounded shadow-md cursor-pointer ${finProche ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
+              className={`px-4 py-2 rounded shadow-md cursor-pointer mb-2 w-full sm:w-auto ${finProche ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
               onClick={() => setFinProche(!finProche)}
             >
               Derniers jours
             </button>
             <button
-              className={`px-4 py-2 rounded shadow-md cursor-pointer ${enCours ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
+              className={`px-4 py-2 rounded shadow-md cursor-pointer mb-2 w-full sm:w-auto ${enCours ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
               onClick={() => {
                 setEnCours(!enCours);
                 setAVenir(false);
@@ -233,7 +233,7 @@ export default function ExpoMap() {
               En cours
             </button>
             <button
-              className={`px-4 py-2 rounded shadow-md cursor-pointer ${aVenir ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
+              className={`px-4 py-2 rounded shadow-md cursor-pointer mb-2 w-full sm:w-auto ${aVenir ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
               onClick={() => {
                 setAVenir(!aVenir);
                 setEnCours(false);
@@ -243,14 +243,14 @@ export default function ExpoMap() {
             </button>
             {(selectedTag || selectedArrondissement || selectedDate || petitBudget || finProche || enCours || aVenir) && (
               <button
-                className="px-4 py-2 rounded shadow-md bg-red-500 text-white"
+                className="px-4 py-2 rounded shadow-md bg-red-500 text-white mb-2 w-full sm:w-auto"
                 onClick={resetFilters}
               >
                 Tout effacer
               </button>
             )}
             <button
-              className="px-4 py-2 rounded shadow-md bg-blue-500 text-white"
+              className="px-4 py-2 rounded shadow-md bg-blue-500 text-white mb-2 w-full sm:w-auto"
               onClick={() => setShowMap(!showMap)}
             >
               {showMap ? "Masquer la carte" : "Afficher la carte"}
