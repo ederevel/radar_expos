@@ -188,7 +188,7 @@ export default function ExpoMap() {
                   value={selectedTag}
                   style={{ outline: 'none' }}
                 >
-                  <option value="">Tag</option>
+                  <option value="">Toutes les thématiques</option>
                   {uniqueTags.map((tag) => (
                     <option key={tag} value={tag}>
                       {tag}
@@ -201,7 +201,7 @@ export default function ExpoMap() {
                   value={selectedArrondissement}
                   style={{ outline: 'none' }}
                 >
-                  <option value="">Arrondissement</option>
+                  <option value="">Toutes les villes</option>
                   {uniqueArrondissements.map((arr) => (
                     <option key={arr} value={arr}>
                       {arr}
