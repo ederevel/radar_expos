@@ -124,7 +124,7 @@ export default function ExpoMap() {
         <div className="col-span-2 bg-gray-100 overflow-auto p-4">
           <div className="flex space-x-2 mb-4">
             <select
-              className={`p-2 rounded shadow-md ${selectedTag ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
+              className={`p-2 rounded shadow-md cursor-pointer ${selectedTag ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
               onChange={(e) => setSelectedTag(e.target.value)}
               value={selectedTag}
               style={{ outline: 'none' }}
@@ -137,7 +137,7 @@ export default function ExpoMap() {
               ))}
             </select>
             <select
-              className={`p-2 rounded shadow-md ${selectedArrondissement ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
+              className={`p-2 rounded shadow-md cursor-pointer ${selectedArrondissement ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
               onChange={(e) => setSelectedArrondissement(e.target.value)}
               value={selectedArrondissement}
               style={{ outline: 'none' }}
@@ -149,7 +149,7 @@ export default function ExpoMap() {
                 </option>
               ))}
             </select>
-            <div className={`p-2 rounded shadow-md flex items-center relative ${selectedDate ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}>
+            <div className={`p-2 rounded shadow-md flex items-center relative cursor-pointer ${selectedDate ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}>
               <DatePicker
                 selected={selectedDate}
                 onChange={(date) => setSelectedDate(date)}
@@ -174,19 +174,19 @@ export default function ExpoMap() {
 
           <div className="flex space-x-2 mb-4">
             <button
-              className={`px-4 py-2 rounded shadow-md ${petitBudget ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
+              className={`px-4 py-2 rounded shadow-md cursor-pointer ${petitBudget ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
               onClick={() => setPetitBudget(!petitBudget)}
             >
               J'ai un petit budget
             </button>
             <button
-              className={`px-4 py-2 rounded shadow-md ${finProche ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
+              className={`px-4 py-2 rounded shadow-md cursor-pointer ${finProche ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
               onClick={() => setFinProche(!finProche)}
             >
               Derniers jours
             </button>
             <button
-              className={`px-4 py-2 rounded shadow-md ${enCours ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
+              className={`px-4 py-2 rounded shadow-md cursor-pointer ${enCours ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
               onClick={() => {
                 setEnCours(!enCours);
                 setAVenir(false);
@@ -195,7 +195,7 @@ export default function ExpoMap() {
               En cours
             </button>
             <button
-              className={`px-4 py-2 rounded shadow-md ${aVenir ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
+              className={`px-4 py-2 rounded shadow-md cursor-pointer ${aVenir ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
               onClick={() => {
                 setAVenir(!aVenir);
                 setEnCours(false);
