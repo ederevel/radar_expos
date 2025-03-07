@@ -51,7 +51,7 @@ export default function ExpoMap() {
   const [aVenir, setAVenir] = useState(false);
   const [showMap, setShowMap] = useState(true);
   const [isMobile, setIsMobile] = useState(false);
-  const [showFilters, setShowFilters] = useState(false);
+  const [showFilters, setShowFilters] = useState(true);
   const mapRef = useRef(null);
   const markerRefs = useRef({});
   const initialCenter = [48.8566, 2.3522];
@@ -78,7 +78,8 @@ export default function ExpoMap() {
     const checkIsMobile = () => {
       const mobile = window.innerWidth <= 768;
       setIsMobile(mobile);
-      setShowMap(!mobile); // Set showMap based on isMobile
+      setShowMap(!mobile);
+      setShowFilters(!mobile);
     };
 
     checkIsMobile();
@@ -165,13 +166,13 @@ export default function ExpoMap() {
           {isMobile && (
             <div className="flex space-x-2 mb-4">
               <button
-                className={`flex-1 px-4 py-2 rounded shadow-md ${showFilters ? "bg-blue-400 text-white" : "bg-blue-300 text-gray-800"}`}
+                className={`flex-1 px-4 py-2 rounded shadow-md ${showFilters ? "bg-gray-400 text-white" : "bg-gray-300 text-gray-800"}`}
                 onClick={() => setShowFilters(!showFilters)}
               >
                 <i className="fas fa-filter"></i>
               </button>
               <button
-                className={`flex-1 px-4 py-2 rounded shadow-md ${showMap ? "bg-blue-400 text-white" : "bg-blue-300 text-gray-800"}`}
+                className={`flex-1 px-4 py-2 rounded shadow-md ${showMap ? "bg-gray-400 text-white" : "bg-gray-300 text-gray-800"}`}
                 onClick={() => setShowMap(!showMap)}
               >
                 <i className="fas fa-map-marked-alt"></i>
