@@ -280,6 +280,24 @@ export default function ExpoMap() {
                   <p className="text-sm text-gray-700 text-center">{expo.emplacement}</p>
                   <p className="text-xs text-gray-500 text-center">{expo.adresse}</p>
                   <a href={expo.url_lieu} className="text-blue-500 text-center block mt-2" target="_blank" rel="noopener noreferrer">{expo.url_lieu}</a>
+                  <div className="mt-2 max-h-40 overflow-y-auto">
+                    {expo.description_detaillee_mise_en_forme && (
+                      <>
+                        <p className="text-sm text-gray-700">
+                          <strong>De quoi s'agit-il ?</strong><br />
+                          {expo.description_detaillee_mise_en_forme.de_quoi_sagit_il}
+                        </p>
+                        <p className="text-sm text-gray-700 mt-2">
+                          <strong>Plus précisément</strong><br />
+                          {expo.description_detaillee_mise_en_forme.plus_precisement}
+                        </p>
+                        <p className="text-sm text-gray-700 mt-2">
+                          <strong>Ça va t'intéresser si</strong><br />
+                          {expo.description_detaillee_mise_en_forme.ca_va_tinteresser_si}
+                        </p>
+                      </>
+                    )}
+                  </div>
                 </Popup>
               </Marker>
             ))}
