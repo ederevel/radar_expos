@@ -48,8 +48,8 @@ export default function ExpoMap() {
   const [finProche, setFinProche] = useState(false);
   const [enCours, setEnCours] = useState(false);
   const [aVenir, setAVenir] = useState(false);
-  const [showMap, setShowMap] = useState(true); // État pour gérer la visibilité de la carte
-  const [isMobile, setIsMobile] = useState(false); // État pour gérer si l'utilisateur est sur mobile
+  const [showMap, setShowMap] = useState(true);
+  const [isMobile, setIsMobile] = useState(false);
   const mapRef = useRef(null);
   const markerRefs = useRef({});
   const initialCenter = [48.8566, 2.3522];
@@ -255,6 +255,7 @@ export default function ExpoMap() {
             </button>
           </div>
 
+          {((!showMap && isMobile) || !isMobile) && (
           <div className={`grid gap-6 ${isMobile ? "grid-cols-1" : (showMap ? "grid-cols-2" : "grid-cols-3")}`}>
             {filteredExpos.length === 0 ? (
               <p className="text-center text-gray-600">Aucune exposition ne correspond à ces filtres</p>
@@ -308,7 +309,7 @@ export default function ExpoMap() {
                 </div>
               ))
             )}
-          </div>
+          </div>)}
         </div>
 
         {showMap && (
