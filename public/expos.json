@@ -31,7 +31,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"Une étude de la campagne de propagande nazie contre l'art moderne.",
+            "plus_precisement":"L'exposition met en lumière la façon dont le régime nazi a systématiquement attaqué l'art moderne, notamment à travers l'exemple de Pablo Picasso, considéré comme un artiste 'dégénéré'. Elle retrace l'histoire de plus de 20 000 œuvres d'artistes tels que Vincent Van Gogh, Marc Chagall ou encore Picasso, qui ont été retirées, vendues ou détruites dans le cadre de cette campagne.",
+            "ca_va_tinteresser_si":"Si tu es intéressé.e par l'histoire de l'art, les régimes totalitaires, ou si tu es un.e fan de Picasso, Van Gogh ou Chagall."
+        }
     },
     {
         "titre":"Au fil de l'or",
@@ -65,7 +70,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"Une exploration de l'histoire de l'or dans les arts textiles à travers le monde",
+            "plus_precisement":"L'exposition aborde l'utilisation de l'or dans le textile depuis le cinquième millénaire avant notre ère, mettant en lumière les techniques utilisées par les artisans pour intégrer cet élément précieux dans leurs créations. Elle présente des pièces d'art textile d'origines diverses, allant des premiers ornements sur les vêtements des défunts aux créations contemporaines flamboyantes de la créatrice Guo Pei.",
+            "ca_va_tinteresser_si":"Si tu es passionné.e par l'histoire de l'art, l'artisanat traditionnel, la mode haute couture ou si tu es simplement fasciné.e par la beauté et la symbolique de l'or."
+        }
     },
     {
         "titre":"Serial Killer, l'exposition",
@@ -99,7 +109,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"Une plongée immersive dans le monde des enquêtes criminelles et des tueurs en série notoires.",
+            "plus_precisement":"L'exposition présente des objets authentiques et des reconstitutions de scènes de crimes tristement célèbres, comme celles de Ted Bundy ou du Tueur du Zodiaque, pour explorer en profondeur ce phénomène criminel.",
+            "ca_va_tinteresser_si":"Si tu es fasciné.e par les enquêtes criminelles, les profils de tueurs en série et les scènes de crime reconstituées."
+        }
     },
     {
         "titre":"Suzanne Valadon",
@@ -133,7 +148,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"Une rétrospective dédiée à l'œuvre de Suzanne Valadon.",
+            "plus_precisement":"L'exposition retrace le parcours unique de Suzanne Valadon, de ses débuts comme modèle à Montmartre jusqu'à sa reconnaissance artistique. Elle met en lumière la modernité de son œuvre, notamment en tant que première femme à peindre un nu masculin de face en grand format. Le parcours de l'exposition comprend près de 200 œuvres, concentrées sur les médiums de prédilection de l'artiste, le dessin et la peinture.",
+            "ca_va_tinteresser_si":"Si tu es passionné.e par l'histoire de l'art, la naissance de la modernité artistique et les figures féminines avant-gardistes."
+        }
     },
     {
         "titre":"Un exil combattant",
@@ -165,7 +185,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"Un voyage à travers l'art et l'histoire des exilés de la Seconde Guerre mondiale.",
+            "plus_precisement":"L'exposition suit quatre volets géographiques, dépeignant diverses formes d'exil et mettant en lumière les combattants de la France libre et les réfugiés exilés hors d'Europe. Les visiteurs peuvent découvrir les parcours et engagements de personnalités telles que René Cassin, Germaine Krull, André Masson, Wifredo Lam, et bien d'autres.",
+            "ca_va_tinteresser_si":"Si tu es passionné.e d'histoire, d'art et de récits humains marquants, ou si tu souhaites mieux comprendre l'impact de la Seconde Guerre mondiale sur les vies individuelles."
+        }
     },
     {
         "titre":"Louvre couture",
@@ -198,7 +223,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Apocalypse",
@@ -230,7 +260,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Modigliani \/ Zadkine, Une amitié interrompue",
@@ -264,7 +299,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"L'intime, de la chambre aux réseaux sociaux",
@@ -298,7 +338,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Du Cœur à la Main : Dolce&Gabbana",
@@ -331,7 +376,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Olga de Amaral",
@@ -365,7 +415,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":true
+        "fin_proche":true,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Chiharu Shiota, The Soul Trembles",
@@ -398,7 +453,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Disco, I'm coming out",
@@ -430,7 +490,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Wax, entre héritage et réappropriation",
@@ -464,7 +529,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Lê Phô, Mai-Thu, Vu Cao Dam",
@@ -498,7 +568,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Lieux sacrés : Bâtir, Célébrer, Coexister",
@@ -532,7 +607,12 @@
         ],
         "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"La couleur parle toutes les langues",
@@ -566,7 +646,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Corps et âmes",
@@ -598,7 +683,12 @@
         ],
         "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Dennis Morris — Music + Life",
@@ -630,7 +720,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Nadia Léger. Une femme d'avant-garde",
@@ -664,7 +759,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Raphaël Barontini : Quelque part dans la nuit, le peuple danse",
@@ -696,7 +796,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Revoir Cimabue",
@@ -730,7 +835,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Artemisia, Heroïne de l'art",
@@ -764,7 +874,12 @@
         ],
         "statut":"A venir",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Mille et une orchidées",
@@ -798,7 +913,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":true
+        "fin_proche":true,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Elles. Les élèves de Jean-Jacques Henner",
@@ -832,7 +952,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"David Hockney, 25",
@@ -866,7 +991,12 @@
         ],
         "statut":"A venir",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Migrations, Une odyssée humaine",
@@ -898,7 +1028,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Bijoux de scène de l'Opéra de Paris",
@@ -932,7 +1067,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Paris, capitale de la perle",
@@ -966,7 +1106,12 @@
         ],
         "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Robert Doisneau, Instants donnés",
@@ -998,7 +1143,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Silence",
@@ -1032,7 +1182,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Joie Collective – Apprendre à flamboyer !",
@@ -1064,7 +1219,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Ravel, Boléro",
@@ -1096,7 +1256,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"La Photographie à tout prix",
@@ -1128,7 +1293,12 @@
         ],
         "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Picasso, L'art en mouvement",
@@ -1162,7 +1332,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Les fleurs d'Yves Saint Laurent",
@@ -1195,7 +1370,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Art brut d'Iran",
@@ -1228,7 +1408,12 @@
         ],
         "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Harold Feinstein, la roue des merveilles",
@@ -1258,9 +1443,14 @@
         "tags_category":[
             "Photographie & Cinéma"
         ],
-        "statut":"A venir",
+        "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Mon ours en peluche",
@@ -1294,7 +1484,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"La saga des Grands Magasins",
@@ -1327,7 +1522,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Emanuele Piccardo, Looking at Le Corbusier",
@@ -1360,7 +1560,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":true
+        "fin_proche":true,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Gabriele Münter, Peindre sans détours",
@@ -1394,7 +1599,12 @@
         ],
         "statut":"A venir",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Marjaana Kella, L'envers du portrait",
@@ -1426,7 +1636,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Azzedine Alaïa, Thierry Mugler",
@@ -1459,7 +1674,12 @@
         ],
         "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"L'art est dans la rue",
@@ -1492,7 +1712,12 @@
         ],
         "statut":"A venir",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Marc Riboud, Photographies du Vietnam 1966-1976",
@@ -1524,7 +1749,12 @@
         ],
         "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Comment les nazis ont photographié leurs crimes. Auschwitz 1944",
@@ -1556,7 +1786,12 @@
         ],
         "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Stephen Jones, Chapeaux d'artiste",
@@ -1589,7 +1824,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":true
+        "fin_proche":true,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Matisse et Marguerite",
@@ -1623,7 +1863,12 @@
         ],
         "statut":"A venir",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Victor Hugo et Les Misérables, de la réalité à l'idéal",
@@ -1655,7 +1900,12 @@
         ],
         "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Tous Léger !",
@@ -1689,7 +1939,12 @@
         ],
         "statut":"A venir",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Faire parler les pierres : Sculptures médiévales de Notre-Dame",
@@ -1723,7 +1978,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":true
+        "fin_proche":true,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Le monde pour horizon & Barthélémy Toguo",
@@ -1755,7 +2015,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Christofle, Une brillante histoire",
@@ -1788,7 +2053,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Chia Huang, Silence is Speaking",
@@ -1820,7 +2090,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Miguel Chevalier, Pixels",
@@ -1854,7 +2129,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Le Douanier Rousseau, Au pays des rêves",
@@ -1888,7 +2168,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Chiens et chats",
@@ -1920,7 +2205,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"La Collection Nahmad",
@@ -1954,7 +2244,12 @@
         ],
         "statut":"A venir",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"L'hygiène au Moyen Âge",
@@ -1988,7 +2283,12 @@
         ],
         "statut":"A venir",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Geneviève Asse, Carnets",
@@ -2022,7 +2322,12 @@
         ],
         "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Les ateliers extraordinaires",
@@ -2054,7 +2359,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":true
+        "fin_proche":true,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"La Mode en mouvement #3",
@@ -2087,7 +2397,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":true
+        "fin_proche":true,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Hans Hollein, TransFORMS",
@@ -2120,7 +2435,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Paris noir",
@@ -2154,7 +2474,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Edi Dubien, S'éclairer sans fin",
@@ -2188,7 +2513,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Roberta González",
@@ -2222,7 +2552,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Merveilles !",
@@ -2256,7 +2591,12 @@
         ],
         "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":true
+        "fin_proche":true,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Karim Kal, Mons Ferratus",
@@ -2288,7 +2628,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Dubuffet monumental",
@@ -2321,7 +2666,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Aubusson tisse Tolkien",
@@ -2354,7 +2704,12 @@
         ],
         "statut":"A venir",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Rammellzee, Alphabeta Sigma",
@@ -2386,7 +2741,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Maximilien Luce",
@@ -2420,7 +2780,12 @@
         ],
         "statut":"A venir",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Un autre Mali dans un autre monde",
@@ -2450,9 +2815,14 @@
         "tags_category":[
             "Photographie & Cinéma"
         ],
-        "statut":"A venir",
+        "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Christian Krohg (1852-1925), Le peuple du nord",
@@ -2486,7 +2856,12 @@
         ],
         "statut":"A venir",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Antiquité et cinéma",
@@ -2519,7 +2894,12 @@
         ],
         "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Objets en question",
@@ -2552,7 +2932,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Feuilleter Notre-Dame : Chefs-d'œuvre de la bibliothèque médiévale",
@@ -2586,7 +2971,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":true
+        "fin_proche":true,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"L'art et la vie et inversement",
@@ -2618,7 +3008,12 @@
         ],
         "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":true
+        "fin_proche":true,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Déserts",
@@ -2650,7 +3045,12 @@
         ],
         "statut":"A venir",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Salon international des minéraux, fossiles, météorites, gemmes et bijoux",
@@ -2682,9 +3082,14 @@
             "Instituts culturels et Salons",
             "Sciences & Techniques"
         ],
-        "statut":"A venir",
+        "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":true,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"François Chifflart, L'insoumis",
@@ -2718,7 +3123,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Wayang kulit, Théâtre d'ombres de Java et Bali",
@@ -2750,7 +3160,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Salon du Vintage",
@@ -2784,7 +3199,12 @@
         ],
         "statut":"A venir",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Empreinte carbone, l'expo !",
@@ -2816,7 +3236,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Disney100, L'exposition",
@@ -2848,7 +3273,12 @@
         ],
         "statut":"A venir",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Wes Anderson",
@@ -2882,7 +3312,12 @@
         ],
         "statut":"A venir",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Grotte Chauvet, l’aventure scientifique",
@@ -2915,7 +3350,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Miss Recuerdo",
@@ -2947,7 +3387,12 @@
         ],
         "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Dessins de bijoux, Les secrets de la création",
@@ -2981,7 +3426,12 @@
         ],
         "statut":"A venir",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Illusions (conjugales) perdues",
@@ -3015,7 +3465,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Trésors sauvés de Gaza",
@@ -3048,7 +3503,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Van Gogh, les derniers voyages",
@@ -3080,7 +3540,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Dans la Seine",
@@ -3113,7 +3578,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Derrière l'écran, la fabrique du film d'animation",
@@ -3145,9 +3615,14 @@
             "Histoire & Civilisations",
             "Photographie & Cinéma"
         ],
-        "statut":"A venir",
+        "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Gilbert Peyre, L'électromécanomanique",
@@ -3180,7 +3655,12 @@
         ],
         "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Écrire ou calligraphier ? L'alphabet arabe sublimé",
@@ -3214,7 +3694,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Daniel Cordier, L'espion amateur d'art",
@@ -3246,7 +3731,12 @@
         ],
         "statut":"A venir",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Rococo & co",
@@ -3279,7 +3769,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Miss.Tic",
@@ -3312,7 +3807,12 @@
         ],
         "statut":"A venir",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Ruhlmann, décorateur",
@@ -3345,7 +3845,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Alfred Dreyfus, vérité et justice",
@@ -3377,7 +3882,12 @@
         ],
         "statut":"A venir",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"VLP, Before \/ After",
@@ -3410,7 +3920,12 @@
         ],
         "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":true
+        "fin_proche":true,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Oh my Gods !",
@@ -3442,7 +3957,12 @@
         ],
         "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":true
+        "fin_proche":true,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Laia Abril, On Mass Hysteria",
@@ -3474,7 +3994,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Pierre Alferi - Dessins, 2006-2021",
@@ -3508,7 +4033,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Circulation(s)",
@@ -3540,7 +4070,12 @@
         ],
         "statut":"A venir",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Faits divers",
@@ -3572,7 +4107,12 @@
         ],
         "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Philippe Prost,  La Mémoire vive",
@@ -3605,7 +4145,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Kaléidoscope",
@@ -3637,7 +4182,12 @@
         ],
         "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":true
+        "fin_proche":true,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Enfants en guerre, guerre à l'enfance ? De 1914 à nos jours",
@@ -3669,7 +4219,12 @@
         ],
         "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":true
+        "fin_proche":true,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"La rue Réaumur : architecture industrielle et commerciale",
@@ -3702,7 +4257,12 @@
         ],
         "statut":"A venir",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Le Paris d’Agnès Varda, de-ci, de-là",
@@ -3735,7 +4295,12 @@
         ],
         "statut":"A venir",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Tim Hailand : Portals. Portraits",
@@ -3767,7 +4332,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Paula Padani, La danse migrante : Hambourg, Tel-Aviv, Paris",
@@ -3799,7 +4369,12 @@
         ],
         "statut":"A venir",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Les Brigades centrales de la préfecture de Police",
@@ -3831,7 +4406,12 @@
         ],
         "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Paris Print Fair",
@@ -3865,7 +4445,12 @@
         ],
         "statut":"A venir",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Musique et République",
@@ -3897,7 +4482,12 @@
         ],
         "statut":"A venir",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Allez hop, au travail !",
@@ -3929,7 +4519,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Les collections ont leur bande-son",
@@ -3961,7 +4556,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Guillaume Bresson",
@@ -3995,7 +4595,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Petrit Halilaj \/ Alberto Giacometti",
@@ -4028,7 +4633,12 @@
         ],
         "statut":"A venir",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"La fabrique du Temps",
@@ -4060,7 +4670,12 @@
         ],
         "statut":"A venir",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Les Compagnons de la Libération par le Studio Harcourt",
@@ -4092,7 +4707,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Le Plancher de Jeannot",
@@ -4124,7 +4744,12 @@
         ],
         "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Il faut sauver le Joba Mena",
@@ -4157,7 +4782,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Salon du Dessin",
@@ -4191,7 +4821,12 @@
         ],
         "statut":"A venir",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Danser",
@@ -4223,7 +4858,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Carnets de timbres dans l'air du temps",
@@ -4255,7 +4895,12 @@
         ],
         "statut":"A venir",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Trois siècles à l'Isle Adam",
@@ -4287,7 +4932,12 @@
         ],
         "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Salon des Artistes du 5e",
@@ -4319,7 +4969,12 @@
         ],
         "statut":"A venir",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Banlieues chéries",
@@ -4353,7 +5008,12 @@
         ],
         "statut":"A venir",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Oliver Beer, Reanimation Paintings : A Thousand Voices",
@@ -4385,7 +5045,12 @@
         ],
         "statut":"A venir",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Mamlouks, 1250-1517",
@@ -4418,7 +5083,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Salon Baby",
@@ -4450,7 +5120,12 @@
         ],
         "statut":"A venir",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Flight",
@@ -4482,7 +5157,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Salon des Seniors",
@@ -4514,7 +5194,12 @@
         ],
         "statut":"A venir",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Biennale internationale Métiers d'Art et Création",
@@ -4546,7 +5231,12 @@
         ],
         "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Real Fictions\/Naufragé·e·s",
@@ -4578,7 +5268,12 @@
         ],
         "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Atala, 1801. Voyage illustré au coeur d'un roman",
@@ -4610,7 +5305,12 @@
         ],
         "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Le monde selon l'IA",
@@ -4642,7 +5342,12 @@
         ],
         "statut":"A venir",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Salon Mondial du Tourisme",
@@ -4674,7 +5379,12 @@
         ],
         "statut":"A venir",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Salon Drawing Now Paris",
@@ -4708,7 +5418,12 @@
         ],
         "statut":"A venir",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Irène Poetschke",
@@ -4740,7 +5455,12 @@
         ],
         "statut":"A venir",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Peintures & Sculptures : Antoine Denain, Bernard Michel",
@@ -4772,7 +5492,12 @@
         ],
         "statut":"A venir",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Willy Ronis, sublimer l’ordinaire",
@@ -4802,9 +5527,14 @@
         "tags_category":[
             "Galeries"
         ],
-        "statut":"A venir",
+        "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Architecture de l’imaginaire : Patrizia Mussa",
@@ -4836,7 +5566,12 @@
         ],
         "statut":"A venir",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"L’enfant aux cerises : Lassana Sarre",
@@ -4868,7 +5603,12 @@
         ],
         "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":true
+        "fin_proche":true,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Oil of Angels : Oda Jaune",
@@ -4900,7 +5640,12 @@
         ],
         "statut":"A venir",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Ta-ra : Sebastián Bruno",
@@ -4930,9 +5675,14 @@
         "tags_category":[
             "Galeries"
         ],
-        "statut":"A venir",
+        "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Un monde Lumière : Thierry Frémaux",
@@ -4964,7 +5714,12 @@
         ],
         "statut":"A venir",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Femmes : Pharrell Williams",
@@ -4996,7 +5751,12 @@
         ],
         "statut":"A venir",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"La Rivière intérieure (O Rio interior) : Cristina Barroso",
@@ -5028,7 +5788,12 @@
         ],
         "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Théâtralités : Patrizia Mussa",
@@ -5060,7 +5825,12 @@
         ],
         "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Shipibo-Konibo : Portraits des miens",
@@ -5092,7 +5862,12 @@
         ],
         "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Prendre Soin : Marin Driguez",
@@ -5122,9 +5897,14 @@
         "tags_category":[
 
         ],
-        "statut":"A venir",
+        "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Histoires croisées",
@@ -5156,7 +5936,12 @@
         ],
         "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"État sauvage : Tom Climent",
@@ -5188,7 +5973,12 @@
         ],
         "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"L'art et rien que l'art",
@@ -5220,7 +6010,12 @@
         ],
         "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"L'Œil de l'Ail : Fee Kleiss",
@@ -5252,7 +6047,12 @@
         ],
         "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":true
+        "fin_proche":true,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Pierre Delcourt",
@@ -5284,7 +6084,12 @@
         ],
         "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Envol : Margarit Tsanev - Margo",
@@ -5314,9 +6119,14 @@
         "tags_category":[
             "Instituts culturels et Salons"
         ],
-        "statut":"A venir",
+        "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Sylvie de Meurville",
@@ -5348,7 +6158,12 @@
         ],
         "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Chaleur Boréale : Art Actuel Islandais",
@@ -5378,9 +6193,14 @@
         "tags_category":[
             "Galeries"
         ],
-        "statut":"A venir",
+        "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Sounds of sunset",
@@ -5412,7 +6232,12 @@
         ],
         "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Mort heureuse : Xie Lei",
@@ -5444,7 +6269,12 @@
         ],
         "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":true
+        "fin_proche":true,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Portraits",
@@ -5476,7 +6306,12 @@
         ],
         "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Regards croisés - peintures et dessins",
@@ -5508,7 +6343,12 @@
         ],
         "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Explorer le monde : Léa Valentin",
@@ -5540,7 +6380,12 @@
         ],
         "statut":"A venir",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Corps Pop, esprit Dada",
@@ -5572,7 +6417,12 @@
         ],
         "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"À quoi bon lire ? L’Heure joyeuse, la première bibliothèque pour les enfants fête ses 100 ans",
@@ -5604,7 +6454,12 @@
         ],
         "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Destination Asie, un voyage missionnaire en briques Lego",
@@ -5636,7 +6491,12 @@
         ],
         "statut":"En cours",
         "petit_budget":false,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Le jardin aux sentiers qui bifurquent : Olga Caldas",
@@ -5668,7 +6528,12 @@
         ],
         "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":true
+        "fin_proche":true,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Francis Picabia : Éternel recommencement",
@@ -5700,7 +6565,12 @@
         ],
         "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":true
+        "fin_proche":true,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Charles Pétillon",
@@ -5732,7 +6602,12 @@
         ],
         "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":true
+        "fin_proche":true,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Keep Smiling ! L’Univers imprimé de Pontus Hultén",
@@ -5764,7 +6639,12 @@
         ],
         "statut":"A venir",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Notre-Dame de Paris : Patrick Rimoux",
@@ -5796,7 +6676,12 @@
         ],
         "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":true
+        "fin_proche":true,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Détournements : Politisation des objets du quotidien",
@@ -5828,7 +6713,12 @@
         ],
         "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Mikiya Takimoto",
@@ -5860,7 +6750,12 @@
         ],
         "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":true
+        "fin_proche":true,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"American Street Photography",
@@ -5892,7 +6787,12 @@
         ],
         "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":true
+        "fin_proche":true,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Belladone : Tatiana Wolska",
@@ -5924,7 +6824,12 @@
         ],
         "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Love",
@@ -5956,7 +6861,12 @@
         ],
         "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"High Energies : Tony Regazzoni",
@@ -5988,7 +6898,12 @@
         ],
         "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Stéphanie Saadé",
@@ -6020,7 +6935,12 @@
         ],
         "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":true
+        "fin_proche":true,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"La couleur en héritage : Françoise Cauvin-Monet",
@@ -6052,7 +6972,12 @@
         ],
         "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"1900-2025, souffle de lumière : Aiko Miyanaga",
@@ -6084,7 +7009,12 @@
         ],
         "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"ChromAmour, une métamorphose : Lise Haller Baggesen",
@@ -6116,7 +7046,12 @@
         ],
         "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Marinette Cueco",
@@ -6148,7 +7083,12 @@
         ],
         "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Titouan Lamazou",
@@ -6180,7 +7120,12 @@
         ],
         "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":true
+        "fin_proche":true,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Chaosmos",
@@ -6212,7 +7157,12 @@
         ],
         "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Paradifisco : The Pop Suréalist",
@@ -6244,7 +7194,12 @@
         ],
         "statut":"A venir",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Croquez la pomme : Min Jung-Yeon",
@@ -6276,7 +7231,12 @@
         ],
         "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":true
+        "fin_proche":true,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Médium XXL : Philippe Lamaison",
@@ -6308,7 +7268,12 @@
         ],
         "statut":"A venir",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Entre tradition et horizon : Luc Bernay",
@@ -6340,7 +7305,12 @@
         ],
         "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Country Life : Amélie Bertrand",
@@ -6372,7 +7342,12 @@
         ],
         "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":true
+        "fin_proche":true,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Sur les toits de Provence : Sax",
@@ -6404,7 +7379,12 @@
         ],
         "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":true
+        "fin_proche":true,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Gilles Sacksick",
@@ -6436,7 +7416,12 @@
         ],
         "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Mois du dessin",
@@ -6466,9 +7451,14 @@
         "tags_category":[
             "Galeries"
         ],
-        "statut":"A venir",
+        "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Le tour du monde en 48 ans : Artiste Ouvrier",
@@ -6500,7 +7490,12 @@
         ],
         "statut":"A venir",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Osez la liberté ! Les pionnières du rire saoudien",
@@ -6532,7 +7527,12 @@
         ],
         "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"La Mort, Le Mat, Le Monde",
@@ -6564,7 +7564,12 @@
         ],
         "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Over the Rainbow : Camilla Moberg",
@@ -6596,7 +7601,12 @@
         ],
         "statut":"A venir",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Pascal Pilate",
@@ -6628,7 +7638,12 @@
         ],
         "statut":"A venir",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Cowboy Henk : Herr Seele & Kamagurka",
@@ -6660,7 +7675,12 @@
         ],
         "statut":"A venir",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Ski : Raphaël Dautigny",
@@ -6692,7 +7712,12 @@
         ],
         "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Karen Swami",
@@ -6724,7 +7749,12 @@
         ],
         "statut":"A venir",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Molitor, de 1930 à 1960, l'effervescence parisienne",
@@ -6756,7 +7786,12 @@
         ],
         "statut":"A venir",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Regard poétique sur le monde : Ossip Lubitch",
@@ -6788,7 +7823,12 @@
         ],
         "statut":"A venir",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Flamme",
@@ -6820,7 +7860,12 @@
         ],
         "statut":"A venir",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Forget-me-not : Elise Bergamini",
@@ -6852,7 +7897,12 @@
         ],
         "statut":"A venir",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Bernard Buffet, Érotique",
@@ -6884,7 +7934,12 @@
         ],
         "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Le Cri pour la Planète, Hommage à Frans Krajcberg",
@@ -6916,7 +7971,12 @@
         ],
         "statut":"A venir",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"Éric Bari",
@@ -6948,7 +8008,12 @@
         ],
         "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     },
     {
         "titre":"L'assiette au cœur",
@@ -6978,8 +8043,13 @@
         "tags_category":[
             "Galeries"
         ],
-        "statut":"A venir",
+        "statut":"En cours",
         "petit_budget":true,
-        "fin_proche":false
+        "fin_proche":false,
+        "description_detaillee_mise_en_forme":{
+            "de_quoi_sagit_il":"",
+            "plus_precisement":"",
+            "ca_va_tinteresser_si":""
+        }
     }
 ]
