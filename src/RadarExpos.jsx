@@ -48,6 +48,8 @@ export default function ExpoMap() {
   const [finProche, setFinProche] = useState(false);
   const [enCours, setEnCours] = useState(false);
   const [aVenir, setAVenir] = useState(false);
+  const [showMap, setShowMap] = useState(true); // État pour gérer la visibilité de la carte
+  const [isMobile, setIsMobile] = useState(false); // État pour gérer si l'utilisateur est sur mobile
   const mapRef = useRef(null);
   const markerRefs = useRef({});
   const initialCenter = [48.8566, 2.3522];
@@ -68,6 +70,19 @@ export default function ExpoMap() {
       .catch((error) =>
         console.error("Erreur lors du chargement des expositions:", error)
       );
+  }, []);
+
+  useEffect(() => {
+    const checkIsMobile = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+
+    checkIsMobile();
+    window.addEventListener("resize", checkIsMobile);
+
+    return () => {
+      window.removeEventListener("resize", checkIsMobile);
+    };
   }, []);
 
   useEffect(() => {
@@ -130,12 +145,14 @@ export default function ExpoMap() {
     setAVenir(false);
     setFilteredExpos(expos);
     setSelectedExpo(null);
-    mapRef.current.setView(initialCenter, initialZoom);
+    if (mapRef.current) {
+      mapRef.current.setView(initialCenter, initialZoom);
+    }
   };
 
   return (
     <div className="flex h-screen m-0 p-0">
-      <div className="grid grid-cols-3 w-full h-full">
+      <div className={`grid w-full h-full ${isMobile ? "grid-cols-1" : (showMap ? "grid-cols-3" : "grid-cols-2")}`}>
         <div className="col-span-2 bg-gray-100 overflow-auto p-4">
           <div className="mb-4">
             <h1 className="text-4xl font-bold mb-4">RadarExpo</h1>
@@ -230,9 +247,15 @@ export default function ExpoMap() {
                 Tout effacer
               </button>
             )}
+            <button
+              className="px-4 py-2 rounded shadow-md bg-blue-500 text-white"
+              onClick={() => setShowMap(!showMap)}
+            >
+              {showMap ? "Masquer la carte" : "Afficher la carte"}
+            </button>
           </div>
 
-          <div className="grid grid-cols-2 gap-6">
+          <div className={`grid gap-6 ${isMobile ? "grid-cols-1" : (showMap ? "grid-cols-2" : "grid-cols-3")}`}>
             {filteredExpos.length === 0 ? (
               <p className="text-center text-gray-600">Aucune exposition ne correspond à ces filtres</p>
             ) : (
@@ -288,44 +311,46 @@ export default function ExpoMap() {
           </div>
         </div>
 
-        <div className="col-span-1 p-4">
-          <MapContainer ref={mapRef} center={initialCenter} zoom={initialZoom} className="h-full w-full rounded-lg overflow-hidden shadow-lg" style={{ borderRadius: "1rem", boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)" }}>
-            <TileLayer url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png" />
-            <MapEvents setFilteredExpos={setFilteredExpos} expos={expos} />
-            {selectedExpo && <MoveView center={[selectedExpo.latitude, selectedExpo.longitude]} zoom={16} />}
-            {filteredExpos.map((expo) => (
-              <Marker key={expo.titre} position={[expo.latitude, expo.longitude]} icon={expoIcon} ref={(el) => (markerRefs.current[expo.titre] = el)}>
-                <Popup closeButton={false} className="custom-popup" offset={[0, -10]}>
-                  <div className="flex justify-center items-center">
-                    <img src={expo.img_url} alt={expo.titre} className="w-1/3 object-cover rounded-t-lg" />
-                  </div>
-                  <h3 className="font-bold text-center mt-2">{expo.titre}</h3>
-                  <p className="text-sm text-gray-700 text-center">{expo.emplacement}</p>
-                  <p className="text-xs text-gray-500 text-center">{expo.adresse}</p>
-                  <a href={expo.url_lieu} className="text-blue-500 text-center block mt-2" target="_blank" rel="noopener noreferrer">{expo.url_lieu}</a>
-                  <div className="mt-2 max-h-40 overflow-y-auto">
-                    {expo.description_detaillee_mise_en_forme && (
-                      <>
-                        <p className="text-sm text-gray-700">
-                          <strong>🖼️ De quoi s'agit-il ?</strong><br />
-                          {expo.description_detaillee_mise_en_forme.de_quoi_sagit_il}
-                        </p>
-                        <p className="text-sm text-gray-700 mt-2">
-                          <strong>🔎 Plus précisément</strong><br />
-                          {expo.description_detaillee_mise_en_forme.plus_precisement}
-                        </p>
-                        <p className="text-sm text-gray-700 mt-2">
-                          <strong>❤️ Ça va t'intéresser si</strong><br />
-                          {expo.description_detaillee_mise_en_forme.ca_va_tinteresser_si}
-                        </p>
-                      </>
-                    )}
-                  </div>
-                </Popup>
-              </Marker>
-            ))}
-          </MapContainer>
-        </div>
+        {showMap && (
+          <div className="col-span-1 p-4">
+            <MapContainer ref={mapRef} center={initialCenter} zoom={initialZoom} className="h-full w-full rounded-lg overflow-hidden shadow-lg" style={{ borderRadius: "1rem", boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)" }}>
+              <TileLayer url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png" />
+              <MapEvents setFilteredExpos={setFilteredExpos} expos={expos} />
+              {selectedExpo && <MoveView center={[selectedExpo.latitude, selectedExpo.longitude]} zoom={16} />}
+              {filteredExpos.map((expo) => (
+                <Marker key={expo.titre} position={[expo.latitude, expo.longitude]} icon={expoIcon} ref={(el) => (markerRefs.current[expo.titre] = el)}>
+                  <Popup closeButton={false} className="custom-popup" offset={[0, -10]}>
+                    <div className="flex justify-center items-center">
+                      <img src={expo.img_url} alt={expo.titre} className="w-1/3 object-cover rounded-t-lg" />
+                    </div>
+                    <h3 className="font-bold text-center mt-2">{expo.titre}</h3>
+                    <p className="text-sm text-gray-700 text-center">{expo.emplacement}</p>
+                    <p className="text-xs text-gray-500 text-center">{expo.adresse}</p>
+                    <a href={expo.url_lieu} className="text-blue-500 text-center block mt-2" target="_blank" rel="noopener noreferrer">{expo.url_lieu}</a>
+                    <div className="mt-2 max-h-40 overflow-y-auto">
+                      {expo.description_detaillee_mise_en_forme && (
+                        <>
+                          <p className="text-sm text-gray-700">
+                            <strong>🖼️ De quoi s'agit-il ?</strong><br />
+                            {expo.description_detaillee_mise_en_forme.de_quoi_sagit_il}
+                          </p>
+                          <p className="text-sm text-gray-700 mt-2">
+                            <strong>🔎 Plus précisément</strong><br />
+                            {expo.description_detaillee_mise_en_forme.plus_precisement}
+                          </p>
+                          <p className="text-sm text-gray-700 mt-2">
+                            <strong>❤️ Ça va t'intéresser si</strong><br />
+                            {expo.description_detaillee_mise_en_forme.ca_va_tinteresser_si}
+                          </p>
+                        </>
+                      )}
+                    </div>
+                  </Popup>
+                </Marker>
+              ))}
+            </MapContainer>
+          </div>
+        )}
       </div>
     </div>
   );
