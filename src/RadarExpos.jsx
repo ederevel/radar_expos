@@ -123,9 +123,8 @@ export default function ExpoMap() {
       <div className="grid grid-cols-3 w-full h-full">
         <div className="col-span-2 bg-gray-100 overflow-auto p-4">
           <div className="mb-4">
-            <h1 className="text-4xl font-bold mb-4">RadarExpo</h1>
-            <p className="text-gray-600 mb-2"><span className="line-through">est encore un site sur les expos à Paris </span></p>
-            <p className="text-gray-600">trouve l'expo idéale en 30 secondes, en fonction de tes envies, ton budget, tes horaires de boulot...</p>
+              <h1 className="text-4xl font-bold mb-4">RadarExpo</h1>
+              Trouve l'expo idéale en fonction de tes envies, ton budget, tes horaires de boulot...
           </div>
           <div className="flex space-x-2 mb-4">
             <select
