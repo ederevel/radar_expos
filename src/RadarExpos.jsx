@@ -74,7 +74,9 @@ export default function ExpoMap() {
 
   useEffect(() => {
     const checkIsMobile = () => {
-      setIsMobile(window.innerWidth <= 768);
+      const mobile = window.innerWidth <= 768;
+      setIsMobile(mobile);
+      setShowMap(!mobile); // Set showMap based on isMobile
     };
 
     checkIsMobile();
