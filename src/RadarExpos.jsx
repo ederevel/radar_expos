@@ -123,7 +123,7 @@ export default function ExpoMap() {
       <div className="grid grid-cols-3 w-full h-full">
         <div className="col-span-2 bg-gray-100 overflow-auto p-4">
           <div className="flex space-x-2 mb-4">
-            <select className="w-1/3 bg-white p-2 rounded shadow-md" onChange={(e) => setSelectedTag(e.target.value)}>
+            <select className="bg-white p-2 rounded shadow-md" onChange={(e) => setSelectedTag(e.target.value)}>
               <option value="">Tag</option>
               {uniqueTags.map((tag) => (
                 <option key={tag} value={tag}>
@@ -131,7 +131,7 @@ export default function ExpoMap() {
                 </option>
               ))}
             </select>
-            <select className="w-1/3 bg-white p-2 rounded shadow-md" onChange={(e) => setSelectedArrondissement(e.target.value)}>
+            <select className="bg-white p-2 rounded shadow-md" onChange={(e) => setSelectedArrondissement(e.target.value)}>
               <option value="">Arrondissement</option>
               {uniqueArrondissements.map((arr) => (
                 <option key={arr} value={arr}>
@@ -139,7 +139,7 @@ export default function ExpoMap() {
                 </option>
               ))}
             </select>
-            <div className="w-1/3 bg-white p-2 rounded shadow-md flex items-center relative">
+            <div className="bg-white p-2 rounded shadow-md flex items-center relative">
               <DatePicker
                 selected={selectedDate}
                 onChange={(date) => setSelectedDate(date)}
@@ -161,7 +161,7 @@ export default function ExpoMap() {
             </div>
           </div>
 
-          <div className="mb-4 space-x-2">
+          <div className="flex space-x-2 mb-4">
             <button
               className={`px-4 py-2 rounded shadow-md ${petitBudget ? "bg-gray-500 text-white" : "bg-white text-gray-800"}`}
               onClick={() => setPetitBudget(!petitBudget)}
