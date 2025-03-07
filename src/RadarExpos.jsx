@@ -123,7 +123,12 @@ export default function ExpoMap() {
       <div className="grid grid-cols-3 w-full h-full">
         <div className="col-span-2 bg-gray-100 overflow-auto p-4">
           <div className="flex space-x-2 mb-4">
-            <select className="bg-white p-2 rounded shadow-md" onChange={(e) => setSelectedTag(e.target.value)}>
+            <select
+              className={`p-2 rounded shadow-md ${selectedTag ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
+              onChange={(e) => setSelectedTag(e.target.value)}
+              value={selectedTag}
+              style={{ outline: 'none' }}
+            >
               <option value="">Tag</option>
               {uniqueTags.map((tag) => (
                 <option key={tag} value={tag}>
@@ -131,7 +136,12 @@ export default function ExpoMap() {
                 </option>
               ))}
             </select>
-            <select className="bg-white p-2 rounded shadow-md" onChange={(e) => setSelectedArrondissement(e.target.value)}>
+            <select
+              className={`p-2 rounded shadow-md ${selectedArrondissement ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
+              onChange={(e) => setSelectedArrondissement(e.target.value)}
+              value={selectedArrondissement}
+              style={{ outline: 'none' }}
+            >
               <option value="">Arrondissement</option>
               {uniqueArrondissements.map((arr) => (
                 <option key={arr} value={arr}>
@@ -139,19 +149,19 @@ export default function ExpoMap() {
                 </option>
               ))}
             </select>
-            <div className="bg-white p-2 rounded shadow-md flex items-center relative">
+            <div className={`p-2 rounded shadow-md flex items-center relative ${selectedDate ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}>
               <DatePicker
                 selected={selectedDate}
                 onChange={(date) => setSelectedDate(date)}
                 dateFormat="dd/MM/yyyy"
-                placeholderText="Sélectionner une date"
-                className="w-full"
+                placeholderText="Date de la visite"
+                className="w-full datepicker-no-outline"
                 locale="fr"
                 disabled={!dateFilterEnabled}
               />
               {selectedDate && (
                 <i
-                  className="fas fa-times-circle text-gray-500 cursor-pointer absolute right-2"
+                  className="fas fa-times-circle text-white-500 cursor-pointer absolute right-2"
                   onClick={() => {
                     setSelectedDate(null);
                     setDateFilterEnabled(true); // Enable date filtering again
@@ -163,19 +173,19 @@ export default function ExpoMap() {
 
           <div className="flex space-x-2 mb-4">
             <button
-              className={`px-4 py-2 rounded shadow-md ${petitBudget ? "bg-gray-500 text-white" : "bg-white text-gray-800"}`}
+              className={`px-4 py-2 rounded shadow-md ${petitBudget ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
               onClick={() => setPetitBudget(!petitBudget)}
             >
               J'ai un petit budget
             </button>
             <button
-              className={`px-4 py-2 rounded shadow-md ${finProche ? "bg-gray-500 text-white" : "bg-white text-gray-800"}`}
+              className={`px-4 py-2 rounded shadow-md ${finProche ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
               onClick={() => setFinProche(!finProche)}
             >
               Derniers jours
             </button>
             <button
-              className={`px-4 py-2 rounded shadow-md ${enCours ? "bg-gray-500 text-white" : "bg-white text-gray-800"}`}
+              className={`px-4 py-2 rounded shadow-md ${enCours ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
               onClick={() => {
                 setEnCours(!enCours);
                 setAVenir(false);
@@ -184,7 +194,7 @@ export default function ExpoMap() {
               En cours
             </button>
             <button
-              className={`px-4 py-2 rounded shadow-md ${aVenir ? "bg-gray-500 text-white" : "bg-white text-gray-800"}`}
+              className={`px-4 py-2 rounded shadow-md ${aVenir ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
               onClick={() => {
                 setAVenir(!aVenir);
                 setEnCours(false);
