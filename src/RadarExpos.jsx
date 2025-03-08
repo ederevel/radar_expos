@@ -361,7 +361,7 @@ export default function ExpoMap() {
               <img src={selectedExpo.img_url} alt={selectedExpo.titre} />
             </div>
             <div className="modal-details">
-              <h2 className="text-xl font-bold mb-2">{selectedExpo.titre}</h2>
+              <h2 className="text-xl font-bold mb-2 mt-5">{selectedExpo.titre}</h2>
               <p className="text-sm text-gray-700 mb-2">{selectedExpo.emplacement}</p>
               <p className="text-xs text-gray-500 mb-2">{selectedExpo.adresse}</p>
               <a href={selectedExpo.url_lieu} className="text-blue-500 block mt-2" target="_blank" rel="noopener noreferrer">
