@@ -157,7 +157,7 @@ export default function ExpoMap() {
 
   return (
     <div className="flex flex-col h-screen m-0 p-0">
-      <div className={`grid w-full h-full ${isMobile ? "grid-cols-1" : (showMap ? "grid-cols-3" : "grid-cols-2")}`}>
+      <div className={`w-full h-full ${isMobile ? (showMap ? "" : "grid grid-cols-1")  : (showMap ? "grid grid-cols-3" : "grid grid-cols-2")}`}>
         <div className="col-span-2 bg-gray-100 overflow-auto p-4">
           <div className="mb-4">
             <h1 className="text-4xl font-bold mb-4">RadarExpo</h1>
@@ -331,7 +331,7 @@ export default function ExpoMap() {
         </div>
 
         {showMap && (
-          <div className="col-span-1 p-4">
+          <div className={`col-span-1 p-4 flex flex-col ${isMobile ? 'h-full' : ''}`}>
             <MapContainer ref={mapRef} center={initialCenter} zoom={initialZoom} className="h-full w-full rounded-lg overflow-hidden shadow-lg" style={{ borderRadius: "1rem", boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)" }}>
               <TileLayer url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png" />
               <MapEvents setFilteredExpos={setFilteredExpos} expos={expos} />
