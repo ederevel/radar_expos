@@ -152,7 +152,7 @@ export default function ExpoMap() {
   const resetMapView = () => {
     if (mapRef.current) {
       mapRef.current.setView(initialCenter, initialZoom);
-  
+
       // Empêcher la réapparition immédiate
       setTimeout(() => {
         setButtonVisible(false);
@@ -360,7 +360,7 @@ export default function ExpoMap() {
               </MapContainer>
               {buttonVisible && (
                 <button
-                  className="absolute bottom-4 right-4 bg-blue-500 text-white px-4 py-2 rounded shadow-md z-10"
+                  className="absolute top-4 right-4 bg-gray-400 text-white px-4 py-2 rounded shadow-md z-10"
                   onClick={resetMapView}
                   style={{ zIndex: 10 }}
                 >
