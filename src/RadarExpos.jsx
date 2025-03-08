@@ -355,7 +355,7 @@ export default function ExpoMap() {
         {selectedExpo && (
           <div className="modal-header">
             <button className="modal-close" onClick={closeModal}>
-              &times;
+              <i className="fas fa-times"></i> {/* Utilisation de Font Awesome */}
             </button>
             <div className="modal-image">
               <img src={selectedExpo.img_url} alt={selectedExpo.titre} />
