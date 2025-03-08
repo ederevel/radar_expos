@@ -379,7 +379,7 @@ export default function ExpoMap() {
                       {selectedExpo.description_detaillee_mise_en_forme.plus_precisement}
                     </p>
                     <p className="text-sm text-gray-700 mt-2">
-                      <strong>❤️ Ça va t'intéresser si</strong><br />
+                      <strong>❤️ Ça va t'intéresser si...</strong><br />
                       {selectedExpo.description_detaillee_mise_en_forme.ca_va_tinteresser_si}
                     </p>
                   </>
