@@ -266,7 +266,7 @@ export default function ExpoMap() {
                     className="px-4 py-2 rounded shadow-md bg-red-500 text-white mb-2 w-full sm:w-auto"
                     onClick={resetFilters}
                   >
-                    Tout effacer
+                    Effacer les filtres
                   </button>
                 )}
               </div>
