@@ -29,28 +29,39 @@ body {
   padding: 20px;
   border-radius: 8px;
   z-index: 1001;
-  max-width: 400px; /* Ajustez la largeur maximale ici */
+  max-width: 600px; /* Ajustez la largeur maximale ici */
   width: 100%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.modal-content .modal-header {
+.modal-header {
   display: flex;
   align-items: center;
+  position: relative;
 }
 
-.modal-content .modal-image {
+.modal-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.modal-image {
   width: 40%; /* Ajustez la largeur de l'image */
   margin-right: 20px;
 }
 
-.modal-content .modal-image img {
+.modal-image img {
   width: 100%;
   height: auto;
   object-fit: cover;
   border-radius: 8px;
 }
 
-.modal-content .modal-details {
+.modal-details {
   width: 60%; /* Ajustez la largeur du texte */
 }

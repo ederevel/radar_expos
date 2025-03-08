@@ -354,6 +354,9 @@ export default function ExpoMap() {
       >
         {selectedExpo && (
           <div className="modal-header">
+            <button className="modal-close" onClick={closeModal}>
+              &times;
+            </button>
             <div className="modal-image">
               <img src={selectedExpo.img_url} alt={selectedExpo.titre} />
             </div>
@@ -382,13 +385,11 @@ export default function ExpoMap() {
                   </>
                 )}
               </div>
-              <button className="mt-4 px-4 py-2 bg-gray-400 text-white rounded shadow-md" onClick={closeModal}>
-                Fermer
-              </button>
             </div>
           </div>
         )}
       </Modal>
+
 
     </div>
   );
