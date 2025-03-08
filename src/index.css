@@ -29,14 +29,20 @@ body {
   padding: 20px;
   border-radius: 8px;
   z-index: 1001;
-  max-width: 600px; /* Ajustez la largeur maximale ici */
+  max-width: 800px; /* Ajustez la largeur maximale ici */
   width: 100%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  outline: none; /* Supprime la bordure de focus */
+}
+
+.modal-content:focus,
+.modal-content:focus-visible {
+  outline: none; /* Supprime la bordure de focus */
 }
 
 .modal-header {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   position: relative;
 }
 
@@ -63,5 +69,5 @@ body {
 }
 
 .modal-details {
-  width: 60%; /* Ajustez la largeur du texte */
+  width: 80%; /* Ajustez la largeur du texte */
 }

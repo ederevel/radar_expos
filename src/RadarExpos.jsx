@@ -367,7 +367,7 @@ export default function ExpoMap() {
               <a href={selectedExpo.url_lieu} className="text-blue-500 block mt-2" target="_blank" rel="noopener noreferrer">
                 {selectedExpo.url_lieu}
               </a>
-              <div className="mt-2 max-h-40 overflow-y-auto">
+              <div className="mt-2 overflow-y-auto">
                 {selectedExpo.description_detaillee_mise_en_forme && (
                   <>
                     <p className="text-sm text-gray-700">
