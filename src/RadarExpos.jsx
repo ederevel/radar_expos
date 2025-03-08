@@ -18,7 +18,7 @@ const pastelColors = ["#E6E6FA"];
 
 registerLocale("fr", fr);
 
-function MapEvents({ setFilteredExpos, expos }) {
+function MapEvents({ setFilteredExpos, expos, setButtonVisible }) {
   const map = useMapEvents({
     moveend: () => {
       const bounds = map.getBounds();
@@ -26,6 +26,10 @@ function MapEvents({ setFilteredExpos, expos }) {
         bounds.contains([expo.latitude, expo.longitude])
       );
       setFilteredExpos(visibleExpos);
+      setButtonVisible(true);
+    },
+    zoomend: () => {
+      setButtonVisible(true);
     },
   });
   return null;
@@ -47,6 +51,7 @@ export default function ExpoMap() {
   const [isMobile, setIsMobile] = useState(false);
   const [showFilters, setShowFilters] = useState(true);
   const [modalIsOpen, setModalIsOpen] = useState(false);
+  const [buttonVisible, setButtonVisible] = useState(false);
   const mapRef = useRef(null);
   const markerRefs = useRef({});
   const initialCenter = [48.8566, 2.3522];
@@ -141,6 +146,17 @@ export default function ExpoMap() {
     setSelectedExpo(null);
     if (mapRef.current) {
       mapRef.current.setView(initialCenter, initialZoom);
+    }
+  };
+
+  const resetMapView = () => {
+    if (mapRef.current) {
+      mapRef.current.setView(initialCenter, initialZoom);
+  
+      // Empêcher la réapparition immédiate
+      setTimeout(() => {
+        setButtonVisible(false);
+      }, 500); // Délai pour éviter la réactivation immédiate
     }
   };
 
@@ -330,17 +346,28 @@ export default function ExpoMap() {
         </div>
 
         {showMap && (
-          <div className={`col-span-1 p-4 flex flex-col ${isMobile ? 'h-full' : ''}`}>
-            <MapContainer ref={mapRef} center={initialCenter} zoom={initialZoom} className="h-full w-full rounded-lg overflow-hidden shadow-lg" style={{ borderRadius: "1rem", boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)" }}>
-              <TileLayer url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png" />
-              <MapEvents setFilteredExpos={setFilteredExpos} expos={expos} />
-              {filteredExpos.map((expo) => (
-                <Marker key={expo.titre} position={[expo.latitude, expo.longitude]} icon={expoIcon} ref={(el) => (markerRefs.current[expo.titre] = el)} eventHandlers={{
-                  click: () => openModal(expo),
-                }}>
-                </Marker>
-              ))}
-            </MapContainer>
+          <div className={`col-span-1 p-4 relative flex flex-col ${isMobile ? 'h-full' : ''}`}>
+            <div className="relative h-full w-full">
+              <MapContainer ref={mapRef} center={initialCenter} zoom={initialZoom} className="h-full w-full rounded-lg overflow-hidden shadow-lg" style={{ borderRadius: "1rem", boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)", position: 'relative', zIndex: 0 }}>
+                <TileLayer url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png" />
+                <MapEvents setFilteredExpos={setFilteredExpos} expos={expos} setButtonVisible={setButtonVisible} />
+                {filteredExpos.map((expo) => (
+                  <Marker key={expo.titre} position={[expo.latitude, expo.longitude]} icon={expoIcon} ref={(el) => (markerRefs.current[expo.titre] = el)} eventHandlers={{
+                    click: () => openModal(expo),
+                  }}>
+                  </Marker>
+                ))}
+              </MapContainer>
+              {buttonVisible && (
+                <button
+                  className="absolute bottom-4 right-4 bg-blue-500 text-white px-4 py-2 rounded shadow-md z-10"
+                  onClick={resetMapView}
+                  style={{ zIndex: 10 }}
+                >
+                  Réinitialiser la carte
+                </button>
+              )}
+            </div>
           </div>
         )}
       </div>
@@ -389,7 +416,6 @@ export default function ExpoMap() {
           </div>
         )}
       </Modal>
-
 
     </div>
   );
