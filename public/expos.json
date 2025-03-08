@@ -33,9 +33,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"Une étude de la campagne de propagande nazie contre l'art moderne.",
-            "plus_precisement":"L'exposition met en lumière la façon dont le régime nazi a systématiquement attaqué l'art moderne, notamment à travers l'exemple de Pablo Picasso, considéré comme un artiste 'dégénéré'. Elle retrace l'histoire de plus de 20 000 œuvres d'artistes tels que Vincent Van Gogh, Marc Chagall ou encore Picasso, qui ont été retirées, vendues ou détruites dans le cadre de cette campagne.",
-            "ca_va_tinteresser_si":"Si tu es intéressé.e par l'histoire de l'art, les régimes totalitaires, ou si tu es fan de Picasso, Van Gogh ou Chagall."
+            "de_quoi_sagit_il":"Une plongée dans l'histoire de l'art moderne face à la censure nazie.",
+            "plus_precisement":"L'exposition retrace l’attaque systématique du régime nazi contre l’art moderne, en mettant en lumière le rôle central de Pablo Picasso, souvent qualifié d’artiste « dégénéré ». Plus de 20 000 œuvres, dont celles de Van Gogh et Chagall, furent retirées, vendues ou détruites dans ce contexte.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'histoire de l'art, la propagande nazie et les mécanismes de censure artistique."
         }
     },
     {
@@ -72,9 +72,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"Une exploration de l'histoire de l'or dans les arts textiles à travers le monde",
-            "plus_precisement":"L'exposition aborde l'utilisation de l'or dans le textile depuis le cinquième millénaire avant notre ère, mettant en lumière les techniques utilisées par les artisans pour intégrer cet élément précieux dans leurs créations. Elle présente des pièces d'art textile d'origines diverses, allant des premiers ornements sur les vêtements des défunts aux créations contemporaines flamboyantes de la créatrice Guo Pei.",
-            "ca_va_tinteresser_si":"Si tu es passionné.e par l'histoire de l'art, l'artisanat traditionnel, la mode haute couture ou si tu es simplement fasciné.e par la beauté et la symbolique de l'or."
+            "de_quoi_sagit_il":"Une odyssée textile millénaire à travers l'or",
+            "plus_precisement":"L'exposition explore l'utilisation de l'or dans les arts textiles, des premières étoffes de luxe aux créations modernes de haute couture. Elle est divisée en sections historiques et géographiques, mettant en lumière les techniques et savoir-faire de différentes civilisations.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'art textile, l'histoire de l'or ou les civilisations et leurs traditions artistiques."
         }
     },
     {
@@ -111,9 +111,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"Une plongée immersive dans le monde des enquêtes criminelles et des tueurs en série notoires.",
-            "plus_precisement":"L'exposition présente des objets authentiques et des reconstitutions de scènes de crimes tristement célèbres, comme celles de Ted Bundy ou du Tueur du Zodiaque, pour explorer en profondeur ce phénomène criminel.",
-            "ca_va_tinteresser_si":"Si tu es fasciné.e par les enquêtes criminelles, les profils de tueurs en série et les scènes de crime reconstituées."
+            "de_quoi_sagit_il":"Une plongée immersive dans le monde des enquêtes criminelles et des tueurs en série célèbres.",
+            "plus_precisement":"L'exposition présente des objets originaux et des reconstitutions de scènes de crime emblématiques, comme celles de Ted Bundy et du Tueur du Zodiaque. Elle explore en profondeur ce phénomène criminel à travers des témoignages et des analyses.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par les enquêtes policières, les mystères non résolus et l'histoire des crimes célèbres."
         }
     },
     {
@@ -150,9 +150,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"Une rétrospective dédiée à l'œuvre de Suzanne Valadon.",
-            "plus_precisement":"L'exposition retrace le parcours unique de Suzanne Valadon, de ses débuts comme modèle à Montmartre jusqu'à sa reconnaissance artistique. Elle met en lumière la modernité de son œuvre, notamment en tant que première femme à peindre un nu masculin de face en grand format. Le parcours de l'exposition comprend près de 200 œuvres, concentrées sur les médiums de prédilection de l'artiste, le dessin et la peinture.",
-            "ca_va_tinteresser_si":"Si tu es passionné.e par l'histoire de l'art, la naissance de la modernité artistique et les figures féminines avant-gardistes."
+            "de_quoi_sagit_il":"Une exploration de l'œuvre novatrice de Suzanne Valadon, pionnière de la modernité artistique.",
+            "plus_precisement":"L'exposition retrace l'itinéraire unique de Suzanne Valadon, de modèle à artiste reconnue, en mettant en lumière son rôle précurseur dans la peinture de nus masculins et féminins. Près de 200 œuvres, principalement des dessins et des peintures, témoignent de son approche moderne et sans artifice.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'art moderne, l'histoire de l'art parisien ou les figures féminines avant-gardistes."
         }
     },
     {
@@ -187,9 +187,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"Un voyage à travers l'art et l'histoire des exilés de la Seconde Guerre mondiale.",
-            "plus_precisement":"L'exposition suit quatre volets géographiques, dépeignant diverses formes d'exil et mettant en lumière les combattants de la France libre et les réfugiés exilés hors d'Europe. Les visiteurs peuvent découvrir les parcours et engagements de personnalités telles que René Cassin, Germaine Krull, André Masson, Wifredo Lam, et bien d'autres.",
-            "ca_va_tinteresser_si":"Si tu es passionné.e d'histoire, d'art et de récits humains marquants, ou si tu souhaites mieux comprendre l'impact de la Seconde Guerre mondiale sur les vies individuelles."
+            "de_quoi_sagit_il":"Un hommage aux artistes et intellectuels en exil durant la Seconde Guerre mondiale.",
+            "plus_precisement":"L'exposition explore les parcours de diverses personnalités ayant fui l'Occupation et la France de Vichy, en se divisant en quatre volets géographiques. Les visiteurs découvrent comment ces artistes et intellectuels ont utilisé leur créativité pour défendre les valeurs de liberté.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'histoire de la Seconde Guerre mondiale, les parcours des exilés, et l'impact des artistes et intellectuels sur la défense des libertés."
         }
     },
     {
@@ -225,9 +225,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration de l'interaction entre l'art et la mode contemporaine à travers l'histoire des styles décoratifs.",
+            "plus_precisement":"L'exposition présente 65 silhouettes contemporaines et une trentaine d'accessoires en dialogue avec des chefs-d'œuvre historiques, de Byzance au Second Empire. Elle met en lumière des pièces marquantes de la mode contemporaine, de Cristóbal Balenciaga à Iris van Herpen, et propose une réflexion sur les liens entre objets d'art et créations de mode.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'histoire de l'art, la mode contemporaine et les métiers d'art, ou si tu aimes découvrir des rapprochements inattendus entre différentes formes de création artistique."
         }
     },
     {
@@ -301,9 +301,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration inédite de l'amitié artistique entre Zadkine et Modigliani.",
+            "plus_precisement":"L'exposition retrace les parcours croisés de Zadkine et Modigliani à travers 90 œuvres variées, incluant peintures, sculptures et documents d'époque. Elle met en lumière leurs débuts à Paris et leurs relations avec les artistes de Montparnasse, tout en explorant le mythe Modigliani et le rôle de Zadkine dans sa légende posthume.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'histoire de l'art, les avant-gardes du début du 20ème siècle ou les amitiés artistiques influentes."
         }
     },
     {
@@ -340,9 +340,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un voyage introspectif à travers les objets de notre quotidien.",
+            "plus_precisement":"L'exposition explore comment les objets domestiques, des meubles aux gadgets modernes, reflètent les évolutions de la société et des modes de vie, en mettant en lumière des thèmes tels que l'intimité, la sexualité et la beauté. Des artistes et designers de différentes époques, comme Édouard Vuillard et Gaetano Pesce, contribuent à cette exploration.",
+            "ca_va_tinteresser_si":"Si tu es curieux(se) de découvrir comment nos objets du quotidien influencent notre rapport à l'intimité et comment celui-ci a évolué au fil des siècles, notamment avec l'avènement des réseaux sociaux et des nouvelles technologies."
         }
     },
     {
@@ -378,9 +378,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un voyage immersif dans l'univers créatif de Dolce & Gabbana.",
+            "plus_precisement":"L'exposition explore les multiples influences culturelles italiennes qui ont façonné les créations de Domenico Dolce et Stefano Gabbana. À travers dix salles, elle met en lumière l'art, l'architecture, l'artisanat, la musique, le cinéma et les traditions folkloriques italiennes. Des œuvres inédites d'artistes contemporains enrichissent également le parcours.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par la mode, la culture italienne ou les arts contemporains."
         }
     },
     {
@@ -410,8 +410,8 @@
         "date_debut":"2024-10-12",
         "date_fin":"2025-03-16",
         "tags_category":[
-            "Découverte",
-            "Art & Beaux-Arts"
+            "Art & Beaux-Arts",
+            "Découverte"
         ],
         "statut":"En cours",
         "petit_budget":false,
@@ -455,9 +455,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un voyage onirique à travers les œuvres poétiques de Chiharu Shiota.",
+            "plus_precisement":"L'exposition présente des installations monumentales en fils de laine, des sculptures, des photographies et des vidéos de performance. L'artiste explore les thèmes de la temporalité, du mouvement et de la mémoire. L'exposition est co-organisée avec le Mori Art Museum de Tokyo.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'art contemporain, les installations immersives et les œuvres qui invitent à la réflexion."
         }
     },
     {
@@ -492,9 +492,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une plongée vivante dans l'univers disco des années 70 et ses influences.",
+            "plus_precisement":"L'exposition met en lumière l'impact culturel et politique de la musique disco, enracinée dans la culture noire américaine. Elle présente des archives audiovisuelles, des photographies, des instruments et des costumes qui témoignent de son évolution depuis ses origines jusqu'à son explosion mondiale. L'exposition explore également l'esthétique disco qui a marqué divers domaines artistiques.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'histoire de la musique, la culture afro-américaine, la mode des années 70 ou les mouvements sociaux et leur influence sur la pop culture."
         }
     },
     {
@@ -570,9 +570,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration des œuvres de trois pionniers de l'art moderne vietnamien.",
+            "plus_precisement":"Cette exposition rassemble 150 œuvres de Lê Phô, Mai-Thu et Vu Cao Dam, retraçant leur parcours artistique de Hanoï à Paris. Elle met en lumière comment ces artistes ont fusionné les influences occidentales et orientales dans leurs créations.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'art moderne, les influences culturelles croisées, ou l'histoire de l'art asiatique en France."
         }
     },
     {
@@ -609,9 +609,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration du sacré dans le Grand Paris à travers divers regards et lieux.",
+            "plus_precisement":"Cette exposition examine comment le sacré, qu'il soit religieux ou non, se manifeste dans les quartiers et les parcours de Paris. Elle utilise des documents historiques, des photographies contemporaines et des dessins pour illustrer cette diversité.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'histoire, la géographie ou la sociologie, et que tu souhaites comprendre comment le sacré influence la ville et ses habitants."
         }
     },
     {
@@ -648,9 +648,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration mondiale des couleurs à travers les âges.",
+            "plus_precisement":"Cette exposition présente 80 œuvres d'art issues des cinq continents, couvrant une période allant du premier millénaire avant J.-C. à nos jours. Les pièces sont organisées par couleurs, offrant une expérience visuelle unique et une réflexion sur la symbolique des couleurs dans différentes cultures.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'art, la diversité culturelle et l'impact des couleurs dans l'histoire de l'humanité."
         }
     },
     {
@@ -667,8 +667,8 @@
         "url_lieu":"http:\/\/www.pinaultcollection.com",
         "adresse_transports":"2 rue de Viarmes 75001 Paris 1er                                               \n                         Les Halles (4), Louvre - Rivoli (1)  \n                         Châtelet les Halles (A \/ B \/ D)  \n                         Louvre - Rivoli (21 \/ 67 \/ 69 \/ 72 \/ 74 \/ 85 \/ N11 \/ N15 \/ N16 \/ N24), Etienne Marcel - Montmartre (29), Louvre - Etienne Marcel (29 \/ 74 \/ 85 \/ N15 \/ N16), Bourse de Commerce (74 \/ 85 \/ N15 \/ N16), Saint-Honoré - Valois (21)",
         "prix_detaille":null,
-        "prix_nominal":"",
-        "prix_nominal_chiffre":null,
+        "prix_nominal":"14€",
+        "prix_nominal_chiffre":14.0,
         "adresse":"2 rue de Viarmes - Paris 1er",
         "latitude":48.862928,
         "longitude":2.3424115,
@@ -682,12 +682,12 @@
             "Art & Beaux-Arts"
         ],
         "statut":"En cours",
-        "petit_budget":true,
+        "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration artistique des liens entre le corps et l'esprit à travers divers médias.",
+            "plus_precisement":"Dans cette exposition, une quarantaine d’artistes présentent une centaine d’œuvres de la Collection Pinault, allant d’Auguste Rodin à Duane Hanson. Le parcours d'exposition aborde des thématiques comme « Le corps témoin » et « L'âme au corps », invitant à une réflexion sur la représentation du corps dans l’art contemporain.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'art contemporain et les réflexions sur le corps et l'esprit, ou si tu apprécies les œuvres de grands artistes comme Marlene Dumas et Georg Baselitz."
         }
     },
     {
@@ -722,9 +722,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un voyage photographique à travers la musique et la jeunesse londonienne.",
+            "plus_precisement":"Dennis Morris, photographe britannique, est célèbre pour ses portraits de stars de la musique comme Bob Marley et les Sex Pistols. Cette rétrospective explore également ses œuvres documentaires et son immersion dans la scène musicale diversifiée de Londres, allant du reggae au punk.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par la photographie, la musique et les cultures urbaines."
         }
     },
     {
@@ -761,9 +761,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un hommage à la polyvalence artistique et militante de Nadia Khodossievitch-Léger.",
+            "plus_precisement":"L'exposition présente plus de 150 œuvres de Nadia Léger, retraçant son parcours de la Russie à la France. Elle explore son évolution artistique entre abstraction et figuration, ainsi que ses engagements politiques et sociaux.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'art du XXe siècle, l'avant-garde, et les trajectoires de femmes artistes engagées."
         }
     },
     {
@@ -798,9 +798,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un voyage artistique revisitant l'Histoire africaine et caribéenne.",
+            "plus_precisement":"Raphaël Barontini combine techniques modernes et archives pour questionner la peinture classique. L'exposition, inspirée d'une pièce d'Aimé Césaire, présente tableaux, costumes et textiles dans une scénographie unique, accompagnée d'une œuvre sonore de Mike Ladd.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'histoire africaine et caribéenne, l'art contemporain et les narrations innovantes."
         }
     },
     {
@@ -837,9 +837,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration des œuvres de Cimabue, pionnier du naturalisme en peinture.",
+            "plus_precisement":"L'exposition présente une quarantaine d’œuvres de Cimabue, un artiste florentin du XIIIe siècle, dont le travail a marqué le début du naturalisme dans la peinture occidentale. Elle inclut des pièces récemment restaurées et acquisitions majeures, comme un panneau inédit découvert en 2019. Cimabue a rompu avec les conventions byzantines pour introduire des représentations plus réalistes et expressives.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'histoire de l'art, les innovations artistiques et les découvertes récentes."
         }
     },
     {
@@ -876,9 +876,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un hommage à une artiste baroque révolutionnaire.",
+            "plus_precisement":"L'exposition explore la vie et l'œuvre d'Artemisia Gentileschi, une peintre italienne du XVIIe siècle. Elle met en lumière son parcours exceptionnel et son impact sur l'art baroque, en se concentrant sur ses thèmes de prédilection comme l'héroïsme féminin et le duel entre Eros et Thanatos.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l’histoire de l’art, les destins hors norme et les thèmes bibliques et littéraires, ou encore si tu veux découvrir une figure féminine marquante de la Renaissance."
         }
     },
     {
@@ -915,9 +915,9 @@
         "petit_budget":false,
         "fin_proche":true,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un voyage photographique au cœur des milieux naturels des orchidées.",
+            "plus_precisement":"L'exposition explore divers environnements où vivent les orchidées, avec des parcours thématiques et des mises en scène immersives. Les visiteurs découvriront des photographies de forêts, savanes, steppes et prairies de montagne, sous différents climats et modes de vie.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par la nature, la photographie et les découvertes botaniques."
         }
     },
     {
@@ -954,9 +954,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration des œuvres et des vies des élèves féminines de Jean-Jacques Henner.",
+            "plus_precisement":"L'exposition met en lumière le parcours de 17 artistes femmes de la seconde moitié du XIXe siècle qui ont suivi des enseignements privés. Elle présente plus de 80 œuvres, incluant peintures, dessins, lettres et photographies, et aborde leur apprentissage et leur professionnalisation.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'histoire de l'art, les parcours des femmes artistes et les méthodes d'enseignement alternatif."
         }
     },
     {
@@ -993,9 +993,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration immersive de l'univers artistique de David Hockney.",
+            "plus_precisement":"L'exposition rassemble plus de 400 œuvres couvrant sept décennies de création, allant des peintures classiques aux œuvres numériques. David Hockney a personnellement supervisé chaque aspect de la mise en scène, en collaboration avec son équipe.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'art contemporain et les œuvres innovantes, ou si tu souhaites découvrir l'évolution créative d'un artiste majeur des XXᵉ et XXIᵉ siècles."
         }
     },
     {
@@ -1030,9 +1030,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une plongée scientifique dans l'histoire et les réalités des migrations humaines.",
+            "plus_precisement":"L'exposition explore les multiples facettes des migrations à travers diverses disciplines scientifiques, offrant une compréhension approfondie des phénomènes migratoires. Elle se divise en trois parties : les perceptions et idées reçues, les causes et trajectoires des migrations, et l'histoire évolutive des déplacements humains depuis 300 000 ans.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'histoire humaine, les dynamiques sociales et les défis contemporains des migrations."
         }
     },
     {
@@ -1069,9 +1069,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une plongée dans l'univers des bijoux de scène depuis le XIXe siècle.",
+            "plus_precisement":"L'exposition met en lumière le rôle dramaturgique des bijoux dans les opéras et ballets, en explorant leur évolution technique et esthétique. Elle inclut des maquettes de costumes, des décors, des photographies, des peintures et des affiches pour enrichir l'expérience.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'histoire du théâtre, les arts décoratifs ou les techniques de joaillerie."
         }
     },
     {
@@ -1089,8 +1089,8 @@
         "url_lieu":"https:\/\/www.lecolevancleefarpels.com\/fr\/fr\/exhibition\/exposition-paris-capitale-de-la-perle",
         "adresse_transports":"16 bis bd Montmartre 75009 Paris 9e                                               \n                         Grands Boulevards (8 \/ 9), Richelieu - Drouot (8 \/ 9)",
         "prix_detaille":null,
-        "prix_nominal":"",
-        "prix_nominal_chiffre":null,
+        "prix_nominal":"0€",
+        "prix_nominal_chiffre":0.0,
         "adresse":"16 bis bd Montmartre - Paris 9e",
         "latitude":48.8719505,
         "longitude":2.3412149,
@@ -1108,9 +1108,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration fascinante de l'histoire de la perle et de son imaginaire depuis la Belle Époque.",
+            "plus_precisement":"Cette exposition présente une centaine de pièces issues de collections prestigieuses, incluant des prêts du Musée des Arts Décoratifs de Paris et des maisons de joaillerie renommées. Elle retrace l'influence de la perle dans l'industrie du luxe et la culture parisienne, tout en offrant une introduction gemmologique sur ses origines.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'histoire des bijoux, la joaillerie moderne ou la culture parisienne."
         }
     },
     {
@@ -1145,9 +1145,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un voyage photographique à travers le regard poétique de Robert Doisneau.",
+            "plus_precisement":"Plus de 250 photographies retracent l'œuvre de Robert Doisneau, des années 1930 aux années 1980. L'exposition explore divers thèmes, de l'enfance à la mode d'après-guerre, en passant par la banlieue parisienne et les ateliers d'artistes.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par la photographie, l'histoire sociale et les portraits de la vie quotidienne."
         }
     },
     {
@@ -1184,9 +1184,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration immersive des différentes facettes du silence.",
+            "plus_precisement":"Les visiteurs, équipés de casques, découvrent un univers sonore activé par leurs mouvements. L'exposition juxtapose anecdotes, témoignages et histoires personnelles pour révéler les paradoxes du silence, allant de la sérénité à l'imminence du danger.",
+            "ca_va_tinteresser_si":"Si tu es curieux(e) de découvrir comment le silence peut être à la fois apaisant et menaçant, ou si tu apprécies les expériences immersives et sonores, cette exposition est faite pour toi."
         }
     },
     {
@@ -1221,9 +1221,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration des cultures populaires et des dynamiques de groupe festif.",
+            "plus_precisement":"L'exposition rassemble des artistes internationaux inspirés par les occupations festives et sociales de l'espace public. Elle célèbre les pratiques collaboratives et relationnelles, en valorisant la participation et l'expression créative du public.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par les cultures populaires, l'art collaboratif et les dynamiques de groupe festives."
         }
     },
     {
@@ -1258,9 +1258,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une immersion dans l'univers musical de Maurice Ravel.",
+            "plus_precisement":"L'exposition explore l'influence de l'Espagne sur ses œuvres et son attention méticuleuse aux détails. Elle met en lumière le Boléro, une commande de la danseuse Ida Rubinstein, et propose une expérience sonore unique avec l'Orchestre de Paris. Des objets patrimoniaux, y compris ceux de la maison-musée Ravel, enrichissent le parcours.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par la musique classique, l'histoire de la danse ou les dispositifs cinématographiques innovants."
         }
     },
     {
@@ -1295,9 +1295,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une vitrine de l'innovation photographique contemporaine.",
+            "plus_precisement":"Cette exposition présente les œuvres des lauréats des grands prix photographiques soutenus par la BnF. Elle met en lumière la diversité et la créativité des artistes contemporains, en collaboration avec des partenaires prestigieux.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par la photographie contemporaine et que tu souhaites découvrir les talents émergents."
         }
     },
     {
@@ -1327,16 +1327,16 @@
         "date_debut":"2025-02-14",
         "date_fin":"2025-06-29",
         "tags_category":[
-            "Découverte",
-            "Art & Beaux-Arts"
+            "Art & Beaux-Arts",
+            "Découverte"
         ],
         "statut":"En cours",
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un voyage immersif dans l'univers créatif de Pablo Picasso.",
+            "plus_precisement":"L'exposition met en lumière la diversité des techniques explorées par Picasso, allant de la gravure à la sculpture, en passant par les papiers-collés et la céramique. Elle se déroule dans un cadre innovant où les œuvres sont projetées sur les murs, offrant une expérience unique.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'art moderne, les innovations techniques et les expériences immersives."
         }
     },
     {
@@ -1372,9 +1372,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un voyage poétique à travers l'inspiration florale d'Yves Saint Laurent.",
+            "plus_precisement":"L'exposition présente une trentaine de silhouettes textiles et des dessins qui illustrent la passion d'Yves Saint Laurent pour la nature et la littérature. Elle est organisée en quatre thèmes, mettant en avant l'étendue stylistique et les techniques textiles utilisées par le couturier pour évoquer les fleurs. Les œuvres de l'artiste américain Sam Falls enrichissent ce dialogue entre les arts et les époques.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par la mode, la nature et l'art, et que tu aimes découvrir les inspirations créatives des grands couturiers."
         }
     },
     {
@@ -1392,8 +1392,8 @@
         "url_lieu":"http:\/\/www.hallesaintpierre.org",
         "adresse_transports":"2 rue Ronsard 75018 Paris 18e                                               \n                         Anvers (2)  \n                         Barbès - Rochechouart (31 \/ 54 \/ 56 \/ 85 \/ N01 \/ N02 \/ N14 \/ N44), Utrillo (40), Muller (85), Rochechouart - Clignancourt (54 \/ 85 \/ N01 \/ N02)",
         "prix_detaille":null,
-        "prix_nominal":"",
-        "prix_nominal_chiffre":null,
+        "prix_nominal":"10€",
+        "prix_nominal_chiffre":10.0,
         "adresse":"2 rue Ronsard - Paris 18e",
         "latitude":48.8848912,
         "longitude":2.3445287,
@@ -1407,12 +1407,12 @@
             "Art & Beaux-Arts"
         ],
         "statut":"En cours",
-        "petit_budget":true,
+        "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration captivante de l'art brut iranien à travers 24 artistes.",
+            "plus_precisement":"L'exposition présente un dialogue entre traditions culturelles millénaires et expressions artistiques contemporaines. Certains artistes réinterprètent la culture iranienne en créations imaginaires, tandis que d'autres se concentrent sur des cosmogonies autoréférentielles.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'art brut, les cultures anciennes et les expressions contemporaines uniques."
         }
     },
     {
@@ -1447,9 +1447,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une odyssée photographique à travers l'Amérique d'après-guerre.",
+            "plus_precisement":"Harold Feinstein, photographe passionné, a capturé pendant six décennies les transformations de la société américaine. Ses clichés révèlent une esthétique du quotidien, témoignant des bouleversements sociaux et politiques de l'époque, comme le conflit coréen et le maccarthysme.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par la photographie documentaire et l'histoire sociale des États-Unis..."
         }
     },
     {
@@ -1486,9 +1486,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration fascinante de l'ours en peluche, de ses origines à son évolution.",
+            "plus_precisement":"L'exposition présente 400 ours en peluche, retraçant leur histoire depuis 1920. Elle montre comment l'ours est devenu un symbole culturel et social, inspirant artistes, créateurs de mode, cinéma, publicité et littérature.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'histoire des jouets, l'art et la culture populaire."
         }
     },
     {
@@ -1524,9 +1524,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un voyage architectural à travers l'histoire des grands magasins.",
+            "plus_precisement":"L'exposition explore l'évolution des grands magasins depuis le XIXe siècle, en mettant en lumière leurs architectures emblématiques et leur impact sur les modes de consommation. Elle couvre leur âge d'or, les défis face aux supermarchés et hypermarchés, ainsi que leur transformation face aux crises économiques et à l'essor du commerce en ligne.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'histoire de l'architecture, les évolutions des modes de consommation et les réinventions des espaces commerciaux."
         }
     },
     {
@@ -1562,9 +1562,9 @@
         "petit_budget":false,
         "fin_proche":true,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration photographique unique des œuvres emblématiques de Le Corbusier en France.",
+            "plus_precisement":"Emanuele Piccardo, photographe et critique d’architecture, présente une narration personnelle de son lien avec Le Corbusier. Il met en lumière les éléments architecturaux distinctifs tels que les pilotis, les surfaces en béton brut et la complexité des espaces, tout en créant une nouvelle iconographie visuelle.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'architecture moderne, la photographie artistique et les réflexions sur la représentation visuelle."
         }
     },
     {
@@ -1638,9 +1638,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration photographique des mystères du portrait.",
+            "plus_precisement":"L'exposition met en lumière le travail de Marjaana Kella, qui utilise des techniques comme l'hypnose pour capturer des aspects insoupçonnés de ses sujets. Elle interroge également la perception des portraits en photographiant des modèles de dos.",
+            "ca_va_tinteresser_si":"Si tu es fasciné(e) par les subtilités de la représentation humaine et les expériences innovantes en photographie."
         }
     },
     {
@@ -1714,9 +1714,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration visuelle de l'affiche parisienne du XIXe siècle.",
+            "plus_precisement":"L'exposition met en lumière les œuvres de maîtres de l'affiche comme Bonnard et Toulouse-Lautrec, tout en examinant les transformations sociales et culturelles de l'époque. Elle est structurée autour de trois thèmes principaux : la transformation urbaine, l'avant-garde et l'affiche comme art social.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'histoire de l'art, l'évolution de la culture urbaine ou les mouvements artistiques du XIXe siècle."
         }
     },
     {
@@ -1733,8 +1733,8 @@
         "url_lieu":"http:\/\/www.guimet.fr",
         "adresse_transports":"6 place d'Iéna 75016 Paris 16e                                               \n                         Boissière (6), Iéna (9)  \n                         Lübeck (82), Albert de Mun (30 \/ 32 \/ 63), Iéna (32 \/ 63 \/ 82), Musée d'Art Moderne - Palais de Tokyo (72), Kléber - Boissière (22 \/ 30 \/ 82)",
         "prix_detaille":null,
-        "prix_nominal":"",
-        "prix_nominal_chiffre":null,
+        "prix_nominal":"13€",
+        "prix_nominal_chiffre":13.0,
         "adresse":"6 place d'Iéna - Paris 16e",
         "latitude":48.865379,
         "longitude":2.2935933,
@@ -1748,12 +1748,12 @@
             "Photographie & Cinéma"
         ],
         "statut":"En cours",
-        "petit_budget":true,
+        "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un hommage photographique à la résilience vietnamienne pendant la guerre.",
+            "plus_precisement":"Cette exposition met en lumière le travail de Marc Riboud, qui a capturé des moments de vie quotidienne au Vietnam entre 1966 et 1976. Elle inclut également des clichés célèbres de manifestations aux États-Unis contre la guerre. Le photographe, profondément touché par le drame vietnamien, a documenté le pays à travers dix ans de reportages.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'histoire contemporaine, les témoignages visuels de conflits, ou les œuvres humanistes de grands photographes."
         }
     },
     {
@@ -1788,9 +1788,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration historique inédite du processus d'extermination à Auschwitz-Birkenau à travers des photographies.",
+            "plus_precisement":"L'exposition se concentre sur l'album d'Auschwitz, réalisé par les SS pour documenter les opérations d'extermination. Les photographies, décryptées par l'historien Tal Bruttmann, offrent une nouvelle compréhension des événements tragiques qui se sont déroulés sur le site.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'histoire de la Seconde Guerre mondiale, les témoignages photographiques historiques ou les analyses approfondies des événements tragiques."
         }
     },
     {
@@ -1826,9 +1826,9 @@
         "petit_budget":false,
         "fin_proche":true,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une odyssée chapeautée à travers les décennies de créativité de Stephen Jones.",
+            "plus_precisement":"L'exposition met en lumière le processus créatif et les collaborations marquantes de Stephen Jones avec des maisons de couture prestigieuses. Elle explore son lien avec Paris et la culture française. Près de 400 œuvres, incluant chapeaux, dessins et silhouettes complètes, sont présentées.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par la mode, les accessoires de créateurs et les collaborations artistiques emblématiques."
         }
     },
     {
@@ -1865,9 +1865,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration intime de la relation entre Matisse et sa fille, Marguerite Duthuit-Matisse.",
+            "plus_precisement":"L'exposition rassemble plus de 110 œuvres variées, allant des peintures aux céramiques, pour illustrer le lien profond entre l'artiste et sa fille aînée. Organisée chronologiquement, elle met en lumière la vie de Marguerite et son influence sur la carrière de Matisse. Des dessins inédits, des tableaux de collections internationales et des documents d'archives enrichissent cette rétrospective.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'art et les histoires familiales, ou si tu souhaites découvrir la vie d'une femme influente et méconnue du grand public."
         }
     },
     {
@@ -1902,9 +1902,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un voyage unique dans l'univers littéraire de Victor Hugo",
+            "plus_precisement":"L'exposition met en lumière des pièces rares de la collection de Victor Hugo, y compris des épreuves corrigées de sa main, classées Trésor national. Des œuvres prêtées par différentes institutions enrichissent le parcours, offrant une plongée immersive dans son œuvre.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par la littérature, l'histoire des manuscrits et les trésors nationaux..."
         }
     },
     {
@@ -1941,9 +1941,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un dialogue entre l'œuvre de Fernand Léger et les avant-gardes des années 1960 à nos jours.",
+            "plus_precisement":"L'exposition explore la modernité et la pluridisciplinarité de l’œuvre de Fernand Léger en la confrontant à celle des Nouveaux Réalistes et d'autres artistes contemporains. Elle aborde des thèmes variés tels que la société de loisirs, l’art dans l’espace public et les processus créatifs.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'art moderne, les avant-gardes européennes et américaines, ou encore par l'influence durable de Fernand Léger sur les générations suivantes."
         }
     },
     {
@@ -1973,16 +1973,16 @@
         "date_debut":"2024-11-19",
         "date_fin":"2025-03-16",
         "tags_category":[
-            "Histoire & Civilisations",
-            "Art & Beaux-Arts"
+            "Art & Beaux-Arts",
+            "Histoire & Civilisations"
         ],
         "statut":"En cours",
         "petit_budget":false,
         "fin_proche":true,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration des sculptures médiévales de Notre-Dame de Paris.",
+            "plus_precisement":"L'exposition présente les résultats d'un programme de restauration et d'étude des sculptures de Notre-Dame, incluant des fragments récemment découverts. Elle s'accompagne de prêts d'institutions prestigieuses et de collections privées pour contextualiser ces œuvres.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'histoire médiévale, l'art religieux ou les techniques de restauration."
         }
     },
     {
@@ -2017,9 +2017,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration des échanges culturels mondiaux à travers les âges.",
+            "plus_precisement":"L'exposition présente plus de 300 œuvres variées, allant de manuscrits anciens à des costumes modernes, pour illustrer les interactions entre l’Europe et d’autres civilisations depuis l’Antiquité. L'artiste Barthélémy Toguo y expose également ses œuvres, qui interrogent la mémoire et l’exil.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'histoire des échanges culturels, l'art contemporain et les réflexions sur la mémoire et l'exil."
         }
     },
     {
@@ -2055,9 +2055,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un voyage dans l'histoire et l'innovation de l'orfèvrerie française.",
+            "plus_precisement":"L'exposition explore les créations de la maison Christofle, des années 1830 à nos jours, en mettant en avant leur collaboration avec designers et créateurs de mode. Elle présente près de 1000 pièces, allant des bijoux aux tableaux, dans une scénographie immersive qui révèle les secrets de fabrication et l'évolution des usages de l'argent.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'artisanat, l'histoire du design et les techniques de fabrication artistique."
         }
     },
     {
@@ -2092,9 +2092,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un voyage poignant dans l'univers intime d'une famille monoparentale confrontée à des défis uniques.",
+            "plus_precisement":"L'exposition présente le projet de la photographe Chia Huang, qui a documenté la vie de deux frères autistes et de leur père malade à Taitung, Taïwan. À travers des photographies documentaires, des dessins et des archives familiales, elle offre un aperçu touchant de leur quotidien.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par les récits humains, la photographie documentaire et les œuvres qui explorent les marges de la société."
         }
     },
     {
@@ -2124,16 +2124,16 @@
         "date_debut":"2024-11-04",
         "date_fin":"2025-04-06",
         "tags_category":[
-            "Découverte",
-            "Art & Beaux-Arts"
+            "Art & Beaux-Arts",
+            "Découverte"
         ],
         "statut":"En cours",
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration interactive des frontières entre art, technologie et intelligence artificielle.",
+            "plus_precisement":"L'exposition se concentre sur les thèmes de la ligne et du pixel, questionnant les réseaux invisibles qui structurent notre société et l'impact des algorithmes sur notre perception du monde. Les œuvres de Miguel Chevalier, pionnier de l'art numérique, intègrent des concepts comme l'hybridation et l'interactivité.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'art contemporain, les nouvelles technologies et les questions sur l'identité numérique et la surveillance, ou encore si tu aimes les expériences immersives et interactives."
         }
     },
     {
@@ -2163,16 +2163,16 @@
         "date_debut":"2025-02-14",
         "date_fin":"2025-06-29",
         "tags_category":[
-            "Découverte",
-            "Art & Beaux-Arts"
+            "Art & Beaux-Arts",
+            "Découverte"
         ],
         "statut":"En cours",
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une plongée immersive dans l'univers naïf et onirique d'Henri Rousseau.",
+            "plus_precisement":"L'exposition explore les débuts de l'art naïf en France à travers les œuvres d'Henri Rousseau, un peintre autodidacte du XIXe siècle. Il s'inspire de la flore et de la faune exotique observées au Jardin des plantes de Paris.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'art naïf, les peintures exotiques et les pionniers de l'art autodidacte."
         }
     },
     {
@@ -2207,9 +2207,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration scientifique et culturelle des chiens et chats.",
+            "plus_precisement":"L'exposition examine l'histoire, les perceptions et les émotions de ces animaux de compagnie, tout en déconstruisant certaines idées reçues. Elle est organisée en trois parties, allant de leur rôle dans la société à leur communication.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par les animaux de compagnie, curieux(se) des comportements canins et félins, ou intéressé(e) par la science et la sociologie animale."
         }
     },
     {
@@ -2246,9 +2246,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une plongée dans les trésors artistiques des XIXe et XXe siècles.",
+            "plus_precisement":"Cette exposition met en lumière des œuvres majeures de maîtres comme Monet, Picasso, Degas et Renoir. Elle est tirée d'une collection privée renommée, offrant une rare opportunité de voir ces chefs-d'œuvre.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'histoire de l'art et les grands maîtres impressionnistes."
         }
     },
     {
@@ -2278,16 +2278,16 @@
         "date_debut":"2025-03-12",
         "date_fin":"2025-12-28",
         "tags_category":[
-            "Histoire & Civilisations",
-            "Art & Beaux-Arts"
+            "Art & Beaux-Arts",
+            "Histoire & Civilisations"
         ],
         "statut":"A venir",
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration des pratiques hygiéniques médiévales.",
+            "plus_precisement":"L'exposition aborde six thèmes clés : approvisionnement en eau, gestion des déchets, propreté corporelle, bains, latrines et médecine hygiéniste. Elle vise à démystifier les préjugés sur la vie quotidienne au Moyen Âge.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'histoire médiévale et curieux(se) de découvrir les pratiques d'hygiène de cette époque."
         }
     },
     {
@@ -2324,9 +2324,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration des carnets et des techniques de Geneviève Asse, artiste majeure du XXe siècle.",
+            "plus_precisement":"L'exposition présente 25 carnets de l'artiste, chacun étant un espace d'exploration technique et chromatique. Le bleu domine, caractéristique de son œuvre depuis les années 1970. Malgré l'abstraction progressive de sa peinture, Geneviève Asse reste attachée à la nature et aux formes identifiables comme des éventails, des feuilles d'arbre et des bateaux.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'art abstrait, la gravure, ou si tu souhaites découvrir les secrets de création d'une artiste de renom."
         }
     },
     {
@@ -2361,9 +2361,9 @@
         "petit_budget":false,
         "fin_proche":true,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une plongée virtuelle dans l'univers créatif de Monet, Van Gogh et Gaudí.",
+            "plus_precisement":"L'exposition propose une expérience immersive unique où les visiteurs, équipés de casques de réalité virtuelle, découvrent le processus créatif de trois figures majeures de l'art. Chaque artiste est mis en scène à travers des dialogues et des environnements reconstitués, permettant une exploration interactive de leurs œuvres et de leurs méthodes de travail.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'art, la réalité virtuelle et les expériences immersives, ou si tu souhaites découvrir les coulisses du génie créatif de Monet, Van Gogh et Gaudí."
         }
     },
     {
@@ -2399,9 +2399,9 @@
         "petit_budget":false,
         "fin_proche":true,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un voyage historique à travers la mode et les sports d'hiver.",
+            "plus_precisement":"L'exposition explore l'évolution des tenues et accessoires de sports d'hiver, allant des équipementiers spécialisés aux maisons de couture. Elle met en lumière des pièces emblématiques comme des doudounes, combinaisons et fuseaux, ainsi qu'une tenue iconique créée par Jeanne Friot et Robert Mercier.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'histoire de la mode, les sports d'hiver ou les collaborations entre artistes et artisans."
         }
     },
     {
@@ -2437,9 +2437,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un hommage à l'architecte Hans Hollein, au-delà du postmodernisme.",
+            "plus_precisement":"L'exposition explore la diversité des courants artistiques et architecturaux qui ont influencé Hans Hollein, mettant en avant son engagement dans l'art informel, l'art conceptuel et l'architecture radicale. Elle inclut des installations, maquettes, dessins et documents couvrant toute sa carrière.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'architecture et l'art contemporain, ou si tu veux découvrir une figure méconnue mais influente."
         }
     },
     {
@@ -2469,16 +2469,16 @@
         "date_debut":"2025-01-15",
         "date_fin":"2025-05-26",
         "tags_category":[
-            "Histoire & Civilisations",
-            "Art & Beaux-Arts"
+            "Art & Beaux-Arts",
+            "Histoire & Civilisations"
         ],
         "statut":"En cours",
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration de l'impact des artistes noirs en France entre 1940 et 2000.",
+            "plus_precisement":"Cette exposition couvre un demi-siècle de luttes pour l'émancipation et contre le racisme, tout en mettant en lumière 150 artistes afro-descendants. Leur influence a contribué à la diversité culturelle de Paris, mêlant identité et innovation artistique.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'histoire de l'art, les luttes sociales et la diversité culturelle..."
         }
     },
     {
@@ -2515,9 +2515,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une immersion dans l'univers d'Edi Dubien, où nature et identité s'entremêlent.",
+            "plus_precisement":"L'exposition présente plus de 200 œuvres d'Edi Dubien, artiste autodidacte, à travers dessins, peintures, sculptures et installations. Elle s'intègre harmonieusement avec la collection permanente du musée de la Chasse et de la Nature.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'art contemporain, la nature et l'identité, et que tu aimes découvrir des artistes autodidactes."
         }
     },
     {
@@ -2554,9 +2554,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration de l'œuvre diversifiée de Roberta González, artiste franco-espagnole.",
+            "plus_precisement":"L'exposition met en lumière les œuvres de Roberta González créées entre 1935 et 1954, incluant peintures, dessins, et objets d'art. Ces œuvres, issues d'une donation, illustrent sa réponse artistique aux conflits de l'époque, avec une attention particulière portée à la figure féminine.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'art du XXe siècle, les représentations de la figure féminine, ou l'impact des conflits mondiaux sur l'art."
         }
     },
     {
@@ -2593,9 +2593,9 @@
         "petit_budget":true,
         "fin_proche":true,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une plongée dans l'histoire d'un musée atypique à travers des trésors cachés.",
+            "plus_precisement":"L'exposition présente plus de 500 objets, organisés en dix thèmes évocateurs, qui racontent l'histoire fascinante du musée national de Céramique. Ces objets, allant de la Préhistoire à nos jours, proviennent des cinq continents et sont exposés pour la première fois au public.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par les collections uniques, les cabinets de curiosités et les récits historiques captivants."
         }
     },
     {
@@ -2630,9 +2630,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration nocturne de la Haute Kabylie, révélatrice et poétique.",
+            "plus_precisement":"Karim Kal, lauréat du Prix HCB 2023, utilise des torches flash pour capturer des détails spécifiques de la Haute Kabylie, tout en laissant d'autres dans l'ombre. Son travail offre une réflexion critique et poétique sur ce territoire emblématique de résistance.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par la photographie de nuit, les réflexions sur le pouvoir et la résistance, ou si tu aimes les œuvres qui invitent à ralentir et à observer."
         }
     },
     {
@@ -2668,9 +2668,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration de l'artiste Dubuffet en tant qu'architecte visionnaire.",
+            "plus_precisement":"L'exposition présente une quinzaine de maquettes et d'archives qui retracent les moments clés de cette facette méconnue de Dubuffet. Elle rend hommage à Daniel Abadie, conservateur et commissaire d'expositions, qui a mis en lumière l'aspect édifiant des travaux de Dubuffet.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'architecture visionnaire, l'histoire de l'art moderne ou les réalisations fantastiques de Dubuffet."
         }
     },
     {
@@ -2706,9 +2706,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une immersion dans les tapisseries inspirées par l'œuvre de J. R. R. Tolkien.",
+            "plus_precisement":"L'exposition présente quinze tapisseries réalisées par les ateliers de la Cité internationale de la tapisserie à Aubusson, complétées par des objets de collections privées. Elle célèbre le 70e anniversaire de la publication d'un ouvrage emblématique et explore la dimension chrétienne de l'œuvre de Tolkien.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'univers de Tolkien, les arts textiles ou les liens entre la foi et la création artistique."
         }
     },
     {
@@ -2743,9 +2743,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une plongée dans l'univers énigmatique de Rammellzee, artiste américain des années 1980.",
+            "plus_precisement":"L'exposition, organisée conjointement par le Palais de Tokyo et le Capc Musée d’art contemporain de Bordeaux, explore la diversité des œuvres de Rammellzee. Elle couvre des domaines variés tels que l'écriture, la peinture, la sculpture, la musique, la performance, et bien plus encore, sans chercher à être exhaustive.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'art contemporain, les performances artistiques et les œuvres multidisciplinaires."
         }
     },
     {
@@ -2775,16 +2775,16 @@
         "date_debut":"2025-03-21",
         "date_fin":"2025-09-14",
         "tags_category":[
-            "Histoire & Civilisations",
-            "Art & Beaux-Arts"
+            "Art & Beaux-Arts",
+            "Histoire & Civilisations"
         ],
         "statut":"A venir",
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un hommage vibrant à Maximilien Luce, artiste et anarchiste, à travers ses œuvres lumineuses.",
+            "plus_precisement":"Maximilien Luce, figure du néo-impressionnisme, a capturé les transformations de la Belle Époque et du début du XXe siècle. Ses œuvres, marquées par ses recherches sur la lumière et la couleur, reflètent les bouleversements sociaux et industriels de son temps.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'histoire de l'art, les mouvements sociaux et les transformations industrielles, ou encore si tu aimes découvrir des artistes engagés."
         }
     },
     {
@@ -2819,9 +2819,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un voyage visuel à travers la photographie malienne, des classiques aux contemporains.",
+            "plus_precisement":"L'exposition présente une soixantaine d’œuvres de 14 artistes maliens, mêlant figures emblématiques et talents émergents. Des photographies inédites de Malick Sidibé et des récits de Seydou Camara et Françoise Huguier enrichissent le parcours.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par la photographie africaine, les récits historiques et les nouvelles perspectives artistiques."
         }
     },
     {
@@ -2858,9 +2858,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une rétrospective inédite hors de Scandinavie sur l'artiste norvégien Christian Krohg.",
+            "plus_precisement":"L'exposition explore la modernité picturale et l'engagement humaniste de Krohg, mettant en lumière ses œuvres naturalistes et son soutien aux causes sociales de son époque. Elle révèle également ses influences artistiques, notamment celles des peintres français comme Gustave Courbet et Edouard Manet.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'art engagé, l'histoire scandinave, ou les mouvements artistiques français du XIXe et début du XXe siècle."
         }
     },
     {
@@ -2896,9 +2896,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un voyage cinématographique à travers les âges d'or de l'Antiquité filmée.",
+            "plus_precisement":"L'exposition explore comment le cinéma a adapté la littérature classique et les récits historiques pour créer des épopées captivantes. Elle présente des éléments des collections de la Fondation Pathé, de la Cineteca di Bologna, de la Cinémathèque française, et de collections privées. Plus de 200 œuvres mettent en lumière les vedettes, les techniques de reconstitution et les campagnes de promotion.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par le cinéma historique, les épopées antiques, ou les techniques de reconstitution cinématographique."
         }
     },
     {
@@ -2934,9 +2934,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration des intersections entre surréalisme, ethnologie et archéologie dans l'entre-deux-guerres.",
+            "plus_precisement":"L'exposition met en lumière les interactions entre plusieurs revues d'avant-garde qui ont révolutionné la perception des objets et de l'art. Elle présente des collaborations avec des artistes et intellectuels renommés comme Pablo Picasso, André Breton et Georges Bataille.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'histoire de l'art, les mouvements d'avant-garde et les questions philosophiques sur la nature de l'art et des objets."
         }
     },
     {
@@ -2966,16 +2966,16 @@
         "date_debut":"2024-11-19",
         "date_fin":"2025-03-16",
         "tags_category":[
-            "Histoire & Civilisations",
-            "Art & Beaux-Arts"
+            "Art & Beaux-Arts",
+            "Histoire & Civilisations"
         ],
         "statut":"En cours",
         "petit_budget":false,
         "fin_proche":true,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une plongée fascinante dans la vie intellectuelle et artistique de Notre-Dame au Moyen Âge.",
+            "plus_precisement":"L'exposition présente une quarantaine de pièces, dont des manuscrits médiévaux conservés à la BnF et des feuillets enluminés du musée de Cluny. Elle explore la richesse culturelle et historique de la cathédrale à travers ses documents précieux et ses registres capitulaires.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'histoire médiévale, les manuscrits anciens et la culture religieuse."
         }
     },
     {
@@ -3047,9 +3047,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un périple dans les déserts extrêmes et leurs adaptations.",
+            "plus_precisement":"L'exposition explore les déserts du Sahara aux régions polaires, avec plus de 200 spécimens et objets variés. Elle offre une perspective scientifique, ludique et esthétique sur ces environnements fascinants.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par les environnements extrêmes et la manière dont la vie s'adapte à ces conditions."
         }
     },
     {
@@ -3079,8 +3079,8 @@
         "date_debut":"2025-03-07",
         "date_fin":"2025-03-09",
         "tags_category":[
-            "Instituts culturels et Salons",
-            "Sciences & Techniques"
+            "Sciences & Techniques",
+            "Instituts culturels et Salons"
         ],
         "statut":"En cours",
         "petit_budget":false,
@@ -3125,9 +3125,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un hommage à François Chifflart, maître de l'eau-forte et illustrateur hugolien.",
+            "plus_precisement":"L'exposition présente 170 œuvres de François Chifflart, né à Saint-Omer et formé à l’École des Beaux-Arts de Paris. Admirateur de Victor Hugo, il a joué un rôle clé dans le renouveau de l’eau-forte et a illustré plusieurs œuvres du poète, devenues des icônes hugoliennes. Sa vie et son œuvre, marquées par un idéal artistique et politique, sont mises en lumière.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'art graphique, les illustrations littéraires ou l'œuvre de Victor Hugo, cette exposition est faite pour toi."
         }
     },
     {
@@ -3162,9 +3162,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Plongée dans l'art ancestral et vivant du théâtre d'ombres indonésien.",
+            "plus_precisement":"L'exposition explore le théâtre d'ombres wayang kulit, un art de cour indonésien vieux de plus de 1 000 ans. À travers des marionnettes anciennes et des entretiens, elle révèle l'évolution et la richesse de cet art, inspiré par des épopées indiennes et adapté à la réalité contemporaine.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par les arts traditionnels, les épopées légendaires et les évolutions culturelles à travers le temps."
         }
     },
     {
@@ -3201,9 +3201,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un voyage à travers l'univers du design textile et de l'ameublement.",
+            "plus_precisement":"Cette exposition explore les tendances et innovations dans le domaine de la mode et du mobilier. Elle présente une sélection d'accessoires et d'objets de design qui reflètent les évolutions stylistiques et fonctionnelles.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par le design, la mode ou l'ameublement et que tu aimes découvrir les dernières tendances et innovations dans ces domaines."
         }
     },
     {
@@ -3238,9 +3238,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration interactive de l'empreinte carbone et de ses impacts environnementaux.",
+            "plus_precisement":"L'exposition se divise en trois sections : la première explique l'empreinte carbone des objets techniques, la deuxième examine nos habitudes et besoins, et la dernière propose des solutions innovantes pour lutter contre le changement climatique.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'écologie, les défis climatiques et les innovations durables."
         }
     },
     {
@@ -3295,8 +3295,8 @@
         "url_lieu":"http:\/\/www.cinematheque.fr",
         "adresse_transports":"51 rue de Bercy 75012 Paris 12e                                               \n                         Bercy (6 \/ 14)  \n                         Gare de Bercy (24 \/ 71 \/ 77 \/ 87 \/ 215 \/ BUSM14 \/ N32 \/ N35), Lachambeaudie (24 \/ BUSM14 \/ N32), Dijon - Lachambeaudie (24 \/ 64 \/ N32), Cours Saint-Emilion (BUSM14)",
         "prix_detaille":"Entrée 12€",
-        "prix_nominal":"12€",
-        "prix_nominal_chiffre":12.0,
+        "prix_nominal":"0€",
+        "prix_nominal_chiffre":0.0,
         "adresse":"51 rue de Bercy - Paris 12e",
         "latitude":48.8372672,
         "longitude":2.3826668,
@@ -3307,16 +3307,16 @@
         "date_debut":"2025-03-19",
         "date_fin":"2025-07-27",
         "tags_category":[
-            "Histoire & Civilisations",
-            "Photographie & Cinéma"
+            "Photographie & Cinéma",
+            "Histoire & Civilisations"
         ],
         "statut":"A venir",
-        "petit_budget":false,
+        "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un voyage à travers l'univers cinématographique de Wes Anderson.",
+            "plus_precisement":"Cette exposition explore l'évolution du travail de Wes Anderson, de ses débuts dans les années 90 jusqu'à ses œuvres récentes, couronnées par des récompenses prestigieuses. Elle offre un aperçu complet de sa carrière et de son impact sur le cinéma contemporain.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par le cinéma indépendant et les réalisateurs visionnaires, ou si tu aimes découvrir les coulisses de la création cinématographique."
         }
     },
     {
@@ -3352,9 +3352,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une plongée immersive dans l'exploration scientifique de la grotte Chauvet.",
+            "plus_precisement":"L'exposition présente les outils et objets utilisés par les chercheurs pour étudier les peintures pariétales et autres vestiges. Elle met en lumière les conditions uniques de travail des scientifiques, limités à quatre semaines d'étude par an en mars pour minimiser l'impact sur la grotte.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'archéologie, la paléontologie, ou simplement curieux(se) de découvrir les coulisses de la recherche scientifique dans un site préhistorique unique."
         }
     },
     {
@@ -3389,9 +3389,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une conversation artistique entre un vidéaste et un peintre, tous deux originaires de Vitry-sur-Seine.",
+            "plus_precisement":"Cette exposition marque la première collaboration entre les deux frères, Tohé Commaret et Grichka Commaret, à l'occasion de la réalisation de leur premier film commun. Leurs œuvres respectives se répondent, mêlant souvenirs d'enfance et imaginaire artistique.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par les collaborations artistiques, les récits autobiographiques et les œuvres qui explorent la mémoire et l'imaginaire."
         }
     },
     {
@@ -3428,9 +3428,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un voyage au cœur de l'artisanat et de la créativité des bijoutiers.",
+            "plus_precisement":"Cette exposition explore le processus de conception et de fabrication des bijoux, mettant en lumière les techniques et les inspirations des artisans. Elle présente une collection variée de dessins, de maquettes et de bijoux finis, offrant un aperçu unique de cet univers fascinant.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par les arts décoratifs, curieux(se) des coulisses de la création ou tout simplement amoureux(se) des bijoux."
         }
     },
     {
@@ -3505,9 +3505,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration de l'histoire archéologique de Gaza à travers des œuvres préservées.",
+            "plus_precisement":"L'exposition présente une collection de près de 529 œuvres archéologiques, allant de l'âge du bronze à l'époque ottomane, qui témoignent du riche passé de Gaza. Une sélection de 130 chefs-d’œuvre, incluant des pièces issues des fouilles franco-palestiniennes et de la collection privée de Jawdat Khoudery, est mise en avant. L'exposition aborde également les défis de la préservation du patrimoine en temps de guerre.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'archéologie, l'histoire de la Palestine, ou les défis de la préservation du patrimoine en temps de conflit."
         }
     },
     {
@@ -3524,8 +3524,8 @@
         "url_lieu":"http:\/\/www.chateau-auvers.fr",
         "adresse_transports":"21 rue Léry 95760 Auvers-sur-Oise                                               \n                         La Naze (95-16)",
         "prix_detaille":"Entrée 12€",
-        "prix_nominal":"12€",
-        "prix_nominal_chiffre":12.0,
+        "prix_nominal":"0€",
+        "prix_nominal_chiffre":0.0,
         "adresse":"21 rue Léry - Auvers-sur-Oise",
         "latitude":49.0723938,
         "longitude":2.1689474,
@@ -3539,12 +3539,12 @@
             "Art & Beaux-Arts"
         ],
         "statut":"En cours",
-        "petit_budget":false,
+        "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un hommage aux dernières années créatives de Vincent Van Gogh en France.",
+            "plus_precisement":"L'exposition explore les lieux et les œuvres marquants de la période 1886-1890, avec un focus sur son séjour prolifique à Auvers-sur-Oise. La scénographie combine technologie numérique et peintures originales pour offrir une immersion dans l'univers de l'artiste.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'histoire de l'art, les innovations scénographiques ou les dernières années de créativité intense de Vincent Van Gogh."
         }
     },
     {
@@ -3580,9 +3580,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration historique de la Seine à travers des objets archéologiques.",
+            "plus_precisement":"L’exposition présente une collection de 150 objets retrouvés dans la Seine, allant de la Préhistoire à nos jours. Elle met en lumière les interactions humaines avec le fleuve et les méthodes scientifiques utilisées pour interpréter ces vestiges.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'archéologie, l'histoire de Paris ou les techniques de datation des objets anciens."
         }
     },
     {
@@ -3612,16 +3612,16 @@
         "date_debut":"2025-03-07",
         "date_fin":"2025-08-17",
         "tags_category":[
-            "Histoire & Civilisations",
-            "Photographie & Cinéma"
+            "Photographie & Cinéma",
+            "Histoire & Civilisations"
         ],
         "statut":"En cours",
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un voyage immersif dans les coulisses de la création de films d'animation.",
+            "plus_precisement":"Cette exposition, fruit d'une collaboration avec l’École Georges Méliès, explore les différentes étapes de production d'un film d'animation. Elle met en lumière les techniques, les défis et la magie narrative de ce média.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par le cinéma d'animation et curieux(se) de découvrir les secrets de fabrication de tes films préférés."
         }
     },
     {
@@ -3639,8 +3639,8 @@
         "url_lieu":"http:\/\/www.hallesaintpierre.org",
         "adresse_transports":"2 rue Ronsard 75018 Paris 18e                                               \n                         Anvers (2)  \n                         Barbès - Rochechouart (31 \/ 54 \/ 56 \/ 85 \/ N01 \/ N02 \/ N14 \/ N44), Utrillo (40), Muller (85), Rochechouart - Clignancourt (54 \/ 85 \/ N01 \/ N02)",
         "prix_detaille":null,
-        "prix_nominal":"",
-        "prix_nominal_chiffre":null,
+        "prix_nominal":"10€",
+        "prix_nominal_chiffre":10.0,
         "adresse":"2 rue Ronsard - Paris 18e",
         "latitude":48.8848912,
         "longitude":2.3445287,
@@ -3654,12 +3654,12 @@
             "Art & Beaux-Arts"
         ],
         "statut":"En cours",
-        "petit_budget":true,
+        "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un hommage à Gilbert Peyre, artiste mêlant art brut et technologie.",
+            "plus_precisement":"L'exposition met en lumière les spectacles-performances de Gilbert Peyre, alliant esthétique foraine et technologie avancée. Ses machines extravagantes, créées à partir d'objets récupérés, prennent vie grâce à l'électricité et la mécanique, offrant une expérience visuelle et sonore unique.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'art brut, les performances artistiques innovantes et les créations poétiques qui réinventent le quotidien."
         }
     },
     {
@@ -3689,16 +3689,16 @@
         "date_debut":"2025-02-05",
         "date_fin":"2025-09-21",
         "tags_category":[
-            "Histoire & Civilisations",
-            "Art & Beaux-Arts"
+            "Art & Beaux-Arts",
+            "Histoire & Civilisations"
         ],
         "statut":"En cours",
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration de l'art calligraphique arabe à travers les âges.",
+            "plus_precisement":"L'exposition retrace l'évolution de la calligraphie arabe depuis ses premières formes au IXe siècle jusqu'aux innovations contemporaines. Elle met en lumière comment cet art a influencé divers domaines, de l'architecture à l'art urbain.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'art, l'histoire de la calligraphie, ou les expressions artistiques contemporaines."
         }
     },
     {
@@ -3733,9 +3733,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration de la vie et des engagements de Daniel Cordier, figure historique et artistique.",
+            "plus_precisement":"Cette exposition retrace les grandes étapes de la vie de Daniel Cordier, du jeune patriote à l'écrivain en passant par son rôle de galeriste. Elle présente plus d’une centaine de pièces, incluant des archives, des objets personnels et des œuvres d'artistes qu'il a soutenus.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'histoire du XXe siècle, l'art contemporain et les figures engagées."
         }
     },
     {
@@ -3771,9 +3771,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un parcours fascinant à travers l'évolution du style rococo.",
+            "plus_precisement":"L'exposition met en lumière les transformations du rococo, de ses débuts au XVIIIe siècle à ses influences contemporaines, en passant par l'Art nouveau et l'art psychédélique. Elle présente une collection riche de 200 œuvres, incluant des dessins, des meubles, des boiseries, des objets d'art, des luminaires, des céramiques et des pièces de mode. L'exposition célèbre également la restauration de près de 500 dessins de Nicolas Pineau, un pionnier du style rocaille.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'histoire de l'art, les évolutions stylistiques et les influences culturelles à travers les siècles."
         }
     },
     {
@@ -3809,9 +3809,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un hommage à Miss.Tic, icône du street art parisien.",
+            "plus_precisement":"L'exposition met en lumière les œuvres pochoirs de Miss.Tic, connue pour ses dessins de femmes et ses phrases percutantes. Son travail, oscillant entre légèreté et gravité, reflète son parcours d'artiste et son esprit provocateur.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par le street art, les femmes artistes et les créations engagées."
         }
     },
     {
@@ -3847,9 +3847,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une plongée dans l'univers ornemental de Jacques-Émile Ruhlmann, maître de l'Art déco.",
+            "plus_precisement":"Cette exposition met en lumière le talent de Jacques-Émile Ruhlmann pour les revêtements muraux et les textiles, à travers une sélection de dessins, papiers peints et photographies. Elle inaugure également le cabinet des Dessins, Papiers peints et Photographies du MAD, un espace dédié aux œuvres sur papier.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'Art déco, le design intérieur ou les œuvres sur papier rares et fragiles."
         }
     },
     {
@@ -3884,9 +3884,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un hommage à Alfred Dreyfus, figure de la justice et de la persévérance.",
+            "plus_precisement":"L'exposition explore l'affaire Dreyfus à travers des documents d'archives, des œuvres d'art et des extraits de films. Elle met en lumière la lutte de Dreyfus pour la vérité et la séparation de l'Église et de l'État en France. L'exposition situe également l'affaire dans le contexte de la Belle Époque, révélant des aspects méconnus de cette période.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'histoire de France, les combats pour la justice et la Belle Époque."
         }
     },
     {
@@ -3922,9 +3922,9 @@
         "petit_budget":true,
         "fin_proche":true,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration de l'évolution artistique du collectif VLP depuis 1983.",
+            "plus_precisement":"L'exposition retrace les différentes périodes de création du collectif VLP, depuis leurs débuts avec des performances en galerie jusqu'aux grands projets muraux des années 2010. Chaque étape de leur travail est unique, marquée par des techniques variées allant de la bombe aérosol au zinc et au bois. Leur œuvre globale est un parcours créatif riche et diversifié, centré sur l'humain.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'art urbain, les techniques de graffiti et la diversité des expressions artistiques, ou encore si tu souhaites découvrir l'histoire d'un collectif emblématique en activité depuis plus de 30 ans."
         }
     },
     {
@@ -3941,8 +3941,8 @@
         "url_lieu":"http:\/\/www.musee-en-herbe.com",
         "adresse_transports":"23 rue de l'Arbre-Sec 75001 Paris 1er                                               \n                         Châtelet (1 \/ 4 \/ 7 \/ 11 \/ 14), Les Halles (4), Louvre - Rivoli (1), Pont Neuf (7)  \n                         Châtelet les Halles (A \/ B \/ D)  \n                         Pont des Arts (27 \/ 69 \/ 72 \/ N11 \/ N24), Louvre - Rivoli (21 \/ 67 \/ 69 \/ 72 \/ 74 \/ 85 \/ N11 \/ N15 \/ N16 \/ N24), Pont Neuf - Quai du Louvre (21 \/ 27 \/ 58 \/ 67 \/ 69 \/ 70 \/ 72 \/ 74 \/ 85 \/ N11 \/ N15 \/ N16 \/ N24), Rivoli - Châtelet (21 \/ 72 \/ 74), Bourse de Commerce (74 \/ 85 \/ N15 \/ N16), Saint-Honoré - Valois (21)",
         "prix_detaille":null,
-        "prix_nominal":"",
-        "prix_nominal_chiffre":null,
+        "prix_nominal":"7,50€",
+        "prix_nominal_chiffre":7.5,
         "adresse":"23 rue de l'Arbre-Sec - Paris 1er",
         "latitude":48.8601404,
         "longitude":2.3421423,
@@ -3956,12 +3956,12 @@
             "Découverte"
         ],
         "statut":"En cours",
-        "petit_budget":true,
+        "petit_budget":false,
         "fin_proche":true,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une plongée dans l'univers mythologique de l'artiste chinoise Wen Na.",
+            "plus_precisement":"L'exposition présente des installations, fresques et sculptures qui fusionnent traditions chinoises et modernité avec une touche de poésie. Les visiteurs peuvent s'initier à la culture chinoise à travers des jeux de piste interactifs et une scénographie immersive.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par la mythologie, la poésie visuelle et l'art contemporain chinois."
         }
     },
     {
@@ -3996,9 +3996,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration visuelle de l’histoire de la misogynie à travers les siècles.",
+            "plus_precisement":"L’artiste Laia Abril présente trois études de cas spécifiques, analysées avec des experts pour comprendre les crises qualifiées d’hystérie collective. Ces phénomènes affectent principalement des communautés de femmes et d’adolescentes sous stress.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l’histoire de la misogynie, les phénomènes sociologiques et les études de cas interdisciplinaires."
         }
     },
     {
@@ -4035,9 +4035,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un hommage à l'œuvre graphique de Pierre Alferi, poète et artiste visuel.",
+            "plus_precisement":"Pour la première fois, une cinquantaine de dessins de Pierre Alferi, réalisés entre 2006 et 2021, sont exposés. Ces œuvres explorent les interactions entre les mots et les images, mêlant humour et jeux de mots.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'art contemporain, l'humour visuel et les interactions entre texte et image."
         }
     },
     {
@@ -4072,9 +4072,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un dialogue créatif entre photographie et art contemporain par 23 artistes européens.",
+            "plus_precisement":"Cette 15e édition met en lumière des jeunes talents de 13 nationalités différentes. La Lituanie est à l'honneur avec quatre artistes présentant leurs séries.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par la photographie contemporaine et curieux(se) de découvrir de nouveaux talents européens."
         }
     },
     {
@@ -4109,9 +4109,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une plongée artistique dans l'univers des faits divers.",
+            "plus_precisement":"L'exposition rassemble 80 artistes sous le commissariat de Nicolas Surlapierre et Vincent Lavoie. Elle explore cinq équations structurantes qui transforment les salles en un jeu de plateau, questionnant les protocoles de l'art contemporain à travers la fictionnalisation des événements et les modes opératoires d'enquête.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par les énigmes, les enquêtes artistiques et les jeux de temporalités dans les représentations événementielles."
         }
     },
     {
@@ -4147,9 +4147,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un voyage dans l'univers créatif de Philippe Prost, architecte visionnaire.",
+            "plus_precisement":"L'exposition présente une vingtaine de projets emblématiques de Philippe Prost, mettant en lumière son travail sur l'existant patrimonial et ordinaire. À travers documents, matériaux et prototypes, elle explore la fabrique du projet architectural.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'architecture, la création et la mémoire des lieux, ou si tu souhaites découvrir le processus créatif d'un architecte renommé."
         }
     },
     {
@@ -4184,9 +4184,9 @@
         "petit_budget":true,
         "fin_proche":true,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration de la diversité artistique moderne à travers les œuvres de jeunes talents.",
+            "plus_precisement":"L'exposition met en lumière les créations variées des artistes de la 94ᵉ promotion de la Casa de Velázquez. Les œuvres, inspirées par le kaléidoscope de Walter Benjamin, reflètent la complexité et la diversité du monde contemporain. Les thèmes abordés incluent la mémoire, les questions de genre, le métissage, l'écologie et l'intelligence artificielle.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'art contemporain, la diversité culturelle et les thèmes de société actuels."
         }
     },
     {
@@ -4221,9 +4221,9 @@
         "petit_budget":true,
         "fin_proche":true,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration de la perception de la guerre par les enfants de 1914 à nos jours.",
+            "plus_precisement":"L'exposition aborde les politiques de mobilisation et d'instrumentalisation des enfants pendant les conflits, tout en examinant leurs expériences variées selon les classes sociales, la géographie et le genre. Elle met en lumière les enfants comme victimes et acteurs de l'Histoire, en utilisant des affiches, livres, photographies, dessins et témoignages.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'histoire des conflits, les perspectives enfantines, et les questions d'émancipation et de résilience."
         }
     },
     {
@@ -4259,9 +4259,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration de l'architecture industrielle de la rue Réaumur.",
+            "plus_precisement":"La rue Réaumur, inaugurée en 1897, est devenue un centre névralgique pour la confection, les finances et la presse. Le concours de façades de 1898 a transformé ses immeubles en un laboratoire d'innovations architecturales industrielles et commerciales.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'architecture, l'histoire urbaine ou les innovations industrielles."
         }
     },
     {
@@ -4297,9 +4297,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration de l'œuvre d'Agnès Varda à travers Paris.",
+            "plus_precisement":"L'exposition met en lumière la photographe moins connue en elle, avec 130 tirages de la cour-atelier de la rue Daguerre. Elle montre comment sa caméra capturait les détails urbains.",
+            "ca_va_tinteresser_si":"Si tu apprécies l'intersection entre documentaire et fiction, et que tu es passionné(e) par la photographie et le cinéma urbain."
         }
     },
     {
@@ -4334,9 +4334,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une plongée onirique dans l'univers textile de Tim Hailand.",
+            "plus_precisement":"Cette exposition rassemble 25 œuvres de Tim Hailand, un photographe américain renommé pour ses portraits rêveurs. Elle explore la fusion innovante entre ses clichés et les motifs textiles traditionnels.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par la photographie créative et les arts textiles, ou si tu aimes découvrir des œuvres qui repoussent les frontières de l'art."
         }
     },
     {
@@ -4353,8 +4353,8 @@
         "url_lieu":"http:\/\/www.mahj.org",
         "adresse_transports":"71 rue du Temple 75003 Paris 3e                                               \n                         Hôtel de Ville (1 \/ 11), Rambuteau (11)  \n                         Châtelet les Halles (A \/ B \/ D)  \n                         Grenier Saint-Lazare - Quartier de l'Horloge (29 \/ 38 \/ 75 \/ N12 \/ N13 \/ N14 \/ N23), Rue Vieille du Temple (29), La Verrerie (75), Archives - Rambuteau (29 \/ 75)",
         "prix_detaille":null,
-        "prix_nominal":"",
-        "prix_nominal_chiffre":null,
+        "prix_nominal":"10€",
+        "prix_nominal_chiffre":10.0,
         "adresse":"71 rue du Temple - Paris 3e",
         "latitude":48.8609579,
         "longitude":2.3556385,
@@ -4368,12 +4368,12 @@
             "Histoire & Civilisations"
         ],
         "statut":"A venir",
-        "petit_budget":true,
+        "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un hommage révélateur à la danseuse Paula Padani, pionnière oubliée de la danse contemporaine en Palestine mandataire.",
+            "plus_precisement":"L'exposition présente 140 photographies, affiches et costumes retraçant la carrière de Paula Padani et son influence sur la danse contemporaine israélienne. Les œuvres de photographes tels que Himmelreich, Goldman, Triest et Hausdorff témoignent de l'effervescence artistique de Tel-Aviv dans les années 1930 et 1940.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'histoire de la danse, l'art en exil et les pionniers de la culture israélienne."
         }
     },
     {
@@ -4390,8 +4390,8 @@
         "url_lieu":"http:\/\/www.prefecturedepolice.interieur.gouv.fr\/musee",
         "adresse_transports":"4 rue de la Montagne Sainte-Geneviève 75005 Paris 5e                                               \n                         Maubert - Mutualité (10)  \n                         Maubert - Mutualité (47 \/ 63 \/ 86 \/ 87 \/ N15 \/ N22), Saint-Jacques - Saint-Germain (75), Lycée Henri IV (75 \/ 89), Petit Pont (47 \/ 75 \/ N15 \/ N22), Pont de l'Archevêché (75 \/ 87), Monge - Mutualité (63 \/ 86)",
         "prix_detaille":null,
-        "prix_nominal":"",
-        "prix_nominal_chiffre":null,
+        "prix_nominal":"0€",
+        "prix_nominal_chiffre":0.0,
         "adresse":"4 rue de la Montagne Sainte-Geneviève - Paris 5e",
         "latitude":48.849472,
         "longitude":2.3485816,
@@ -4408,9 +4408,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une plongée dans l'histoire des brigades spécialisées de la Police judiciaire de Paris.",
+            "plus_precisement":"L'exposition célèbre les anniversaires de la BRI et de la BRB en explorant les défis sociaux qui ont mené à la création de brigades spécialisées. Elle met en lumière les domaines sensibles comme les drogues, le proxénétisme et la grande criminalité.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'histoire de la police et les enjeux de sécurité urbaine, ou si tu veux comprendre comment la police s'adapte aux défis sociaux."
         }
     },
     {
@@ -4447,9 +4447,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un voyage à travers l'histoire de l'estampe, des maîtres anciens aux créateurs contemporains.",
+            "plus_precisement":"La quatrième édition de cette exposition réunit 25 galeries, dont 6 nouvelles et 12 internationales. Elle explore diverses techniques comme la xylographie, la lithographie, et l'eau-forte, présentant des œuvres de maîtres anciens tels que Dürer et Rembrandt jusqu'aux artistes modernes et contemporains.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'art historique et contemporain, fasciné(e) par les techniques d'estampe, ou curieux(se) de découvrir des œuvres de différentes écoles artistiques."
         }
     },
     {
@@ -4484,9 +4484,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un voyage musical à travers l'histoire républicaine de la France.",
+            "plus_precisement":"L'exposition explore les interactions entre la musique et la citoyenneté depuis la Révolution française jusqu'au Front populaire. Elle présente des partitions inédites, des instruments de musique, des correspondances politiques et des commandes à des compositeurs célèbres.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'histoire, la musique et le rôle de la culture dans la construction de la société."
         }
     },
     {
@@ -4521,9 +4521,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration immersive de l'évolution du management et ses impacts sociétaux.",
+            "plus_precisement":"L'exposition retrace l'histoire du management, de ses origines à ses perspectives futures, en mettant en lumière ses pionnières oubliées et ses implications morales. Un jeu de rôle interactif permet aux visiteurs de vivre différents rôles dans diverses structures entrepreneuriales.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par les dynamiques organisationnelles, les enjeux éthiques du management et les expériences interactives."
         }
     },
     {
@@ -4558,9 +4558,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un voyage auditif immersif au cœur des collections permanentes du musée.",
+            "plus_precisement":"Plus de 120 points sonores, allant de la musique aux récits, contextualisent les œuvres et les objets. Ce parcours enrichit l'expérience de visite grâce à une collaboration entre scientifiques, ingénieurs et artistes.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'histoire, la musique ou les innovations technologiques dans les musées."
         }
     },
     {
@@ -4597,9 +4597,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration de la violence urbaine à travers des tableaux hyperréalistes.",
+            "plus_precisement":"L'exposition présente des scènes de rue hyperréalistes où les personnages sont en proie à des combats. Guillaume Bresson mêle des références à la peinture religieuse et d'histoire pour créer un contraste saisissant. L'artiste réinvestit un mode de représentation classique pour renaître une peinture d'histoire contemporaine.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'art contemporain, les scènes de rue hyperréalistes et les réflexions sur la violence en peinture."
         }
     },
     {
@@ -4635,9 +4635,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un dialogue artistique entre Petrit Halilaj et Alberto Giacometti autour de l'enfance et du rêve.",
+            "plus_precisement":"Petrit Halilaj, marqué par son enfance au Kosovo, explore des thèmes de liberté et de jeu. L'exposition met en lumière des œuvres inédites et les associations d'idées entre les deux artistes. Partant d'un dessin d'enfant copié par Giacometti, Halilaj crée un dialogue subtil et onirique entre dessin et sculpture.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'art contemporain, l'enfance, le rêve et les échanges artistiques entre générations."
         }
     },
     {
@@ -4672,9 +4672,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"une exploration artistique et historique de la mesure du temps",
+            "plus_precisement":"L'exposition combine objets historiques et œuvres d'art contemporain pour illustrer l'évolution de la mesure du temps. Elle met en lumière le rôle de La Poste dans la standardisation du temps et présente des installations, sculptures et vidéos d'artistes contemporains qui offrent une réflexion unique sur notre perception du temps.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'histoire de la mesure du temps, l'art contemporain et les innovations postales."
         }
     },
     {
@@ -4709,9 +4709,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une célébration visuelle des Compagnons de la Libération par le Studio Harcourt.",
+            "plus_precisement":"L'exposition met en lumière 109 portraits de Compagnons de la Libération, capturés avant et après la Seconde Guerre mondiale, grâce à une collaboration entre plusieurs institutions et familles des Compagnons. Elle rend hommage à cette élite créée par le général de Gaulle.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'histoire de la Seconde Guerre mondiale, l'art photographique et les récits de bravoure nationale."
         }
     },
     {
@@ -4746,9 +4746,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration de l'œuvre gravée de Jean Crampilh-Broucaret sur un parquet de chêne.",
+            "plus_precisement":"L'exposition met en lumière le texte gravé par l'artiste dans le plancher de sa chambre. Elle aborde la matérialité de l'œuvre, son contexte historique et ethnographique, ainsi que les interprétations et créations artistiques qu'elle a inspirées.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par les œuvres d'art uniques, les textes gravés et les contextes historiques."
         }
     },
     {
@@ -4784,9 +4784,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une aventure immersive pour sauver le Joba Mena, poisson menacé.",
+            "plus_precisement":"L'exposition retrace une enquête scientifique internationale lancée en 2012 pour sauver le Joba Mena, un poisson en danger critique d’extinction. Avec une esthétique de bande dessinée, elle invite les visiteurs à suivre les scientifiques dans leur mission de sauvetage.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par la conservation de la biodiversité, les enquêtes scientifiques et les aventures en bande dessinée."
         }
     },
     {
@@ -4823,9 +4823,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un rendez-vous annuel célébrant le dessin sous toutes ses formes.",
+            "plus_precisement":"Le Salon du Dessin accueille des galeries du monde entier présentant des œuvres d'artistes anciens et contemporains. Cette édition réunit 39 exposants, dont 17 étrangers, et met en lumière les dessins français du XVIIIe au début du XXe siècle de la collection Katrin Bellinger.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'art du dessin, amateur(trice) de découvertes culturelles ou collectionneur(se) d'œuvres d'art."
         }
     },
     {
@@ -4860,9 +4860,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une aventure interactive pour les enfants où danse et musique se rencontrent.",
+            "plus_precisement":"Les enfants et leurs accompagnateurs sont encouragés à participer activement en dansant à travers quatre gestes clés : sauter, tourner, marcher et se rencontrer, suivis d'un moment de réflexion introspectif. La scénographie, festive et joyeuse, stimule tous les sens.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par la danse et la musique, que tu aimes les expériences interactives et que tu cherches une activité ludique pour les enfants."
         }
     },
     {
@@ -4934,9 +4934,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un voyage historique à travers l'art et le patrimoine d'une cité.",
+            "plus_precisement":"L'exposition couvre du XVIIIe au milieu du XXe siècle, explorant l'histoire et le patrimoine industriel de L’Isle-Adam. Elle présente des œuvres d'artistes inspirés par les paysages locaux, incluant peintures, sculptures, et photographies anciennes.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'histoire locale, l'art régional et les paysages pittoresques."
         }
     },
     {
@@ -4971,9 +4971,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un voyage artistique à travers différentes techniques et matériaux.",
+            "plus_precisement":"Cette exposition présente une variété d'œuvres allant des peintures aux dessins en passant par les sculptures. Elle offre une exploration des différentes façons dont les artistes expriment leur créativité à travers divers médiums.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par les arts visuels et que tu aimes découvrir de nouvelles formes d'expression artistique."
         }
     },
     {
@@ -5010,9 +5010,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un voyage immersif dans l'évolution des banlieues françaises.",
+            "plus_precisement":"L'exposition présente plus de 200 documents d'archives, peintures, installations, vidéos, design, et photographies. Elle couvre une période allant de la fin du XIXe siècle à nos jours, mettant en lumière les transformations urbaines et sociales des banlieues.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'histoire urbaine, l'art contemporain et les dynamiques sociales des banlieues."
         }
     },
     {
@@ -5047,9 +5047,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une initiative artistique où les enfants deviennent créateurs d'œuvres animées.",
+            "plus_precisement":"Oliver Beer, en collaboration avec le MAM, engage les enfants à réinterpréter des œuvres d'art iconiques par le dessin. Ces dessins seront ensuite animés et accompagnés de sons enregistrés par les enfants, formant des films immersifs. Les œuvres choisies incluent celles de Victor Brauner, Nina Childress, Sonia Delaunay et Georges Rouault.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'art participatif, l'animation et l'exploration des sons et des souvenirs."
         }
     },
     {
@@ -5085,9 +5085,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une immersion dans la splendeur et la puissance du sultanat mamlouk (1250-1517).",
+            "plus_precisement":"L'exposition présente 260 œuvres internationales, mettant en lumière la culture visuelle unique de cet empire égypto-syrien. La dynastie des Mamlouks, connue pour sa puissance militaire, a marqué l'histoire par ses conquêtes et sa résilience face aux invasions.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'histoire du Proche-Orient, l'architecture islamique ou les cultures méconnues mais influentes."
         }
     },
     {
@@ -5122,9 +5122,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un événement dédié aux futurs parents et à la petite enfance.",
+            "plus_precisement":"Ce salon offre des conseils, des produits et des services pour accompagner les parents dans leur nouvelle aventure. Les visiteurs peuvent découvrir les dernières innovations en matière de puériculture et participer à des ateliers éducatifs.",
+            "ca_va_tinteresser_si":"Si tu es en passe de devenir parent ou si tu cherches des informations et des produits pour les tout-petits."
         }
     },
     {
@@ -5196,9 +5196,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un voyage thématique dédié aux seniors pour explorer leurs besoins et passions.",
+            "plus_precisement":"Le Salon des Seniors est structuré autour de six univers thématiques : M’évader, Me divertir, Mon bien-être, Prendre soin de moi, Ma santé, Ma vie active, Mes droits, Ma retraite, Mon patrimoine, et Mon cadre de vie. Chaque univers offre des réponses et des solutions adaptées aux préoccupations des seniors.",
+            "ca_va_tinteresser_si":"Si tu es à la recherche de conseils pratiques et d'idées pour améliorer ta qualité de vie, que tu sois passionné(e) par le bien-être, la santé ou les loisirs adaptés à ton âge."
         }
     },
     {
@@ -5270,9 +5270,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration des futurs incertains à travers des îlots de modernité chaotique.",
+            "plus_precisement":"Cette exposition rassemble des œuvres d'artistes contemporains qui, inspirés par les visions de J.G Ballard, explorent les rapports entre mythologies modernes, communications de masse et déformations technologiques. Les œuvres présentées imaginent un avenir incertain qui se dévoile dans les failles de notre présent.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par les réflexions sur le futur, les déformations technologiques et les visions dystopiques."
         }
     },
     {
@@ -5307,9 +5307,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une immersion dans l'univers de 'Atala', chef-d'œuvre romantique de Chateaubriand.",
+            "plus_precisement":"L'exposition explore douze moments clés du roman à travers diverses œuvres d'art et objets d'époque. Elle retrace également l'impact durable du livre sur la littérature et l'art jusqu'au XXe siècle.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par la littérature romantique, les œuvres d'art inspirées de grands récits et l'histoire de la culture française."
         }
     },
     {
@@ -5344,9 +5344,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration des interactions entre IA et art contemporain.",
+            "plus_precisement":"L'exposition présente des œuvres d'artistes français et internationaux qui utilisent l'IA de manière critique et expérimentale. Elle couvre divers domaines tels que la photographie, le cinéma, la littérature et la musique.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par les nouvelles technologies et l'art contemporain, ou si tu aimes découvrir comment les artistes repensent les processus de création avec l'IA."
         }
     },
     {
@@ -5381,9 +5381,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un voyage immersif dans l'art contemporain de la rue.",
+            "plus_precisement":"L'exposition présente des œuvres de street art qui explorent les thèmes de la rébellion et de l'expression urbaine. Elle met en lumière des artistes émergents et établis, offrant une perspective unique sur l'évolution de ce mouvement artistique.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'art urbain, la culture de la rue et les mouvements artistiques contemporains."
         }
     },
     {
@@ -5401,8 +5401,8 @@
         "url_lieu":"https:\/\/www.drawingnowparis.com",
         "adresse_transports":"4 rue Eugène Spuller 75003 Paris 3e                                               \n                         Filles du Calvaire (8), République (3 \/ 5 \/ 8 \/ 9 \/ 11), Temple (3)  \n                         République (20 \/ 56 \/ 75 \/ 91 \/ N01 \/ N02 \/ N12 \/ N23 \/ N141 \/ N142), Archives - Haudriettes (29 \/ 75), République - Voltaire (56), Jean-Pierre Timbaud (56 \/ 91 \/ 96), Square du Temple (20 \/ 75 \/ N12 \/ N23), Bretagne (96)",
         "prix_detaille":null,
-        "prix_nominal":"",
-        "prix_nominal_chiffre":null,
+        "prix_nominal":"16€",
+        "prix_nominal_chiffre":16.0,
         "adresse":"4 rue Eugène Spuller - Paris 3e",
         "latitude":48.8644322,
         "longitude":2.3624253,
@@ -5417,12 +5417,12 @@
             "Peinture et Dessin"
         ],
         "statut":"A venir",
-        "petit_budget":true,
+        "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un salon unique dédié au dessin contemporain.",
+            "plus_precisement":"Drawing Now Paris, fondé en 2007, réunit chaque année plus de 70 galeries internationales. L'événement est organisé en trois secteurs pour explorer divers aspects du dessin contemporain, y compris des projets interdisciplinaires.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'art contemporain et que tu souhaites découvrir des œuvres de dessin innovantes et variées."
         }
     },
     {
@@ -5457,9 +5457,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un voyage dans l'univers mystérieux d'un jeune artiste surréaliste.",
+            "plus_precisement":"L'exposition présente des œuvres qui, bien que jeunes, montrent une profondeur et une modernité inspirées des grands maîtres du surréalisme. Chaque pièce révèle une sensibilité unique et envoûtante.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'art contemporain et les mystères du surréalisme..."
         }
     },
     {
@@ -5494,9 +5494,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un dialogue artistique entre peinture et architecture historique.",
+            "plus_precisement":"L'exposition présente des œuvres picturales contemporaines en conversation avec des répliques architecturales de la chapelle du Prieuré Saint-Victor-de-Bray. Les moulages des clés de voûte offrent un contraste fascinant avec les peintures, créant une interaction unique entre passé et présent.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l’art contemporain, l’histoire de l’architecture, ou les dialogues entre différents médiums artistiques."
         }
     },
     {
@@ -5531,9 +5531,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration des œuvres marquantes de Willy Ronis, maître de la photographie humaniste.",
+            "plus_precisement":"Cette exposition présente des clichés emblématiques et inédits de Willy Ronis, grâce à la collaboration avec Pierre Jean Amar, qui a partagé sa collection privée. Les œuvres de Ronis, célèbres pour leur tendresse et leur humanité, sont mises en lumière dans cette rétrospective.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par la photographie humaniste, les scènes de vie quotidienne et les paysages lumineux, ou si tu souhaites découvrir des œuvres rares de Willy Ronis."
         }
     },
     {
@@ -5568,9 +5568,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un solo show explorant l'architecture théâtrale italienne.",
+            "plus_precisement":"L'exposition présente des images rehaussées au pastel par l'artiste Patrizia Mussa. Elle se concentre sur la qualité scénique de certaines architectures italiennes. Cette exposition itinérante a déjà été présentée à Milan et Palerme, et sera prochainement à Vincenza et à Rome.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'art contemporain, l'architecture italienne ou les techniques de pastel."
         }
     },
     {
@@ -5605,9 +5605,9 @@
         "petit_budget":true,
         "fin_proche":true,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration artistique de l'héritage familial et colonial.",
+            "plus_precisement":"L'artiste met en lumière des figures historiques souvent oubliées et les intègre à sa propre histoire. Son travail se concentre sur la mémoire et la réhabilitation de ces personnages effacés par la censure et le colonialisme.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'histoire, la mémoire collective et les récits familiaux, ou si tu souhaites découvrir des figures historiques méconnues."
         }
     },
     {
@@ -5638,13 +5638,13 @@
         "tags_category":[
             "Galeries"
         ],
-        "statut":"A venir",
+        "statut":"En cours",
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration fascinante de l'amour inconditionnel à travers des œuvres surréalistes.",
+            "plus_precisement":"L'artiste Oda Jaune, originaire de Bulgarie et formée en Allemagne, présente une vingtaine d’huiles sur toile. Son travail, inspiré par le poème « Touched by an angel » de Maya Angelou, revisite le thème des anges en les détachant de leur contexte religieux pour les ancrer dans l'humanité.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par le surréalisme, l'art contemporain et les réflexions sur la nature humaine."
         }
     },
     {
@@ -5679,9 +5679,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration intime des communautés ouvrières galloises par un photographe hispano-argentin.",
+            "plus_precisement":"L'exposition présente neuf années de travail photographique de Sebastián Bruno, capturant le quotidien des communautés ouvrières du sud du Pays de Galles. Ses images, à la fois empathiques et austères, révèlent la complexité de ces vies ordinaires marquées par les fluctuations économiques et politiques.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par la photographie documentaire et les récits humains, ou si tu es curieux(se) de découvrir la vie dans les communautés ouvrières."
         }
     },
     {
@@ -5716,9 +5716,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration visuelle des premiers films Lumière à travers des photogrammes artistiques.",
+            "plus_precisement":"L'exposition présente une trentaine de tirages photographiques limités, tirés des films Lumière, y compris une série de dix photos de la séance inaugurale de 1895. Le flou et le grain des images sont utilisés pour accentuer le mystère et la beauté des sujets, avec des zooms sur des détails spécifiques des films.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'histoire du cinéma, la photographie artistique ou les débuts de la technologie cinématographique."
         }
     },
     {
@@ -5753,9 +5753,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un rassemblement unique d'œuvres orchestré par Pharrell Williams et Emmanuel Perrotin.",
+            "plus_precisement":"L'exposition met en lumière les créations de 40 artistes contemporains. Elle est organisée par Pharrell Williams et Emmanuel Perrotin, deux figures influentes dans le monde de l'art.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'art contemporain et les collaborations artistiques innovantes."
         }
     },
     {
@@ -5790,9 +5790,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un voyage artistique entre Brésil et Allemagne.",
+            "plus_precisement":"L'exposition met en lumière les œuvres de Cristina Barroso, une artiste brésilienne vivant entre São Paulo et Stuttgart. Pour la première fois en France, ses créations explorent non seulement le fleuve amazonien, mais aussi une trajectoire intérieure très personnelle. Le commissaire de l'exposition, Léo Marin, a sélectionné des œuvres qui défient les conventions géographiques, reflétant la double culture de l'artiste.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'art contemporain, les cultures croisées et les récits personnels."
         }
     },
     {
@@ -5827,9 +5827,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un voyage photographique à travers les théâtres et architectures théâtrales d'Italie.",
+            "plus_precisement":"Cette exposition explore les théâtres emblématiques d'Italie, depuis les premiers édifices non provisoires jusqu'aux célèbres opéras comme La Scala de Milan. Elle met également en lumière des architectures civiles italiennes à vocation théâtrale, comme le Palais Royal de Venarìa. Les photographies de l'artiste, bien que d'apparence objective, sont retravaillées avec des pastels pour créer une fusion unique entre photographie et peinture.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'histoire de l'architecture théâtrale, l'art photographique ou les mélanges de techniques artistiques."
         }
     },
     {
@@ -5864,9 +5864,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un plongeon dans le quotidien ancestral des Shipibo-Konibo.",
+            "plus_precisement":"L'exposition présente 25 photographies capturant la vie quotidienne de ce peuple amazonien. Le projet, produit par le Centre culturel Inca Garcilaso, a déjà été exposé à la Casa América de Madrid et lors du 9ᵉ Congrès international de la langue espagnole de Cadix 2023.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par les cultures ancestrales et la photographie ethnographique."
         }
     },
     {
@@ -5901,9 +5901,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un voyage photographique au cœur des hôpitaux bruxellois.",
+            "plus_precisement":"Depuis 2018, Marin Driguez explore la condition humaine à travers l'hôpital, abordant des thèmes comme la vie, la mort et le rôle du soin dans notre société. Ses photos captent l'intensité des émotions et des gestes au sein des établissements hospitaliers.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par la photographie documentaire, sensible aux questions de santé publique et intéressé(e) par les réflexions sur la condition humaine."
         }
     },
     {
@@ -5938,9 +5938,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration des contributions majeures de femmes architectes à l'ère postmoderne.",
+            "plus_precisement":"L'exposition présente des images d’archive, des dessins et des photographies qui retracent les trajectoires biographiques exceptionnelles de ces pionnières. Elle met en lumière leurs réalisations emblématiques et leur rôle crucial dans l’histoire de l’architecture du XXe siècle.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'histoire de l'architecture, les contributions féminines et les transitions entre modernisme et postmodernisme."
         }
     },
     {
@@ -5975,9 +5975,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration lumineuse de la transformation et du renouveau à travers la peinture.",
+            "plus_precisement":"Tom Climent présente des œuvres vibrantes, allant des abris troglodytiques aux terrains abstraits, où la couleur et la forme humaine émergent après une période de pratique structurée. Ses compositions évoquent le concept de 'wilding', laissant la croissance s'exprimer librement.",
+            "ca_va_tinteresser_si":"Si tu es fasciné(e) par les jeux de lumière et de couleurs, la transformation naturelle, et les œuvres qui invitent à la contemplation de la vie et de la création."
         }
     },
     {
@@ -6012,9 +6012,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une célébration colorée de l'art contemporain sur trois niveaux.",
+            "plus_precisement":"Cette exposition met en lumière les œuvres de six artistes, dont deux nouveaux talents. Chaque niveau de l'Hôtel Square offre une expérience visuelle unique, avec des œuvres vibrantes et variées.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'art contemporain et que tu aimes découvrir de nouveaux talents."
         }
     },
     {
@@ -6049,9 +6049,9 @@
         "petit_budget":true,
         "fin_proche":true,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un voyage immersif dans l'univers créatif de l'artiste.",
+            "plus_precisement":"Cette exposition met en lumière les œuvres majeures de l'artiste, en explorant ses techniques innovantes et son évolution artistique. Elle offre également un aperçu de ses inspirations et de ses collaborations avec d'autres artistes.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'art contemporain et les innovations artistiques, ou si tu aimes découvrir les processus créatifs des artistes."
         }
     },
     {
@@ -6086,9 +6086,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration artistique d'un marin pêcheur devenu peintre.",
+            "plus_precisement":"Pierre Delcourt, autodidacte et marin pêcheur, expose ses dernières œuvres à la galerie Univer \/ Colette Colla. Ses peintures et dessins reflètent son parcours unique et son ancrage breton.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'art autodidacte et les histoires de vie atypiques."
         }
     },
     {
@@ -6123,9 +6123,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un hommage à Margo, artiste bulgare précoce aux multiples talents.",
+            "plus_precisement":"L'exposition présente une sélection de paysages à l'aquarelle et de dessins réalisés durant ses années d'études. Les œuvres proviennent de collections privées et publiques, offrant un aperçu de son travail varié.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'art moderne et les talents précoces, ou si tu apprécies la diversité des techniques artistiques comme la peinture et la sculpture."
         }
     },
     {
@@ -6160,9 +6160,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration immersive de l'impact de la lumière sur l'art contemporain.",
+            "plus_precisement":"L'exposition présente des œuvres d'artistes modernes qui utilisent la lumière comme médium principal. Elle met en lumière les différentes techniques et approches artistiques pour manipuler la lumière, créant ainsi des expériences visuelles uniques.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par les innovations artistiques et que tu aimes découvrir comment la lumière peut transformer des œuvres d'art."
         }
     },
     {
@@ -6197,9 +6197,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une plongée immersive dans l'univers artistique contemporain.",
+            "plus_precisement":"L'exposition présente des œuvres d'artistes émergents et établis, explorant divers médias et thématiques actuelles. Elle met en lumière les tendances artistiques du moment et offre une perspective unique sur l'art d'aujourd'hui.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'art moderne et les nouvelles expressions créatives."
         }
     },
     {
@@ -6234,9 +6234,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration visuelle de l'impact de Los Angeles sur la culture musicale.",
+            "plus_precisement":"L'exposition présente une sélection de photographies de la Los Angeles Photo Collection qui illustrent la diversité et l'influence de la musique à Los Angeles. Elle couvre une période de 30 ans et met en lumière l'importance du Sunset Strip dans l'histoire du rock.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'histoire de la musique, la photographie et l'influence culturelle des grandes villes."
         }
     },
     {
@@ -6271,9 +6271,9 @@
         "petit_budget":true,
         "fin_proche":true,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration des dimensions invisibles à travers des œuvres monumentales.",
+            "plus_precisement":"L'exposition présente les dernières créations de Xie Lei, dont plusieurs grands formats. Ces œuvres reflètent la quête de l'artiste pour représenter des mondes oniriques et au-delà du visible.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'art contemporain et les explorations visuelles de l'invisible."
         }
     },
     {
@@ -6308,9 +6308,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un dialogue artistique entre photographies, peintures et dessins lithographiques.",
+            "plus_precisement":"Elle présente les œuvres de cinq artistes qui explorent différentes techniques et médiums. La photographie, la peinture et la lithographie s'entremêlent pour offrir une expérience visuelle unique.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'art contemporain et les intersections entre différentes formes d'expression artistique."
         }
     },
     {
@@ -6345,9 +6345,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une plongée immersive dans l'univers artistique contemporain.",
+            "plus_precisement":"L'exposition met en lumière les œuvres d'artistes émergents et explore les nouvelles tendances dans le domaine de l'art contemporain. Elle propose une variété de médias, allant de la peinture à la sculpture, en passant par les installations multimédia.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par les nouvelles formes d'expression artistique et curieux(se) de découvrir les talents de demain."
         }
     },
     {
@@ -6382,9 +6382,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration des sens et de la perception à travers les œuvres de Léa Valentin.",
+            "plus_precisement":"Léa Valentin, artiste plasticienne, combine arts plastiques et céramique dans ses créations. Elle collabore avec des artistes de divers horizons pour enrichir ses recherches sur la relation entre l'espace et le corps. Ses performances, notamment avec la chorégraphe Micheline Lelièvre, illustrent ses explorations.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'art contemporain, les performances artistiques et les interactions sensorielles."
         }
     },
     {
@@ -6419,9 +6419,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un voyage artistique à travers les œuvres d'un maître de la peinture moderne.",
+            "plus_precisement":"Cette exposition présente une sélection de tableaux et d'esquisses qui illustrent l'évolution stylistique de l'artiste. Elle met en lumière les thèmes récurrents de son travail et les techniques innovantes qu'il a développées.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'art moderne et l'histoire de la peinture, ou si tu aimes découvrir les processus créatifs des grands artistes..."
         }
     },
     {
@@ -6456,9 +6456,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un hommage vibrant à la première bibliothèque française pour enfants.",
+            "plus_precisement":"Cette exposition célèbre le centenaire de L'Heure Joyeuse, une institution pionnière dans l'accès à la lecture pour les jeunes. Elle sera visible à la médiathèque Françoise Sagan du 12 novembre 2024 au 23 mars 2025.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'histoire de la littérature jeunesse ou si tu souhaites découvrir l'impact des bibliothèques sur l'éducation des enfants."
         }
     },
     {
@@ -6493,9 +6493,9 @@
         "petit_budget":false,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une odyssée culturelle en briques Lego à travers l'Asie et l'océan Indien.",
+            "plus_precisement":"Quatorze maquettes monumentales, réalisées avec 300 000 briques Lego, transportent les visiteurs à travers 12 pays. Le parcours met en lumière la diversité culturelle, religieuse et humaine de ces régions, avec des maquettes contextualisées par des éléments de décor et figurines.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par les voyages, les cultures asiatiques et les constructions en Lego, ou si tu es curieux(se) de découvrir la richesse patrimoniale de ces régions à travers des œuvres créatives."
         }
     },
     {
@@ -6530,9 +6530,9 @@
         "petit_budget":true,
         "fin_proche":true,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration visuelle du corps et de la nature à travers des mises en scène photographiques.",
+            "plus_precisement":"L'artiste, directrice et curatrice à l’Immix galerie, utilise son jardin en région parisienne comme studio à ciel ouvert pour ses créations en noir et blanc. Elle a exposé dans de nombreux pays et participé à divers salons d'art.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par la photographie, les interactions entre l'art et la nature, ou encore par les œuvres inclassables et innovantes."
         }
     },
     {
@@ -6604,9 +6604,9 @@
         "petit_budget":true,
         "fin_proche":true,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"une immersion sensorielle dans l'art numérique contemporain.",
+            "plus_precisement":"L'exposition explore les frontières entre technologie et créativité, mettant en avant des œuvres interactives et immersives. Elle présente des installations innovantes qui jouent avec la lumière, le son et le mouvement.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par les nouvelles technologies et l'art interactif, ou si tu cherches une expérience visuelle et sonore unique."
         }
     },
     {
@@ -6641,9 +6641,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une célébration de l'innovation artistique de Pontus Hultén, visionnaire des musées.",
+            "plus_precisement":"L'exposition met en lumière des œuvres graphiques réalisées sous la direction de Pontus Hultén, illustrant son approche ludique et inventive. Elle présente des collaborations avec des designers de renom et des projets qui défient les conventions.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'histoire de l'art, les expositions expérimentales et les initiatives de démocratisation culturelle."
         }
     },
     {
@@ -6678,9 +6678,9 @@
         "petit_budget":true,
         "fin_proche":true,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration visuelle de 'Notre-Dame de Paris' en 3D.",
+            "plus_precisement":"L'exposition met en scène une vingtaine de tableaux en trois dimensions, représentant des scènes et personnages du roman de Victor Hugo. Ces œuvres sont imprimées sur de la pellicule de film et encadrées dans de grandes boîtes. L'exposition est également liée à la réouverture de Notre-Dame de Paris, dont Patrick Rimoux a conçu l'éclairage intérieur.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'univers de Victor Hugo, les innovations artistiques en 3D ou l'histoire de Notre-Dame de Paris."
         }
     },
     {
@@ -6715,9 +6715,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration des objets du quotidien transformés en symboles politiques.",
+            "plus_precisement":"Cette exposition présente les recherches sur des objets ordinaires devenus des emblèmes de luttes sociales. Elle combine histoire matérielle et témoignages pour révéler leur impact politique.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'histoire des mouvements sociaux et curieux(se) de découvrir comment des objets banals peuvent devenir des symboles puissants."
         }
     },
     {
@@ -6752,9 +6752,9 @@
         "petit_budget":true,
         "fin_proche":true,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un voyage photographique à travers les sept continents.",
+            "plus_precisement":"L’exposition présente des œuvres inédites capturant l’architecture réfléchie, les paysages marins saisissants, et la beauté des montagnes enneigées. Elle offre une immersion totale dans l’univers unique de Mikiya Takimoto.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par la photographie, les paysages naturels époustouflants et les cultures du monde entier."
         }
     },
     {
@@ -6789,9 +6789,9 @@
         "petit_budget":true,
         "fin_proche":true,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un voyage à travers l'art contemporain et ses expressions variées.",
+            "plus_precisement":"L'exposition explore les différentes formes d'art contemporain, allant de la peinture à la sculpture, en passant par les installations multimédias. Elle met en lumière les œuvres d'artistes émergents et établis, offrant une vue d'ensemble sur les tendances actuelles.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par les nouvelles formes d'expression artistique et que tu aimes découvrir des talents innovants."
         }
     },
     {
@@ -6826,9 +6826,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un voyage entre politique et intime où dessin et sculpture se rencontrent.",
+            "plus_precisement":"L'exposition explore l'histoire de la belladone, une plante médicinale et toxique, en utilisant des œuvres graphiques et sculpturales. Elle met en lumière les dualités de cette plante et invite à la réflexion sur son maniement délicat.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'art contemporain, les plantes médicinales, ou les réflexions sur les dualités de la nature..."
         }
     },
     {
@@ -6863,9 +6863,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration visuelle des œuvres de seize artistes contemporains.",
+            "plus_precisement":"Cette exposition met en lumière des talents diversifiés, allant des portraits intimes aux paysages urbains. Chaque artiste apporte une perspective unique, enrichissant ainsi l'expérience visuelle des visiteurs.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par la photographie contemporaine et que tu aimes découvrir de nouveaux talents artistiques."
         }
     },
     {
@@ -6900,9 +6900,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un voyage immersif dans l'univers de la Hi-NRG et de la club-culture.",
+            "plus_precisement":"L'exposition HIGH ENERGIES de Tony Regazzoni explore la fascination de l'artiste pour la dance-music et la culture des clubs. Elle met en lumière l'esprit et la mémoire de la Hi-NRG à travers diverses œuvres et installations.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par la musique électronique, la culture des clubs ou l'histoire de la Hi-NRG."
         }
     },
     {
@@ -6974,9 +6974,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un voyage dans l'univers artistique de Françoise CauvinMonet.",
+            "plus_precisement":"Cette exposition met en lumière les œuvres marquantes de l'artiste française Françoise CauvinMonet, offrant un panorama complet de sa carrière. C'est l'occasion de découvrir son évolution artistique et ses contributions majeures à l'art contemporain.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'art contemporain et que tu souhaites explorer le parcours d'une artiste française influente."
         }
     },
     {
@@ -7011,9 +7011,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration de l'héritage artistique japonais à travers le verre et la naphtaline.",
+            "plus_precisement":"Aiko Miyanaga, céramiste japonaise, redonne vie à des moules historiques créés par son arrière-grand-père. Ces moules, utilisés lors de l'Exposition Universelle de Paris en 1900, servent à créer des sculptures qui fusionnent l'esprit de la Belle Époque avec la tradition céramique japonaise.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'histoire de l'art, la tradition céramique japonaise ou les innovations artistiques contemporaines."
         }
     },
     {
@@ -7048,9 +7048,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration de la couleur et des futurs possibles.",
+            "plus_precisement":"L'exposition invite à reconsidérer notre perception du monde à travers la couleur, en imaginant des scénarios de mondes nouveaux. Les œuvres, créées pendant la pandémie, sont portables et performatives, capables d'évoluer dans différents agencements.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'art contemporain, les réflexions sur la perception et la couleur, et les œuvres interactives."
         }
     },
     {
@@ -7085,9 +7085,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration artistique de la nature à travers des installations éphémères et des herbiers.",
+            "plus_precisement":"Depuis les années 1960, cette artiste utilise des éléments naturels modestes pour créer des œuvres éphémères. Elle entrelace des herbes et des joncs pour former des dessins suspendus, jouant sur la souplesse et la raideur des matériaux.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'art naturel, les installations éphémères et les œuvres qui jouent avec la texture et la forme des éléments naturels."
         }
     },
     {
@@ -7122,9 +7122,9 @@
         "petit_budget":true,
         "fin_proche":true,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un voyage artistique au cœur des couleurs et des formes.",
+            "plus_precisement":"L'exposition explore les différentes techniques et styles utilisés par l'artiste pour créer des œuvres vibrantes et expressives. Elle met en lumière l'évolution de son travail au fil des années.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'art contemporain et les jeux de couleurs."
         }
     },
     {
@@ -7159,9 +7159,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration des dualités entre chaos et ordre à travers l'art contemporain.",
+            "plus_precisement":"Cette exposition invite à réfléchir sur les transformations de notre univers et à envisager des utopies régénérantes. Les œuvres présentées proposent des visions alternatives d'une existence terrestre plus harmonieuse, en s'inspirant du concept de 'chaosmos' de James Joyce.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'art contemporain, les réflexions philosophiques sur l'ordre et le chaos, et les visions utopiques pour un monde meilleur."
         }
     },
     {
@@ -7196,9 +7196,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un voyage artistique à travers les paradis fiscaux.",
+            "plus_precisement":"The Pop Suréalist nous offre une évasion fiscale unique, mêlant humour et poésie à travers un prisme pop-surréaliste. L'exposition invite à une réflexion ludique sur les paradis fiscaux.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'art contemporain, l'évasion fiscale ou les voyages imaginaires."
         }
     },
     {
@@ -7233,9 +7233,9 @@
         "petit_budget":true,
         "fin_proche":true,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration visuelle de la transformation et de l'émerveillement.",
+            "plus_precisement":"Min Jung-Yeon présente une installation monumentale qui questionne la stabilité et le changement à travers des formations et des envols. Ses œuvres jouent avec l'espace et la lumière, créant des récits potentiellement infinis.",
+            "ca_va_tinteresser_si":"Si tu es fasciné(e) par les explorations artistiques de l'espace et de la transformation, et que tu cherches à sortir de ta zone de confort."
         }
     },
     {
@@ -7270,9 +7270,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Plongée immersive dans l'univers coloré d'un artiste contemporain.",
+            "plus_precisement":"L'exposition présente une sélection d'œuvres récentes de l'artiste, mettant en lumière ses techniques innovantes et sa vision unique de l'art moderne. Elle explore également les thèmes récurrents de son travail, tels que la nature et l'identité.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'art moderne, curieux(se) des nouvelles techniques artistiques ou simplement attiré(e) par les couleurs vives et les compositions audacieuses."
         }
     },
     {
@@ -7307,9 +7307,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration artistique de la lumière, de la matière et du temps à travers natures mortes et paysages marins.",
+            "plus_precisement":"L'exposition juxtapose des natures mortes intimes et des paysages marins vastes, mettant en avant la dualité entre le calme et l'immensité. L'artiste utilise ces contrastes pour explorer les différentes manières dont la lumière et le temps influencent notre perception de l'espace.",
+            "ca_va_tinteresser_si":"Si tu es fasciné(e) par les contrastes entre calme et mouvement, et que tu apprécies les jeux de lumière et de matière dans l'art."
         }
     },
     {
@@ -7344,9 +7344,9 @@
         "petit_budget":true,
         "fin_proche":true,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration artistique de l'univers créatif d'Amélie Bertrand.",
+            "plus_precisement":"Cette exposition présente les œuvres récentes d'Amélie Bertrand, suite à sa prestigieuse présentation au Musée de l'Orangerie à Paris. Elle met en lumière son évolution artistique et ses dernières créations.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'art contemporain et les nouvelles tendances artistiques, ou si tu souhaites découvrir le parcours d'une artiste en pleine ascension."
         }
     },
     {
@@ -7381,9 +7381,9 @@
         "petit_budget":true,
         "fin_proche":true,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une célébration poétique des toitures provençales et de leur faune.",
+            "plus_precisement":"Les anciennes tuiles Canal, façonnées à la main, servent de support à un bestiaire typique du Sud de la France. L'artiste marie la terre cuite et la peinture abstraite pour évoquer des récits estivaux.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'artisanat, la nature provençale et les œuvres qui invitent au voyage."
         }
     },
     {
@@ -7418,9 +7418,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration visuelle des mystères de la nature.",
+            "plus_precisement":"Cette exposition présente des œuvres d'art qui capturent la beauté et la complexité des phénomènes naturels. Elle met en lumière les interactions subtiles entre l'art et la science, offrant une perspective unique sur le monde qui nous entoure.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'art et la nature, ou si tu aimes découvrir les liens entre la créativité humaine et les merveilles du monde naturel."
         }
     },
     {
@@ -7455,9 +7455,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une collection éclectique d'artistes renommés et émergents",
+            "plus_precisement":"L'exposition présente des œuvres d'artistes majeurs ainsi que des talents à découvrir. C'est une occasion unique de découvrir des créations diversifiées et inspirantes.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'art contemporain et curieux(se) de découvrir de nouveaux talents"
         }
     },
     {
@@ -7492,9 +7492,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration des œuvres inédites d'Artiste-Ouvrier à l'occasion de son nouveau livre.",
+            "plus_precisement":"Le manuscrit original et des créations jamais vues auparavant sont exposés à la galerie Brugier-Rigail. Cette exposition permet de découvrir une nouvelle facette de l'artiste à travers ses dernières œuvres.",
+            "ca_va_tinteresser_si":"Si tu apprécies les découvertes artistiques uniques et que tu es passionné(e) par l'art contemporain et les manuscrits originaux."
         }
     },
     {
@@ -7529,9 +7529,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une odyssée visuelle à travers les émotions humaines.",
+            "plus_precisement":"L'exposition explore les nuances des sentiments humains à travers diverses formes d'art. Chaque œuvre est une fenêtre sur une émotion particulière, allant de la joie à la mélancolie, en passant par la colère et la sérénité.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'exploration des émotions humaines et l'art contemporain."
         }
     },
     {
@@ -7566,9 +7566,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration de l'art contemporain à travers des œuvres variées.",
+            "plus_precisement":"L'exposition réunit des artistes émergents et établis, chacun apportant une perspective unique. Les œuvres couvrent divers médiums, allant de la peinture à la sculpture en passant par la photographie.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'art contemporain, que tu aimes découvrir de nouveaux talents ou que tu apprécies la diversité des expressions artistiques."
         }
     },
     {
@@ -7599,13 +7599,13 @@
         "tags_category":[
             "Galeries"
         ],
-        "statut":"A venir",
+        "statut":"En cours",
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration poétique de la nature à travers des sculptures en verre inspirées par les motifs naturels.",
+            "plus_precisement":"Les œuvres de Camilla Moberg, présentées à Nuutajärvi en Finlande, évoquent des totems inspirés par les superpositions de pierres naturelles. Les motifs détaillés de ses sculptures en verre s'inspirent des couleurs et des formes des insectes et des oiseaux, tels que les scarabées, les libellules et les hiboux.",
+            "ca_va_tinteresser_si":"Si tu es fasciné(e) par l'harmonie entre l'art et la nature, ou si tu apprécies les œuvres en verre et les motifs inspirés de la faune et de la flore."
         }
     },
     {
@@ -7640,9 +7640,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une plongée dans l'univers artistique de l'eau.",
+            "plus_precisement":"Cette exposition explore les différentes représentations de l'eau dans l'art, allant des peintures classiques aux installations contemporaines. Elle met en lumière la diversité des techniques et des styles utilisés pour capturer la beauté et la puissance de cet élément naturel.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'art et la nature, ou si tu souhaites découvrir comment les artistes interprètent l'élément aquatique à travers les époques."
         }
     },
     {
@@ -7673,13 +7673,13 @@
         "tags_category":[
             "Galeries"
         ],
-        "statut":"A venir",
+        "statut":"En cours",
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un voyage artistique à travers le temps et l'espace.",
+            "plus_precisement":"L'exposition explore les œuvres d'artistes contemporains et historiques, mettant en lumière leurs influences et évolutions. Les visiteurs découvriront des installations immersives et des œuvres interactives.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'art, l'histoire et les expériences immersives."
         }
     },
     {
@@ -7714,9 +7714,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration photographique unique des paysages enneigés.",
+            "plus_precisement":"Raphaël Dautigny présente sa série 'Ski', une interprétation personnelle de la montagne. Les sujets sont intégrés dans des paysages vastes et enneigés, avec une touche poétique distinctive.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par la photographie de nature, les paysages grandioses et l'art contemporain."
         }
     },
     {
@@ -7751,9 +7751,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un voyage sensoriel à travers l'art contemporain et la nature.",
+            "plus_precisement":"L'exposition met en lumière des œuvres d'art qui explorent la relation entre l'homme et la nature, en utilisant divers médias tels que la peinture, la sculpture et les installations interactives. Elle invite les visiteurs à réfléchir sur leur propre lien avec l'environnement.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'écologie, l'art contemporain et les expériences immersives."
         }
     },
     {
@@ -7788,9 +7788,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un voyage photographique dans l'âge d'or de la piscine Molitor.",
+            "plus_precisement":"Cette exposition rassemble des clichés rares des années 1930 à 1960, capturant la vie autour de la piscine Molitor, à la fois lieu de sport et de loisirs. Elle met en lumière des moments iconiques, comme les Fêtes de l’Eau et des célébrités telles qu'Annie Girardot.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'histoire de Paris, la photographie vintage ou les lieux emblématiques de la capitale."
         }
     },
     {
@@ -7825,9 +7825,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration visuelle de la vie et de l'œuvre de Lubitch à travers ses thèmes de prédilection.",
+            "plus_precisement":"L'exposition met en lumière une trentaine d’œuvres inédites de Lubitch, un peintre juif né en Biélorussie, qui a trouvé son inspiration à Paris. Elle retrace son parcours artistique, marqué par le constructivisme russe et son évolution vers un style plus personnel et émerveillé.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'histoire de l'art, les récits de vie d'artistes et les œuvres qui capturent la magie du quotidien."
         }
     },
     {
@@ -7858,13 +7858,13 @@
         "tags_category":[
             "Galeries"
         ],
-        "statut":"A venir",
+        "statut":"En cours",
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un voyage poétique à travers l'art contemporain et l'artisanat.",
+            "plus_precisement":"L'exposition met en lumière les œuvres d'Eos, une artiste primée, à travers des tableaux, des créations artisanales et des poèmes. Elle explore notre flamme intérieure, des étoiles à la terre.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'art contemporain, l'artisanat et la poésie, et que tu aimes les expériences immersives et inspirantes."
         }
     },
     {
@@ -7899,9 +7899,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration poétique de la mélancolie environnementale.",
+            "plus_precisement":"L'exposition met en lumière l'anxiété face à la transformation de notre environnement familier. Elle questionne la place des plantes, des oiseaux et des abeilles dans notre monde, soulignant l'importance de leur présence et le risque de leur disparition.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par la nature et préoccupé(e) par son avenir, ou si tu aimes les réflexions philosophiques sur notre environnement."
         }
     },
     {
@@ -7936,9 +7936,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Une exploration de l'univers figuratif et intense de Bernard Buffet.",
+            "plus_precisement":"Bernard Buffet, dont le trait vigoureux et noir est une marque distinctive, est connu pour ses représentations sans concession de la nudité. Cette exposition met en lumière son talent unique en tant que peintre et dessinateur.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'art figuratif et les œuvres au trait puissant, ou si la représentation de la nudité dans l'art t'intrigue."
         }
     },
     {
@@ -7973,9 +7973,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un hommage à Frans Krajcberg, explorant ses liens avec les éléments naturels.",
+            "plus_precisement":"Cette exposition se concentre sur l'eau et la terre, sources d'inspiration majeures pour l'artiste lors de son arrivée au Brésil. Elle propose un voyage à travers les plages et mangroves de Bahia, ainsi que le fleuve Rio Negro en Amazonie.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'art et la nature, et que tu aimes découvrir des paysages brésiliens enchanteurs."
         }
     },
     {
@@ -8010,9 +8010,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un voyage sensoriel à travers l'art contemporain.",
+            "plus_precisement":"Cette exposition explore les œuvres de plusieurs artistes contemporains, mettant en lumière leurs techniques innovantes et leurs visions uniques. Chaque pièce invite à une réflexion sur les thèmes actuels de notre société, offrant une expérience immersive et interactive.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'art contemporain et les nouvelles formes d'expression artistique."
         }
     },
     {
@@ -8047,9 +8047,9 @@
         "petit_budget":true,
         "fin_proche":false,
         "description_detaillee_mise_en_forme":{
-            "de_quoi_sagit_il":"",
-            "plus_precisement":"",
-            "ca_va_tinteresser_si":""
+            "de_quoi_sagit_il":"Un voyage immersif à travers l'univers créatif de...",
+            "plus_precisement":"L'exposition explore les différentes facettes de l'œuvre de l'artiste, allant des premières esquisses aux œuvres les plus emblématiques. Elle met en lumière les influences et les techniques qui ont façonné son style unique.",
+            "ca_va_tinteresser_si":"Si tu es passionné(e) par l'art contemporain et curieux(se) de découvrir les coulisses du processus créatif..."
         }
     }
 ]
