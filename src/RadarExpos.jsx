@@ -173,10 +173,7 @@ export default function ExpoMap() {
     setAVenir(false);
     setFilteredExpos(expos);
     setSelectedExpo(null);
-    setButtonVisible(false); // Masquer le bouton de réinitialisation de la carte
-    if (mapRef.current) {
-      mapRef.current.setView(initialCenter, initialZoom);
-    }
+    resetMapView();
   };
 
   const resetMapView = () => {
@@ -186,7 +183,7 @@ export default function ExpoMap() {
       // Empêcher la réapparition immédiate
       setTimeout(() => {
         setButtonVisible(false);
-      }, 500); // Délai pour éviter la réactivation immédiate
+      }, 400); // Délai pour éviter la réactivation immédiate
     }
   };
 
