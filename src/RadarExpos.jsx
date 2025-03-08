@@ -18,14 +18,43 @@ const pastelColors = ["#E6E6FA"];
 
 registerLocale("fr", fr);
 
-function MapEvents({ setFilteredExpos, expos, setButtonVisible }) {
+function MapEvents({ setFilteredExpos, expos, setButtonVisible, selectedTag, selectedArrondissement, selectedDate, petitBudget, finProche, enCours, aVenir, dateFilterEnabled }) {
   const map = useMapEvents({
     moveend: () => {
       const bounds = map.getBounds();
       const visibleExpos = expos.filter((expo) =>
         bounds.contains([expo.latitude, expo.longitude])
       );
-      setFilteredExpos(visibleExpos);
+
+      // Appliquer les filtres existants aux expositions visibles
+      let filtered = visibleExpos;
+      if (selectedTag) {
+        filtered = filtered.filter((expo) => expo.tags_category.includes(selectedTag));
+      }
+      if (selectedArrondissement) {
+        filtered = filtered.filter((expo) => expo.adresse.includes(selectedArrondissement));
+      }
+      if (dateFilterEnabled && selectedDate) {
+        filtered = filtered.filter((expo) => {
+          const startDate = new Date(expo.date_debut);
+          const endDate = new Date(expo.date_fin);
+          return selectedDate >= startDate && selectedDate <= endDate;
+        });
+      }
+      if (petitBudget) {
+        filtered = filtered.filter((expo) => expo.petit_budget);
+      }
+      if (finProche) {
+        filtered = filtered.filter((expo) => expo.fin_proche);
+      }
+      if (enCours) {
+        filtered = filtered.filter((expo) => expo.statut === "En cours");
+      }
+      if (aVenir) {
+        filtered = filtered.filter((expo) => expo.statut === "A venir");
+      }
+
+      setFilteredExpos(filtered);
       setButtonVisible(true);
     },
     zoomend: () => {
@@ -144,6 +173,7 @@ export default function ExpoMap() {
     setAVenir(false);
     setFilteredExpos(expos);
     setSelectedExpo(null);
+    setButtonVisible(false); // Masquer le bouton de réinitialisation de la carte
     if (mapRef.current) {
       mapRef.current.setView(initialCenter, initialZoom);
     }
@@ -277,6 +307,14 @@ export default function ExpoMap() {
                 >
                   A venir
                 </button>
+                {buttonVisible && (
+                  <button
+                    className="px-4 py-2 rounded shadow-md bg-gray-400 text-white mb-2 w-full sm:w-auto"
+                    onClick={resetMapView}
+                  >
+                    Réinitialiser la carte
+                  </button>
+                )}
                 {(selectedTag || selectedArrondissement || selectedDate || petitBudget || finProche || enCours || aVenir) && (
                   <button
                     className="px-4 py-2 rounded shadow-md bg-red-500 text-white mb-2 w-full sm:w-auto"
@@ -350,7 +388,19 @@ export default function ExpoMap() {
             <div className="relative h-full w-full">
               <MapContainer ref={mapRef} center={initialCenter} zoom={initialZoom} className="h-full w-full rounded-lg overflow-hidden shadow-lg" style={{ borderRadius: "1rem", boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)", position: 'relative', zIndex: 0 }}>
                 <TileLayer url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png" />
-                <MapEvents setFilteredExpos={setFilteredExpos} expos={expos} setButtonVisible={setButtonVisible} />
+                <MapEvents
+                  setFilteredExpos={setFilteredExpos}
+                  expos={expos}
+                  setButtonVisible={setButtonVisible}
+                  selectedTag={selectedTag}
+                  selectedArrondissement={selectedArrondissement}
+                  selectedDate={selectedDate}
+                  petitBudget={petitBudget}
+                  finProche={finProche}
+                  enCours={enCours}
+                  aVenir={aVenir}
+                  dateFilterEnabled={dateFilterEnabled}
+                />
                 {filteredExpos.map((expo) => (
                   <Marker key={expo.titre} position={[expo.latitude, expo.longitude]} icon={expoIcon} ref={(el) => (markerRefs.current[expo.titre] = el)} eventHandlers={{
                     click: () => openModal(expo),
@@ -358,15 +408,6 @@ export default function ExpoMap() {
                   </Marker>
                 ))}
               </MapContainer>
-              {buttonVisible && (
-                <button
-                  className="absolute top-4 right-4 bg-gray-400 text-white px-4 py-2 rounded shadow-md z-10"
-                  onClick={resetMapView}
-                  style={{ zIndex: 10 }}
-                >
-                  Réinitialiser la carte
-                </button>
-              )}
             </div>
           </div>
         )}
