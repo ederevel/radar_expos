@@ -13,6 +13,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css'; // Import Font Awesome
 Modal.setAppElement('#root');
 
 const pinStyle = "https://cdn-icons-png.flaticon.com/512/684/684908.png";
+const pinStyleHover = "https://cdn-icons-png.flaticon.com/128/484/484167.png"; // Vous pouvez utiliser une autre icône pour le survol
 
 const pastelColors = ["#E6E6FA"];
 
@@ -81,6 +82,7 @@ export default function ExpoMap() {
   const [showFilters, setShowFilters] = useState(true);
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [buttonVisible, setButtonVisible] = useState(false);
+  const [hoveredExpo, setHoveredExpo] = useState(null);
   const mapRef = useRef(null);
   const markerRefs = useRef({});
   const initialCenter = [48.8566, 2.3522];
@@ -151,7 +153,12 @@ export default function ExpoMap() {
 
   const expoIcon = new L.Icon({
     iconUrl: pinStyle,
-    iconSize: [30, 30],
+    iconSize: isMobile ? [30, 30] : [25, 25], // Réduire la taille des pins sur desktop
+  });
+
+  const expoIconHover = new L.Icon({
+    iconUrl: pinStyleHover,
+    iconSize: [35, 35], // Augmenter la taille des pins au survol
   });
 
   const uniqueTags = [...new Set(expos.flatMap((expo) => expo.tags_category))];
@@ -333,6 +340,8 @@ export default function ExpoMap() {
                     key={expo.titre}
                     className="cursor-pointer bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 flex relative"
                     onClick={() => openModal(expo)}
+                    onMouseEnter={() => setHoveredExpo(expo.titre)}
+                    onMouseLeave={() => setHoveredExpo(null)}
                   >
                     <div className="relative w-1/3">
                       <img
@@ -399,9 +408,15 @@ export default function ExpoMap() {
                   dateFilterEnabled={dateFilterEnabled}
                 />
                 {filteredExpos.map((expo) => (
-                  <Marker key={expo.titre} position={[expo.latitude, expo.longitude]} icon={expoIcon} ref={(el) => (markerRefs.current[expo.titre] = el)} eventHandlers={{
-                    click: () => openModal(expo),
-                  }}>
+                  <Marker
+                    key={expo.titre}
+                    position={[expo.latitude, expo.longitude]}
+                    icon={hoveredExpo === expo.titre ? expoIconHover : expoIcon}
+                    ref={(el) => (markerRefs.current[expo.titre] = el)}
+                    eventHandlers={{
+                      click: () => openModal(expo),
+                    }}
+                  >
                   </Marker>
                 ))}
               </MapContainer>
