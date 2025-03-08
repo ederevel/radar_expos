@@ -9,3 +9,48 @@ body {
 .react-datepicker__input-container input {
   caret-color: transparent;
 }
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+.modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  z-index: 1001;
+  max-width: 400px; /* Ajustez la largeur maximale ici */
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.modal-content .modal-header {
+  display: flex;
+  align-items: center;
+}
+
+.modal-content .modal-image {
+  width: 40%; /* Ajustez la largeur de l'image */
+  margin-right: 20px;
+}
+
+.modal-content .modal-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.modal-content .modal-details {
+  width: 60%; /* Ajustez la largeur du texte */
+}

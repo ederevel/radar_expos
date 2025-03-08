@@ -1,28 +1,22 @@
 import React, { useState, useRef, useEffect } from "react";
-import { MapContainer, TileLayer, Marker, Popup, useMap, useMapEvents } from "react-leaflet";
+import { MapContainer, TileLayer, Marker, useMap, useMapEvents } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import { registerLocale, setDefaultLocale } from "react-datepicker";
 import fr from "date-fns/locale/fr";
+import Modal from 'react-modal';
 import '@fortawesome/fontawesome-free/css/all.min.css'; // Import Font Awesome
+
+// Définir l'élément racine pour react-modal
+Modal.setAppElement('#root');
 
 const pinStyle = "https://cdn-icons-png.flaticon.com/512/684/684908.png";
 
 const pastelColors = ["#E6E6FA"];
 
 registerLocale("fr", fr);
-
-function MoveView({ center, zoom }) {
-  const map = useMap();
-  useEffect(() => {
-    setTimeout(() => {
-      map.setView(center, zoom, { animate: true, duration: 0.8, easeLinearity: 0.25 });
-    }, 10);
-  }, [center, zoom, map]);
-  return null;
-}
 
 function MapEvents({ setFilteredExpos, expos }) {
   const map = useMapEvents({
@@ -52,6 +46,7 @@ export default function ExpoMap() {
   const [showMap, setShowMap] = useState(true);
   const [isMobile, setIsMobile] = useState(false);
   const [showFilters, setShowFilters] = useState(true);
+  const [modalIsOpen, setModalIsOpen] = useState(false);
   const mapRef = useRef(null);
   const markerRefs = useRef({});
   const initialCenter = [48.8566, 2.3522];
@@ -125,12 +120,6 @@ export default function ExpoMap() {
     iconSize: [30, 30],
   });
 
-  useEffect(() => {
-    if (selectedExpo && markerRefs.current[selectedExpo.titre]) {
-      markerRefs.current[selectedExpo.titre].openPopup();
-    }
-  }, [selectedExpo]);
-
   const uniqueTags = [...new Set(expos.flatMap((expo) => expo.tags_category))];
   const uniqueArrondissements = [...new Set(expos.map((expo) => expo.adresse.split(" - ")[1]))];
 
@@ -155,9 +144,19 @@ export default function ExpoMap() {
     }
   };
 
+  const openModal = (expo) => {
+    setSelectedExpo(expo);
+    setModalIsOpen(true);
+  };
+
+  const closeModal = () => {
+    setSelectedExpo(null);
+    setModalIsOpen(false);
+  };
+
   return (
     <div className="flex flex-col h-screen m-0 p-0">
-      <div className={`w-full h-full ${isMobile ? (showMap ? "" : "grid grid-cols-1")  : (showMap ? "grid grid-cols-3" : "grid grid-cols-2")}`}>
+      <div className={`w-full h-full ${isMobile ? (showMap ? "" : "grid grid-cols-1") : (showMap ? "grid grid-cols-3" : "grid grid-cols-2")}`}>
         <div className="col-span-2 bg-gray-100 overflow-auto p-4">
           <div className="mb-4">
             <h1 className="text-4xl font-bold mb-4">RadarExpo</h1>
@@ -282,7 +281,7 @@ export default function ExpoMap() {
                   <div
                     key={expo.titre}
                     className="cursor-pointer bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 flex relative"
-                    onClick={() => setSelectedExpo(expo)}
+                    onClick={() => openModal(expo)}
                   >
                     <div className="relative w-1/3">
                       <img
@@ -335,42 +334,62 @@ export default function ExpoMap() {
             <MapContainer ref={mapRef} center={initialCenter} zoom={initialZoom} className="h-full w-full rounded-lg overflow-hidden shadow-lg" style={{ borderRadius: "1rem", boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)" }}>
               <TileLayer url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png" />
               <MapEvents setFilteredExpos={setFilteredExpos} expos={expos} />
-              {selectedExpo && <MoveView center={[selectedExpo.latitude, selectedExpo.longitude]} zoom={16} />}
               {filteredExpos.map((expo) => (
-                <Marker key={expo.titre} position={[expo.latitude, expo.longitude]} icon={expoIcon} ref={(el) => (markerRefs.current[expo.titre] = el)}>
-                  <Popup closeButton={false} className="custom-popup" offset={[0, -10]}>
-                    <div className="flex justify-center items-center">
-                      <img src={expo.img_url} alt={expo.titre} className="w-1/3 object-cover rounded-t-lg" />
-                    </div>
-                    <h3 className="font-bold text-center mt-2">{expo.titre}</h3>
-                    <p className="text-sm text-gray-700 text-center">{expo.emplacement}</p>
-                    <p className="text-xs text-gray-500 text-center">{expo.adresse}</p>
-                    <a href={expo.url_lieu} className="text-blue-500 text-center block mt-2" target="_blank" rel="noopener noreferrer">{expo.url_lieu}</a>
-                    <div className="mt-2 max-h-40 overflow-y-auto">
-                      {expo.description_detaillee_mise_en_forme && (
-                        <>
-                          <p className="text-sm text-gray-700">
-                            <strong>🖼️ De quoi s'agit-il ?</strong><br />
-                            {expo.description_detaillee_mise_en_forme.de_quoi_sagit_il}
-                          </p>
-                          <p className="text-sm text-gray-700 mt-2">
-                            <strong>🔎 Plus précisément</strong><br />
-                            {expo.description_detaillee_mise_en_forme.plus_precisement}
-                          </p>
-                          <p className="text-sm text-gray-700 mt-2">
-                            <strong>❤️ Ça va t'intéresser si</strong><br />
-                            {expo.description_detaillee_mise_en_forme.ca_va_tinteresser_si}
-                          </p>
-                        </>
-                      )}
-                    </div>
-                  </Popup>
+                <Marker key={expo.titre} position={[expo.latitude, expo.longitude]} icon={expoIcon} ref={(el) => (markerRefs.current[expo.titre] = el)} eventHandlers={{
+                  click: () => openModal(expo),
+                }}>
                 </Marker>
               ))}
             </MapContainer>
           </div>
         )}
       </div>
+
+      <Modal
+        isOpen={modalIsOpen}
+        onRequestClose={closeModal}
+        contentLabel="Expo Details"
+        className="modal-content"
+        overlayClassName="modal-overlay"
+      >
+        {selectedExpo && (
+          <div className="modal-header">
+            <div className="modal-image">
+              <img src={selectedExpo.img_url} alt={selectedExpo.titre} />
+            </div>
+            <div className="modal-details">
+              <h2 className="text-xl font-bold mb-2">{selectedExpo.titre}</h2>
+              <p className="text-sm text-gray-700 mb-2">{selectedExpo.emplacement}</p>
+              <p className="text-xs text-gray-500 mb-2">{selectedExpo.adresse}</p>
+              <a href={selectedExpo.url_lieu} className="text-blue-500 block mt-2" target="_blank" rel="noopener noreferrer">
+                {selectedExpo.url_lieu}
+              </a>
+              <div className="mt-2 max-h-40 overflow-y-auto">
+                {selectedExpo.description_detaillee_mise_en_forme && (
+                  <>
+                    <p className="text-sm text-gray-700">
+                      <strong>🖼️ De quoi s'agit-il ?</strong><br />
+                      {selectedExpo.description_detaillee_mise_en_forme.de_quoi_sagit_il}
+                    </p>
+                    <p className="text-sm text-gray-700 mt-2">
+                      <strong>🔎 Plus précisément</strong><br />
+                      {selectedExpo.description_detaillee_mise_en_forme.plus_precisement}
+                    </p>
+                    <p className="text-sm text-gray-700 mt-2">
+                      <strong>❤️ Ça va t'intéresser si</strong><br />
+                      {selectedExpo.description_detaillee_mise_en_forme.ca_va_tinteresser_si}
+                    </p>
+                  </>
+                )}
+              </div>
+              <button className="mt-4 px-4 py-2 bg-gray-400 text-white rounded shadow-md" onClick={closeModal}>
+                Fermer
+              </button>
+            </div>
+          </div>
+        )}
+      </Modal>
+
     </div>
   );
 }
