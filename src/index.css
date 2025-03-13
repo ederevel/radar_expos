@@ -44,7 +44,7 @@ body {
 
 .modal-header {
   display: flex;
-  /* align-items: center; */
+  align-items: flex-start;
   position: relative;
 }
 
@@ -71,7 +71,7 @@ body {
 }
 
 .modal-details {
-  width: 80%; /* Ajustez la largeur du texte */
+  width: 60%; /* Ajustez la largeur du texte */
 }
 
 .my-masonry-grid {
@@ -82,12 +82,12 @@ body {
   width: auto;
 }
 .my-masonry-grid_column {
-  padding-left: 5px; /* gutter size */
+  padding-left: 7px; /* gutter size */
   background-clip: padding-box;
 }
 
 /* Style your items */
 .my-masonry-grid_column > div { /* change div to reference your elements you put in <Masonry> */
-  background: grey;
-  margin-bottom: 5px;
+  background: white;
+  margin-bottom: 7px;
 }

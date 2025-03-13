@@ -434,9 +434,9 @@ export default function ExpoMap() {
         overlayClassName="modal-overlay"
       >
         {selectedExpo && (
-          <div className="modal-header">
+          <div className="modal-header flex">
             <button className="modal-close" onClick={closeModal}>
-              <i className="fas fa-times"></i> {/* Utilisation de Font Awesome */}
+              <i className="fas fa-times"></i>
             </button>
             <div className="modal-image">
               <img src={selectedExpo.img_url} alt={selectedExpo.titre} />
@@ -466,26 +466,28 @@ export default function ExpoMap() {
                   </>
                 )}
               </div>
-              {/* Ajout de la galerie d'images */}
-              {selectedExpo.imgs_carousel_data && selectedExpo.imgs_carousel_data.length > 0 && (
-                <div className="mt-10">
-                  <Masonry
-                    breakpointCols={{ default: 4, 800: 2, 400: 2 }}
-                    className="my-masonry-grid"
-                    columnClassName="my-masonry-grid_column"
-                  >
-                    {selectedExpo.imgs_carousel_data.map((img, index) => (
-                      <div key={index} className="mb-4">
-                        <img src={img.url} alt={img.description} className="w-full h-auto shadow-lg" />
-                      </div>
-                    ))}
-                  </Masonry>
-                </div>
-              )}
             </div>
           </div>
         )}
+        {/* Ajout de la galerie d'images en dessous */}
+        {selectedExpo && selectedExpo.imgs_carousel_data && selectedExpo.imgs_carousel_data.length > 0 && (
+          <div className="p-4">
+            <Masonry
+              breakpointCols={{ default: 3, 800: 2, 400: 2 }}
+              className="my-masonry-grid"
+              columnClassName="my-masonry-grid_column"
+            >
+              {selectedExpo.imgs_carousel_data.map((img, index) => (
+                <div key={index} className="mb-4">
+                  <img src={img.url} alt={img.description} className="w-full h-auto rounded-lg shadow-lg" />
+                </div>
+              ))}
+            </Masonry>
+          </div>
+        )}
       </Modal>
+
+
 
     </div>
   );
