@@ -8,6 +8,7 @@ import { registerLocale, setDefaultLocale } from "react-datepicker";
 import fr from "date-fns/locale/fr";
 import Modal from 'react-modal';
 import '@fortawesome/fontawesome-free/css/all.min.css'; // Import Font Awesome
+import Masonry from 'react-masonry-css';
 
 // Définir l'élément racine pour react-modal
 Modal.setAppElement('#root');
@@ -465,6 +466,22 @@ export default function ExpoMap() {
                   </>
                 )}
               </div>
+              {/* Ajout de la galerie d'images */}
+              {selectedExpo.imgs_carousel_data && selectedExpo.imgs_carousel_data.length > 0 && (
+                <div className="mt-10">
+                  <Masonry
+                    breakpointCols={{ default: 4, 800: 2, 400: 2 }}
+                    className="my-masonry-grid"
+                    columnClassName="my-masonry-grid_column"
+                  >
+                    {selectedExpo.imgs_carousel_data.map((img, index) => (
+                      <div key={index} className="mb-4">
+                        <img src={img.url} alt={img.description} className="w-full h-auto shadow-lg" />
+                      </div>
+                    ))}
+                  </Masonry>
+                </div>
+              )}
             </div>
           </div>
         )}
