@@ -84,6 +84,7 @@ export default function ExpoMap() {
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [buttonVisible, setButtonVisible] = useState(false);
   const [hoveredExpo, setHoveredExpo] = useState(null);
+  const [enlargedImage, setEnlargedImage] = useState(null);
   const mapRef = useRef(null);
   const markerRefs = useRef({});
   const initialCenter = [48.8566, 2.3522];
@@ -203,6 +204,15 @@ export default function ExpoMap() {
   const closeModal = () => {
     setSelectedExpo(null);
     setModalIsOpen(false);
+    setEnlargedImage(null); // Fermer l'image agrandie lorsque la modale se ferme
+  };
+
+  const openEnlargedImage = (url) => {
+    setEnlargedImage(url);
+  };
+
+  const closeEnlargedImage = () => {
+    setEnlargedImage(null);
   };
 
   return (
@@ -439,7 +449,7 @@ export default function ExpoMap() {
               <i className="fas fa-times"></i>
             </button>
             <div className="modal-image">
-              <img src={selectedExpo.img_url} alt={selectedExpo.titre} />
+              <img src={selectedExpo.img_url} alt={selectedExpo.titre} onClick={() => openEnlargedImage(selectedExpo.img_url)} />
             </div>
             <div className="modal-details">
               <h2 className="text-2xl font-bold mb-2 mt-5">{selectedExpo.titre}</h2>
@@ -479,7 +489,7 @@ export default function ExpoMap() {
             >
               {selectedExpo.imgs_carousel_data.map((img, index) => (
                 <div key={index} className="mb-4">
-                  <img src={img.url} alt={img.description} className="w-full h-auto rounded-lg shadow-lg" />
+                  <img src={img.url} alt={img.description} className="w-full h-auto rounded-lg shadow-lg cursor-pointer" onClick={() => openEnlargedImage(img.url)} />
                 </div>
               ))}
             </Masonry>
@@ -487,8 +497,20 @@ export default function ExpoMap() {
         )}
       </Modal>
 
-
-
+      {/* Modal for enlarged image */}
+      <Modal
+        isOpen={!!enlargedImage}
+        onRequestClose={closeEnlargedImage}
+        contentLabel="Enlarged Image"
+        className="enlarged-image-modal"
+        overlayClassName="modal-overlay"
+      >
+        <button className="modal-close" onClick={closeEnlargedImage}>
+          <i className="fas fa-times"></i>
+        </button>
+        <img src={enlargedImage} alt="Enlarged" className="max-h-full max-w-full" />
+      </Modal>
     </div>
   );
 }
+

@@ -91,3 +91,39 @@ body {
   background: white;
   margin-bottom: 7px;
 }
+
+.enlarged-image-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* background-color: white; */
+  padding: 0px;
+  border-radius: 8px;
+  z-index: 1001;
+  max-width: 90%; /* Ajustez la largeur maximale ici */
+  width: auto;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+  outline: none; /* Supprime la bordure de focus */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.enlarged-image-modal img {
+  max-width: 80%;
+  max-height: 80%;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.modal-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: white; /* Change la couleur de l'icône en blanc */
+}
