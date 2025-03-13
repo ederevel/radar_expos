@@ -504,12 +504,11 @@ export default function ExpoMap() {
         contentLabel="Enlarged Image"
         className="enlarged-image-modal"
         overlayClassName="modal-overlay"
+        shouldCloseOnOverlayClick={true} // Ensure this prop is set to true
       >
-        <button className="modal-close" onClick={closeEnlargedImage}>
-          <i className="fas fa-times"></i>
-        </button>
         <img src={enlargedImage} alt="Enlarged" className="max-h-full max-w-full" />
       </Modal>
+
     </div>
   );
 }
