@@ -75,7 +75,74 @@
             "de_quoi_sagit_il":"Une odyssée textile millénaire à travers l'or",
             "plus_precisement":"L'exposition explore l'utilisation de l'or dans les arts textiles, des premières étoffes de luxe aux créations modernes de haute couture. Elle est divisée en sections historiques et géographiques, mettant en lumière les techniques et savoir-faire de différentes civilisations.",
             "ca_va_tinteresser_si":"Si tu es passionné(e) par l'art textile, l'histoire de l'or ou les civilisations et leurs traditions artistiques."
-        }
+        },
+        "imgs_carousel_data": [
+            {
+                "url": "https://files.offi.fr/programmation/2678603/images/600/50d50356017521ce2ef02f4c11419738.png",
+                "url_light": "https://files.offi.fr/programmation/2678603/images/200/50d50356017521ce2ef02f4c11419738.png",
+                "description": "Affiche de l'exposition Au fil de l'or au Mus\u00e9e du Quai Branly"
+            },
+            {
+                "url": "https://files.offi.fr/programmation/2678603/images/600/f5e4ca30b93260a2b0ef7587ff84b70e.png",
+                "url_light": "https://files.offi.fr/programmation/2678603/images/200/f5e4ca30b93260a2b0ef7587ff84b70e.png",
+                "description": " Robe de mari\u00e9e, Turquie, 19e si\u00e8cle. Velours, fils d'or, broderie. Mus\u00e9e du quai Branly - Jacques Chirac. "
+            },
+            {
+                "url": "https://files.offi.fr/programmation/2678603/images/600/6acd0697fe8b0a02ee9b2be0e4678243.png",
+                "url_light": "https://files.offi.fr/programmation/2678603/images/200/6acd0697fe8b0a02ee9b2be0e4678243.png",
+                "description": "Karl Lagarfeld, Robe du soir, Haute couture printemps-\u00e9t\u00e9 1996."
+            },
+            {
+                "url": "https://files.offi.fr/programmation/2678603/images/600/79aee90ddfe2f2b80dc77910e02c5f61.png",
+                "url_light": "https://files.offi.fr/programmation/2678603/images/200/79aee90ddfe2f2b80dc77910e02c5f61.png",
+                "description": "Christian Dior par John GALLIANO, Haute couture printemps-\u00e9t\u00e9 2004. Collection Dior H\u00e9ritage, Paris."
+            },
+            {
+                "url": "https://files.offi.fr/programmation/2678603/images/600/86fd6bfda80a968fff9ea5d8d979ff9e.png",
+                "url_light": "https://files.offi.fr/programmation/2678603/images/200/86fd6bfda80a968fff9ea5d8d979ff9e.png",
+                "description": "Manteau de mari\u00e9e uchikake, Japon, D\u00e9but du 20e si\u00e8cle - Don Kokusai Bunka Shinkokai"
+            },
+            {
+                "url": "https://files.offi.fr/programmation/2678603/images/600/c121e5d0af71d9dd00de104ae0ce1b7f.png",
+                "url_light": "https://files.offi.fr/programmation/2678603/images/200/c121e5d0af71d9dd00de104ae0ce1b7f.png",
+                "description": "Guo Pei A/W 2016 Couture Collection Encounter.\nP\u00e9kin (Beijing), Chine"
+            },
+            {
+                "url": "https://files.offi.fr/programmation/2678603/images/600/05ac3b0f366b8d4b71ef7f08cd0c5648.png",
+                "url_light": "https://files.offi.fr/programmation/2678603/images/200/05ac3b0f366b8d4b71ef7f08cd0c5648.png",
+                "description": "Armure guerri\u00e8re n\u00fckao, Chine, D\u00e9but du 20e si\u00e8cle"
+            },
+            {
+                "url": "https://files.offi.fr/programmation/2678603/images/600/22ca087f7fe633bf4173ed0530e7f55d.png",
+                "url_light": "https://files.offi.fr/programmation/2678603/images/200/22ca087f7fe633bf4173ed0530e7f55d.png",
+                "description": "Robe thob mutaffat, Najd, Arabie saoudite, Vers 1950"
+            },
+            {
+                "url": "https://files.offi.fr/programmation/2678603/images/600/22740a620066ad6fee0806434b7bdcdf.jpg",
+                "url_light": "https://files.offi.fr/programmation/2678603/images/200/22740a620066ad6fee0806434b7bdcdf.jpg",
+                "description": ""
+            },
+            {
+                "url": "https://files.offi.fr/programmation/2678603/images/600/ef1d21feebbc37b05b4c471833356ba0.png",
+                "url_light": "https://files.offi.fr/programmation/2678603/images/200/ef1d21feebbc37b05b4c471833356ba0.png",
+                "description": ""
+            },
+            {
+                "url": "https://files.offi.fr/programmation/2678603/images/600/e328d3123565a68ed7be069d706b1a0a.png",
+                "url_light": "https://files.offi.fr/programmation/2678603/images/200/e328d3123565a68ed7be069d706b1a0a.png",
+                "description": ""
+            },
+            {
+                "url": "https://files.offi.fr/programmation/2678603/images/600/6c850cbf842160dd873e310c626d574a.png",
+                "url_light": "https://files.offi.fr/programmation/2678603/images/200/6c850cbf842160dd873e310c626d574a.png",
+                "description": ""
+            },
+            {
+                "url": "https://files.offi.fr/programmation/2678603/images/600/5aeb60f5f627ffca83a2eebbe432bc2c.png",
+                "url_light": "https://files.offi.fr/programmation/2678603/images/200/5aeb60f5f627ffca83a2eebbe432bc2c.png",
+                "description": ""
+            }
+        ]
     },
     {
         "titre":"Serial Killer, l'exposition",
@@ -228,7 +295,99 @@
             "de_quoi_sagit_il":"Une exploration de l'interaction entre l'art et la mode contemporaine à travers l'histoire des styles décoratifs.",
             "plus_precisement":"L'exposition présente 65 silhouettes contemporaines et une trentaine d'accessoires en dialogue avec des chefs-d'œuvre historiques, de Byzance au Second Empire. Elle met en lumière des pièces marquantes de la mode contemporaine, de Cristóbal Balenciaga à Iris van Herpen, et propose une réflexion sur les liens entre objets d'art et créations de mode.",
             "ca_va_tinteresser_si":"Si tu es passionné(e) par l'histoire de l'art, la mode contemporaine et les métiers d'art, ou si tu aimes découvrir des rapprochements inattendus entre différentes formes de création artistique."
-        }
+        },
+        "imgs_carousel_data": [
+            {
+                "url": "https://files.offi.fr/programmation/2682217/images/600/3f361c50da93704f0d620e25d6540e2c.jpg",
+                "url_light": "https://files.offi.fr/programmation/2682217/images/200/3f361c50da93704f0d620e25d6540e2c.jpg",
+                "description": "Expo LOUVRE COUTURE, Chanel "
+            },
+            {
+                "url": "https://files.offi.fr/programmation/2682217/images/600/f5a7d52ea765d37fd837091fc329e4ab.jpg",
+                "url_light": "https://files.offi.fr/programmation/2682217/images/200/f5a7d52ea765d37fd837091fc329e4ab.jpg",
+                "description": "Expo LOUVRE COUTURE, Chanel "
+            },
+            {
+                "url": "https://files.offi.fr/programmation/2682217/images/600/5c83836a4279bea83e490aaa0b5554fa.jpg",
+                "url_light": "https://files.offi.fr/programmation/2682217/images/200/5c83836a4279bea83e490aaa0b5554fa.jpg",
+                "description": "Expo LOUVRE COUTURE, Balenciaga "
+            },
+            {
+                "url": "https://files.offi.fr/programmation/2682217/images/600/196955a6f16282affdbdee73f46ef3db.jpg",
+                "url_light": "https://files.offi.fr/programmation/2682217/images/200/196955a6f16282affdbdee73f46ef3db.jpg",
+                "description": "Expo LOUVRE COUTURE, Dior "
+            },
+            {
+                "url": "https://files.offi.fr/programmation/2682217/images/600/7822c4f8705abeec0b26382e2228bb6e.jpg",
+                "url_light": "https://files.offi.fr/programmation/2682217/images/200/7822c4f8705abeec0b26382e2228bb6e.jpg",
+                "description": "Expo LOUVRE COUTURE"
+            },
+            {
+                "url": "https://files.offi.fr/programmation/2682217/images/600/133dd858d954f5f9b1f82c7b8b391fe5.jpg",
+                "url_light": "https://files.offi.fr/programmation/2682217/images/200/133dd858d954f5f9b1f82c7b8b391fe5.jpg",
+                "description": "Gucci"
+            },
+            {
+                "url": "https://files.offi.fr/programmation/2682217/images/600/eaa982bc8ec36667e1b213701c9a827f.jpg",
+                "url_light": "https://files.offi.fr/programmation/2682217/images/200/eaa982bc8ec36667e1b213701c9a827f.jpg",
+                "description": "JC de Castelbajac"
+            },
+            {
+                "url": "https://files.offi.fr/programmation/2682217/images/600/e57a3a8703963d347eca654c091be490.jpg",
+                "url_light": "https://files.offi.fr/programmation/2682217/images/200/e57a3a8703963d347eca654c091be490.jpg",
+                "description": "Christian Dior"
+            },
+            {
+                "url": "https://files.offi.fr/programmation/2682217/images/600/d7b932a4f1d2c7a5056f95bc87e2d296.jpg",
+                "url_light": "https://files.offi.fr/programmation/2682217/images/200/d7b932a4f1d2c7a5056f95bc87e2d296.jpg",
+                "description": "Fendi"
+            },
+            {
+                "url": "https://files.offi.fr/programmation/2682217/images/600/e8a0e5dcfe0c8a0cc75decab8dfabfd5.jpg",
+                "url_light": "https://files.offi.fr/programmation/2682217/images/200/e8a0e5dcfe0c8a0cc75decab8dfabfd5.jpg",
+                "description": "Chanel et Undercover"
+            },
+            {
+                "url": "https://files.offi.fr/programmation/2682217/images/600/c2be8ac213b733115113a1f22dd03b25.jpg",
+                "url_light": "https://files.offi.fr/programmation/2682217/images/200/c2be8ac213b733115113a1f22dd03b25.jpg",
+                "description": "Paco Rabanne, Balenciaga, Loewe et Gareth Pugh"
+            },
+            {
+                "url": "https://files.offi.fr/programmation/2682217/images/600/7b0d0e1ed2455143505fd80d9923b2c7.jpg",
+                "url_light": "https://files.offi.fr/programmation/2682217/images/200/7b0d0e1ed2455143505fd80d9923b2c7.jpg",
+                "description": "Schiaparelli, Iris Van Herpen, Herme\u0300s et Loewe"
+            },
+            {
+                "url": "https://files.offi.fr/programmation/2682217/images/600/657289f2140b5bd0e96b6d07aa7aa3f9.jpg",
+                "url_light": "https://files.offi.fr/programmation/2682217/images/200/657289f2140b5bd0e96b6d07aa7aa3f9.jpg",
+                "description": "Rick Owens"
+            },
+            {
+                "url": "https://files.offi.fr/programmation/2682217/images/600/28aa5e4acd7c61db445ecc78f3a34b2b.jpg",
+                "url_light": "https://files.offi.fr/programmation/2682217/images/200/28aa5e4acd7c61db445ecc78f3a34b2b.jpg",
+                "description": "Versace"
+            },
+            {
+                "url": "https://files.offi.fr/programmation/2682217/images/600/c5787882a146e8a5f225b8af54820acd.jpg",
+                "url_light": "https://files.offi.fr/programmation/2682217/images/200/c5787882a146e8a5f225b8af54820acd.jpg",
+                "description": "Louis Vuitton"
+            },
+            {
+                "url": "https://files.offi.fr/programmation/2682217/images/600/f0d6eb2ae768e4f55338e76e9c7cd8d8.jpg",
+                "url_light": "https://files.offi.fr/programmation/2682217/images/200/f0d6eb2ae768e4f55338e76e9c7cd8d8.jpg",
+                "description": "Balenciaga"
+            },
+            {
+                "url": "https://files.offi.fr/programmation/2682217/images/600/0b78613234125698f2687df3ad95a426.jpg",
+                "url_light": "https://files.offi.fr/programmation/2682217/images/200/0b78613234125698f2687df3ad95a426.jpg",
+                "description": "Versace"
+            },
+            {
+                "url": "https://files.offi.fr/programmation/2682217/images/600/296cfa437a7e30a86e7622f265753824.jpg",
+                "url_light": "https://files.offi.fr/programmation/2682217/images/200/296cfa437a7e30a86e7622f265753824.jpg",
+                "description": "Alexander McQueen et Bottega Veneta"
+            }
+        ]
     },
     {
         "titre":"Apocalypse",
@@ -420,7 +579,64 @@
             "de_quoi_sagit_il":"",
             "plus_precisement":"",
             "ca_va_tinteresser_si":""
-        }
+        },
+        "imgs_carousel_data": [
+            {
+                "url": "https://files.offi.fr/programmation/2564737/images/600/c1f6e152abaedfc15464eedd3ae86988.jpg",
+                "url_light": "https://files.offi.fr/programmation/2564737/images/200/c1f6e152abaedfc15464eedd3ae86988.jpg",
+                "description": "Olga de Amaral \u00e0 la Fondation Cartier pour l'art contemporain\n"
+            },
+            {
+                "url": "https://files.offi.fr/programmation/2564737/images/600/9f0b6c3157b3967c68deafa1bc18a6c5.jpg",
+                "url_light": "https://files.offi.fr/programmation/2564737/images/200/9f0b6c3157b3967c68deafa1bc18a6c5.jpg",
+                "description": " Olga de Amaral dans son studio, 2005 "
+            },
+            {
+                "url": "https://files.offi.fr/programmation/2564737/images/600/90d44dfd04594e04d63388429a0e9113.jpg",
+                "url_light": "https://files.offi.fr/programmation/2564737/images/200/90d44dfd04594e04d63388429a0e9113.jpg",
+                "description": "Olga de Amaral \u00e0 la Casa Amaral, Bogot\u00e1, Colombie, 2013 - "
+            },
+            {
+                "url": "https://files.offi.fr/programmation/2564737/images/600/8d353330836e024c5b451855e6a49c03.jpg",
+                "url_light": "https://files.offi.fr/programmation/2564737/images/200/8d353330836e024c5b451855e6a49c03.jpg",
+                "description": "Vue de la Casa Amaral, Bogota, Colombie,\nView from Casa Amaral, Bogota, Colombia Olga de Amaral, Cenit, 2019\n"
+            },
+            {
+                "url": "https://files.offi.fr/programmation/2564737/images/600/862afda99b355989e068e878b4d7392f.jpg",
+                "url_light": "https://files.offi.fr/programmation/2564737/images/200/862afda99b355989e068e878b4d7392f.jpg",
+                "description": "Olga de Amaral, Alquimia 85, 1995\n"
+            },
+            {
+                "url": "https://files.offi.fr/programmation/2564737/images/600/73f22f1b8499b5c50fe08c6b0d2e996c.jpeg",
+                "url_light": "https://files.offi.fr/programmation/2564737/images/200/73f22f1b8499b5c50fe08c6b0d2e996c.jpeg",
+                "description": "Olga de Amaral, Bruma D1, 2018\nLin, gesso, acrylique, papier japonais et bois Linen, gesso, acrylic, Japanese paper and wood 220 x 90 x 200 cm\n"
+            },
+            {
+                "url": "https://files.offi.fr/programmation/2564737/images/600/b12e3c5528c292c3751f830006449a81.jpg",
+                "url_light": "https://files.offi.fr/programmation/2564737/images/200/b12e3c5528c292c3751f830006449a81.jpg",
+                "description": "Olga de Amaral, Cesta lunar 50B, 1991/2017 Lin, gesso, acrylique, platine et feuille d\u2019or Linen, gesso, acrylic, platinum and gold leaf 350 x 220 x 3 cm\n"
+            },
+            {
+                "url": "https://files.offi.fr/programmation/2564737/images/600/c57097da9ed44fbbba3f698bc49bd8e2.jpg",
+                "url_light": "https://files.offi.fr/programmation/2564737/images/200/c57097da9ed44fbbba3f698bc49bd8e2.jpg",
+                "description": "Vue de la Casa Amaral, Bogota, Colombie,\nView from Casa Amaral, Bogota, Colombia Olga de Amaral, Estelas, 2015-2018\n"
+            },
+            {
+                "url": "https://files.offi.fr/programmation/2564737/images/600/1b2a5ba6275b8dd4b8d0b8de5176b0eb.jpg",
+                "url_light": "https://files.offi.fr/programmation/2564737/images/200/1b2a5ba6275b8dd4b8d0b8de5176b0eb.jpg",
+                "description": "Vue de l'exposition Olga de Amaral"
+            },
+            {
+                "url": "https://files.offi.fr/programmation/2564737/images/600/9742d994823a87a5e9033e7d02fc701d.jpg",
+                "url_light": "https://files.offi.fr/programmation/2564737/images/200/9742d994823a87a5e9033e7d02fc701d.jpg",
+                "description": "Vue de l'exposition Olga de Amaral"
+            },
+            {
+                "url": "https://files.offi.fr/programmation/2564737/images/600/71903d1e03bf14fc62d36bfdf8023f86.jpg",
+                "url_light": "https://files.offi.fr/programmation/2564737/images/200/71903d1e03bf14fc62d36bfdf8023f86.jpg",
+                "description": "Vue de l'exposition Olga de Amaral"
+            }
+        ]
     },
     {
         "titre":"Chiharu Shiota, The Soul Trembles",
