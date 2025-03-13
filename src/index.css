@@ -95,8 +95,9 @@ body {
 .enlarged-image-modal {
   position: absolute;
   top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  left: 0; /* Changez ceci pour utiliser flexbox */
+  right: 0; /* Ajoutez ceci pour utiliser flexbox */
+  transform: translateY(-50%); /* Changez ceci pour ne traduire que verticalement */
   /* background-color: white; */
   padding: 0px;
   border-radius: 8px;
@@ -109,6 +110,7 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 
 .enlarged-image-modal img {
   max-width: 80%;
