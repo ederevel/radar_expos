@@ -20,6 +20,14 @@ const pastelColors = ["#E6E6FA"];
 
 registerLocale("fr", fr);
 
+// Fonction utilitaire pour vérifier si une exposition se termine dans les 14 prochains jours
+const isEndingSoon = (endDate) => {
+  const today = new Date();
+  const twoWeeksFromNow = new Date(today);
+  twoWeeksFromNow.setDate(today.getDate() + 14);
+  return (new Date(endDate) <= twoWeeksFromNow) && (new Date(endDate) >= today);
+};
+
 function MapEvents({ setFilteredExpos, expos, setButtonVisible, selectedTag, selectedArrondissement, selectedDate, petitBudget, finProche, enCours, aVenir, dateFilterEnabled }) {
   const map = useMapEvents({
     moveend: () => {
@@ -47,7 +55,7 @@ function MapEvents({ setFilteredExpos, expos, setButtonVisible, selectedTag, sel
         filtered = filtered.filter((expo) => expo.petit_budget);
       }
       if (finProche) {
-        filtered = filtered.filter((expo) => expo.fin_proche);
+        filtered = filtered.filter((expo) => isEndingSoon(expo.date_fin));
       }
       if (enCours) {
         filtered = filtered.filter((expo) => expo.statut === "En cours");
@@ -142,7 +150,7 @@ export default function ExpoMap() {
       filtered = filtered.filter((expo) => expo.petit_budget);
     }
     if (finProche) {
-      filtered = filtered.filter((expo) => expo.fin_proche);
+      filtered = filtered.filter((expo) => isEndingSoon(expo.date_fin));
     }
     if (enCours) {
       filtered = filtered.filter((expo) => expo.statut === "En cours");
@@ -360,7 +368,7 @@ export default function ExpoMap() {
                         alt={expo.titre}
                         className="w-full h-full object-cover"
                       />
-                      {expo.fin_proche && (
+                      {isEndingSoon(expo.date_fin) && (
                         <div className="absolute top-2 left-2 bg-red-500 text-white px-2 py-1 text-xs font-semibold rounded">
                           Derniers jours
                         </div>
@@ -522,4 +530,3 @@ export default function ExpoMap() {
     </div>
   );
 }
-
