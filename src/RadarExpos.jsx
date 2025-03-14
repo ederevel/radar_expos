@@ -106,6 +106,7 @@ export default function ExpoMap() {
   const [buttonVisible, setButtonVisible] = useState(false);
   const [hoveredExpo, setHoveredExpo] = useState(null);
   const [enlargedImage, setEnlargedImage] = useState(null);
+  const [modalAnimating, setModalAnimating] = useState(false);
   const mapRef = useRef(null);
   const markerRefs = useRef({});
   const initialCenter = [48.8566, 2.3522];
@@ -236,9 +237,20 @@ export default function ExpoMap() {
     setEnlargedImage(null);
   };
 
+  // Ajouter un effet pour gérer l'animation de la modale
+  useEffect(() => {
+    if (filtersModalOpen) {
+      setModalAnimating(true);
+    }
+  }, [filtersModalOpen]);
+
   const FiltersModal = () => (
     <div className="filters-modal-overlay" onClick={() => setFiltersModalOpen(false)}>
-      <div className="filters-modal-content" onClick={e => e.stopPropagation()}>
+      <div 
+        className={`filters-modal-content ${modalAnimating ? 'filters-modal-enter' : ''}`}
+        onClick={e => e.stopPropagation()}
+        onAnimationEnd={() => setModalAnimating(false)}
+      >
         <div className="filters-modal-header">
           <h2 className="text-xl font-bold">Filtres</h2>
           <button className="filters-modal-close" onClick={() => setFiltersModalOpen(false)}>
