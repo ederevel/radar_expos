@@ -110,29 +110,64 @@ export default function ExpoMap() {
   const [modalAnimating, setModalAnimating] = useState(false);
   const [isSlidingOut, setIsSlidingOut] = useState(false);
   const [isExpanded, setIsExpanded] = useState(false);
+  const [isAtTop, setIsAtTop] = useState(true);
   const mapRef = useRef(null);
   const markerRefs = useRef({});
+  const modalRef = useRef(null);
   const initialCenter = [48.8566, 2.3522];
   const initialZoom = 12;
 
-  const handlers = useSwipeable({
-    onSwipedDown: () => {
-      if (isMobile) {
-        setIsSlidingOut(true);
-        setTimeout(() => {
-          closeModal();
-          setIsSlidingOut(false);
-        }, 300); // Match the duration of the animation
+  // Handle closing the modal
+  const handleCloseModal = () => {
+    setIsSlidingOut(true);
+    setTimeout(() => {
+      closeModal();
+      setIsSlidingOut(false);
+    }, 300);
+  };
+
+  // Handle modal scroll to detect when at top and expand when scrolling down
+  useEffect(() => {
+    if (!modalIsOpen) return;
+    
+    let lastScrollTop = 0;
+    
+    const handleScroll = () => {
+      const modalContent = document.querySelector('.modal-content');
+      if (modalContent) {
+        const currentScrollTop = modalContent.scrollTop;
+        
+        // Check if we're at the top
+        setIsAtTop(currentScrollTop <= 10);
+        
+        // If scrolling down and not already expanded, expand the modal
+        if (currentScrollTop > lastScrollTop && currentScrollTop > 5) {
+          console.log("Expanding modal", currentScrollTop, lastScrollTop);
+          setIsExpanded(true);
+        }
+        
+        lastScrollTop = currentScrollTop;
       }
-    },
-    onSwipedUp: () => {
-      if (isMobile) {
-        setIsExpanded(true);
-      }
-    },
-    preventDefaultTouchmoveEvent: true,
-    trackTouch: true,
-  });
+    };
+    
+    const modalContent = document.querySelector('.modal-content');
+    if (modalContent) {
+      // Set initial state
+      setIsAtTop(modalContent.scrollTop <= 10);
+      
+      modalContent.addEventListener('scroll', handleScroll, { passive: true });
+      return () => {
+        modalContent.removeEventListener('scroll', handleScroll);
+      };
+    }
+  }, [modalIsOpen]);
+
+  // Reset expanded state when modal closes
+  useEffect(() => {
+    if (!modalIsOpen) {
+      setIsExpanded(false);
+    }
+  }, [modalIsOpen]);
 
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}expos.json`)
@@ -669,17 +704,27 @@ export default function ExpoMap() {
         contentLabel="Expo Details"
         className={`modal-content ${isSlidingOut ? 'modal-slide-out' : 'modal-slide-in'} ${isExpanded ? 'expanded' : ''}`}
         overlayClassName="modal-overlay"
+        style={{
+          content: {
+            height: isExpanded ? '100%' : '90%',
+            maxHeight: isExpanded ? '100vh' : '90vh',
+            borderRadius: isExpanded ? '0' : '16px 16px 0 0',
+          }
+        }}
       >
-        <div {...handlers}>
+        <div>
           {selectedExpo && (
             <>
-              {!isMobile && (
-                <button className="modal-close" onClick={closeModal}>
-                  <i className="fas fa-times"></i>
-                </button>
-              )}
               <div className={`modal-content-wrapper ${isMobile ? 'flex flex-col' : 'modal-header flex'}`}>
-                <div className={`modal-image ${isMobile ? 'w-full mb-4' : 'w-2/5 mr-4'}`}>
+                <div className={`modal-image ${isMobile ? 'w-full mb-4' : 'w-2/5 mr-4'} relative`}>
+                  {isMobile && (
+                    <button 
+                      className={`modal-close-button ${isAtTop ? 'visible' : 'invisible'}`} 
+                      onClick={handleCloseModal}
+                    >
+                      <i className="fas fa-times"></i>
+                    </button>
+                  )}
                   <img 
                     src={selectedExpo.img_url} 
                     alt={selectedExpo.titre} 
@@ -687,6 +732,11 @@ export default function ExpoMap() {
                     className="w-full h-auto object-cover rounded-lg"
                   />
                 </div>
+                {!isMobile && (
+                  <button className="modal-close" onClick={closeModal}>
+                    <i className="fas fa-times"></i>
+                  </button>
+                )}
                 <div className={`modal-details ${isMobile ? 'w-full' : 'w-3/5'}`}>
                   <h2 className="text-2xl font-bold mb-2 mt-5">{selectedExpo.titre}</h2>
                   <p className="text-sm text-gray-700">{selectedExpo.emplacement}</p>

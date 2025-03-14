@@ -23,18 +23,52 @@ body {
   z-index: 1000;
 }
 
+/* Remove drag handle styles */
+.modal-drag-handle {
+  display: none;
+}
+
+/* Add close button styles */
+.modal-close-button {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  z-index: 1002;
+  transition: opacity 0.3s ease;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.modal-close-button.visible {
+  opacity: 1;
+}
+
+.modal-close-button.invisible {
+  opacity: 0;
+  pointer-events: none;
+}
+
 .modal-content {
   position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
   transform: none;
-  height: 60%;
-  max-height: 60vh;
+  height: 90%;
+  max-height: 90vh;
   border-radius: 16px 16px 0 0;
-  transition: height 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   background-color: white;
-  padding: 20px;
+  padding: 0;
   z-index: 1001;
   max-width: 800px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -287,14 +321,14 @@ body {
     height: 90%;
     max-height: 90vh;
     border-radius: 16px 16px 0 0;
-    transition: height 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
     padding: 0;
   }
 
   .modal-content.expanded {
-    height: 100%;
-    max-height: 100vh;
-    border-radius: 0;
+    height: 100% !important;
+    max-height: 100vh !important;
+    border-radius: 0 !important;
   }
 
   .modal-slide-in {
