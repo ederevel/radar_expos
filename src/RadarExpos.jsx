@@ -336,10 +336,9 @@ export default function ExpoMap() {
           </button>
           {(selectedTag || selectedArrondissement || selectedDate || petitBudget || finProche || enCours || aVenir) && (
             <button
-              className="p-2 rounded shadow-md bg-red-500 text-white w-full"
+              className="p-2 rounded shadow-md bg-gray-800 text-white w-full"
               onClick={() => {
                 resetFilters();
-                setFiltersModalOpen(false);
               }}
             >
               Effacer les filtres
@@ -368,10 +367,18 @@ export default function ExpoMap() {
         <div className="col-span-2 bg-gray-100 overflow-auto p-4">
           <div className="mb-4">
             <h1 className="text-4xl font-bold mb-4">RadarExpo</h1>
-            Trouve l'expo idéale en fonction de tes envies, ton budget, tes horaires de boulot...
+            {(!isMobile || !showMap) && (
+              <p>Trouve l'expo idéale en fonction de tes envies, ton budget, tes horaires de boulot...</p>
+            )}
           </div>
           {isMobile && (
             <div className="mobile-floating-buttons">
+              <button
+                className={`${showMap ? "bg-gray-200 text-gray-800" : "bg-white text-gray-800"}`}
+                onClick={() => setShowMap(!showMap)}
+              >
+                <i className={`fas ${showMap ? "fa-list" : "fa-map-marked-alt"}`}></i>
+              </button>
               <button
                 className={`${showFilters ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
                 onClick={() => setFiltersModalOpen(true)}
@@ -380,12 +387,6 @@ export default function ExpoMap() {
                 {getActiveFiltersCount() > 0 && (
                   <span className="filter-count">{getActiveFiltersCount()}</span>
                 )}
-              </button>
-              <button
-                className={`${showMap ? "bg-gray-200 text-gray-800" : "bg-white text-gray-800"}`}
-                onClick={() => setShowMap(!showMap)}
-              >
-                <i className={`fas ${showMap ? "fa-list" : "fa-map-marked-alt"}`}></i>
               </button>
             </div>
           )}
@@ -482,7 +483,7 @@ export default function ExpoMap() {
                 )}
                 {(selectedTag || selectedArrondissement || selectedDate || petitBudget || finProche || enCours || aVenir) && (
                   <button
-                    className="px-4 py-2 rounded shadow-md bg-red-500 text-white mb-2 w-full sm:w-auto"
+                    className="px-4 py-2 rounded shadow-md bg-gray-800 text-white mb-2 w-full sm:w-auto"
                     onClick={resetFilters}
                   >
                     Effacer les filtres
