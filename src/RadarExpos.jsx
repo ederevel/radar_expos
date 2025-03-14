@@ -698,9 +698,16 @@ export default function ExpoMap() {
         </div>
       )}
 
+      {/* Bouton de fermeture fixe pour mobile */}
+      {isMobile && modalIsOpen && (
+        <button className="overlay-close-button" onClick={handleCloseModal}>
+          <i className="fas fa-times"></i>
+        </button>
+      )}
+
       <Modal
         isOpen={modalIsOpen}
-        onRequestClose={closeModal}
+        onRequestClose={handleCloseModal}
         contentLabel="Expo Details"
         className={`modal-content ${isSlidingOut ? 'modal-slide-out' : 'modal-slide-in'} ${isExpanded ? 'expanded' : ''}`}
         overlayClassName="modal-overlay"
@@ -717,14 +724,6 @@ export default function ExpoMap() {
             <>
               <div className={`modal-content-wrapper ${isMobile ? 'flex flex-col' : 'modal-header flex'}`}>
                 <div className={`modal-image ${isMobile ? 'w-full mb-4' : 'w-2/5 mr-4'} relative`}>
-                  {isMobile && (
-                    <button 
-                      className={`modal-close-button ${isAtTop ? 'visible' : 'invisible'}`} 
-                      onClick={handleCloseModal}
-                    >
-                      <i className="fas fa-times"></i>
-                    </button>
-                  )}
                   <img 
                     src={selectedExpo.img_url} 
                     alt={selectedExpo.titre} 
