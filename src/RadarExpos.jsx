@@ -382,10 +382,10 @@ export default function ExpoMap() {
                 )}
               </button>
               <button
-                className={`${showMap ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
+                className={`${showMap ? "bg-gray-200 text-gray-800" : "bg-white text-gray-800"}`}
                 onClick={() => setShowMap(!showMap)}
               >
-                <i className="fas fa-map-marked-alt"></i>
+                <i className={`fas ${showMap ? "fa-list" : "fa-map-marked-alt"}`}></i>
               </button>
             </div>
           )}
