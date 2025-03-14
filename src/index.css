@@ -1,15 +1,18 @@
 @import "tailwindcss";
 
+/* Base styles */
 html,
 body {
   background-color: rgb(243 244 246);
   color: #212529;
 }
 
+/* Date picker customization */
 .react-datepicker__input-container input {
   caret-color: transparent;
 }
 
+/* Modal Base */
 .modal-overlay {
   position: fixed;
   top: 0;
@@ -37,82 +40,14 @@ body {
   overflow-y: auto;
 }
 
-@media (max-width: 768px) {
-  .modal-content {
-    width: 100%;
-    height: 100%;
-    max-height: 100vh;
-    padding: 0;
-    margin: 0;
-    border-radius: 0;
-    position: fixed;
-    top: 0;
-    left: 0;
-    transform: none;
-    display: block;
-    overflow-y: auto;
-  }
-
-  .modal-content-wrapper {
-    padding: 0;
-    width: 100%;
-    display: block;
-  }
-
-  .modal-image {
-    margin: 0;
-    width: 100%;
-    height: auto;
-    max-height: 70vh;
-    display: block;
-  }
-
-  .modal-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    max-height: 70vh;
-    border-radius: 0;
-    display: block;
-  }
-
-  .modal-details {
-    width: 100%;
-    padding: 20px;
-    text-align: center;
-    display: block;
-  }
-
-  .modal-details h2 {
-    text-align: center;
-    width: 100%;
-    margin-top: 0;
-  }
-
-  .modal-details p, 
-  .modal-details a {
-    text-align: center;
-    width: 100%;
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  .modal-close {
-    top: 15px;
-    right: 15px;
-    color: white;
-    text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
-  }
-
-  .my-masonry-grid {
-    margin-left: 0;
-    padding: 0 20px;
-  }
-}
-
 .modal-content:focus,
 .modal-content:focus-visible {
   outline: none;
+}
+
+/* Modal Layout Components */
+.modal-content-wrapper {
+  position: relative;
 }
 
 .modal-header {
@@ -132,12 +67,8 @@ body {
   z-index: 2;
 }
 
-.modal-content-wrapper {
-  position: relative;
-}
-
+/* Modal Image */
 .modal-image {
-  width: 40%;
   margin-right: 20px;
 }
 
@@ -149,13 +80,12 @@ body {
   cursor: pointer;
 }
 
-@media (max-width: 768px) {
-  .modal-image {
-    margin-top: 20px;
-  }
+/* Modal Details */
+.modal-details {
+  width: 100%;
 }
 
-
+/* Masonry Grid */
 .my-masonry-grid {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -174,6 +104,7 @@ body {
   margin-bottom: 7px;
 }
 
+/* Enlarged Image Modal */
 .enlarged-image-modal {
   position: relative;
   top: 50%;
@@ -182,14 +113,13 @@ body {
   padding: 0;
   border-radius: 8px;
   z-index: 1001;
-  background: transparent; /* Make the modal background transparent */
+  background: transparent;
   width: 80%;
   height: 80%;
   outline: none;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
 }
 
 .enlarged-image-modal img {
@@ -197,6 +127,7 @@ body {
   border-radius: 8px;
 }
 
+/* Mobile Floating Buttons */
 .mobile-floating-buttons {
   position: fixed;
   bottom: 20px;
@@ -246,6 +177,7 @@ body {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
+/* Filters Modal */
 .filters-modal-overlay {
   position: fixed;
   top: 0;
@@ -270,20 +202,6 @@ body {
   transform: translateX(0);
 }
 
-/* Animation pour l'entrée de la modale */
-.filters-modal-enter {
-  animation: slideIn 0.3s ease-out;
-}
-
-@keyframes slideIn {
-  from {
-    transform: translateX(100%);
-  }
-  to {
-    transform: translateX(0);
-  }
-}
-
 .filters-modal-header {
   display: flex;
   justify-content: space-between;
@@ -299,4 +217,110 @@ body {
   font-size: 1.5rem;
   cursor: pointer;
   padding: 5px;
+}
+
+/* Animations */
+.filters-modal-enter {
+  animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+/* Desktop Styles */
+@media (min-width: 769px) {
+  .modal-image {
+    width: 40%;
+  }
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  /* Modal Content Mobile */
+  .modal-content {
+    width: 100%;
+    height: 100%;
+    max-height: 100vh;
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: none;
+    display: block;
+    overflow-y: auto;
+  }
+
+  .modal-content-wrapper {
+    padding: 0;
+    width: 100%;
+    display: block;
+  }
+
+  /* Modal Image Mobile */
+  .modal-image {
+    margin: 0;
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    max-height: 70vh;
+    display: block;
+  }
+
+  .modal-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    max-height: 70vh;
+    border-radius: 8px;
+    display: block;
+  }
+
+  /* Masonry Grid Mobile */
+  .my-masonry-grid {
+    margin-left: 0;
+    padding: 0 20px;
+  }
+
+  /* S'assurer que toutes les images dans la modale ont des bords arrondis */
+  .modal-content .my-masonry-grid img {
+    border-radius: 8px;
+  }
+
+  /* Modal Details Mobile */
+  .modal-details {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    display: block;
+  }
+
+  .modal-details h2 {
+    text-align: center;
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .modal-details p, 
+  .modal-details a {
+    text-align: center;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  /* Modal Close Button Mobile */
+  .modal-close {
+    top: 15px;
+    right: 15px;
+    color: white;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+  }
 }
