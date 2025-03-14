@@ -42,8 +42,16 @@ body {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
   font-size: 1.2rem;
   transform: none !important; /* Prevent any transforms from affecting this element */
-  transition: none !important; /* Disable transitions for this element */
+  transition: opacity 0.25s ease-out !important; /* Add transition for opacity */
   animation: none !important; /* Disable animations for this element */
+}
+
+.overlay-close-button.hidden {
+  opacity: 0;
+}
+
+.overlay-close-button.visible {
+  opacity: 1;
 }
 
 /* Remove drag handle styles */

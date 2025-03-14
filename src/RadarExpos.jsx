@@ -121,25 +121,6 @@ export default function ExpoMap() {
   // Injecter les styles pour l'animation de fondu
   useEffect(() => {
     const fadeElementStyle = `
-      .overlay-close-button {
-        position: fixed;
-        top: 15px;
-        right: 15px;
-        z-index: 1001;
-        background-color: rgba(0, 0, 0, 0.8);
-        color: white;
-        border-radius: 50%;
-        width: 40px;
-        height: 40px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border: none;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-        cursor: pointer;
-        transition: opacity 0.25s ease-out;
-      }
-      
       .overlay-close-button.hidden {
         opacity: 0;
       }
