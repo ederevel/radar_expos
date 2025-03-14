@@ -91,7 +91,7 @@ body {
 .modal-details {
   width: 100%;
   padding: 10px 20px;
-  text-align: center;
+  text-align: left;
   display: block;
   background-color: white;
   position: relative;
@@ -266,7 +266,7 @@ body {
   .modal-content {
     left: 50%;
     transform: translateX(-50%);
-    max-width: 90%;
+    max-width: 95%;
     height: 80%;
     max-height: 80vh;
   }
