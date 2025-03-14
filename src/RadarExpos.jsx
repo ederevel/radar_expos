@@ -111,19 +111,64 @@ export default function ExpoMap() {
   const [isSlidingOut, setIsSlidingOut] = useState(false);
   const [isExpanded, setIsExpanded] = useState(false);
   const [isAtTop, setIsAtTop] = useState(true);
+  const [closeButtonVisible, setCloseButtonVisible] = useState(true);
   const mapRef = useRef(null);
   const markerRefs = useRef({});
   const modalRef = useRef(null);
   const initialCenter = [48.8566, 2.3522];
   const initialZoom = 12;
 
+  // Injecter les styles pour l'animation de fondu
+  useEffect(() => {
+    const fadeElementStyle = `
+      .overlay-close-button {
+        position: fixed;
+        top: 15px;
+        right: 15px;
+        z-index: 1001;
+        background-color: rgba(0, 0, 0, 0.8);
+        color: white;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        cursor: pointer;
+        transition: opacity 0.25s ease-out;
+      }
+      
+      .overlay-close-button.hidden {
+        opacity: 0;
+      }
+      
+      .overlay-close-button.visible {
+        opacity: 1;
+      }
+    `;
+    
+    const styleElement = document.createElement('style');
+    styleElement.innerHTML = fadeElementStyle;
+    document.head.appendChild(styleElement);
+    
+    return () => {
+      document.head.removeChild(styleElement);
+    };
+  }, []);
+
   // Handle closing the modal
   const handleCloseModal = () => {
-    setIsSlidingOut(true);
+    setCloseButtonVisible(false); // Hide the close button first
     setTimeout(() => {
-      closeModal();
-      setIsSlidingOut(false);
-    }, 300);
+      setIsSlidingOut(true);
+      setTimeout(() => {
+        closeModal();
+        setIsSlidingOut(false);
+        setCloseButtonVisible(true); // Reset button visibility for next time
+      }, 300);
+    }, 150); // Attendre que le bouton disparaisse avant de commencer à fermer la modale
   };
 
   // Handle modal scroll to detect when at top and expand when scrolling down
@@ -700,7 +745,11 @@ export default function ExpoMap() {
 
       {/* Bouton de fermeture fixe pour mobile */}
       {isMobile && modalIsOpen && (
-        <button className="overlay-close-button" onClick={handleCloseModal}>
+        <button 
+          className={`overlay-close-button ${closeButtonVisible ? 'visible' : 'hidden'}`} 
+          onClick={handleCloseModal}
+          style={{ opacity: closeButtonVisible ? 1 : 0 }}
+        >
           <i className="fas fa-times"></i>
         </button>
       )}
