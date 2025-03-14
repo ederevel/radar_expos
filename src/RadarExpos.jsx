@@ -102,6 +102,7 @@ export default function ExpoMap() {
   const [isMobile, setIsMobile] = useState(false);
   const [showFilters, setShowFilters] = useState(true);
   const [modalIsOpen, setModalIsOpen] = useState(false);
+  const [filtersModalOpen, setFiltersModalOpen] = useState(false);
   const [buttonVisible, setButtonVisible] = useState(false);
   const [hoveredExpo, setHoveredExpo] = useState(null);
   const [enlargedImage, setEnlargedImage] = useState(null);
@@ -235,6 +236,120 @@ export default function ExpoMap() {
     setEnlargedImage(null);
   };
 
+  const FiltersModal = () => (
+    <div className="filters-modal-overlay" onClick={() => setFiltersModalOpen(false)}>
+      <div className="filters-modal-content" onClick={e => e.stopPropagation()}>
+        <div className="filters-modal-header">
+          <h2 className="text-xl font-bold">Filtres</h2>
+          <button className="filters-modal-close" onClick={() => setFiltersModalOpen(false)}>
+            <i className="fas fa-times"></i>
+          </button>
+        </div>
+        <div className="flex flex-col space-y-4">
+          <select
+            className={`p-2 rounded shadow-md cursor-pointer w-full ${selectedTag ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
+            onChange={(e) => setSelectedTag(e.target.value)}
+            value={selectedTag}
+            style={{ outline: 'none' }}
+          >
+            <option value="">Toutes les thématiques</option>
+            {uniqueTags.map((tag) => (
+              <option key={tag} value={tag}>
+                {tag}
+              </option>
+            ))}
+          </select>
+          <select
+            className={`p-2 rounded shadow-md cursor-pointer w-full ${selectedArrondissement ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
+            onChange={(e) => setSelectedArrondissement(e.target.value)}
+            value={selectedArrondissement}
+            style={{ outline: 'none' }}
+          >
+            <option value="">Toutes les villes</option>
+            {uniqueArrondissements.map((arr) => (
+              <option key={arr} value={arr}>
+                {arr}
+              </option>
+            ))}
+          </select>
+          <div className={`p-2 rounded shadow-md flex items-center relative cursor-pointer w-full ${selectedDate ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}>
+            <DatePicker
+              selected={selectedDate}
+              onChange={(date) => setSelectedDate(date)}
+              dateFormat="dd/MM/yyyy"
+              placeholderText="Date de la visite"
+              className="w-full datepicker-no-outline outline-none focus:outline-none"
+              locale="fr"
+              disabled={!dateFilterEnabled}
+            />
+            {selectedDate && (
+              <i
+                className="fas fa-times-circle text-white-500 cursor-pointer absolute right-2"
+                onClick={() => {
+                  setSelectedDate(null);
+                  setDateFilterEnabled(true);
+                }}
+              ></i>
+            )}
+          </div>
+          <button
+            className={`p-2 rounded shadow-md cursor-pointer w-full ${petitBudget ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
+            onClick={() => setPetitBudget(!petitBudget)}
+          >
+            J'ai un petit budget
+          </button>
+          <button
+            className={`p-2 rounded shadow-md cursor-pointer w-full ${finProche ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
+            onClick={() => setFinProche(!finProche)}
+          >
+            Derniers jours
+          </button>
+          <button
+            className={`p-2 rounded shadow-md cursor-pointer w-full ${enCours ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
+            onClick={() => {
+              setEnCours(!enCours);
+              setAVenir(false);
+            }}
+          >
+            En cours
+          </button>
+          <button
+            className={`p-2 rounded shadow-md cursor-pointer w-full ${aVenir ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
+            onClick={() => {
+              setAVenir(!aVenir);
+              setEnCours(false);
+            }}
+          >
+            A venir
+          </button>
+          {(selectedTag || selectedArrondissement || selectedDate || petitBudget || finProche || enCours || aVenir) && (
+            <button
+              className="p-2 rounded shadow-md bg-red-500 text-white w-full"
+              onClick={() => {
+                resetFilters();
+                setFiltersModalOpen(false);
+              }}
+            >
+              Effacer les filtres
+            </button>
+          )}
+        </div>
+      </div>
+    </div>
+  );
+
+  const getActiveFiltersCount = () => {
+    let count = 0;
+    if (selectedTag) count++;
+    if (selectedArrondissement) count++;
+    if (selectedDate) count++;
+    if (petitBudget) count++;
+    if (finProche) count++;
+    if (enCours) count++;
+    if (aVenir) count++;
+    return count;
+  };
+
   return (
     <div className="flex flex-col h-screen m-0 p-0">
       <div className={`w-full h-full ${isMobile ? (showMap ? "" : "grid grid-cols-1") : (showMap ? "grid grid-cols-3" : "grid grid-cols-2")}`}>
@@ -244,22 +359,25 @@ export default function ExpoMap() {
             Trouve l'expo idéale en fonction de tes envies, ton budget, tes horaires de boulot...
           </div>
           {isMobile && (
-            <div className="flex space-x-2 mb-4">
+            <div className="mobile-floating-buttons">
               <button
-                className={`flex-1 px-4 py-2 rounded shadow-md ${showFilters ? "bg-gray-400 text-white" : "bg-gray-300 text-gray-800"}`}
-                onClick={() => setShowFilters(!showFilters)}
+                className={`${showFilters ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
+                onClick={() => setFiltersModalOpen(true)}
               >
                 <i className="fas fa-filter"></i>
+                {getActiveFiltersCount() > 0 && (
+                  <span className="filter-count">{getActiveFiltersCount()}</span>
+                )}
               </button>
               <button
-                className={`flex-1 px-4 py-2 rounded shadow-md ${showMap ? "bg-gray-400 text-white" : "bg-gray-300 text-gray-800"}`}
+                className={`${showMap ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
                 onClick={() => setShowMap(!showMap)}
               >
                 <i className="fas fa-map-marked-alt"></i>
               </button>
             </div>
           )}
-          {showFilters && (
+          {!isMobile && showFilters && (
             <>
               <div className="flex flex-wrap space-x-2 mb-4">
                 <select
@@ -538,6 +656,15 @@ export default function ExpoMap() {
             onClick={(e) => e.stopPropagation()}
           />
         </div>
+      </Modal>
+      <Modal
+        isOpen={filtersModalOpen}
+        onRequestClose={() => setFiltersModalOpen(false)}
+        contentLabel="Filters Modal"
+        className="filters-modal"
+        overlayClassName="filters-modal-overlay"
+      >
+        <FiltersModal />
       </Modal>
     </div>
   );
