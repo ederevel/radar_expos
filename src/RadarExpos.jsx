@@ -496,19 +496,29 @@ export default function ExpoMap() {
           </div>
         )}
       </Modal>
-
-      {/* Modal for enlarged image */}
       <Modal
         isOpen={!!enlargedImage}
         onRequestClose={closeEnlargedImage}
         contentLabel="Enlarged Image"
         className="enlarged-image-modal"
         overlayClassName="modal-overlay"
-        shouldCloseOnOverlayClick={true} // Ensure this prop is set to true
+        shouldCloseOnOverlayClick={true}
       >
-        <img src={enlargedImage} alt="Enlarged" className="max-h-full max-w-full" />
+        {/* Wrapper to detect clicks outside the image */}
+        <div
+          className="enlarged-image-wrapper"
+          onClick={closeEnlargedImage}
+          style={{ display: "flex", justifyContent: "center", alignItems: "center", width: "100%", height: "100%" }}
+        >
+          {/* Stop click propagation on the image to prevent accidental closing */}
+          <img
+            src={enlargedImage}
+            alt="Enlarged"
+            className="max-h-full max-w-full"
+            onClick={(e) => e.stopPropagation()}
+          />
+        </div>
       </Modal>
-
     </div>
   );
 }
