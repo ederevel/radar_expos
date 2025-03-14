@@ -9,6 +9,7 @@ import fr from "date-fns/locale/fr";
 import Modal from 'react-modal';
 import '@fortawesome/fontawesome-free/css/all.min.css'; // Import Font Awesome
 import Masonry from 'react-masonry-css';
+import { useSwipeable } from 'react-swipeable';
 
 // Définir l'élément racine pour react-modal
 Modal.setAppElement('#root');
@@ -107,10 +108,31 @@ export default function ExpoMap() {
   const [hoveredExpo, setHoveredExpo] = useState(null);
   const [enlargedImage, setEnlargedImage] = useState(null);
   const [modalAnimating, setModalAnimating] = useState(false);
+  const [isSlidingOut, setIsSlidingOut] = useState(false);
+  const [isExpanded, setIsExpanded] = useState(false);
   const mapRef = useRef(null);
   const markerRefs = useRef({});
   const initialCenter = [48.8566, 2.3522];
   const initialZoom = 12;
+
+  const handlers = useSwipeable({
+    onSwipedDown: () => {
+      if (isMobile) {
+        setIsSlidingOut(true);
+        setTimeout(() => {
+          closeModal();
+          setIsSlidingOut(false);
+        }, 300); // Match the duration of the animation
+      }
+    },
+    onSwipedUp: () => {
+      if (isMobile) {
+        setIsExpanded(true);
+      }
+    },
+    preventDefaultTouchmoveEvent: true,
+    trackTouch: true,
+  });
 
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}expos.json`)
@@ -227,6 +249,7 @@ export default function ExpoMap() {
     setSelectedExpo(null);
     setModalIsOpen(false);
     setEnlargedImage(null); // Fermer l'image agrandie lorsque la modale se ferme
+    setIsExpanded(false); // Reset expanded state
   };
 
   const openEnlargedImage = (url) => {
@@ -644,72 +667,76 @@ export default function ExpoMap() {
         isOpen={modalIsOpen}
         onRequestClose={closeModal}
         contentLabel="Expo Details"
-        className="modal-content"
+        className={`modal-content ${isSlidingOut ? 'modal-slide-out' : 'modal-slide-in'} ${isExpanded ? 'expanded' : ''}`}
         overlayClassName="modal-overlay"
       >
-        {selectedExpo && (
-          <>
-            <button className="modal-close" onClick={closeModal}>
-              <i className="fas fa-times"></i>
-            </button>
-            <div className={`modal-content-wrapper ${isMobile ? 'flex flex-col' : 'modal-header flex'}`}>
-              <div className={`modal-image ${isMobile ? 'w-full mb-4' : 'w-2/5 mr-4'}`}>
-                <img 
-                  src={selectedExpo.img_url} 
-                  alt={selectedExpo.titre} 
-                  onClick={() => openEnlargedImage(selectedExpo.img_url)}
-                  className="w-full h-auto object-cover rounded-lg"
-                />
-              </div>
-              <div className={`modal-details ${isMobile ? 'w-full' : 'w-3/5'}`}>
-                <h2 className="text-2xl font-bold mb-2 mt-5">{selectedExpo.titre}</h2>
-                <p className="text-sm text-gray-700">{selectedExpo.emplacement}</p>
-                <p className="text-xs text-gray-500">{selectedExpo.adresse}</p>
-                <a href={selectedExpo.url_lieu} className="text-sm text-blue-500 block" target="_blank" rel="noopener noreferrer">
-                  {selectedExpo.url_lieu}
-                </a>
-                <div className="mt-2 overflow-y-auto">
-                  {selectedExpo.description_detaillee_mise_en_forme && (
-                    <>
-                      <p className="text-sm text-gray-700">
-                        <strong>🖼️ De quoi s'agit-il ?</strong><br />
-                        {selectedExpo.description_detaillee_mise_en_forme.de_quoi_sagit_il}
-                      </p>
-                      <p className="text-sm text-gray-700 mt-2">
-                        <strong>🔎 Plus précisément</strong><br />
-                        {selectedExpo.description_detaillee_mise_en_forme.plus_precisement}
-                      </p>
-                      <p className="text-sm text-gray-700 mt-2">
-                        <strong>❤️ Ça va t'intéresser si...</strong><br />
-                        {selectedExpo.description_detaillee_mise_en_forme.ca_va_tinteresser_si}
-                      </p>
-                    </>
-                  )}
+        <div {...handlers}>
+          {selectedExpo && (
+            <>
+              {!isMobile && (
+                <button className="modal-close" onClick={closeModal}>
+                  <i className="fas fa-times"></i>
+                </button>
+              )}
+              <div className={`modal-content-wrapper ${isMobile ? 'flex flex-col' : 'modal-header flex'}`}>
+                <div className={`modal-image ${isMobile ? 'w-full mb-4' : 'w-2/5 mr-4'}`}>
+                  <img 
+                    src={selectedExpo.img_url} 
+                    alt={selectedExpo.titre} 
+                    onClick={() => openEnlargedImage(selectedExpo.img_url)}
+                    className="w-full h-auto object-cover rounded-lg"
+                  />
+                </div>
+                <div className={`modal-details ${isMobile ? 'w-full' : 'w-3/5'}`}>
+                  <h2 className="text-2xl font-bold mb-2 mt-5">{selectedExpo.titre}</h2>
+                  <p className="text-sm text-gray-700">{selectedExpo.emplacement}</p>
+                  <p className="text-xs text-gray-500">{selectedExpo.adresse}</p>
+                  <a href={selectedExpo.url_lieu} className="text-sm text-blue-500 block" target="_blank" rel="noopener noreferrer">
+                    {selectedExpo.url_lieu}
+                  </a>
+                  <div className="mt-2 overflow-y-auto">
+                    {selectedExpo.description_detaillee_mise_en_forme && (
+                      <>
+                        <p className="text-sm text-gray-700">
+                          <strong>🖼️ De quoi s'agit-il ?</strong><br />
+                          {selectedExpo.description_detaillee_mise_en_forme.de_quoi_sagit_il}
+                        </p>
+                        <p className="text-sm text-gray-700 mt-2">
+                          <strong>🔎 Plus précisément</strong><br />
+                          {selectedExpo.description_detaillee_mise_en_forme.plus_precisement}
+                        </p>
+                        <p className="text-sm text-gray-700 mt-2">
+                          <strong>❤️ Ça va t'intéresser si...</strong><br />
+                          {selectedExpo.description_detaillee_mise_en_forme.ca_va_tinteresser_si}
+                        </p>
+                      </>
+                    )}
+                  </div>
                 </div>
               </div>
-            </div>
-            {selectedExpo.imgs_carousel_data && selectedExpo.imgs_carousel_data.length > 0 && (
-              <div className={`${isMobile ? 'mt-6' : 'p-4'}`}>
-                <Masonry
-                  breakpointCols={{ default: 3, 800: 2, 400: 1 }}
-                  className="my-masonry-grid"
-                  columnClassName="my-masonry-grid_column"
-                >
-                  {selectedExpo.imgs_carousel_data.map((img, index) => (
-                    <div key={index} className="mb-4">
-                      <img 
-                        src={img.url} 
-                        alt={img.description} 
-                        className="w-full h-auto rounded-lg shadow-lg cursor-pointer" 
-                        onClick={() => openEnlargedImage(img.url)} 
-                      />
-                    </div>
-                  ))}
-                </Masonry>
-              </div>
-            )}
-          </>
-        )}
+              {selectedExpo.imgs_carousel_data && selectedExpo.imgs_carousel_data.length > 0 && (
+                <div className={`${isMobile ? 'mt-6' : 'p-4'}`}>
+                  <Masonry
+                    breakpointCols={{ default: 3, 800: 2, 400: 1 }}
+                    className="my-masonry-grid"
+                    columnClassName="my-masonry-grid_column"
+                  >
+                    {selectedExpo.imgs_carousel_data.map((img, index) => (
+                      <div key={index} className="mb-4">
+                        <img 
+                          src={img.url} 
+                          alt={img.description} 
+                          className="w-full h-auto rounded-lg shadow-lg cursor-pointer" 
+                          onClick={() => openEnlargedImage(img.url)} 
+                        />
+                      </div>
+                    ))}
+                  </Masonry>
+                </div>
+              )}
+            </>
+          )}
+        </div>
       </Modal>
       <Modal
         isOpen={!!enlargedImage}
