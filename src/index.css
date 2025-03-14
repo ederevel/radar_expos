@@ -180,7 +180,7 @@ body {
   right: 0;
   bottom: 0;
   width: 90%;
-  background-color: white;
+  background-color: rgb(243 244 246);
   padding: 20px;
   z-index: 1001;
   overflow-y: auto;
