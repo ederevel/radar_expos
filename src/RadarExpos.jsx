@@ -363,229 +363,282 @@ export default function ExpoMap() {
 
   return (
     <div className="flex flex-col h-screen m-0 p-0">
-      <div className={`w-full h-full ${isMobile ? (showMap ? "" : "grid grid-cols-1") : (showMap ? "grid grid-cols-3" : "grid grid-cols-2")}`}>
-        <div className="col-span-2 bg-gray-100 overflow-auto p-4">
-          <div className="mb-4">
-            <h1 className="text-4xl font-bold mb-4">RadarExpo</h1>
-            {(!isMobile || !showMap) && (
-              <p>Trouve l'expo idéale en fonction de tes envies, ton budget, tes horaires de boulot...</p>
-            )}
+      {isMobile && showMap ? (
+        <div className="h-full w-full">
+          <div className="relative h-full w-full">
+            <MapContainer ref={mapRef} center={initialCenter} zoom={initialZoom} className="h-full w-full" style={{ position: 'relative', zIndex: 0 }}>
+              <TileLayer url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png" />
+              <MapEvents
+                setFilteredExpos={setFilteredExpos}
+                expos={expos}
+                setButtonVisible={setButtonVisible}
+                selectedTag={selectedTag}
+                selectedArrondissement={selectedArrondissement}
+                selectedDate={selectedDate}
+                petitBudget={petitBudget}
+                finProche={finProche}
+                enCours={enCours}
+                aVenir={aVenir}
+                dateFilterEnabled={dateFilterEnabled}
+              />
+              {filteredExpos.map((expo) => (
+                <Marker
+                  key={expo.titre}
+                  position={[expo.latitude, expo.longitude]}
+                  icon={hoveredExpo === expo.titre ? expoIconHover : expoIcon}
+                  ref={(el) => (markerRefs.current[expo.titre] = el)}
+                  eventHandlers={{
+                    click: () => openModal(expo),
+                  }}
+                >
+                </Marker>
+              ))}
+            </MapContainer>
           </div>
-          {isMobile && (
-            <div className="mobile-floating-buttons">
-              <button
-                className={`${showMap ? "bg-gray-200 text-gray-800" : "bg-white text-gray-800"}`}
-                onClick={() => setShowMap(!showMap)}
-              >
-                <i className={`fas ${showMap ? "fa-list" : "fa-map-marked-alt"}`}></i>
-              </button>
-              <button
-                className={`${showFilters ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
-                onClick={() => setFiltersModalOpen(true)}
-              >
-                <i className="fas fa-filter"></i>
-                {getActiveFiltersCount() > 0 && (
-                  <span className="filter-count">{getActiveFiltersCount()}</span>
-                )}
-              </button>
-            </div>
-          )}
-          {!isMobile && showFilters && (
-            <>
-              <div className="flex flex-wrap space-x-2 mb-4">
-                <select
-                  className={`p-2 rounded shadow-md cursor-pointer mb-2 w-full sm:w-auto ${selectedTag ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
-                  onChange={(e) => setSelectedTag(e.target.value)}
-                  value={selectedTag}
-                  style={{ outline: 'none' }}
-                >
-                  <option value="">Toutes les thématiques</option>
-                  {uniqueTags.map((tag) => (
-                    <option key={tag} value={tag}>
-                      {tag}
-                    </option>
-                  ))}
-                </select>
-                <select
-                  className={`p-2 rounded shadow-md cursor-pointer mb-2 w-full sm:w-auto ${selectedArrondissement ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
-                  onChange={(e) => setSelectedArrondissement(e.target.value)}
-                  value={selectedArrondissement}
-                  style={{ outline: 'none' }}
-                >
-                  <option value="">Toutes les villes</option>
-                  {uniqueArrondissements.map((arr) => (
-                    <option key={arr} value={arr}>
-                      {arr}
-                    </option>
-                  ))}
-                </select>
-                <div className={`p-2 rounded shadow-md flex items-center relative cursor-pointer mb-2 w-full sm:w-auto ${selectedDate ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}>
-                  <DatePicker
-                    selected={selectedDate}
-                    onChange={(date) => setSelectedDate(date)}
-                    dateFormat="dd/MM/yyyy"
-                    placeholderText="Date de la visite"
-                    className="w-full datepicker-no-outline outline-none focus:outline-none"
-                    locale="fr"
-                    disabled={!dateFilterEnabled}
-                  />
-
-                  {selectedDate && (
-                    <i
-                      className="fas fa-times-circle text-white-500 cursor-pointer absolute right-2"
-                      onClick={() => {
-                        setSelectedDate(null);
-                        setDateFilterEnabled(true); // Enable date filtering again
-                      }}
-                    ></i>
-                  )}
-                </div>
-              </div>
-
-              <div className="flex flex-wrap space-x-2 mb-4">
-                <button
-                  className={`px-4 py-2 rounded shadow-md cursor-pointer mb-2 w-full sm:w-auto ${petitBudget ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
-                  onClick={() => setPetitBudget(!petitBudget)}
-                >
-                  J'ai un petit budget
-                </button>
-                <button
-                  className={`px-4 py-2 rounded shadow-md cursor-pointer mb-2 w-full sm:w-auto ${finProche ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
-                  onClick={() => setFinProche(!finProche)}
-                >
-                  Derniers jours
-                </button>
-                <button
-                  className={`px-4 py-2 rounded shadow-md cursor-pointer mb-2 w-full sm:w-auto ${enCours ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
-                  onClick={() => {
-                    setEnCours(!enCours);
-                    setAVenir(false);
-                  }}
-                >
-                  En cours
-                </button>
-                <button
-                  className={`px-4 py-2 rounded shadow-md cursor-pointer mb-2 w-full sm:w-auto ${aVenir ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
-                  onClick={() => {
-                    setAVenir(!aVenir);
-                    setEnCours(false);
-                  }}
-                >
-                  A venir
-                </button>
-                {buttonVisible && (
-                  <button
-                    className="px-4 py-2 rounded shadow-md bg-gray-400 text-white mb-2 w-full sm:w-auto"
-                    onClick={resetMapView}
-                  >
-                    Réinitialiser la carte
-                  </button>
-                )}
-                {(selectedTag || selectedArrondissement || selectedDate || petitBudget || finProche || enCours || aVenir) && (
-                  <button
-                    className="px-4 py-2 rounded shadow-md bg-gray-800 text-white mb-2 w-full sm:w-auto"
-                    onClick={resetFilters}
-                  >
-                    Effacer les filtres
-                  </button>
-                )}
-              </div>
-            </>
-          )}
-          {((!showMap && isMobile) || !isMobile) && (
-            <div className={`grid gap-6 ${isMobile ? "grid-cols-1" : (showMap ? "grid-cols-2" : "grid-cols-3")}`}>
-              {filteredExpos.length === 0 ? (
-                <p className="text-center text-gray-600">Aucune exposition ne correspond à ces filtres</p>
-              ) : (
-                filteredExpos.map((expo) => (
-                  <div
-                    key={expo.titre}
-                    className="cursor-pointer bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 flex relative"
-                    onClick={() => openModal(expo)}
-                    onMouseEnter={() => setHoveredExpo(expo.titre)}
-                    onMouseLeave={() => setHoveredExpo(null)}
-                  >
-                    <div className="relative w-1/3">
-                      <img
-                        src={expo.img_url}
-                        alt={expo.titre}
-                        className="w-full h-full object-cover"
-                      />
-                      {isEndingSoon(expo.date_fin) && (
-                        <div className="absolute top-2 left-2 bg-red-500 text-white px-2 py-1 text-xs font-semibold rounded">
-                          Derniers jours
-                        </div>
-                      )}
-                    </div>
-                    <div className="w-2/3 p-4 flex flex-col">
-                      <h3 className="text-xl font-semibold mb-1 text-gray-800">
-                        {expo.titre}
-                      </h3>
-                      <p className="text-sm font-medium text-gray-600 mb-1">
-                        {expo.emplacement}
-                      </p>
-                      <p className="text-xs text-gray-500 italic mb-2">
-                        {expo.dates}
-                      </p>
-                      <p className="text-sm text-gray-700 line-clamp-3 mb-3">
-                        {expo.description_sommaire}
-                      </p>
-                      <p className="text-sm font-semibold text-gray-800 mb-3">
-                        {expo.prix_nominal}
-                      </p>
-                      <div className="flex flex-wrap justify-start space-x-2 mt-auto">
-                        {expo.tags_category.map((tag, index) => (
-                          <span
-                            key={index}
-                            className="px-2 py-1 text-xs font-semibold whitespace-nowrap mb-2"
-                            style={{ backgroundColor: "#E6E6FA", borderRadius: "0.375rem" }}
-                          >
-                            {tag}
-                          </span>
-                        ))}
-                      </div>
-                    </div>
-                  </div>
-                ))
+          <div className="mobile-floating-buttons">
+            <button
+              className="bg-gray-200 text-gray-800"
+              onClick={() => setShowMap(!showMap)}
+            >
+              <i className="fas fa-list"></i>
+            </button>
+            <button
+              className={`${showFilters ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
+              onClick={() => setFiltersModalOpen(true)}
+            >
+              <i className="fas fa-filter"></i>
+              {getActiveFiltersCount() > 0 && (
+                <span className="filter-count">{getActiveFiltersCount()}</span>
               )}
-            </div>)}
+            </button>
+          </div>
         </div>
+      ) : (
+        <div className={`w-full h-full ${isMobile ? "grid grid-cols-1" : (showMap ? "grid grid-cols-3" : "grid grid-cols-2")}`}>
+          <div className="col-span-2 bg-gray-100 overflow-auto p-4">
+            <div className="mb-4">
+              <h1 className="text-4xl font-bold mb-4">RadarExpo</h1>
+              {(!isMobile || !showMap) && (
+                <p>Trouve l'expo idéale en fonction de tes envies, ton budget, tes horaires de boulot...</p>
+              )}
+            </div>
+            {isMobile && (
+              <div className="mobile-floating-buttons">
+                <button
+                  className={`${showMap ? "bg-gray-200 text-gray-800" : "bg-white text-gray-800"}`}
+                  onClick={() => setShowMap(!showMap)}
+                >
+                  <i className={`fas ${showMap ? "fa-list" : "fa-map-marked-alt"}`}></i>
+                </button>
+                <button
+                  className={`${showFilters ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
+                  onClick={() => setFiltersModalOpen(true)}
+                >
+                  <i className="fas fa-filter"></i>
+                  {getActiveFiltersCount() > 0 && (
+                    <span className="filter-count">{getActiveFiltersCount()}</span>
+                  )}
+                </button>
+              </div>
+            )}
+            {!isMobile && showFilters && (
+              <>
+                <div className="flex flex-wrap space-x-2 mb-4">
+                  <select
+                    className={`p-2 rounded shadow-md cursor-pointer mb-2 w-full sm:w-auto ${selectedTag ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
+                    onChange={(e) => setSelectedTag(e.target.value)}
+                    value={selectedTag}
+                    style={{ outline: 'none' }}
+                  >
+                    <option value="">Toutes les thématiques</option>
+                    {uniqueTags.map((tag) => (
+                      <option key={tag} value={tag}>
+                        {tag}
+                      </option>
+                    ))}
+                  </select>
+                  <select
+                    className={`p-2 rounded shadow-md cursor-pointer mb-2 w-full sm:w-auto ${selectedArrondissement ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
+                    onChange={(e) => setSelectedArrondissement(e.target.value)}
+                    value={selectedArrondissement}
+                    style={{ outline: 'none' }}
+                  >
+                    <option value="">Toutes les villes</option>
+                    {uniqueArrondissements.map((arr) => (
+                      <option key={arr} value={arr}>
+                        {arr}
+                      </option>
+                    ))}
+                  </select>
+                  <div className={`p-2 rounded shadow-md flex items-center relative cursor-pointer mb-2 w-full sm:w-auto ${selectedDate ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}>
+                    <DatePicker
+                      selected={selectedDate}
+                      onChange={(date) => setSelectedDate(date)}
+                      dateFormat="dd/MM/yyyy"
+                      placeholderText="Date de la visite"
+                      className="w-full datepicker-no-outline outline-none focus:outline-none"
+                      locale="fr"
+                      disabled={!dateFilterEnabled}
+                    />
 
-        {showMap && (
-          <div className={`col-span-1 p-4 relative flex flex-col ${isMobile ? 'h-full' : ''}`}>
-            <div className="relative h-full w-full">
-              <MapContainer ref={mapRef} center={initialCenter} zoom={initialZoom} className="h-full w-full rounded-lg overflow-hidden shadow-lg" style={{ borderRadius: "1rem", boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)", position: 'relative', zIndex: 0 }}>
-                <TileLayer url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png" />
-                <MapEvents
-                  setFilteredExpos={setFilteredExpos}
-                  expos={expos}
-                  setButtonVisible={setButtonVisible}
-                  selectedTag={selectedTag}
-                  selectedArrondissement={selectedArrondissement}
-                  selectedDate={selectedDate}
-                  petitBudget={petitBudget}
-                  finProche={finProche}
-                  enCours={enCours}
-                  aVenir={aVenir}
-                  dateFilterEnabled={dateFilterEnabled}
-                />
-                {filteredExpos.map((expo) => (
-                  <Marker
-                    key={expo.titre}
-                    position={[expo.latitude, expo.longitude]}
-                    icon={hoveredExpo === expo.titre ? expoIconHover : expoIcon}
-                    ref={(el) => (markerRefs.current[expo.titre] = el)}
-                    eventHandlers={{
-                      click: () => openModal(expo),
+                    {selectedDate && (
+                      <i
+                        className="fas fa-times-circle text-white-500 cursor-pointer absolute right-2"
+                        onClick={() => {
+                          setSelectedDate(null);
+                          setDateFilterEnabled(true); // Enable date filtering again
+                        }}
+                      ></i>
+                    )}
+                  </div>
+                </div>
+
+                <div className="flex flex-wrap space-x-2 mb-4">
+                  <button
+                    className={`px-4 py-2 rounded shadow-md cursor-pointer mb-2 w-full sm:w-auto ${petitBudget ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
+                    onClick={() => setPetitBudget(!petitBudget)}
+                  >
+                    J'ai un petit budget
+                  </button>
+                  <button
+                    className={`px-4 py-2 rounded shadow-md cursor-pointer mb-2 w-full sm:w-auto ${finProche ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
+                    onClick={() => setFinProche(!finProche)}
+                  >
+                    Derniers jours
+                  </button>
+                  <button
+                    className={`px-4 py-2 rounded shadow-md cursor-pointer mb-2 w-full sm:w-auto ${enCours ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
+                    onClick={() => {
+                      setEnCours(!enCours);
+                      setAVenir(false);
                     }}
                   >
-                  </Marker>
-                ))}
-              </MapContainer>
-            </div>
+                    En cours
+                  </button>
+                  <button
+                    className={`px-4 py-2 rounded shadow-md cursor-pointer mb-2 w-full sm:w-auto ${aVenir ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
+                    onClick={() => {
+                      setAVenir(!aVenir);
+                      setEnCours(false);
+                    }}
+                  >
+                    A venir
+                  </button>
+                  {buttonVisible && (
+                    <button
+                      className="px-4 py-2 rounded shadow-md bg-gray-400 text-white mb-2 w-full sm:w-auto"
+                      onClick={resetMapView}
+                    >
+                      Réinitialiser la carte
+                    </button>
+                  )}
+                  {(selectedTag || selectedArrondissement || selectedDate || petitBudget || finProche || enCours || aVenir) && (
+                    <button
+                      className="px-4 py-2 rounded shadow-md bg-gray-800 text-white mb-2 w-full sm:w-auto"
+                      onClick={resetFilters}
+                    >
+                      Effacer les filtres
+                    </button>
+                  )}
+                </div>
+              </>
+            )}
+            {((!showMap && isMobile) || !isMobile) && (
+              <div className={`grid gap-6 ${isMobile ? "grid-cols-1" : (showMap ? "grid-cols-2" : "grid-cols-3")}`}>
+                {filteredExpos.length === 0 ? (
+                  <p className="text-center text-gray-600">Aucune exposition ne correspond à ces filtres</p>
+                ) : (
+                  filteredExpos.map((expo) => (
+                    <div
+                      key={expo.titre}
+                      className="cursor-pointer bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 flex relative"
+                      onClick={() => openModal(expo)}
+                      onMouseEnter={() => setHoveredExpo(expo.titre)}
+                      onMouseLeave={() => setHoveredExpo(null)}
+                    >
+                      <div className="relative w-1/3">
+                        <img
+                          src={expo.img_url}
+                          alt={expo.titre}
+                          className="w-full h-full object-cover"
+                        />
+                        {isEndingSoon(expo.date_fin) && (
+                          <div className="absolute top-2 left-2 bg-red-500 text-white px-2 py-1 text-xs font-semibold rounded">
+                            Derniers jours
+                          </div>
+                        )}
+                      </div>
+                      <div className="w-2/3 p-4 flex flex-col">
+                        <h3 className="text-xl font-semibold mb-1 text-gray-800">
+                          {expo.titre}
+                        </h3>
+                        <p className="text-sm font-medium text-gray-600 mb-1">
+                          {expo.emplacement}
+                        </p>
+                        <p className="text-xs text-gray-500 italic mb-2">
+                          {expo.dates}
+                        </p>
+                        <p className="text-sm text-gray-700 line-clamp-3 mb-3">
+                          {expo.description_sommaire}
+                        </p>
+                        <p className="text-sm font-semibold text-gray-800 mb-3">
+                          {expo.prix_nominal}
+                        </p>
+                        <div className="flex flex-wrap justify-start space-x-2 mt-auto">
+                          {expo.tags_category.map((tag, index) => (
+                            <span
+                              key={index}
+                              className="px-2 py-1 text-xs font-semibold whitespace-nowrap mb-2"
+                              style={{ backgroundColor: "#E6E6FA", borderRadius: "0.375rem" }}
+                            >
+                              {tag}
+                            </span>
+                          ))}
+                        </div>
+                      </div>
+                    </div>
+                  ))
+                )}
+              </div>
+            )}
           </div>
-        )}
-      </div>
+          
+          {!isMobile && showMap && (
+            <div className="col-span-1 p-4 relative flex flex-col h-full">
+              <div className="relative h-full w-full">
+                <MapContainer ref={mapRef} center={initialCenter} zoom={initialZoom} className="h-full w-full rounded-lg overflow-hidden shadow-lg" style={{ borderRadius: "1rem", boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)", position: 'relative', zIndex: 0 }}>
+                  <TileLayer url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png" />
+                  <MapEvents
+                    setFilteredExpos={setFilteredExpos}
+                    expos={expos}
+                    setButtonVisible={setButtonVisible}
+                    selectedTag={selectedTag}
+                    selectedArrondissement={selectedArrondissement}
+                    selectedDate={selectedDate}
+                    petitBudget={petitBudget}
+                    finProche={finProche}
+                    enCours={enCours}
+                    aVenir={aVenir}
+                    dateFilterEnabled={dateFilterEnabled}
+                  />
+                  {filteredExpos.map((expo) => (
+                    <Marker
+                      key={expo.titre}
+                      position={[expo.latitude, expo.longitude]}
+                      icon={hoveredExpo === expo.titre ? expoIconHover : expoIcon}
+                      ref={(el) => (markerRefs.current[expo.titre] = el)}
+                      eventHandlers={{
+                        click: () => openModal(expo),
+                      }}
+                    >
+                    </Marker>
+                  ))}
+                </MapContainer>
+              </div>
+            </div>
+          )}
+        </div>
+      )}
 
       <Modal
         isOpen={modalIsOpen}
