@@ -28,6 +28,18 @@ const isEndingSoon = (endDate) => {
   return (new Date(endDate) <= twoWeeksFromNow) && (new Date(endDate) >= today);
 };
 
+// Nouvelle fonction pour vérifier si une exposition est en cours
+const isOngoing = (startDate, endDate) => {
+  const today = new Date();
+  return (new Date(startDate) <= today) && (new Date(endDate) >= today);
+};
+
+// Nouvelle fonction pour vérifier si une exposition est à venir
+const isUpcoming = (startDate) => {
+  const today = new Date();
+  return new Date(startDate) > today;
+};
+
 function MapEvents({ setFilteredExpos, expos, setButtonVisible, selectedTag, selectedArrondissement, selectedDate, petitBudget, finProche, enCours, aVenir, dateFilterEnabled }) {
   const map = useMapEvents({
     moveend: () => {
@@ -58,10 +70,10 @@ function MapEvents({ setFilteredExpos, expos, setButtonVisible, selectedTag, sel
         filtered = filtered.filter((expo) => isEndingSoon(expo.date_fin));
       }
       if (enCours) {
-        filtered = filtered.filter((expo) => expo.statut === "En cours");
+        filtered = filtered.filter((expo) => isOngoing(expo.date_debut, expo.date_fin));
       }
       if (aVenir) {
-        filtered = filtered.filter((expo) => expo.statut === "A venir");
+        filtered = filtered.filter((expo) => isUpcoming(expo.date_debut));
       }
 
       setFilteredExpos(filtered);
@@ -153,10 +165,10 @@ export default function ExpoMap() {
       filtered = filtered.filter((expo) => isEndingSoon(expo.date_fin));
     }
     if (enCours) {
-      filtered = filtered.filter((expo) => expo.statut === "En cours");
+      filtered = filtered.filter((expo) => isOngoing(expo.date_debut, expo.date_fin));
     }
     if (aVenir) {
-      filtered = filtered.filter((expo) => expo.statut === "A venir");
+      filtered = filtered.filter((expo) => isUpcoming(expo.date_debut));
     }
     setFilteredExpos(filtered);
   }, [selectedTag, selectedArrondissement, selectedDate, expos, petitBudget, finProche, enCours, aVenir, dateFilterEnabled]);
