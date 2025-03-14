@@ -366,7 +366,7 @@ export default function ExpoMap() {
       {isMobile && showMap ? (
         <div className="h-full w-full">
           <div className="relative h-full w-full">
-            <MapContainer ref={mapRef} center={initialCenter} zoom={initialZoom} className="h-full w-full" style={{ position: 'relative', zIndex: 0 }}>
+            <MapContainer ref={mapRef} center={initialCenter} zoom={initialZoom} className="h-full w-full" style={{ position: 'relative', zIndex: 0 }} zoomControl={false}>
               <TileLayer url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png" />
               <MapEvents
                 setFilteredExpos={setFilteredExpos}
@@ -606,7 +606,7 @@ export default function ExpoMap() {
           {!isMobile && showMap && (
             <div className="col-span-1 p-4 relative flex flex-col h-full">
               <div className="relative h-full w-full">
-                <MapContainer ref={mapRef} center={initialCenter} zoom={initialZoom} className="h-full w-full rounded-lg overflow-hidden shadow-lg" style={{ borderRadius: "1rem", boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)", position: 'relative', zIndex: 0 }}>
+                <MapContainer ref={mapRef} center={initialCenter} zoom={initialZoom} className="h-full w-full rounded-lg overflow-hidden shadow-lg" style={{ borderRadius: "1rem", boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)", position: 'relative', zIndex: 0 }} zoomControl={false}>
                   <TileLayer url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png" />
                   <MapEvents
                     setFilteredExpos={setFilteredExpos}
