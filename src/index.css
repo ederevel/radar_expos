@@ -262,7 +262,7 @@ body {
 }
 
 /* Desktop Styles */
-@media (min-width: 769px) {
+@media (min-width: 801px) {
   .modal-content {
     left: 50%;
     transform: translateX(-50%);
@@ -277,7 +277,7 @@ body {
 }
 
 /* Mobile Styles */
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   /* Modal Content Mobile */
   .modal-content {
     position: fixed;

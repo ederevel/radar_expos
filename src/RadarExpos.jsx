@@ -717,7 +717,7 @@ export default function ExpoMap() {
               {selectedExpo.imgs_carousel_data && selectedExpo.imgs_carousel_data.length > 0 && (
                 <div className={`${isMobile ? 'mt-6' : 'p-4'}`}>
                   <Masonry
-                    breakpointCols={{ default: 3, 800: 2, 400: 1 }}
+                    breakpointCols={{ default: 3, 800: 1, 400: 1 }}
                     className="my-masonry-grid"
                     columnClassName="my-masonry-grid_column"
                   >
