@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
 @import "tailwindcss";
 
 /* Base styles */
@@ -5,11 +6,34 @@ html,
 body {
   background-color: rgb(243 244 246);
   color: #212529;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.01em;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+}
+
+h1 {
+  font-weight: 600;
+}
+
+button, select, .filter-count {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.02em;
 }
 
 /* Date picker customization */
 .react-datepicker__input-container input {
   caret-color: transparent;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 300;
 }
 
 /* Modal Base */
@@ -160,6 +184,23 @@ body {
   display: block;
   background-color: white;
   position: relative;
+}
+
+.modal-details h2 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.modal-details p {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.modal-details strong {
+  font-weight: 500;
+  letter-spacing: 0.01em;
 }
 
 /* Masonry Grid */

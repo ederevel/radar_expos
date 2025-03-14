@@ -342,51 +342,55 @@ export default function ExpoMap() {
           </button>
         </div>
         <div className="flex flex-col space-y-4">
-          <select
-            className={`p-2 rounded shadow-md cursor-pointer w-full ${selectedTag ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
-            onChange={(e) => setSelectedTag(e.target.value)}
-            value={selectedTag}
-            style={{ outline: 'none' }}
-          >
-            <option value="">Toutes les thématiques</option>
-            {uniqueTags.map((tag) => (
-              <option key={tag} value={tag}>
-                {tag}
-              </option>
-            ))}
-          </select>
-          <select
-            className={`p-2 rounded shadow-md cursor-pointer w-full ${selectedArrondissement ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
-            onChange={(e) => setSelectedArrondissement(e.target.value)}
-            value={selectedArrondissement}
-            style={{ outline: 'none' }}
-          >
-            <option value="">Toutes les villes</option>
-            {uniqueArrondissements.map((arr) => (
-              <option key={arr} value={arr}>
-                {arr}
-              </option>
-            ))}
-          </select>
-          <div className={`p-2 rounded shadow-md flex items-center relative cursor-pointer w-full ${selectedDate ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}>
-            <DatePicker
-              selected={selectedDate}
-              onChange={(date) => setSelectedDate(date)}
-              dateFormat="dd/MM/yyyy"
-              placeholderText="Date de la visite"
-              className="w-full datepicker-no-outline outline-none focus:outline-none"
-              locale="fr"
-              disabled={!dateFilterEnabled}
-            />
-            {selectedDate && (
-              <i
-                className="fas fa-times-circle text-white-500 cursor-pointer absolute right-2"
-                onClick={() => {
-                  setSelectedDate(null);
-                  setDateFilterEnabled(true);
-                }}
-              ></i>
-            )}
+          <div className="flex flex-wrap space-x-2 mb-4">
+            <select
+              className={`p-2 rounded shadow-md cursor-pointer mb-2 w-full sm:w-auto ${selectedTag ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
+              onChange={(e) => setSelectedTag(e.target.value)}
+              value={selectedTag}
+              style={{ outline: 'none', fontFamily: "'Outfit', sans-serif", letterSpacing: "0.02em", fontWeight: 400 }}
+            >
+              <option value="">Toutes les thématiques</option>
+              {uniqueTags.map((tag) => (
+                <option key={tag} value={tag}>
+                  {tag}
+                </option>
+              ))}
+            </select>
+            <select
+              className={`p-2 rounded shadow-md cursor-pointer mb-2 w-full sm:w-auto ${selectedArrondissement ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
+              onChange={(e) => setSelectedArrondissement(e.target.value)}
+              value={selectedArrondissement}
+              style={{ outline: 'none', fontFamily: "'Outfit', sans-serif", letterSpacing: "0.02em", fontWeight: 400 }}
+            >
+              <option value="">Toutes les villes</option>
+              {uniqueArrondissements.map((arr) => (
+                <option key={arr} value={arr}>
+                  {arr}
+                </option>
+              ))}
+            </select>
+            <div className={`p-2 rounded shadow-md flex items-center relative cursor-pointer mb-2 w-full sm:w-auto ${selectedDate ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}>
+              <DatePicker
+                selected={selectedDate}
+                onChange={(date) => setSelectedDate(date)}
+                dateFormat="dd/MM/yyyy"
+                placeholderText="Date de la visite"
+                className="w-full datepicker-no-outline outline-none focus:outline-none"
+                locale="fr"
+                disabled={!dateFilterEnabled}
+                style={{ fontFamily: "'Outfit', sans-serif", letterSpacing: "0.02em", fontWeight: 400 }}
+              />
+
+              {selectedDate && (
+                <i
+                  className="fas fa-times-circle text-white-500 cursor-pointer absolute right-2"
+                  onClick={() => {
+                    setSelectedDate(null);
+                    setDateFilterEnabled(true); // Enable date filtering again
+                  }}
+                ></i>
+              )}
+            </div>
           </div>
           <button
             className={`p-2 rounded shadow-md cursor-pointer w-full ${petitBudget ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
@@ -501,9 +505,9 @@ export default function ExpoMap() {
         <div className={`w-full h-full ${isMobile ? "grid grid-cols-1" : (showMap ? "grid grid-cols-3" : "grid grid-cols-2")}`}>
           <div className="col-span-2 bg-gray-100 overflow-auto p-4">
             <div className="mb-4">
-              <h1 className="text-4xl font-bold mb-4">RadarExpo</h1>
+              <h1 className="text-4xl font-bold mb-4" style={{ fontFamily: "'Space Grotesk', sans-serif", fontWeight: 700, letterSpacing: "-0.01em" }}>RadarExpo</h1>
               {(!isMobile || !showMap) && (
-                <p>Trouve l'expo idéale en fonction de tes envies, ton budget, tes horaires de boulot...</p>
+                <p style={{ fontFamily: "'Outfit', sans-serif", fontWeight: 300, letterSpacing: "0.01em" }}>Trouve l'expo idéale en fonction de tes envies, ton budget, tes horaires de boulot...</p>
               )}
             </div>
             {isMobile && (
@@ -532,7 +536,7 @@ export default function ExpoMap() {
                     className={`p-2 rounded shadow-md cursor-pointer mb-2 w-full sm:w-auto ${selectedTag ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
                     onChange={(e) => setSelectedTag(e.target.value)}
                     value={selectedTag}
-                    style={{ outline: 'none' }}
+                    style={{ outline: 'none', fontFamily: "'Outfit', sans-serif", letterSpacing: "0.02em", fontWeight: 400 }}
                   >
                     <option value="">Toutes les thématiques</option>
                     {uniqueTags.map((tag) => (
@@ -545,7 +549,7 @@ export default function ExpoMap() {
                     className={`p-2 rounded shadow-md cursor-pointer mb-2 w-full sm:w-auto ${selectedArrondissement ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
                     onChange={(e) => setSelectedArrondissement(e.target.value)}
                     value={selectedArrondissement}
-                    style={{ outline: 'none' }}
+                    style={{ outline: 'none', fontFamily: "'Outfit', sans-serif", letterSpacing: "0.02em", fontWeight: 400 }}
                   >
                     <option value="">Toutes les villes</option>
                     {uniqueArrondissements.map((arr) => (
@@ -563,6 +567,7 @@ export default function ExpoMap() {
                       className="w-full datepicker-no-outline outline-none focus:outline-none"
                       locale="fr"
                       disabled={!dateFilterEnabled}
+                      style={{ fontFamily: "'Outfit', sans-serif", letterSpacing: "0.02em", fontWeight: 400 }}
                     />
 
                     {selectedDate && (
@@ -581,12 +586,14 @@ export default function ExpoMap() {
                   <button
                     className={`px-4 py-2 rounded shadow-md cursor-pointer mb-2 w-full sm:w-auto ${petitBudget ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
                     onClick={() => setPetitBudget(!petitBudget)}
+                    style={{ fontFamily: "'Outfit', sans-serif", letterSpacing: "0.02em", fontWeight: 400 }}
                   >
                     J'ai un petit budget
                   </button>
                   <button
                     className={`px-4 py-2 rounded shadow-md cursor-pointer mb-2 w-full sm:w-auto ${finProche ? "bg-gray-400 text-white" : "bg-white text-gray-800"}`}
                     onClick={() => setFinProche(!finProche)}
+                    style={{ fontFamily: "'Outfit', sans-serif", letterSpacing: "0.02em", fontWeight: 400 }}
                   >
                     Derniers jours
                   </button>
@@ -596,6 +603,7 @@ export default function ExpoMap() {
                       setEnCours(!enCours);
                       setAVenir(false);
                     }}
+                    style={{ fontFamily: "'Outfit', sans-serif", letterSpacing: "0.02em", fontWeight: 400 }}
                   >
                     En cours
                   </button>
@@ -605,6 +613,7 @@ export default function ExpoMap() {
                       setAVenir(!aVenir);
                       setEnCours(false);
                     }}
+                    style={{ fontFamily: "'Outfit', sans-serif", letterSpacing: "0.02em", fontWeight: 400 }}
                   >
                     A venir
                   </button>
@@ -612,6 +621,7 @@ export default function ExpoMap() {
                     <button
                       className="px-4 py-2 rounded shadow-md bg-gray-400 text-white mb-2 w-full sm:w-auto"
                       onClick={resetMapView}
+                      style={{ fontFamily: "'Outfit', sans-serif", letterSpacing: "0.02em", fontWeight: 400 }}
                     >
                       Réinitialiser la carte
                     </button>
@@ -620,6 +630,7 @@ export default function ExpoMap() {
                     <button
                       className="px-4 py-2 rounded shadow-md bg-gray-800 text-white mb-2 w-full sm:w-auto"
                       onClick={resetFilters}
+                      style={{ fontFamily: "'Outfit', sans-serif", letterSpacing: "0.02em", fontWeight: 400 }}
                     >
                       Effacer les filtres
                     </button>
@@ -673,7 +684,7 @@ export default function ExpoMap() {
                             <span
                               key={index}
                               className="px-2 py-1 text-xs font-semibold whitespace-nowrap mb-2"
-                              style={{ backgroundColor: "#E6E6FA", borderRadius: "0.375rem" }}
+                              style={{ backgroundColor: "#E6E6FA", borderRadius: "0.375rem", fontFamily: "'Outfit', sans-serif", letterSpacing: "0.02em" }}
                             >
                               {tag}
                             </span>
